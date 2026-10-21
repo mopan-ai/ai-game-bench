@@ -1,0 +1,19 @@
+{
+  "schema_version": "owner-cost-supplement/1",
+  "provided_on": "2026-10-20",
+  "source_kind": "owner_provided_backend_lookup",
+  "source_text": "查到了，这次《经典俄罗斯方块》生成：模型调用成本：约 $0.26，共 69 次请求。实际扣除：259.9715 Credits，约 260 Credits。然后改成 DS V4.1 1017 这个名字",
+  "run_id": "mopan-ds-v41-flash-1017-tetris-20261020",
+  "display_name": "DS V4.1 1017",
+  "model_cost_usd": 0.26,
+  "model_cost_is_approximate": true,
+  "model_requests": 69,
+  "credits_debited": 259.9715,
+  "credit_unit": "Mopan Credits",
+  "credit_to_usd_rate": null,
+  "actual_user_payment_usd": null,
+  "tokens": null,
+  "independently_verified": false,
+  "invoice_reconciled": false,
+  "note": "Owner-reported aggregate. No billing ledger, per-request usage or monetary credit valuation supplied. Not a cash bill or total including media."
+}

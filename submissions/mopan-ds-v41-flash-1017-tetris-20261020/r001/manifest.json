@@ -1,0 +1,758 @@
+{
+  "schema_version": "public-submission/0.1",
+  "id": "mopan-ds-v41-flash-1017-tetris-20261020",
+  "revision": 1,
+  "kind": "result",
+  "policy_id": "tetris-browser-pilot-v1",
+  "policy_sha256": "afcc208f35233bb9df8b8e630e39f816a05ce028c91d0bd79cea17ffef4f2ede",
+  "author": "haot3x (AI-assisted recording and submission)",
+  "affiliation": "Mopan-affiliated owner/submitter; same Codex operator performed creation observation and non-blind evaluation.",
+  "creator": {
+    "platform": "Mopan",
+    "harness_version": null,
+    "model": "DeepSeek V4.1 Flash 1017 · OpenRouter",
+    "model_source": "visible_ui",
+    "effort": null
+  },
+  "environment": "Owner-confirmed Mopan Chrome profile, macOS; browser/OS build and subscription tier not independently recorded. Desktop 1280x800, viewport-only mobile 390x844. Native keyboard + DOM-assisted UI targeting; visual gameplay evaluation. Evaluator model/effort unknown.",
+  "source_kind": "browser_observation",
+  "source_ref": "local-run:mopan-ds-v41-flash-1017-tetris-20261020",
+  "attempts": [
+    {
+      "id": "attempt-1",
+      "outcome": "delivered",
+      "creation": "creation.jsonl",
+      "evaluation": "evaluation.jsonl",
+      "artifact": {
+        "id": "mopan-ds-v41-flash-1017-tetris-final",
+        "kind": "public_url",
+        "url": "https://mopan.ai/play/f7454e1a-d24f-4dbb-8e9c-ec43343fe462?build=d460179b-7874-4f59-ba87-4c47f4df7339",
+        "build_version": "d460179b-7874-4f59-ba87-4c47f4df7339",
+        "bundle_sha256": null,
+        "access": "HTTPS game-only URL tested in the authorized logged-in profile. Anonymous access unknown; no public publish action performed."
+      },
+      "result": {
+        "evaluator": "Codex operator / visible-UI evidence review",
+        "model": null,
+        "mode": "agent_visual",
+        "creation_context_hidden": false,
+        "criteria": [
+          {
+            "criterion_id": "ready",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "进入可见棋盘；活动方块、分数、行数、等级可见，重开后仍可玩。",
+            "evidence_events": [
+              "evaluation-1",
+              "evaluation-4",
+              "evaluation-66"
+            ]
+          },
+          {
+            "criterion_id": "movement",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "同一橙色 L 块分别到达左、右边界，未越界。",
+            "evidence_events": [
+              "evaluation-4",
+              "evaluation-5",
+              "evaluation-6"
+            ]
+          },
+          {
+            "criterion_id": "rotation",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "L 块在右墙旁旋转后仍在棋盘内；移入开放区域后反向旋转，未见与固定块重叠。",
+            "evidence_events": [
+              "evaluation-6",
+              "evaluation-7",
+              "evaluation-8"
+            ]
+          },
+          {
+            "criterion_id": "gravity",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "无输入等待 2.1 秒下降；随后 Down 300ms 明显加速下降并落定。",
+            "evidence_events": [
+              "evaluation-9",
+              "evaluation-10",
+              "evaluation-11"
+            ]
+          },
+          {
+            "criterion_id": "lock-spawn",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "至少三次落定及新块生成，包括在已有 L 块上方落定 I 块。",
+            "evidence_events": [
+              "evaluation-11",
+              "evaluation-12",
+              "evaluation-13",
+              "evaluation-14",
+              "evaluation-15",
+              "evaluation-18"
+            ]
+          },
+          {
+            "criterion_id": "line-clear",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "正常操作填满一行及两行；完整行消失，上方方块下移。",
+            "evidence_events": [
+              "evaluation-29",
+              "evaluation-30",
+              "evaluation-31",
+              "evaluation-49",
+              "evaluation-53",
+              "evaluation-56",
+              "evaluation-59"
+            ]
+          },
+          {
+            "criterion_id": "line-score",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "同为等级 1：单行 114→214（+100），同一落块双行 365→665（+300）。计分前后仅自然下落，无移动/软降/硬降输入解释该增量。",
+            "evidence_events": [
+              "evaluation-29",
+              "evaluation-30",
+              "evaluation-31",
+              "evaluation-49",
+              "evaluation-53",
+              "evaluation-56",
+              "evaluation-59"
+            ]
+          },
+          {
+            "criterion_id": "game-over",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "堆顶出现明确结束画面、分数 747；之后左移/旋转/下降输入未恢复正常落块。",
+            "evidence_events": [
+              "evaluation-64",
+              "evaluation-65"
+            ]
+          },
+          {
+            "criterion_id": "restart",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "R 重开后空棋盘、当前分数与行数归零、等级 1；右移仍有效，最高分 747 保留。",
+            "evidence_events": [
+              "evaluation-65",
+              "evaluation-66",
+              "evaluation-67"
+            ]
+          },
+          {
+            "criterion_id": "readability",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "桌面空棋盘及已堆叠棋盘中，活动/固定块与分数状态可区分；此项不代表手机端可读性。",
+            "evidence_events": [
+              "evaluation-4",
+              "evaluation-19",
+              "evaluation-59"
+            ]
+          },
+          {
+            "criterion_id": "guidance",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "开始界面给出操作说明；实际检查移动、旋转、软降、硬降映射。",
+            "evidence_events": [
+              "evaluation-1",
+              "evaluation-5",
+              "evaluation-7",
+              "evaluation-8",
+              "evaluation-11",
+              "evaluation-13"
+            ]
+          },
+          {
+            "criterion_id": "feedback",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "双行消除有亮色闪烁；结束有独立提示画面，不仅是分数变化。",
+            "evidence_events": [
+              "evaluation-56",
+              "evaluation-64"
+            ]
+          },
+          {
+            "criterion_id": "layout",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "1280×800 与 390×844 均容纳棋盘、状态及已提供指引，无遮挡。按冻结规则此项满分；竖屏整体缩小、字号小、无已验证触控，不代表手机可玩。",
+            "evidence_events": [
+              "evaluation-4",
+              "evaluation-68",
+              "evaluation-69",
+              "evaluation-70"
+            ]
+          },
+          {
+            "criterion_id": "delivery-time",
+            "status": "partial",
+            "score": 8.935912,
+            "reason": "接收后首次观察到最终交付为 651.149 秒；ready 与 lock-spawn 均通过。计时证据在离线规范化时附到首条评测观察，不是新增现场采样。",
+            "evidence_events": [
+              "evaluation-1"
+            ]
+          }
+        ],
+        "total": 96.807736
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "captures/003-acceptance-check.jpg",
+      "sha256": "47e6c0d96dea9323d13630aa8532562345e5a6b5b0e3d21bb221438216a380bf",
+      "bytes": 33197
+    },
+    {
+      "path": "captures/004-progress.jpg",
+      "sha256": "1c1f84bfa155ca3493909e5749287af68d6a4dd3a80f51f565074596ccc533a4",
+      "bytes": 26892
+    },
+    {
+      "path": "captures/005-progress.jpg",
+      "sha256": "385bd12b5064e5217a6033ac9c68d00210ed3b37ed439c1f40d857645410a17b",
+      "bytes": 104117
+    },
+    {
+      "path": "captures/006-progress.jpg",
+      "sha256": "c530291ae908ebd1b143ce88b1855a8b0cc939c8a0481d3c6e76eb63dbfd4b22",
+      "bytes": 100759
+    },
+    {
+      "path": "captures/007-progress.jpg",
+      "sha256": "dba11ea4346e32b738e3766bbdee916054db602acefbcdef9c353794879cda17",
+      "bytes": 101217
+    },
+    {
+      "path": "captures/008-progress.jpg",
+      "sha256": "86cf6dab253857c3a914f43f68a18607f3110b72aa6120a287340b5c18b46016",
+      "bytes": 94516
+    },
+    {
+      "path": "captures/009-progress.jpg",
+      "sha256": "e612122bc667f484d7c0e040f1793e4748a8c8b7428a87cd4b2c8d0a52d412d5",
+      "bytes": 94540
+    },
+    {
+      "path": "captures/010-progress.jpg",
+      "sha256": "ecf6d9368b657ecd089dd055f6df741d93a522e801ded048a01d056a9af13959",
+      "bytes": 94580
+    },
+    {
+      "path": "captures/011-progress.jpg",
+      "sha256": "a311f9acd8f0b30153b3cef29676bf30ef739794b78798a260bed356a95cbe53",
+      "bytes": 94436
+    },
+    {
+      "path": "captures/012-progress.jpg",
+      "sha256": "02b808229b69020cff8e86f23a3e8957fc9519f22aafbfbf7f23d70015ed3534",
+      "bytes": 94535
+    },
+    {
+      "path": "captures/013-progress.jpg",
+      "sha256": "cba2249b729ce4f840e3e4d3ed23fbb78a025acfef15a404c1b3577d9e8eec96",
+      "bytes": 94518
+    },
+    {
+      "path": "captures/014-progress.jpg",
+      "sha256": "1a2c861e729a90a8b3decd88bd24e235a81d74115d36bbdb8cd8a7a0ef1c3143",
+      "bytes": 94475
+    },
+    {
+      "path": "captures/015-progress.jpg",
+      "sha256": "b309bf6e46253b48832e3ea3a572253f72ac680ba425a9e2fa21b3c9ae21d7b4",
+      "bytes": 94529
+    },
+    {
+      "path": "captures/016-progress.jpg",
+      "sha256": "60c2a66310350a30671192a7f3f3603498b0ab9ef0dd47d0ec32c5bb4a198c0e",
+      "bytes": 94441
+    },
+    {
+      "path": "captures/017-progress.jpg",
+      "sha256": "f0b242a1ea8c28f625ce9b01c01af115ee06786ae3508a3145331fb63bb059ef",
+      "bytes": 94522
+    },
+    {
+      "path": "captures/018-progress.jpg",
+      "sha256": "713bdb8fba0d8eb6be6c7bead6c23ed3e1b2187150d3fd08bd0152d74c3b96f1",
+      "bytes": 94418
+    },
+    {
+      "path": "captures/019-progress.jpg",
+      "sha256": "80cb8fa1277f733a14ba9dc02187cbfaf8616512de88ac5f1d3cfd30b4797611",
+      "bytes": 94495
+    },
+    {
+      "path": "captures/020-progress.jpg",
+      "sha256": "1b75616ffcd52a42247d5127369edb3f28b83a4636598b2a8308bc19c3a8f99f",
+      "bytes": 94537
+    },
+    {
+      "path": "captures/021-progress.jpg",
+      "sha256": "26b4b3db99c43b00d669e5327bb870e2a6b8a2be34e6be7c7e7b2a54ee46cd54",
+      "bytes": 93191
+    },
+    {
+      "path": "captures/022-progress.jpg",
+      "sha256": "20d616aeda61aa96e40d2ab6df3f34bc879fff9e72b3593edd9c52e7b9cbbfb4",
+      "bytes": 93650
+    },
+    {
+      "path": "captures/023-progress.jpg",
+      "sha256": "82faa3648de15a2ee86a4d2a31491878b64399e5db8c18d5204c59bfe602cffe",
+      "bytes": 97744
+    },
+    {
+      "path": "captures/024-progress.jpg",
+      "sha256": "1a31371ff5fc8abe7e0925926160c7c76366c6af56254fa261a112c9509aad58",
+      "bytes": 116082
+    },
+    {
+      "path": "creation.jsonl",
+      "sha256": "4fdef48a33d9a806fac2ab29dca57dcf324f0112a9666a856d8ef2f8360405f4",
+      "bytes": 10875
+    },
+    {
+      "path": "evaluation.jsonl",
+      "sha256": "bfdd75e1afb61c04e50f98f87b1838800f636faf3078b4b01eec795a074c833a",
+      "bytes": 33635
+    },
+    {
+      "path": "evaluation/001-intro.jpg",
+      "sha256": "b0e53d12ebe4dcc4b02b5ba0068c98c56a81a50c3c9305faa842046b1eaf91f6",
+      "bytes": 51882
+    },
+    {
+      "path": "evaluation/002-pause-after-native-focus.jpg",
+      "sha256": "2b9096b4598e9cf7fe9f2357bd5979ee9bcd0abb5cb7cd488f6ce410d9277d08",
+      "bytes": 28350
+    },
+    {
+      "path": "evaluation/003-session-2-reset.jpg",
+      "sha256": "46556d9257378b4711283bf18d03197c092a9a225a0f271c08e1d70551846de6",
+      "bytes": 35136
+    },
+    {
+      "path": "evaluation/004-movement-before.jpg",
+      "sha256": "24d2b0efd59476ba87b8cf57f160a5b95199924899be04bc9e139fab20c84b33",
+      "bytes": 53016
+    },
+    {
+      "path": "evaluation/005-left-boundary.jpg",
+      "sha256": "d18eaf7d3d5281b66fb3271a251d95d36f00088d6224c4a22efc8fd2ebf88c32",
+      "bytes": 53354
+    },
+    {
+      "path": "evaluation/006-right-boundary.jpg",
+      "sha256": "b50225e40ed2b47a6e90c843437c6a61639bc870705081cac8ae58ec93e3c695",
+      "bytes": 53251
+    },
+    {
+      "path": "evaluation/007-rotate-at-wall.jpg",
+      "sha256": "35d9d878ecb38b11f3a0294b5835a5017c98891921fc3f308c16c1ae55bcfee0",
+      "bytes": 53430
+    },
+    {
+      "path": "evaluation/008-rotate-open.jpg",
+      "sha256": "b4c89b1f8c4f94e828d4d1a03a105195471e12b7f389e4a3e218051572428794",
+      "bytes": 53315
+    },
+    {
+      "path": "evaluation/009-gravity-before.jpg",
+      "sha256": "fafdc4056b48a1b079644f791bd8cf6462b463a6ca06cacc5520436cf17774ca",
+      "bytes": 53341
+    },
+    {
+      "path": "evaluation/010-gravity-after.jpg",
+      "sha256": "4bb906be54fa81b408a9e965a9d7a1c53acc339086cf46c3df8e16692230296d",
+      "bytes": 51985
+    },
+    {
+      "path": "evaluation/011-softdrop-after.jpg",
+      "sha256": "508b7d3cd2898603ab3d9073a57eca396d30e430e0cd0aa8faf9b1223b614d4f",
+      "bytes": 52808
+    },
+    {
+      "path": "evaluation/012-t-placement-before.jpg",
+      "sha256": "97b189503dbfe3df1952bf47de5163e84c02b29299a105eb64e874bcce4c41c6",
+      "bytes": 52746
+    },
+    {
+      "path": "evaluation/013-second-lock.jpg",
+      "sha256": "eddb40fb23c95534d3e1cf9397867cfdc6001665b7a835722bee8683035d94a0",
+      "bytes": 54022
+    },
+    {
+      "path": "evaluation/014-i-placement-before.jpg",
+      "sha256": "eddb40fb23c95534d3e1cf9397867cfdc6001665b7a835722bee8683035d94a0",
+      "bytes": 54022
+    },
+    {
+      "path": "evaluation/015-third-lock.jpg",
+      "sha256": "4c732e020e4ccb9513fdb48ed34c4e006b266482edfd8afc86a844117812edd7",
+      "bytes": 54923
+    },
+    {
+      "path": "evaluation/016-single-clear-setup.jpg",
+      "sha256": "4c4e3989ce1ca15b39406840d407a02c10462d3de00a85b6c5a66ffc2e2c7aba",
+      "bytes": 54836
+    },
+    {
+      "path": "evaluation/017-single-clear-near-bottom.jpg",
+      "sha256": "54827ac1f77b3a16feb293b8afa80736ebff014a325447d01bc27411a3701fcd",
+      "bytes": 55004
+    },
+    {
+      "path": "evaluation/018-fourth-lock.jpg",
+      "sha256": "2481df20725a6a8288692bdcd831a2ce41447832d48db3edae8b6446426db9a2",
+      "bytes": 56324
+    },
+    {
+      "path": "evaluation/019-stack-near-top.jpg",
+      "sha256": "c3ef0c8318a2e2e268e5393394bd88b6043d0599cff4b02e04ce675df7f804c0",
+      "bytes": 59683
+    },
+    {
+      "path": "evaluation/020-top-out.jpg",
+      "sha256": "df68c974c3edf0d2b499191c60f6d86085704af9565faa1330b3ab7b27e024de",
+      "bytes": 41281
+    },
+    {
+      "path": "evaluation/021-input-after-loss.jpg",
+      "sha256": "414e7b456d47b3a56b3d20d26cf7e299ba8ff1fd508c18b6680238c696cfdfa0",
+      "bytes": 53924
+    },
+    {
+      "path": "evaluation/022-restart-from-loss.jpg",
+      "sha256": "be9a8bef3032fd477a420862331e8f387dff4b2d5960c1b717fc618dca602a1c",
+      "bytes": 53427
+    },
+    {
+      "path": "evaluation/023-restart-input.jpg",
+      "sha256": "8ca3bd0e865e7ce447371796457a48824d6a1f5d6e94ba9c60b49b2423a7af6c",
+      "bytes": 53824
+    },
+    {
+      "path": "evaluation/024-single-row-t-before.jpg",
+      "sha256": "f7c7973c901aa30d3d54bf7bc71801ae5cf9b9bf63d33e16282b5f9cc55d337a",
+      "bytes": 53896
+    },
+    {
+      "path": "evaluation/025-single-row-t-lock.jpg",
+      "sha256": "534980f45a361d822c9e6c70e11c261f7a362d117808a109ce8e6cca3eeac135",
+      "bytes": 55398
+    },
+    {
+      "path": "evaluation/026-single-row-j-lock.jpg",
+      "sha256": "5d0c67f800cf39e743e5055ab9cf65060d32b9aaa53a628c852cbcb9682c0bc9",
+      "bytes": 56151
+    },
+    {
+      "path": "evaluation/027-single-row-l-lock.jpg",
+      "sha256": "93f5e7c145aa090cf9c3a00991347829c35c70e6ff680964220aea84f0280412",
+      "bytes": 57588
+    },
+    {
+      "path": "evaluation/028-single-line-pre-score.jpg",
+      "sha256": "7c88bfb729ecdfe05581ff4850f0472d1c61b22eabb2dce62670ab766b9923cb",
+      "bytes": 56881
+    },
+    {
+      "path": "evaluation/029-single-line-gravity-only-before.jpg",
+      "sha256": "ccab1aff21831880018f56dafbfc0c60d357b1318402086d85f7cf42125a612e",
+      "bytes": 56837
+    },
+    {
+      "path": "evaluation/030-single-line-gravity-near-lock.jpg",
+      "sha256": "bf8c13206defe90d2e3cbfcf93994758dc3f3777c515779216ab9477899d94c0",
+      "bytes": 55940
+    },
+    {
+      "path": "evaluation/031-single-line-result.jpg",
+      "sha256": "c0d9971c8aa1fa396b220a80af927c971a2053522ca970acf907170af24eaca3",
+      "bytes": 54598
+    },
+    {
+      "path": "evaluation/032-multi-line-fresh-session.jpg",
+      "sha256": "c95266fce684c4a3ea54d7252b55cf3a3b1a304169eaeef93eff68b06b7d1078",
+      "bytes": 35313
+    },
+    {
+      "path": "evaluation/033-double-base-j.jpg",
+      "sha256": "9485785c2a1172cd4cc13d44d2a81e6df8db8de0832228933ede6a13aa91f00e",
+      "bytes": 54674
+    },
+    {
+      "path": "evaluation/034-double-z-before.jpg",
+      "sha256": "ae2f3556f62423e4249e3f94c04acd30b4892f34b9675bfcecd61a23b743c7ac",
+      "bytes": 54995
+    },
+    {
+      "path": "evaluation/035-double-z-lock.jpg",
+      "sha256": "83b9c6ac054719629d7d75ba7917818a9206a1bb0f74ca81c9bc8f5b647dde63",
+      "bytes": 55872
+    },
+    {
+      "path": "evaluation/036-double-o-before.jpg",
+      "sha256": "24c710f1c52b122331d3b9065653cbd7bc9262408c4084996453c7a626de68aa",
+      "bytes": 57531
+    },
+    {
+      "path": "evaluation/037-double-o-lock.jpg",
+      "sha256": "f06c4f729922906587bc46913a4c41ad9aafc70625e71b143ecdb68ce097cc23",
+      "bytes": 57711
+    },
+    {
+      "path": "evaluation/038-double-l-lock.jpg",
+      "sha256": "395366023c675cbaab906ac8f2a7644b8d011542ebcd28957f9867ad66d99e26",
+      "bytes": 58519
+    },
+    {
+      "path": "evaluation/039-double-gap-i-before.jpg",
+      "sha256": "a6916ba0d42cb53b786b5f4848b1c7ef7e4a2e98905527df04c6109502feed31",
+      "bytes": 58335
+    },
+    {
+      "path": "evaluation/040-double-gap-i-lock.jpg",
+      "sha256": "b7d0a73ffbd7c086704ea7b912d6406e002452ebf2332a341c26ab89dfe67590",
+      "bytes": 58533
+    },
+    {
+      "path": "evaluation/041-double-left-stack-0.jpg",
+      "sha256": "2eb642cad3572aec8aa5e95108388ff59ed9a223bcb063ba3f1b91a3fa5bbefe",
+      "bytes": 58539
+    },
+    {
+      "path": "evaluation/042-double-left-stack-1.jpg",
+      "sha256": "0ec5576152d3ec2afe4295d683154da271586fa87600be3fad4ad620aaecbb2f",
+      "bytes": 59594
+    },
+    {
+      "path": "evaluation/043-double-second-i-before.jpg",
+      "sha256": "fa45e98a4b6c8e33a23a6c45e66d7315df59721eccde44a4c3c9986dd0dc6f92",
+      "bytes": 59432
+    },
+    {
+      "path": "evaluation/044-double-second-i-lock.jpg",
+      "sha256": "a7df404a2b78bd3de4400bc883bca68dbe9de2403b66e349156e150a60cf6d0f",
+      "bytes": 59844
+    },
+    {
+      "path": "evaluation/045-double-middle-stack-0.jpg",
+      "sha256": "855a29ddba8a2341bba14f67efcdf75c2d9e7e8fe3ff9c005c6f688063a4be42",
+      "bytes": 60216
+    },
+    {
+      "path": "evaluation/046-double-middle-stack-1.jpg",
+      "sha256": "6c64e42837a5a9446631fd0dee69faf34e170f56776792a74071834cf6cbd4df",
+      "bytes": 60960
+    },
+    {
+      "path": "evaluation/047-double-l-spare.jpg",
+      "sha256": "9033ec2850de378f05e0c46a1b400de39aa95bcd57ed34a9a43caa0ccee6154e",
+      "bytes": 62361
+    },
+    {
+      "path": "evaluation/048-double-line-pre-score.jpg",
+      "sha256": "98688476b1209366e95dc006cc1a02afdacc3c2074e905843a40545bc8100f82",
+      "bytes": 62194
+    },
+    {
+      "path": "evaluation/049-double-line-gravity-only-before.jpg",
+      "sha256": "98688476b1209366e95dc006cc1a02afdacc3c2074e905843a40545bc8100f82",
+      "bytes": 62194
+    },
+    {
+      "path": "evaluation/050-double-clear-frame-0.jpg",
+      "sha256": "248990b8f0cd2b0954e1d50e0c24f7b4d1aa1e83e4869ea3f0b53fdb2c3dde64",
+      "bytes": 61883
+    },
+    {
+      "path": "evaluation/051-double-clear-frame-1.jpg",
+      "sha256": "248990b8f0cd2b0954e1d50e0c24f7b4d1aa1e83e4869ea3f0b53fdb2c3dde64",
+      "bytes": 61883
+    },
+    {
+      "path": "evaluation/052-double-clear-frame-2.jpg",
+      "sha256": "19e1a393fb2bfb5a98a8f3baf89fa34a4331e575a8613945cf47317b71e512b0",
+      "bytes": 61571
+    },
+    {
+      "path": "evaluation/053-double-clear-frame-3.jpg",
+      "sha256": "19e1a393fb2bfb5a98a8f3baf89fa34a4331e575a8613945cf47317b71e512b0",
+      "bytes": 61571
+    },
+    {
+      "path": "evaluation/054-double-clear-frame-4.jpg",
+      "sha256": "19e1a393fb2bfb5a98a8f3baf89fa34a4331e575a8613945cf47317b71e512b0",
+      "bytes": 61571
+    },
+    {
+      "path": "evaluation/055-double-clear-frame-5.jpg",
+      "sha256": "82dbf01200cc7ddbe499de04ad094a565a0ba69de365c4640d8522b339d74b82",
+      "bytes": 59599
+    },
+    {
+      "path": "evaluation/056-double-clear-frame-6.jpg",
+      "sha256": "c2e3dd732131056004201b730587ace832592e435cb0f4241d8f5b1d3a122ae5",
+      "bytes": 60426
+    },
+    {
+      "path": "evaluation/057-double-clear-frame-7.jpg",
+      "sha256": "9b96f6b8e0a7f7d81a72b6bef8b5c96a8ac8c70608a0808a44795c217f3e80b1",
+      "bytes": 59789
+    },
+    {
+      "path": "evaluation/058-double-clear-frame-8.jpg",
+      "sha256": "f65dbd5e72da238289e74a00e0adfcebf288a053d027ec1920dae209b0b88258",
+      "bytes": 59475
+    },
+    {
+      "path": "evaluation/059-double-clear-frame-9.jpg",
+      "sha256": "0eb57d40bbc1e533bfc8ce2c1b7556f29d4ff2da15f0eaa2fb6b8facb2be9634",
+      "bytes": 59459
+    },
+    {
+      "path": "evaluation/060-double-clear-frame-10.jpg",
+      "sha256": "0eb57d40bbc1e533bfc8ce2c1b7556f29d4ff2da15f0eaa2fb6b8facb2be9634",
+      "bytes": 59459
+    },
+    {
+      "path": "evaluation/061-double-clear-frame-11.jpg",
+      "sha256": "0eb57d40bbc1e533bfc8ce2c1b7556f29d4ff2da15f0eaa2fb6b8facb2be9634",
+      "bytes": 59459
+    },
+    {
+      "path": "evaluation/062-second-topout-setup.jpg",
+      "sha256": "df0ae66004c7fa4599283d5f00a4e0831c9d53d03211e65110ae1df834cdb982",
+      "bytes": 62181
+    },
+    {
+      "path": "evaluation/063-topout-final-approach.jpg",
+      "sha256": "b2539b94ce6129e2504d43aa7825802bab7bafb126cff54d0d7ed557a9a8a211",
+      "bytes": 63147
+    },
+    {
+      "path": "evaluation/064-loss-confirmed-before-input.jpg",
+      "sha256": "2139ff9bfdcfa17441c16abc6f9ac9a89b8d39f1aab26029b521a86cb7a77022",
+      "bytes": 41566
+    },
+    {
+      "path": "evaluation/065-loss-input-ignored.jpg",
+      "sha256": "2139ff9bfdcfa17441c16abc6f9ac9a89b8d39f1aab26029b521a86cb7a77022",
+      "bytes": 41566
+    },
+    {
+      "path": "evaluation/066-loss-reset-confirmed.jpg",
+      "sha256": "8ba6d83753a82809a066547dbd2692e708bdeda204a9e879277de2825859f039",
+      "bytes": 53652
+    },
+    {
+      "path": "evaluation/067-reset-control-confirmed.jpg",
+      "sha256": "04cb86ac0dc2f28e87b7388539d93529310b7cd4622f12eada0e5832c3c8a2ca",
+      "bytes": 53883
+    },
+    {
+      "path": "evaluation/068-mobile-paused-layout.jpg",
+      "sha256": "6fbc18ecb3fdaab0eafe14881ade19f2f05de4ac16d95765ffc43b4b4490579e",
+      "bytes": 9796
+    },
+    {
+      "path": "evaluation/069-mobile-active-layout.jpg",
+      "sha256": "4cb9f7d580c1373cb86d459954225fe26835a3f07fdaa105999fe9329d403d0a",
+      "bytes": 12164
+    },
+    {
+      "path": "evaluation/070-desktop-restored.jpg",
+      "sha256": "249b4a938049dc4a60acacca7cf44eb82ce417ddfbe4f9ddeea57ca3474c5322",
+      "bytes": 35585
+    },
+    {
+      "path": "owner-cost-supplement.json",
+      "sha256": "4988c10f10ba84560677271f1327a48373ad6c8f300cd7b2d9f1a138a2c688c4",
+      "bytes": 895
+    },
+    {
+      "path": "recording-notes.json",
+      "sha256": "4398d02f4fa98a2b87c89da19f65bd605db07e86fe464bd69366e851fcdc5991",
+      "bytes": 3539
+    },
+    {
+      "path": "model-selection-observation.json",
+      "sha256": "934f849eaf57cc59534b24734349c3ffecef971212375142c1266e7bdf9bdf7f",
+      "bytes": 942
+    },
+    {
+      "path": "README.md",
+      "sha256": "eeea86f4817b13383f40d33b67c3c4de80649daf110a635da794493881c63a40",
+      "bytes": 2842
+    }
+  ],
+  "external_evidence": [],
+  "costs": [
+    {
+      "kind": "model_estimate",
+      "component": "creator",
+      "amount": 0.26,
+      "currency": "USD",
+      "basis": "Approximately USD 0.26 for 69 model requests, owner-reported after the run. Model calls only; media totals unknown. Separately reported debit: 259.9715 Mopan Credits, with no currency rate. Not actual payment or an audited invoice.",
+      "evidence": [
+        "owner-cost-supplement.json"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "component": "operator",
+      "amount": null,
+      "currency": null,
+      "basis": "No reliable per-run billing/token evidence obtained. Unknown is not zero; rounded account balance is not a usage receipt.",
+      "evidence": []
+    },
+    {
+      "kind": "unknown",
+      "component": "evaluator",
+      "amount": null,
+      "currency": null,
+      "basis": "No reliable per-run billing/token evidence obtained. Unknown is not zero; rounded account balance is not a usage receipt.",
+      "evidence": []
+    }
+  ],
+  "publication": {
+    "public_release_confirmed": true,
+    "rights_confirmed": true,
+    "sensitive_data_checked": true,
+    "all_attempts_disclosed": true,
+    "license": "Authored benchmark notes and JSON exports: Apache-2.0. Task-scoped screenshots are shared with owner/submitter authorization for public benchmark review and display; product/UI trademarks and third-party rights remain with their respective owners. No game-source or additional training-data license is granted here.",
+    "redactions": [
+      "Three homepage screenshots omitted because they contain account identity, rounded balance and unrelated projects. Their creation events remain, with explicit omission notes. No screenshots retouched. Raw AX dumps, browser profiles, local paths and whole jobs excluded."
+    ],
+    "capture_gaps": [
+      "Sampled screenshots, no continuous video. Ten creation intervals exceed the 30-second target; maximum 46.235 seconds. Exact intervals are in recording-notes.json.",
+      "All 70 gameplay frames retained, including focus trouble, mistaken restart accounting and its explicit correction. Some individual key and pause/resume timestamps were not captured. Not a lossless input replay.",
+      "Final completion is observed within (626.073, 651.149] seconds after receipt. UI timer 630 seconds is a separate clock. No inferred midpoint."
+    ],
+    "limitations": [
+      "Single generation, no clarification/follow-up/repair/regeneration. Five gameplay restarts, six play sessions; these are not generation attempts.",
+      "Mopan-affiliated submission. Same operator saw creation/model information and evaluated the game; creation_context_hidden=false. Not an independent, blinded or calibrated judge.",
+      "Selected Main UI label: DeepSeek V4.1 Flash 1017 · OpenRouter; Child: Same as Main. Owner display name DS V4.1 1017. Model-selection screenshot withheld for privacy; model routing is not independently audited.",
+      "Browser UI/native keyboard and visible canvas evidence only. No source code, hidden state, clock/RNG/storage manipulation or backend access by the evaluator.",
+      "Browser/OS build, account tier, creator effort, evaluator model/effort, tokens and actual monetary user payment unknown. Cost supplement is owner-reported, not independently verified.",
+      "Desktop 1280x800; portrait viewport 390x844, not a physical phone or touch test. Portrait shrinks the landscape UI and labels. The narrow frozen layout check is not a claim of mobile usability.",
+      "Hosted build-pinned URL is not immutable bytes. Only logged-in access was tested; anonymous access was not tested. No publish-game action performed.",
+      "This r001 preserves the original pilot 60/10/30 score of 96.807736. It is not the landing site's retrospective estimated-cost edition and must not be pooled with that score.",
+      "Schema/hash/arithmetic checks do not establish authenticity, rights, calibrated gameplay quality or maintainer acceptance."
+    ]
+  },
+  "score_addenda": []
+}
