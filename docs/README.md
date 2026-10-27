@@ -5,6 +5,7 @@
 | What works and what does not | [Project state](project-state.md) |
 | Run, verify and inspect | [Running locally](running.md) |
 | Understand boundaries and scores | [Architecture](architecture.md) |
+| Review new timeout, evaluator and summary rules | [Measurement v0.2 proposal](measurement.md) |
 | Add a game task | [Adding tasks](adding-tasks.md) |
 | Review proposed platformer/racing tasks | [Contributor method proposal](proposals/platformer-racing-pilot.md) |
 | Calibrate gameplay checks before a live pilot | [Acceptance cards and local pass/fault examples](../fixtures/calibration/gameplay-v1/README.md) |

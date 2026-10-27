@@ -70,7 +70,35 @@ tests, wheel/source builds and free Harbor Oracle/Nop passed. Oracle scored 1,
 Nop 0, with zero exceptions. No new paid run is authorized by this state update.
 Earlier dated validation snapshots below remain historical records.
 
+## Accepted public pilot — 2026-10-27
+
+[PR #10](https://github.com/mopan-ai/ai-game-bench/pull/10) adds the
+[DS V4.1 1017 Tetris package](../submissions/mopan-ds-v41-flash-1017-tetris-20261020/r001/).
+[Maintainer review](https://github.com/mopan-ai/ai-game-bench/pull/10#pullrequestreview-5661885193)
+records evidence inspection, limited credential-free artifact replay and the
+Mopan-affiliated self-review. [Required CI](https://github.com/mopan-ai/ai-game-bench/actions/runs/40457773349)
+and [trusted structural validation](https://github.com/mopan-ai/ai-game-bench/actions/runs/40458724927)
+passed before merge. Acceptance retains the disclosed provenance/capture gaps;
+it does not authenticate generation, model routing or reported cost.
+
 ## Next acceptance gate
+
+Measurement v0.2 proposal, 2026-10-27:
+[v0.2 rules](measurement.md) and two new browser v2 proposals preserve v1
+prompts/rubrics/weights while separating generation timeout from invalid
+measurement. New exports require evaluator configuration; `agb submission
+summarize` reports delivery/all-core success, explicit denominators, score means
+and exclusions for a declared set. It rejects duplicate revisions/source runs,
+keeps different policies/configurations apart and does not reinterpret v0.1 data.
+Review and merge the method before a fresh authorized pilot. This adds no
+recorder, independent judge calibration, game generation or website publication.
+
+Local checks for this proposal: 397 fast tests passed (45 browser tests skipped
+there), 13 counter browser checks passed separately, and native Harbor Oracle/Nop
+returned 1/0 with zero infrastructure errors. Wheel/source builds passed. All four
+existing submission validations and scores match main exactly. The 32 authored
+platformer/racing browser checks were not rerun locally; unchanged CI runs them
+twice. These checks do not calibrate an independent gameplay evaluator.
 
 Contributor method review, 2026-10-16: the platformer/racing proposals are prepared
 on `feat/platformer-racing-methods`, based on current public main. They add no live

@@ -210,6 +210,9 @@ def load_policy(root: Path, policy_id: str):
             "policy",
             "Invalid delivery-time scoring rule.",
         )
+    from .measurements import check_policy
+
+    check_policy(policy)
     prompt = read_file(root, f"{base}/instruction.md").decode()
     if policy.prompt_mode == "mopan_block":
         blocks = re.findall(
@@ -271,6 +274,7 @@ def load_events(data: bytes, role: str, references: set[str]) -> list[Event]:
 
 
 def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
+    measured = policy.schema_version == "public-policy/0.2"
     require(attempt.creation != attempt.evaluation, "trajectory", "Use separate trajectory files.")
     for name in (attempt.creation, attempt.evaluation):
         require(
@@ -297,7 +301,9 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
     )
     accepted = [e for e in creation if e.kind == "prompt_accepted"]
     require(len(accepted) <= 1, "attempts", "Multiple sends need separately disclosed attempts.")
-    if attempt.outcome in {"delivered", "build_failure"}:
+    if attempt.outcome in {"delivered", "build_failure"} or (
+        measured and attempt.outcome == "timeout"
+    ):
         require(
             len(accepted) == 1 and bool(accepted[0].evidence),
             "missing_send",
@@ -307,10 +313,19 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
         require(accepted[0].prompt == prompt, "prompt", "Accepted prompt differs from frozen task.")
         elapsed = (timestamp(creation[-1].at) - timestamp(accepted[0].at)).total_seconds()
         require(
-            elapsed <= policy.timeout_seconds or attempt.outcome == "timeout",
+            elapsed <= policy.timeout_seconds
+            or attempt.outcome == "timeout"
+            or (measured and attempt.outcome in {"auth_failure", "infrastructure_error"}),
             "time_limit",
             "Creation exceeds the declared policy time cap.",
         )
+        if measured and attempt.outcome == "timeout":
+            require(
+                elapsed >= policy.timeout_seconds and bool(creation[-1].evidence),
+                "timeout",
+                "Generation timeout needs the elapsed budget and terminal observation evidence.",
+            )
+            require(attempt.artifact is None, "timeout", "Timeout is not a final delivery.")
     require(
         policy.allow_followups or not any(e.kind == "followup" for e in creation),
         "followup_policy",
@@ -378,7 +393,10 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
         "Every trusted criterion must appear exactly once.",
     )
     observations = {e.id: e for e in evaluation if e.kind == "observation" and e.evidence}
-    infra = attempt.outcome in {"timeout", "auth_failure", "infrastructure_error"}
+    unscored_outcomes = {"auth_failure", "infrastructure_error"}
+    if not measured:
+        unscored_outcomes.add("timeout")
+    infra = attempt.outcome in unscored_outcomes
     weighted = 0.0
     for verdict in verdicts:
         criterion = expected[verdict.criterion_id]
@@ -431,7 +449,13 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
                 "score",
                 "A reported build failure cannot earn credit.",
             )
-        if attempt.outcome in {"timeout", "auth_failure", "infrastructure_error"}:
+        if measured and attempt.outcome == "timeout":
+            require(
+                verdict.status == "not_tested",
+                "timeout",
+                "No final game was delivered: criteria are not_tested, not observed defects.",
+            )
+        if attempt.outcome in unscored_outcomes:
             require(verdict.status == "infra_error", "score", "Uncompleted evaluation is unscored.")
     total = (
         None
@@ -475,7 +499,19 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
         "total",
         "Submitted total does not match trusted-policy recomputation.",
     )
-    return {"attempt": attempt.id, "outcome": attempt.outcome, "recomputed_total": total}
+    result = {"attempt": attempt.id, "outcome": attempt.outcome, "recomputed_total": total}
+    if measured:
+        from .measurements import check_configuration, measure_attempt
+
+        check_configuration(attempt.result, policy.measurement, blobs, references)
+        result["measurement"] = measure_attempt(attempt, policy, total)
+    else:
+        require(
+            attempt.result.configuration is None,
+            "schema_version",
+            "Structured evaluator configuration requires public-submission/0.2.",
+        )
+    return result
 
 
 def validate(directory: Path, trusted_root: Path, *, override: dict | None = None) -> dict:
@@ -492,6 +528,11 @@ def validate(directory: Path, trusted_root: Path, *, override: dict | None = Non
         submission = model(Submission, parsed)
         require("REPLACE" not in raw.decode(), "draft", "Replace draft placeholders first.")
         policy, policy_hash, prompt = load_policy(trusted_root, submission.policy_id)
+        require(
+            submission.schema_version.rsplit("/", 1)[1] == policy.schema_version.rsplit("/", 1)[1],
+            "schema_version",
+            "Manifest and trusted policy schema versions must match; do not relabel old runs.",
+        )
         if policy.task.kind == "browser_protocol":
             require(
                 submission.source_kind == "browser_observation"
@@ -690,7 +731,7 @@ def initialize(root: Path, output: Path, policy_id: str, submission_id: str) -> 
     )
     policy, policy_hash, _ = load_policy(root, policy_id)
     draft = {
-        "schema_version": "public-submission/0.1",
+        "schema_version": policy.schema_version.replace("public-policy", "public-submission"),
         "id": submission_id,
         "revision": 1,
         "kind": "result",
@@ -762,6 +803,21 @@ def initialize(root: Path, output: Path, policy_id: str, submission_id: str) -> 
             "limitations": [],
         },
     }
+    if policy.measurement:
+        rule = policy.measurement
+        draft["attempts"][0]["result"]["configuration"] = {
+            "harness_version": None,
+            "effort": None,
+            "instructions_file": None,
+            "instructions_sha256": None,
+            "tools": [],
+            "access_mode": rule.allowed_access[0],
+            "browser": "REPLACE with actual browser name",
+            "browser_version": None,
+            "viewport_width": rule.viewport_width,
+            "viewport_height": rule.viewport_height,
+            "clock": rule.clock,
+        }
     output.mkdir(parents=True, exist_ok=False)
     (output / "manifest.json").write_bytes(encode(draft))
     for name in ("creation.jsonl", "evaluation.jsonl"):

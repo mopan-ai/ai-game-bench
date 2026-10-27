@@ -29,3 +29,13 @@ Known failures may score zero while the evidence package itself is valid.
 The optional delivery-time rule recomputes its criterion from the accepted/final
 timestamps and requires specified gameplay checks to pass. Record actual sampled
 times; timestamp arithmetic cannot establish capture authenticity.
+
+## Proposed v0.2 browser measurements
+
+The new `platformer-browser-pilot-v2` and `racing-3d-browser-pilot-v2` preserve
+their v1 prompts, criteria and weights, but distinguish generation timeout
+(zero, unsuccessful delivery) from auth/evaluator infrastructure errors (null).
+`measurement` pins core criteria, allowed access, viewport, clock and budgets;
+v0.2 manifests require evaluator configuration. These are method proposals,
+not authorization for live runs. [Rules and offline summaries](../docs/measurement.md).
+All v0.1 contracts, including their null timeout totals, remain unchanged.

@@ -1,0 +1,7 @@
+[task]
+name = "create-2d-platformer-zh"
+version = "0.2.0"
+
+[protocol]
+mode = "browser_observation"
+status = "proposed"
