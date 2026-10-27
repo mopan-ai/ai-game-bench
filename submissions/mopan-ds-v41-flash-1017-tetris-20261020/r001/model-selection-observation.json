@@ -1,0 +1,14 @@
+{
+  "schema_version": "sanitized-ui-observation/1",
+  "source": "Operator transcription of the contemporaneous model-selection screenshot during public export review, not a new browser observation",
+  "recorded_ui": {
+    "main": "DeepSeek V4.1 Flash 1017 · OpenRouter",
+    "child": "Same as Main"
+  },
+  "source_image_sha256": "1a2a4906465bbc63e533e0bab630dbd67940af9bb77574ea3505e40f87bc99b4",
+  "source_capture_time": null,
+  "timing_note": "Recorded before Send; precise capture timestamp unavailable. The session event timestamp is not the selection click time.",
+  "public_exported_on": "2026-10-20",
+  "withheld_reason": "Original homepage screenshot contains account identity, balance and unrelated project history.",
+  "limitation": "Textual secondary receipt only. Original image remains local; public reviewers cannot authenticate the selection from this transcription alone. UI label does not verify actual provider routing."
+}

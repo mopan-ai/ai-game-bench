@@ -1,0 +1,93 @@
+{
+  "schema_version": "recording-notes/1",
+  "source_run": "mopan-ds-v41-flash-1017-tetris-20261020",
+  "normalized_at": "2026-10-20T06:52:59.889Z",
+  "timing": {
+    "send_clicked_at": "2026-10-20T03:38:11.691Z",
+    "first_accepted_observed_at": "2026-10-20T03:38:18.849Z",
+    "last_working_observed_at": "2026-10-20T03:48:44.922Z",
+    "first_final_observed_at": "2026-10-20T03:49:09.998Z",
+    "evaluation_started_at": "2026-10-20T03:52:31.587Z",
+    "evaluation_finished_at": "2026-10-20T04:02:22.596Z",
+    "platform_ui_total_seconds": 630,
+    "basis": "Observed receipt to first final-ready capture; sampling, not exact server/model compute time.",
+    "observed_delivery_seconds": 651.149,
+    "send_to_final_seconds": 658.307,
+    "completion_interval_seconds_after_receipt": [
+      626.073,
+      651.149
+    ],
+    "completion_interval_bounds": "(last-working, first-final]",
+    "evaluation_wall_seconds": 591.009
+  },
+  "capture": {
+    "creation_screenshots": 25,
+    "gameplay_screenshots": 70,
+    "continuous_video": false,
+    "creation_gaps_over_30s": [
+      {
+        "from": "2026-10-20T03:38:18.849Z",
+        "to": "2026-10-20T03:38:51.311Z",
+        "seconds": 32.462
+      },
+      {
+        "from": "2026-10-20T03:38:51.311Z",
+        "to": "2026-10-20T03:39:26.172Z",
+        "seconds": 34.861
+      },
+      {
+        "from": "2026-10-20T03:39:26.172Z",
+        "to": "2026-10-20T03:40:01.930Z",
+        "seconds": 35.758
+      },
+      {
+        "from": "2026-10-20T03:40:26.989Z",
+        "to": "2026-10-20T03:41:01.699Z",
+        "seconds": 34.71
+      },
+      {
+        "from": "2026-10-20T03:41:26.771Z",
+        "to": "2026-10-20T03:42:08.676Z",
+        "seconds": 41.905
+      },
+      {
+        "from": "2026-10-20T03:43:44.250Z",
+        "to": "2026-10-20T03:44:21.350Z",
+        "seconds": 37.1
+      },
+      {
+        "from": "2026-10-20T03:44:46.417Z",
+        "to": "2026-10-20T03:45:30.239Z",
+        "seconds": 43.822
+      },
+      {
+        "from": "2026-10-20T03:45:55.308Z",
+        "to": "2026-10-20T03:46:32.250Z",
+        "seconds": 36.942
+      },
+      {
+        "from": "2026-10-20T03:46:57.319Z",
+        "to": "2026-10-20T03:47:43.554Z",
+        "seconds": 46.235
+      },
+      {
+        "from": "2026-10-20T03:48:08.627Z",
+        "to": "2026-10-20T03:48:44.922Z",
+        "seconds": 36.295
+      }
+    ],
+    "longest_creation_gap_seconds": 46.235,
+    "raw_integrity_inventory": "raw-evidence-sha256.json"
+  },
+  "public_image_count": 92,
+  "withheld_images": [
+    "captures/preflight-model-selection.jpg",
+    "captures/001-prompt-before-send.jpg",
+    "captures/002-after-send.jpg"
+  ],
+  "evaluation_stream_sha256": "bfdd75e1afb61c04e50f98f87b1838800f636faf3078b4b01eec795a074c833a",
+  "original_creation_stream_sha256": "2548ff541cbc1bb79a4bedce62278ab095672722308732d09e58c7b6c1160309",
+  "normalization": "Evaluation stream and included images copied byte-for-byte. Creation stream drops three private screenshot references, annotates omissions and links a secondary textual model-selection transcription. Original event IDs/timestamps/actions preserved. Earlier raw/draft files remain local and unchanged.",
+  "rights": "Authored JSON/notes: Apache-2.0. Task-scoped screenshots shared under owner authorization for benchmark review/display; product/UI and third-party rights remain with their owners. No source-code or additional training license.",
+  "review_status": "Contributor evidence, unverified. No maintainer acceptance or independent replay is implied."
+}
