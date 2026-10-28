@@ -1,0 +1,105 @@
+{
+  "schema_version": "browser-rubric/0.1",
+  "verification": "manual_observation",
+  "total_max": 100,
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "A controllable player and visible start state",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Keyboard left/right displacement on stable ground",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "jump",
+      "description": "Upward movement, descent and controlled platform landing",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "solid-platforms",
+      "description": "Stable standing on ground and raised platforms",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "collectibles",
+      "description": "Distinct coins increment count once and do not duplicate",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "fall-loss",
+      "description": "Falling into a pit produces a failure state",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "goal-win",
+      "description": "A traversed level ends in a visible goal/win state",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "loss-restart",
+      "description": "After loss, restart resets position, collected coins and round state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "win-restart",
+      "description": "After win, restart restores a playable fresh round",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Player/track geometry and game information remain legible",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Visible instructions and restart controls match observed behavior",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Visible feedback distinguishes interactions and terminal states",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Requested visual style and unobstructed desktop/mobile-size layout",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated basic gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ]
+}

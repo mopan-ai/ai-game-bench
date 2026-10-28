@@ -76,3 +76,8 @@ Public submission data is public by default, with pre-upload rights/privacy
 confirmation. Credentials, private content and whole raw jobs never enter Git.
 No additional training agreement is inferred; reuse follows the declared license.
 See [public-data terms](../README.md#public-data-and-privacy-terms).
+
+The proposed [v0.2 measurement contract](measurement.md) adds evaluator metadata,
+separate timeout/error semantics and offline selected-set summaries. It uses the
+same export path; v0.1 records and frozen task/verifier bytes remain unchanged.
+These numeric checks are not an independent gameplay evaluator or a leaderboard.

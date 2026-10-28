@@ -1,0 +1,164 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "platformer-browser-pilot-v2",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "platformer-browser-pilot-v2",
+    "version": "0.2.0",
+    "instruction_sha256": "3fdef4b2c64e9b20ea2ef916e0508fbe226f58d9b63bfab584155fe569e91a61",
+    "rubric_sha256": "ce738d59c8afe22a7f9db6768c77a939bfd867da53f35cc489052dd40eb7f3a9",
+    "verifier_sha256": "c4d53bf1e85aa67a8f8fa32e42c384d99b2b0946d54e12fb192227575bcebcc1"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "A controllable player and visible start state",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Keyboard left/right displacement on stable ground",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "jump",
+      "description": "Upward movement, descent and controlled platform landing",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "solid-platforms",
+      "description": "Stable standing on ground and raised platforms",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "collectibles",
+      "description": "Distinct coins increment count once and do not duplicate",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "fall-loss",
+      "description": "Falling into a pit produces a failure state",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "goal-win",
+      "description": "A traversed level ends in a visible goal/win state",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "loss-restart",
+      "description": "After loss, restart resets position, collected coins and round state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "win-restart",
+      "description": "After win, restart restores a playable fresh round",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Player/track geometry and game information remain legible",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Visible instructions and restart controls match observed behavior",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Visible feedback distinguishes interactions and terminal states",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Requested visual style and unobstructed desktop/mobile-size layout",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated basic gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "movement",
+      "jump",
+      "goal-win"
+    ]
+  },
+  "limitations": [
+    "Contributor method proposal; no maintainer acceptance, live run or calibrated gameplay verification is claimed.",
+    "Browser observation protocol, not an executable Harbor task or unattended creator adapter.",
+    "Only ordinary user interfaces and public documentation; no privileged backend/account data.",
+    "Numeric export checks cannot verify observation truth, control timing or subjective ratings.",
+    "Same-operator creation/evaluation is non-blind; disclose affiliation and context exposure.",
+    "Costs are reported separately and may be unknown; not comparable to historical 40/20/20/20 totals.",
+    "Remote URL/build labels are not byte-frozen game artifacts.",
+    "Generation timeout is zero under v0.2; auth and measurement errors remain null. Not comparable with v1 totals.",
+    "Evaluator configuration and core success are structural disclosures, not verified gameplay or calibrated judge accuracy."
+  ],
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "movement",
+      "jump",
+      "solid-platforms",
+      "collectibles",
+      "fall-loss",
+      "goal-win",
+      "loss-restart",
+      "win-restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  }
+}

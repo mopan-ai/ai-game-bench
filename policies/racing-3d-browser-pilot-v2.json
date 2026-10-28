@@ -1,0 +1,165 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "racing-3d-browser-pilot-v2",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "racing-3d-browser-pilot-v2",
+    "version": "0.2.0",
+    "instruction_sha256": "410c27015e22096bc8c65468eb9eb7980203faa833afe1942e0bc2e3b1dbd7c0",
+    "rubric_sha256": "6b664252db8b800876571b4c551d6d8b70bdae9acb0dd61574bf3811df35e789",
+    "verifier_sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "A controllable vehicle, visible 3D track and start state",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "acceleration",
+      "description": "Forward input visibly increases vehicle displacement",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "braking",
+      "description": "Braking visibly reduces motion relative to a matched no-brake segment",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "steering",
+      "description": "Left and right steering change the path through track turns",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "follow-camera",
+      "description": "Third-person camera follows the moving/turning vehicle",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "track-bounds",
+      "description": "Inner and outer track boundaries prevent shortcut traversal",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "ordered-checkpoints",
+      "description": "Visible checkpoint progress is ordered and cannot be bypassed",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "lap-finish",
+      "description": "One legal lap finishes and freezes the displayed final time",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart restores vehicle, timer and checkpoint progress",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Player/track geometry and game information remain legible",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Visible instructions and restart controls match observed behavior",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Visible feedback distinguishes interactions and terminal states",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Requested visual style and unobstructed desktop/mobile-size layout",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated basic gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "acceleration",
+      "steering",
+      "ordered-checkpoints",
+      "lap-finish"
+    ]
+  },
+  "limitations": [
+    "Contributor method proposal; no maintainer acceptance, live run or calibrated gameplay verification is claimed.",
+    "Browser observation protocol, not an executable Harbor task or unattended creator adapter.",
+    "Only ordinary user interfaces and public documentation; no privileged backend/account data.",
+    "Numeric export checks cannot verify observation truth, control timing or subjective ratings.",
+    "Same-operator creation/evaluation is non-blind; disclose affiliation and context exposure.",
+    "Costs are reported separately and may be unknown; not comparable to historical 40/20/20/20 totals.",
+    "Remote URL/build labels are not byte-frozen game artifacts.",
+    "Generation timeout is zero under v0.2; auth and measurement errors remain null. Not comparable with v1 totals.",
+    "Evaluator configuration and core success are structural disclosures, not verified gameplay or calibrated judge accuracy."
+  ],
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "acceleration",
+      "braking",
+      "steering",
+      "follow-camera",
+      "track-bounds",
+      "ordered-checkpoints",
+      "lap-finish",
+      "restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  }
+}

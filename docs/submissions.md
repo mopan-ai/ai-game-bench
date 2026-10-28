@@ -24,6 +24,11 @@ For historical Tetris comparisons, read the [fixed 40/20/20/20 scoring rules](..
 Freeze these alongside the creation method before new runs. Existing pilot data
 can receive an explicitly retrospective score addendum, never a rewritten score.
 
+Proposed platformer/racing v2 methods use `public-submission/0.2`: evaluator
+configuration, separate generation-timeout semantics and explicit-set summaries.
+See [measurement rules](measurement.md). They require method approval and fresh
+runs; never relabel historical submissions. Existing v0.1 workflows still work.
+
 `init` creates an unapproved draft with empty trajectories. It does not fabricate
 evidence, approve publication or connect a browser. Read the policy's limits.
 For agents, schemas are available without network calls:

@@ -40,8 +40,21 @@ class TimeScore(Record):
     required_passes: Annotated[list[ID], Field(min_length=1)]
 
 
+AccessMode = Literal["screenshot_only", "visible_ui", "instrumented"]
+
+
+class MeasurementRules(Record):
+    core_criteria: Annotated[list[ID], Field(min_length=1)]
+    allowed_access: Annotated[list[AccessMode], Field(min_length=1)]
+    evaluation_budget_seconds: Annotated[int, Field(gt=0, le=86400)]
+    session_limit: Annotated[int, Field(gt=0, le=100)]
+    viewport_width: Annotated[int, Field(gt=0)]
+    viewport_height: Annotated[int, Field(gt=0)]
+    clock: Literal["realtime", "stepped"]
+
+
 class Policy(Record):
-    schema_version: Literal["public-policy/0.1"]
+    schema_version: Literal["public-policy/0.1", "public-policy/0.2"]
     id: ID
     task: Task
     prompt_mode: Literal["full_instruction", "mopan_block"]
@@ -54,6 +67,7 @@ class Policy(Record):
     total_max: Annotated[float, Field(gt=0, allow_inf_nan=False)]
     time_score: TimeScore | None = None
     limitations: Annotated[list[Text], Field(min_length=1)]
+    measurement: MeasurementRules | None = None
 
 
 class File(Record):
@@ -128,6 +142,25 @@ class Verdict(Record):
     evidence_events: list[ID]
 
 
+class ToolConfiguration(Record):
+    name: Text
+    version: Text | None
+
+
+class EvaluationConfiguration(Record):
+    harness_version: Text | None
+    effort: Text | None
+    instructions_file: Text | None
+    instructions_sha256: Hash | None
+    tools: Annotated[list[ToolConfiguration], Field(max_length=50)]
+    access_mode: AccessMode
+    browser: Text
+    browser_version: Text | None
+    viewport_width: Annotated[int, Field(gt=0)]
+    viewport_height: Annotated[int, Field(gt=0)]
+    clock: Literal["realtime", "stepped"]
+
+
 class Evaluation(Record):
     evaluator: Text
     model: Text | None
@@ -135,6 +168,7 @@ class Evaluation(Record):
     creation_context_hidden: bool
     criteria: list[Verdict]
     total: Number | None
+    configuration: EvaluationConfiguration | None = None
 
 
 class Attempt(Record):
@@ -177,7 +211,7 @@ class Publication(Record):
 
 
 class Submission(Record):
-    schema_version: Literal["public-submission/0.1"]
+    schema_version: Literal["public-submission/0.1", "public-submission/0.2"]
     id: ID
     revision: Annotated[int, Field(ge=1, le=999)]
     kind: Literal["result", "synthetic_example"]

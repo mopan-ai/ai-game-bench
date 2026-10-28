@@ -80,6 +80,8 @@ Choose a task and freeze its policy before recording. Keep creation evidence
 separate from evaluation, and preserve failures, gaps and unknown values.
 [Evaluation boundaries](docs/architecture.md) · [Add a task or policy](docs/adding-tasks.md).
 [Platformer/racing proposal and validation plan](docs/proposals/platformer-racing-pilot.md).
+[Proposed v2 measurement rules](docs/measurement.md) add evaluator configuration,
+explicit timeout/error accounting and offline summaries; historical results stay unchanged.
 
 ## Platform support
 
