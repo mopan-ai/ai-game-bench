@@ -1,6 +1,11 @@
 # Proposal: 2D platformer and 3D racing
 
-**Status: method proposal for maintainer review; not approved or live-run.**
+**Historical v1 proposal.** Definitions were merged in
+[PR #9](https://github.com/mopan-ai/ai-game-bench/pull/9); follow-on
+[measurement v0.2](../measurement.md) was merged in PR #14. Task metadata retains
+`status: proposed`, with evaluator calibration and live-pilot gates still open.
+The original proposal below documents its design and acceptance plan; its v1
+commands are historical. See [current state](../project-state.md) before a run.
 This proposal exercises the same public path as an external contributor. Its
 author/operator is affiliated with Mopan; it is not independent third-party review.
 

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="724" viewBox="0 0 960 724" role="img" aria-labelledby="title desc">
+<title id="title">From task to evidence</title>
+<desc id="desc">One versioned task and policy govern creation. The playable build is handed to separate gameplay evaluation; creation context is reserved for diagnosis and evidence review. Automation varies by track.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M1 1 L6 3.5 L1 6" fill="none" stroke="#748c94" stroke-width="1.4"/></marker></defs>
+<rect width="960" height="724" rx="16" fill="white"/>
+<rect x="0.75" y="0.75" width="958.5" height="722.5" rx="16" fill="none" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="32" y="37" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">01 / EVALUATION DESIGN</text>
+<text x="32" y="80" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#17343d">From task to evidence</text>
+<text x="32" y="110" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4e6570">One creation trial. A separate evaluation of the game.</text>
+<rect x="32" y="134" width="896" height="88" rx="12" fill="#17343d" stroke="#17343d" stroke-width="1.5"/>
+<text x="54" y="161" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#8ddbc7">FROZEN BEFORE EXECUTION</text>
+<text x="54" y="197" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="white">Task + rubric</text>
+<text x="350" y="197" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="white">System + configuration</text>
+<text x="668" y="197" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="white">Policy + budget</text>
+<path d="M162 222 V250" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M798 222 V250" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="32" y="262" width="260" height="214" rx="12" fill="#f3f6ff" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="52" y="293" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#355cb4">01 CREATE</text>
+<text x="52" y="330" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17343d">Creator system</text>
+<text x="52" y="366" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Model · harness · tools</text>
+<text x="52" y="393" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Prompt → delivered game</text>
+<path d="M52 415 H272" fill="none" stroke="#d5e1e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="449" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="400" fill="#355cb4">creation.jsonl</text>
+<rect x="350" y="262" width="260" height="214" rx="12" fill="#f0f9f5" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="370" y="293" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">02 HANDOFF</text>
+<text x="370" y="330" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17343d">Playable artifact</text>
+<text x="370" y="366" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">URL or local bundle</text>
+<text x="370" y="393" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Pinned build identity</text>
+<path d="M370 415 H590" fill="none" stroke="#d5e1e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="370" y="449" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="400" fill="#147d68">No creation commentary</text>
+<rect x="668" y="262" width="260" height="214" rx="12" fill="#f0f9f5" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="688" y="293" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">03 EVALUATE</text>
+<text x="688" y="330" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17343d">Gameplay evaluation</text>
+<text x="688" y="366" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Actions → observations</text>
+<text x="688" y="393" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Criterion-level decisions</text>
+<path d="M688 415 H908" fill="none" stroke="#d5e1e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="688" y="449" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="400" fill="#147d68">evaluation.jsonl</text>
+<path d="M292 365 H336" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M610 365 H654" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M162 476 V518" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M480 476 V518" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M798 476 V518" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="32" y="532" width="896" height="122" rx="12" fill="#f7f9fa" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="54" y="569" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">Evidence &amp; maintainer review</text>
+<text x="54" y="600" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Criteria · trajectories · time / cost · limitations</text>
+<text x="54" y="629" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Declare what was checked: structure, evidence, artifact replay, generation rerun.</text>
+<text x="32" y="692" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#4e6570">PROTOCOL OVERVIEW</text>
+<text x="230" y="692" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Automation varies by track. Publication is a separate decision.</text>
+</svg>

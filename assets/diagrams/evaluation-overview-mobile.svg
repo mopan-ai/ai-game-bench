@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="1166" viewBox="0 0 440 1166" role="img" aria-labelledby="title desc">
+<title id="title">From task to evidence</title>
+<desc id="desc">One versioned task and policy govern creation. The playable build is handed to separate gameplay evaluation; creation context is reserved for diagnosis and evidence review. Automation varies by track.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M1 1 L6 3.5 L1 6" fill="none" stroke="#748c94" stroke-width="1.4"/></marker></defs>
+<rect width="440" height="1166" rx="16" fill="white"/>
+<rect x="0.75" y="0.75" width="438.5" height="1164.5" rx="16" fill="none" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">01 / EVALUATION DESIGN</text>
+<text x="24" y="76" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#17343d">From task to evidence</text>
+<text x="24" y="107" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">One trial. Separate game evaluation.</text>
+<rect x="24" y="132" width="392" height="144" rx="12" fill="#17343d" stroke="#17343d" stroke-width="1.5"/>
+<text x="44" y="162" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#8ddbc7">FROZEN BEFORE EXECUTION</text>
+<text x="44" y="195" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="white">Task + rubric</text>
+<text x="44" y="223" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="white">System + configuration</text>
+<text x="44" y="251" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="white">Policy + budget</text>
+<path d="M220 276 V302" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="24" y="314" width="392" height="162" rx="12" fill="#f3f6ff" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="44" y="342" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#355cb4">01 CREATE</text>
+<text x="44" y="374" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">Creator system</text>
+<text x="44" y="404" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Model · harness · tools</text>
+<text x="44" y="431" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Prompt → delivered game</text>
+<text x="44" y="458" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="400" fill="#355cb4">creation.jsonl</text>
+<path d="M220 476 V502" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="24" y="514" width="392" height="162" rx="12" fill="#f0f9f5" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="44" y="542" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">02 HANDOFF</text>
+<text x="44" y="574" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">Playable artifact</text>
+<text x="44" y="604" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">URL or local bundle</text>
+<text x="44" y="631" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Pinned build identity</text>
+<text x="44" y="658" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="400" fill="#147d68">No creation commentary</text>
+<path d="M220 676 V702" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="24" y="714" width="392" height="162" rx="12" fill="#f0f9f5" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="44" y="742" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#147d68">03 EVALUATE</text>
+<text x="44" y="774" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">Gameplay evaluation</text>
+<text x="44" y="804" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Actions → observations</text>
+<text x="44" y="831" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Criterion-level decisions</text>
+<text x="44" y="858" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="400" fill="#147d68">evaluation.jsonl</text>
+<path d="M220 876 V908" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="24" y="920" width="392" height="160" rx="12" fill="#f7f9fa" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="44" y="949" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#4e6570">EVIDENCE &amp; REVIEW</text>
+<text x="44" y="983" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">Scope every claim</text>
+<text x="44" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Structure · evidence · replay · rerun</text>
+<text x="44" y="1044" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#4e6570">Record time, cost and limitations.</text>
+<text x="24" y="1115" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Protocol overview; automation varies.</text>
+<text x="24" y="1141" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Publication is a separate decision.</text>
+</svg>

@@ -7,7 +7,7 @@
 [![Public checks](https://github.com/mopan-ai/ai-game-bench/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/mopan-ai/ai-game-bench/actions/workflows/checks.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
-[Results](https://www.aigamebench.com/) · [Quick start](#quick-start) ·
+[Results](https://www.aigamebench.com/) · [Methodology](docs/methodology.md) · [Quick start](#quick-start) ·
 [Tasks](#tasks-and-evaluation) · [Platforms](#platform-support) ·
 [Contribute](#contributing) · [Docs](docs/README.md)
 
@@ -19,21 +19,27 @@ public evidence submissions. Start with the free example below; real-platform
 creation uses the [platform guides](#platform-support), not `agb run`.
 [Current capabilities and limits](docs/project-state.md).
 
-## Results and evidence
+## Evaluation framework
 
-Browse the [results website](https://www.aigamebench.com/), or inspect a complete
-public submission before making your own:
+The unit of comparison is a **game-creation system**: model, harness, tools and
+platform under a declared configuration. Evaluate the delivered game, retain the
+creation trajectory for diagnosis, and review the evidence behind each claim.
 
-| Mopan Gemini 4 · Classic Tetris | Inspect |
-| --- | --- |
-| Original attempt | [Creation trajectory](submissions/mopan-gemini4-tetris-20261014/r001/creation.jsonl) · [Playtest trajectory](submissions/mopan-gemini4-tetris-20261014/r001/evaluation.jsonl) · [Evidence](submissions/mopan-gemini4-tetris-20261014/r001/evidence/) |
-| Addenda | [Cost and usage](submissions/mopan-gemini4-tetris-20261014/r002/README.md) · [Fixed-policy scoring](submissions/mopan-gemini4-tetris-20261014/r003/README.md) |
-| Maintainer decision | [Accepted with limitations](https://github.com/mopan-ai/ai-game-bench/pull/4#issuecomment-6162702189) · [Limited replay](reviews/mopan-gemini4-tetris-20261014/20261014/) |
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/diagrams/system-overview-mobile.svg">
+  <img src="assets/diagrams/system-overview.svg" width="1280" alt="AI Game Bench system and contribution map: C1 task authors define the suite; C2 integrators connect creator systems; C4 contributors record trials and artifacts; C3 evaluator authors supply graders and calibration; C5 reviewers inspect public evidence before a separate curated report. Harbor runs local calibration; browser pilots use guides and creator adapters remain planned.">
+</picture>
 
-Three revisions of **one creation**, not three attempts. This affiliated,
-non-blind pilot is not independently reproduced generation or a calibrated
-leaderboard. [Historical reports](reports/README.md) are references, not results
-reproduced by this checkout.
+**C1–C5 mark contribution points**, not execution order. Start with a
+[task, platform, grader, result or review](#contributing).
+
+**Outcome quality · resource efficiency · diagnostic evidence.** Each task has
+its own versioned rubric. Structural validity, gameplay success and provenance
+review are separate claims; a green CI check does not establish all three.
+
+[Methodology](docs/methodology.md) · [Terminology](docs/terminology.md) ·
+[Architecture and repository map](docs/architecture.md) ·
+[Research basis](docs/research/agent-evaluation.md)
 
 ## Quick start
 
@@ -73,15 +79,25 @@ and browser images. Harbor owns runs and local `jobs/`. [Runbook](docs/running.m
 | --- | --- |
 | [Click counter](datasets/smoke-create-v0.2/create-click-counter-zh-001/) | Free Harbor/Docker/Chromium calibration; automated interaction checks, not a game-quality score |
 | [Classic Tetris](protocols/tetris-browser-pilot-v1/evaluation.md) | Browser observation and evidence protocol; no automatic creator or calibrated game judge |
-| [2D platformer](protocols/platformer-browser-pilot-v1/evaluation.md) | **Proposed** browser protocol; not approved or run |
-| [3D racing](protocols/racing-3d-browser-pilot-v1/evaluation.md) | **Proposed** browser protocol; not approved or run |
+| [2D platformer](protocols/platformer-browser-pilot-v2/evaluation.md) | Versioned browser-method proposal and pass/fault fixtures; live creator pilot still gated |
+| [3D racing](protocols/racing-3d-browser-pilot-v2/evaluation.md) | Versioned browser-method proposal and pass/fault fixtures; live creator pilot still gated |
 
 Choose a task and freeze its policy before recording. Keep creation evidence
 separate from evaluation, and preserve failures, gaps and unknown values.
 [Evaluation boundaries](docs/architecture.md) · [Add a task or policy](docs/adding-tasks.md).
 [Platformer/racing proposal and validation plan](docs/proposals/platformer-racing-pilot.md).
-[Proposed v2 measurement rules](docs/measurement.md) add evaluator configuration,
-explicit timeout/error accounting and offline summaries; historical results stay unchanged.
+[Measurement v0.2](docs/measurement.md) defines evaluator configuration,
+explicit timeout/error accounting and offline summaries. Method code is merged;
+the game protocols retain their proposed status and live-run acceptance gates.
+Historical results stay unchanged.
+
+### Evaluator calibration
+
+The [experimental judge cohort](docs/judge-calibration.md) tests four focused
+platformer/racing checks. It measures evaluator decisions, not creator quality.
+Known fixtures support regression; held-out validation and human adjudication
+remain next gates. [Calibration loop](docs/methodology.md#calibrate-the-evaluator) ·
+[Acceptance examples](fixtures/calibration/gameplay-v1/README.md).
 
 ## Platform support
 
@@ -102,16 +118,37 @@ Reusable CLI integrations are planned. `agb run` currently executes only free
 Harbor Oracle/Nop counter calibration, not these six creators.
 [Support levels and setup](platforms/README.md) · [Add a platform](docs/platforms.md)
 
+## Results and evidence
+
+Browse the [results website](https://www.aigamebench.com/), or inspect a complete
+public submission before making your own:
+
+| Mopan Gemini 4 · Classic Tetris | Inspect |
+| --- | --- |
+| Original attempt | [Creation trajectory](submissions/mopan-gemini4-tetris-20261014/r001/creation.jsonl) · [Playtest trajectory](submissions/mopan-gemini4-tetris-20261014/r001/evaluation.jsonl) · [Evidence](submissions/mopan-gemini4-tetris-20261014/r001/evidence/) |
+| Addenda | [Cost and usage](submissions/mopan-gemini4-tetris-20261014/r002/README.md) · [Fixed-policy scoring](submissions/mopan-gemini4-tetris-20261014/r003/README.md) |
+| Maintainer decision | [Accepted with limitations](https://github.com/mopan-ai/ai-game-bench/pull/4#issuecomment-6162702189) · [Limited replay](reviews/mopan-gemini4-tetris-20261014/20261014/) |
+
+Three revisions of **one creation**, not three attempts. This affiliated,
+non-blind pilot is not independently reproduced generation or a calibrated
+leaderboard. [Historical reports](reports/README.md) are references, not results
+reproduced by this checkout.
+
+Also accepted: [Mopan DS V4.1 1017 · Tetris](submissions/mopan-ds-v41-flash-1017-tetris-20261020/r001/)
+with [maintainer review and stated limitations](https://github.com/mopan-ai/ai-game-bench/pull/10#pullrequestreview-5661885193).
+
 ## Contributing
 
-No invitation is required. Start with a **result, task or platform**; humans and
-agents follow the same guides.
+No invitation is required. Choose a contribution point from the system map;
+humans and agents follow the same guides. One person can contribute in several roles.
 
 | I want to… | Start here |
 | --- | --- |
-| Submit a test result | [Record evidence → prepare a public package → open one PR](docs/submissions.md) |
-| Add a task or evaluation policy | [Task contribution guide](docs/adding-tasks.md) |
-| Add a platform | [Integration contract](docs/platforms.md) |
+| **C1 · Task author:** add a task or policy | [Prompt, rubric, acceptance steps and pass/fault examples](docs/adding-tasks.md) |
+| **C2 · Platform integrator:** add a creation platform | [Connection guide and proposed adapter with free tests](docs/platforms.md) |
+| **C3 · Evaluator author:** improve a grader | [Calibration cases, evidence audits and versioned corrections](docs/judge-calibration.md) |
+| **C4 · Result contributor:** submit a trial | [Record evidence → prepare a public package → open one PR](docs/submissions.md) |
+| **C5 · Reviewer:** inspect evidence or replay a build | [Record verification scope; Mopan maintainers decide acceptance](docs/reviewing-submissions.md) |
 | Report a wrong verdict | [Open an issue](https://github.com/mopan-ai/ai-game-bench/issues/new?template=bug.yml) with reproduction evidence |
 | Discuss an idea or ask for help | [Ideas](https://github.com/mopan-ai/ai-game-bench/discussions/categories/ideas) · [Q&A](https://github.com/mopan-ai/ai-game-bench/discussions/categories/q-a) |
 
@@ -154,8 +191,8 @@ reuse follows the applicable license.
 ## Roadmap
 
 - **Next:** an outside contributor completes the submission → review workflow.
-- **Next:** 2D platformer and 3D racing protocols with passing/failing calibration
-  examples, before real-platform runs. Not available as accepted tasks yet.
+- **Next:** validate the evaluator on unfamiliar platformer/racing implementations,
+  then conduct a separately authorized creator pilot under frozen methods.
 - **Planned:** a reusable browser adapter and evidence recorder, then more
   integrations through the unified CLI.
 

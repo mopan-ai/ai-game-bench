@@ -3,6 +3,19 @@
 A task needs a testable contract, not only an attractive prompt. Open a scoped PR
 or an Ideas proposal describing the game type, capability and how it is checked.
 For v0, favor small deterministic mechanics and authored, redistributable assets.
+Use the [methodology](methodology.md) and [common terms](terminology.md) when
+describing the capability, experimental unit and limits.
+
+## Task validity review
+
+Before freezing a method, map each requirement to an acceptance step and an
+observable pass/fail example. Check that a different valid implementation can
+pass, and that a plausible incomplete implementation fails. Review ambiguous or
+contradictory requirements before treating disagreements as creator failures.
+Reference examples demonstrate behavior; they do not prescribe one code path.
+Keep implementation tests separate from creator capability scores.
+
+## Executable task package
 
 Use the counter as a packaging example, not a universal gameplay rubric:
 

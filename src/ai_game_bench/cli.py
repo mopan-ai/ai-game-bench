@@ -174,6 +174,27 @@ def main(argv: list[str] | None = None) -> int:
     inspect.add_argument("--expect", type=float, choices=[0.0, 1.0], help="Calibration assertion")
     view = commands.add_parser("view", help="Open the native Harbor Viewer, bound to localhost")
     view.add_argument("--port", type=int, default=8080)
+    calibration = commands.add_parser(
+        "calibration", help="Prepare/review judge calibration; execution belongs to Harbor"
+    )
+    calibration_commands = calibration.add_subparsers(dest="calibration_command", required=True)
+    calibration_prepare = calibration_commands.add_parser(
+        "prepare", help="Create an opaque local fixture plan; no execution"
+    )
+    calibration_prepare.add_argument("directory", type=Path)
+    calibration_prepare.add_argument("--model", required=True)
+    calibration_prepare.add_argument("--effort", choices=["low", "medium", "high"], required=True)
+    calibration_prepare.add_argument(
+        "--allow-model-calls",
+        action="store_true",
+        help="Authorize model calls when this config is later run with Harbor",
+    )
+    calibration_report = calibration_commands.add_parser(
+        "report", help="Read native trial records; no model calls"
+    )
+    calibration_report.add_argument("job", type=Path, nargs="+")
+    calibration_report.add_argument("--plan", type=Path, required=True)
+    calibration_report.add_argument("--review", type=Path, help="Attach a separate evidence review")
     submission = commands.add_parser(
         "submission", help="Prepare/check public evidence; never uploads"
     )
@@ -226,6 +247,30 @@ def main(argv: list[str] | None = None) -> int:
             print("\nRead a reference: agb platforms <name> (never starts a paid run).")
             return 0
         root = repository_root(args.repo)
+        if args.command == "calibration":
+            from ai_game_bench.calibration import prepare, summarize
+
+            if args.calibration_command == "prepare":
+                record = prepare(
+                    root,
+                    args.directory.resolve(),
+                    args.model,
+                    args.effort,
+                    allow_model_calls=args.allow_model_calls,
+                )
+                print(
+                    json.dumps(
+                        {
+                            "expected_trials": record["expected_trials"],
+                            "job_config": str(args.directory / "job.json"),
+                            "model_calls": 0,
+                        },
+                        indent=2,
+                    )
+                )
+            else:
+                print(json.dumps(summarize(args.plan, args.job, args.review), indent=2))
+            return 0
         if args.command == "submission":
             from ai_game_bench import submissions
             from ai_game_bench.score_addenda import ScoreAddendum

@@ -1,4 +1,9 @@
-# Measurement v0.2 — proposed
+# Measurement v0.2
+
+The contract and offline summary implementation were merged in
+[PR #14](https://github.com/mopan-ai/ai-game-bench/pull/14). The browser task
+definitions still declare `status: proposed`; method availability does not close
+their evaluator-calibration or live-pilot acceptance gates.
 
 An additive contract for future browser pilots, not a rerun, calibrated judge or
 replacement for historical results. The platformer and racing v2 proposals keep

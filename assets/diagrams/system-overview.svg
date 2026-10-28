@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1098" viewBox="0 0 1280 1098" role="img" aria-labelledby="title desc">
+<title id="title">AI Game Bench: system overview and contribution points</title>
+<desc id="desc">System and contribution map. Task authors define a versioned suite; platform integrators describe the creator system. A contributor records each fresh trial and its game artifact, observable trajectory and resources. Evaluators grade the game separately and test their graders against reference cases. A public evidence export combines both trajectories and criterion results for maintainer review. Publication is a separate curated operation. Harbor runs native calibration; browser pilots use guides. Creator adapters and held-out evaluator validation remain next work.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M1 1 L6 3.5 L1 6" fill="none" stroke="#748c94" stroke-width="1.4"/></marker></defs>
+<rect width="1280" height="1098" rx="16" fill="white"/>
+<rect x="0.75" y="0.75" width="1278.5" height="1096.5" rx="16" fill="none" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="32" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#147d68">AI GAME BENCH / SYSTEM OVERVIEW</text>
+<text x="32" y="83" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#17343d">Tasks, trials, evaluation and evidence</text>
+<text x="32" y="116" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4e6570">How the system works, with five contribution entry points.</text>
+<rect x="24" y="146" width="1232" height="710" rx="12" fill="#fafcfd" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="48" y="183" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#17343d">Evaluation framework</text>
+<text x="842" y="182" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Protocol view · automation varies by track</text>
+<rect x="48" y="214" width="332" height="420" rx="12" fill="#f5f2fb" stroke="#d8cfea" stroke-width="1.5"/>
+<rect x="68" y="228" width="34" height="26" rx="6" fill="#7254a4" stroke="#7254a4" stroke-width="1.5"/><text x="74" y="247" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C1</text><text x="114" y="247" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#7254a4">TASK AUTHORS</text>
+<text x="68" y="285" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#17343d">Evaluation suite</text>
+<rect x="84" y="308" width="276" height="242" rx="12" fill="#ece6f6" stroke="#d8cfea" stroke-width="1.5"/>
+<rect x="76" y="316" width="276" height="242" rx="12" fill="#f9f7fc" stroke="#d8cfea" stroke-width="1.5"/>
+<rect x="68" y="324" width="276" height="242" rx="12" fill="white" stroke="#b7a4d0" stroke-width="1.5"/>
+<text x="88" y="359" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#17343d">Task contract</text>
+<text x="88" y="396" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Prompt + initial conditions</text>
+<text x="88" y="425" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Success criteria + rubric</text>
+<text x="88" y="454" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Allowed actions + budget</text>
+<path d="M88 477 H324" fill="none" stroke="#d5e1e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88" y="508" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#17343d">Grader procedure</text>
+<text x="88" y="540" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#7254a4">Versioned identity</text>
+<text x="68" y="598" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#17343d">Counter · Tetris</text>
+<text x="68" y="622" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4e6570">Platformer / racing: proposed</text>
+<rect x="438" y="214" width="356" height="128" rx="12" fill="#f1f5ff" stroke="#c6d3ed" stroke-width="1.5"/>
+<rect x="458" y="226" width="34" height="26" rx="6" fill="#355cb4" stroke="#355cb4" stroke-width="1.5"/><text x="464" y="245" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C2</text><text x="504" y="245" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#355cb4">PLATFORM INTEGRATORS</text>
+<text x="458" y="279" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17343d">System under test</text>
+<text x="458" y="307" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Model + agent harness + tools</text>
+<text x="458" y="330" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#355cb4">CLI or hosted creation platform</text>
+<path d="M616 342 V370" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="438" y="384" width="356" height="250" rx="12" fill="#f1f8fb" stroke="#c7dde4" stroke-width="1.5"/>
+<rect x="458" y="397" width="34" height="26" rx="6" fill="#177c92" stroke="#177c92" stroke-width="1.5"/><text x="464" y="416" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C4</text><text x="504" y="416" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#177c92">RESULT CONTRIBUTORS</text>
+<text x="458" y="453" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#17343d">One trial / fresh attempt</text>
+<rect x="474" y="469" width="300" height="143" rx="12" fill="#e4f0f5" stroke="#c7dde4" stroke-width="1.5"/>
+<rect x="458" y="477" width="308" height="142" rx="12" fill="white" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="476" y="508" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#17343d">Artifact / final state</text>
+<text x="476" y="539" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Build ID + creation trajectory</text>
+<text x="476" y="570" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Time, tokens, cost basis</text>
+<text x="476" y="602" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#177c92">Keep failures and capture gaps</text>
+<path d="M380 459 H426" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M794 488 H818 V378 H840" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="802" y="512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#4e6570">game</text>
+<rect x="852" y="214" width="380" height="420" rx="12" fill="#f0f8f4" stroke="#c9e0d6" stroke-width="1.5"/>
+<rect x="874" y="228" width="34" height="26" rx="6" fill="#147d68" stroke="#147d68" stroke-width="1.5"/><text x="880" y="247" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C3</text><text x="920" y="247" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#147d68">EVALUATOR AUTHORS</text>
+<text x="874" y="285" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#17343d">Grading &amp; calibration</text>
+<rect x="874" y="308" width="336" height="140" rx="12" fill="white" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="894" y="342" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#17343d">Gameplay evaluation</text>
+<text x="894" y="374" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Task + rubric + final game</text>
+<text x="894" y="401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Code / human / agent grading</text>
+<text x="894" y="430" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#147d68">Model judge: experimental</text>
+<text x="874" y="489" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17343d">Grader calibration</text>
+<text x="874" y="520" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Working / faulty reference cases</text>
+<text x="874" y="549" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Repeatability + evidence audit</text>
+<rect x="874" y="577" width="336" height="36" rx="6" fill="#fcf8ee" stroke="#d5bb8a" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="886" y="601" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#94672b">Held-out validation: next gate</text>
+<path d="M616 634 V660" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1042 634 V660 H616 V690" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="690" y="650" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#147d68">Grades + playtest trajectory</text>
+<circle cx="616" cy="660" r="4" fill="#748c94"/>
+<rect x="438" y="702" width="356" height="128" rx="12" fill="white" stroke="#d5e1e4" stroke-width="1.5"/>
+<text x="458" y="736" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#17343d">Public evidence package</text>
+<text x="458" y="768" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Artifact + both trajectories</text>
+<text x="458" y="794" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Criteria, resources and limitations</text>
+<text x="458" y="819" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#177c92">Reviewed, task-scoped export</text>
+<path d="M794 766 H840" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="852" y="702" width="380" height="128" rx="12" fill="#fcf8ee" stroke="#decba9" stroke-width="1.5"/>
+<rect x="874" y="714" width="34" height="26" rx="6" fill="#94672b" stroke="#94672b" stroke-width="1.5"/><text x="880" y="733" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C5</text><text x="920" y="733" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#94672b">MAINTAINERS &amp; REVIEWERS</text>
+<text x="874" y="771" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17343d">PR → checks → evidence review</text>
+<text x="874" y="805" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Record artifact replay / rerun scope</text>
+<text x="68" y="725" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#17343d">Execution today</text>
+<text x="68" y="756" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Harbor: local calibration</text>
+<text x="68" y="786" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#4e6570">Browser pilots: platform guides</text>
+<text x="68" y="816" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#94672b">Creator adapters: planned</text>
+<path d="M1042 830 V896" fill="none" stroke="#748c94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1058" y="877" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4e6570">curated publication</text>
+<rect x="852" y="908" width="380" height="104" rx="12" fill="#17343d" stroke="#17343d" stroke-width="1.5"/>
+<text x="874" y="947" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="white">Reports &amp; comparisons</text>
+<text x="874" y="982" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#9bdecf">aigamebench.com</text>
+<text x="48" y="902" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#4e6570">CONTRIBUTION ENTRY POINTS</text>
+<rect x="48" y="926" width="34" height="26" rx="6" fill="#7254a4" stroke="#7254a4" stroke-width="1.5"/><text x="54" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C1</text><text x="94" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#7254a4">Tasks &amp; policies</text>
+<rect x="300" y="926" width="34" height="26" rx="6" fill="#355cb4" stroke="#355cb4" stroke-width="1.5"/><text x="306" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C2</text><text x="346" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#355cb4">Platform support</text>
+<rect x="558" y="926" width="34" height="26" rx="6" fill="#147d68" stroke="#147d68" stroke-width="1.5"/><text x="564" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C3</text><text x="604" y="945" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#147d68">Graders &amp; fixtures</text>
+<rect x="48" y="972" width="34" height="26" rx="6" fill="#177c92" stroke="#177c92" stroke-width="1.5"/><text x="54" y="991" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C4</text><text x="94" y="991" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#177c92">Results &amp; evidence</text>
+<rect x="356" y="972" width="34" height="26" rx="6" fill="#94672b" stroke="#94672b" stroke-width="1.5"/><text x="362" y="991" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="white">C5</text><text x="402" y="991" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#94672b">Review &amp; curation</text>
+<path d="M32 1040 H1248" fill="none" stroke="#d5e1e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="1072" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4e6570">Contribution labels identify roles, not execution order. Public exports do not replace local execution records.</text>
+</svg>

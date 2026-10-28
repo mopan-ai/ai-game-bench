@@ -1,5 +1,60 @@
 # Architecture and evaluation boundary
 
+Read [methodology](methodology.md) for the measurement design and
+[terminology](terminology.md) for the units. This page maps them to the existing
+implementation; it does not introduce a second runtime.
+
+## System overview
+
+<picture>
+  <source media="(max-width: 600px)" srcset="../assets/diagrams/system-overview-mobile.svg">
+  <img src="../assets/diagrams/system-overview.svg" width="1280" alt="A versioned task suite and creator system feed recorded trials. Separate gameplay evaluation and creation evidence form a public package, followed by maintainer review and curated reporting. C1 through C5 identify contribution roles.">
+</picture>
+
+Read the map as **definition → execution → grading → evidence review → report**.
+Each task may have several fresh trials. The grader sees the task, rubric and
+allowed game surface; creation telemetry goes separately to diagnosis/review.
+This is the system's protocol view: Harbor owns native local execution, while
+browser pilots currently follow platform guides. It does not imply a unified
+creator adapter exists or that every proposed task has a calibrated evaluator.
+
+## Contribution points
+
+The C labels identify roles, not execution order or permissions. Contributors can
+work on one part without implementing the whole system.
+
+| Entry | Contribute | Location / handoff |
+| --- | --- | --- |
+| **C1 · Task author** | A prompt, platform-neutral policy, rubric, acceptance steps and positive/negative examples | `datasets/` for native tasks or `protocols/` for browser methods, plus `policies/`; [task guide](adding-tasks.md) |
+| **C2 · Platform integrator** | A reproducible connection guide or proposed adapter, with a mocked lifecycle test | `platforms/`; use Harbor's execution interface for native adapters; [integration contract](platforms.md) |
+| **C3 · Evaluator author** | A verifier, known defect case, calibration probe or evidence-supported correction | Task verifier or `fixtures/calibration/` / `calibration/`; [judge development](judge-calibration.md) |
+| **C4 · Result contributor** | A fresh authorized trial, artifact reference, creation/evaluation trajectories, criterion evidence and resource records | Reviewed task-scoped export under `submissions/`; [submission guide](submissions.md) |
+| **C5 · Reviewer / maintainer** | An exact-revision evidence audit, limited artifact replay or separately identified creation rerun | PR review, optionally scoped evidence under `reviews/`; [review checklist](reviewing-submissions.md) |
+
+Method/code contributions use scoped PRs; changed frozen contracts need a new
+version. Result contributions use public evidence packages. CI and trusted
+structural checks do not replace claim review. Community members may contribute
+review evidence; Mopan maintainers retain acceptance/merge authority. Website
+curation happens separately in the landing repository, after publication approval.
+
+## Repository map
+
+| Layer | Location | Responsibility |
+| --- | --- | --- |
+| Task contracts | `datasets/`, `protocols/` | Executable Harbor tasks versus data-only browser procedures |
+| Measurement policy | `policies/`, `scoring/` | Frozen identities, budgets, criteria and score mappings; historical addenda remain separate |
+| Execution integration | `src/ai_game_bench/cli.py`, `platforms/` | Thin Harbor entry point and creator-platform references; references are not adapters |
+| Game verification | `datasets/*/*/tests/` | Standalone file-to-JSON checks with a thin Harbor bridge |
+| Evaluator development | `fixtures/calibration/`, `calibration/`, `src/ai_game_bench/judge_agent.py` | Authored examples and experimental gameplay-judge adapter |
+| Public evidence | `submissions/`, `reviews/`, `reports/` | Immutable scoped exports, separate review evidence and report references |
+| Validation and review automation | `tests/`, `scripts/`, `.github/` | Contract/regression checks and trusted structural review |
+| Method documentation | `docs/` | Methodology, glossary, runbooks, research decisions and dated history |
+
+`jobs/` and `artifacts/` are ignored local outputs, not public datasets. Frozen
+paths stay stable because task identities, manifests and results refer to them.
+
+## Native execution
+
 ```text
 agb → Harbor task → agent → submission.json → isolated verifier → Harbor jobs/
                                                                       ↓
@@ -32,6 +87,18 @@ The calibration requires DOM selectors, and uses Playwright DOM interactions.
 It is **not** pure-vision computer use and cannot evaluate arbitrary canvas/3D
 games or external URLs. A future URL/screenshot track needs a separate task and
 verifier version; it must not silently relax this offline contract.
+
+There are two distinct artifact interfaces:
+
+| Interface | Consumer | Meaning |
+| --- | --- | --- |
+| Game `submission.json` | Isolated counter verifier | A local bundle pointer or declared build failure |
+| Public `manifest.json` | Submission validator / maintainer | A task-scoped evidence export; not executable job input |
+
+The creator, gameplay evaluator and evidence reviewer have different roles.
+The frozen game is the handoff from creation to evaluation; creation telemetry
+is retained separately for diagnosis. Evidence review does not replace gameplay
+grading, and grading does not authenticate capture provenance.
 
 ## Score honesty
 
@@ -77,7 +144,14 @@ confirmation. Credentials, private content and whole raw jobs never enter Git.
 No additional training agreement is inferred; reuse follows the declared license.
 See [public-data terms](../README.md#public-data-and-privacy-terms).
 
-The proposed [v0.2 measurement contract](measurement.md) adds evaluator metadata,
+The [v0.2 measurement contract](measurement.md) adds evaluator metadata,
 separate timeout/error semantics and offline selected-set summaries. It uses the
 same export path; v0.1 records and frozen task/verifier bytes remain unchanged.
 These numeric checks are not an independent gameplay evaluator or a leaderboard.
+
+The separate [judge development calibration](judge-calibration.md) prepares local
+Harbor tasks from existing pass/fault fixtures. A host Codex adapter forwards
+restricted screenshot/input tools to a browser inside Harbor's container; a
+standalone file-to-JSON verifier compares the verdict with a separately held
+label. Native jobs remain authoritative. This is focused offline calibration,
+not a generic remote-game adapter or calibrated full-game quality score.
