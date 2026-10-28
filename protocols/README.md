@@ -1,4 +1,4 @@
-# Manual browser protocols
+# Browser-observation protocols
 
 These versioned, data-only protocols describe observable tests of hosted games.
 They are **not executable Harbor tasks**, unattended adapters or calibrated AI
@@ -13,7 +13,12 @@ No submitted game or script is executed by this lane.
   browser creation, normal player input, nine core checks and four UX checks.
   This is a new pilot scale, not comparable to historical website scores.
 
-## Contributor proposals — not approved or run
+## Platformer and racing methods
+
+Method definitions were merged in [PR #9](https://github.com/mopan-ai/ai-game-bench/pull/9)
+and extended by [measurement v0.2](../docs/measurement.md). The task metadata still
+declares `status: proposed`: these are not calibrated live-platform benchmarks.
+The original v1 contracts and their acceptance examples remain unchanged.
 
 - [2D platformer v1](platformer-browser-pilot-v1/evaluation.md): pixel-art level,
   movement/jump, solid platforms, coins, loss/win and both restart paths.
@@ -22,8 +27,12 @@ No submitted game or script is executed by this lane.
   driving/camera, boundaries, ordered checkpoints, finish and restart.
   [Acceptance steps and examples](racing-3d-browser-pilot-v1/acceptance.md).
 
+The [platformer v2](platformer-browser-pilot-v2/evaluation.md) and
+[racing v2](racing-3d-browser-pilot-v2/evaluation.md) methods add explicit evaluator
+configuration and timeout/error accounting while retaining v1 prompt/rubric bytes.
+
 See the [method proposal and Mopan validation plan](../docs/proposals/platformer-racing-pilot.md).
-Their policies parse locally, but listing them is not maintainer approval.
+Listing a policy is not evidence that the live-pilot acceptance gates have passed.
 Existing Tetris/counter versions and historical results are unchanged.
 The [local reference fixtures](../fixtures/calibration/gameplay-v1/README.md)
 exercise focused pass/fault probes, not a general or independently calibrated judge.

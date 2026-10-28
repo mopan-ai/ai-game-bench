@@ -1,6 +1,8 @@
 # Contributing
 
 Start with one scoped PR. No invitation or prior Discussion is required.
+The [system map](docs/architecture.md#contribution-points) shows where task authors,
+platform integrators, evaluator authors, result contributors and reviewers fit.
 
 - **Result:** follow [the submission guide](docs/submissions.md) to record,
   package and submit your evidence. Failed games are useful data too.

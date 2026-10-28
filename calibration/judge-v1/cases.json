@@ -1,0 +1,36 @@
+{
+  "version": "judge-calibration/0.1",
+  "fixture": "fixtures/calibration/gameplay-v1",
+  "kind": "development_calibration_not_held_out",
+  "budget_seconds": 300,
+  "pairs": [
+    {
+      "game": "platformer",
+      "policy": "platformer-browser-pilot-v2",
+      "criterion": "jump",
+      "fault": "cosmetic-jump",
+      "probe": "On stable ground, use the displayed jump control. Verify genuine upward displacement followed by descent and landing; repeating should work. A cosmetic change without displacement is insufficient. This focused probe does not certify raised-platform landing."
+    },
+    {
+      "game": "platformer",
+      "policy": "platformer-browser-pilot-v2",
+      "criterion": "solid-platforms",
+      "fault": "decorative-platform",
+      "probe": "Verify solid ground and a raised platform: jump onto the raised platform, release movement and remain supported for at least two seconds. Check that the raised surface is not merely decorative. A failed approach alone does not demonstrate a collision defect."
+    },
+    {
+      "game": "racing",
+      "policy": "racing-3d-browser-pilot-v2",
+      "criterion": "acceleration",
+      "fault": "hud-only-speed",
+      "probe": "From rest on a clear stretch, apply throttle. Verify visible displacement of the vehicle relative to world scenery over time, consistent with acceleration. Speedometer or minimap changes alone are insufficient."
+    },
+    {
+      "game": "racing",
+      "policy": "racing-3d-browser-pilot-v2",
+      "criterion": "braking",
+      "fault": "no-brakes",
+      "probe": "Compare releasing throttle with using the displayed brake, on the same clear stretch at a comparable initial speed and over matched time windows. Braking must slow the vehicle more than natural coasting before a collision; confirm world motion as well as HUD. Restart for comparable starting conditions."
+    }
+  ]
+}
