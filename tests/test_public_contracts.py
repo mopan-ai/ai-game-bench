@@ -5,6 +5,7 @@ import json
 import re
 import subprocess
 import tomllib
+import xml.etree.ElementTree as ET
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -115,7 +116,11 @@ def test_readme_brand_and_ci_badge_point_to_real_assets():
     workflow = "https://github.com/mopan-ai/ai-game-bench/actions/workflows/checks.yml"
     assert f"({workflow}/badge.svg?branch=main)" in readme
     assert f"]({workflow})" in readme
-    assert 'src="assets/brand/readme-logo.png"' in readme
+    assert 'src="assets/brand/readme-logo.svg"' in readme
+    for name in ["readme-logo", "logo-transparent", "logo-square"]:
+        root = ET.parse(ROOT / "assets/brand" / f"{name}.svg").getroot()
+        assert root.tag == "{http://www.w3.org/2000/svg}svg"
+        assert root.attrib["viewBox"].startswith("0 0 ")
     for name in ["readme-logo.png", "logo-transparent.png", "logo-square.png"]:
         data = (ROOT / "assets/brand" / name).read_bytes()
         assert data.startswith(b"\x89PNG\r\n\x1a\n")
