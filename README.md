@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/readme-logo.png" width="560" alt="AI Game Bench">
+  <img src="assets/brand/readme-logo.svg" width="560" alt="AI Game Bench">
 </p>
 
 **An open, evidence-first benchmark for AI game creation.**
