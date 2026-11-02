@@ -43,7 +43,6 @@ native execution, browser-observation protocols and evidence review.
 
 | Need | Read |
 | --- | --- |
-| Trace the evaluation design to its sources | [Agent evaluation references and decisions](research/agent-evaluation.md) |
 | See contribution-workflow precedents | [Contribution automation research](research/contribution-automation.md) |
 | Understand the public-evidence decision | [Evidence design](research/submission-evidence.md) |
 | Inspect prior local validation snapshots | [Validation history](history/validation-log.md) |

@@ -6,9 +6,8 @@ under a versioned test protocol. A creator's completion message is not a passing
 test. The public preview covers creation; standalone game-playing and autonomous
 improvement benchmarks are future work.
 
-This is the repository's measurement framework, informed by the
-[research and engineering references](research/agent-evaluation.md). It is not an
-external certification or a claim that all evaluators are already calibrated.
+This is the repository's measurement framework. It is not an external
+certification or a claim that all evaluators are already calibrated.
 See [current implementation status](project-state.md).
 
 ## Experimental unit

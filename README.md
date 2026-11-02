@@ -38,8 +38,7 @@ its own versioned rubric. Structural validity, gameplay success and provenance
 review are separate claims; a green CI check does not establish all three.
 
 [Methodology](docs/methodology.md) · [Terminology](docs/terminology.md) ·
-[Architecture and repository map](docs/architecture.md) ·
-[Research basis](docs/research/agent-evaluation.md)
+[Architecture and repository map](docs/architecture.md)
 
 ## Quick start
 
