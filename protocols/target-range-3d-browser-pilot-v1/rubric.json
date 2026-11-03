@@ -1,0 +1,105 @@
+{
+  "schema_version": "browser-rubric/0.1",
+  "verification": "manual_observation",
+  "total_max": 100,
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Playable first-person 3D range with depth-separated targets",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Both movement axes and solid wall blocking",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "aim",
+      "description": "View-based aiming follows visible line of sight",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "occlusion",
+      "description": "Opaque geometry blocks shots without removing the valid target",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "hits",
+      "description": "Distinct targets count once including the moving target",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "ammo",
+      "description": "Six-round magazine and empty-fire rejection",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "reload",
+      "description": "Timed reload refills and blocks intermediate fire",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "complete",
+      "description": "Victory requires three different target hits",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart restores magazine, targets and round state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Target silhouettes, crosshair, occluding wall, target status, ammo and reload progress remain legible at rest and in motion.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Movement/look/fire/reload/restart controls and the three-target goal are visible and match tested actions.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Miss, hit, duplicate/blocked shot, empty magazine, reload and victory have unambiguous visible state changes or rejection cues.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Neon training-arena style is coherent without hiding targets or UI; foreground/world depth and essential controls fit both viewports.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ]
+}

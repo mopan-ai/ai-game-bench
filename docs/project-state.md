@@ -1,6 +1,6 @@
 # Project state
 
-Updated 2026-10-28. This public repository contains the benchmark's methods,
+Updated 2026-11-02. This public repository contains the benchmark's methods,
 execution entry point and reviewed evidence. The website and private historical
 jobs remain in a separate repository. [Methodology](methodology.md) describes the
 measurement design; the table below describes implementation, not aspirations.
@@ -15,6 +15,7 @@ measurement design; the table below describes implementation, not aspirations.
 | Public submissions | Versioned packages, validators and maintainer review | Structural validity does not authenticate observations |
 | Classic Tetris | Accepted Gemini 4 and DS V4.1 1017 evidence packages | Affiliated pilots with disclosed gaps; not independently reproduced creation |
 | Platformer / 3D racing | Merged method definitions, acceptance cards and authored pass/fault fixtures | Protocols still declare `proposed`; no accepted live creator results |
+| Web 3D creation suite v1 | Local candidate: six versioned browser methods, coverage catalog and submission-compatible policies | Five new methods plus unchanged racing v2; no full-game calibration or accepted suite results |
 | Measurement v0.2 | Merged evaluator metadata, timeout semantics and offline summaries | Summarizes declared claims, not independently verified gameplay |
 | Gameplay judge | Local development implementation and focused calibration | No held-out or full-game quality calibration; see version caveat below |
 
@@ -63,6 +64,16 @@ and separate review notes. No creator was called or historical Tetris score
 changed by this cohort. The cohort's raw records remain local; no public result
 export is included.
 
+The Web 3D candidate suite also has a separate local development pilot: six fresh
+Codex / `gpt-6.1-sol` / high creations delivered browser artifacts, followed by
+game-only evaluation contexts. This used temporary Harbor tasks and experimental
+local evaluator revisions, not a new public executable suite or working platform
+adapters. Tool-dispatch, input-timing and final-report timeout problems were found;
+affected sessions and corrected replays are retained separately. Sparse images
+also left dynamic checks incomplete. Raw records and the diagnostic report stay
+in ignored `jobs/` and `artifacts/web-3d-dev-20261102/`. This pilot does not satisfy
+the known-good/fault, unfamiliar-implementation or human-adjudication gates.
+
 ## Next acceptance gates
 
 1. Freeze a candidate evaluator; validate on unfamiliar implementations and
@@ -78,11 +89,12 @@ representative cross-game leaderboard is implemented.
 
 ## Validation history
 
-The latest runtime validation before this documentation revision passed 426 fast
-checks, 13 separate counter browser checks and eight derived-fixture parity
-checks; native Oracle/Nop scored 1/0 with no exceptions. Fast tests skipped 46
-browser checks. The 32 unchanged original gameplay regression checks were not
-repeated in that turn. These are local observations, not new remote CI results.
+The local 3D method revision passed **490 fast checks** (46 browser checks
+skipped), **13 separate counter browser checks**, and native Oracle/Nop at **1/0**
+with no exceptions. The 64 added fast checks cover method identity, submission
+compatibility, score gates and invalid-measurement semantics, not gameplay.
+The unchanged gameplay fixtures and prior judge cohort were not rerun for this
+method revision. These are local observations, not new remote CI results.
 
 [Dated validation snapshots](history/validation-log.md) retain prior counts,
 cost/score details, limitations and remote run links. Use that history for audit;

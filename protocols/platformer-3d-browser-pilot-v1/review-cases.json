@@ -1,0 +1,206 @@
+{
+  "kind": "hypothetical_review_cases_not_run_evidence",
+  "description": "Authored pass/fault examples for method review, not actual gameplay or judge calibration.",
+  "cases": [
+    {
+      "id": "ready-passed",
+      "criterion_id": "ready",
+      "observation": "User-controlled motion changes visible depth relationships; islands have height and an active start state.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ready-failed",
+      "criterion_id": "ready",
+      "observation": "Only a flat board, prerecorded fly-through or Start screen is shown.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "movement-passed",
+      "criterion_id": "movement",
+      "observation": "Inputs change world position along both axes and the player can stop on a platform.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "movement-failed",
+      "criterion_id": "movement",
+      "observation": "Walking animation plays while world position stays fixed, or one ground-plane axis cannot be traversed.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "camera-passed",
+      "criterion_id": "camera",
+      "observation": "Camera yaw changes the view while keeping the player and nearby route usable during movement.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "camera-failed",
+      "criterion_id": "camera",
+      "observation": "Camera controls do nothing, or turning leaves the character/route permanently hidden.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "jump-landing-passed",
+      "criterion_id": "jump-landing",
+      "observation": "Character rises, crosses a gap, lands stably and falls off an unsupported edge.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "jump-landing-failed",
+      "criterion_id": "jump-landing",
+      "observation": "Character floats across gaps without falling, falls through landings, or only a jump animation changes.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "solid-collision-passed",
+      "criterion_id": "solid-collision",
+      "observation": "The pillar and platform surfaces constrain the character; no traversal through visibly solid geometry occurs.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "solid-collision-failed",
+      "criterion_id": "solid-collision",
+      "observation": "Character walks through the pillar or enters a platform from its solid side without a valid landing.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "checkpoint-passed",
+      "criterion_id": "checkpoint",
+      "observation": "Before activation respawn is at start; afterward at checkpoint with the same collected count.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "checkpoint-failed",
+      "criterion_id": "checkpoint",
+      "observation": "Checkpoint glows but respawn remains at start, or a fall erases collected crystals contrary to the prompt.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "crystals-passed",
+      "criterion_id": "crystals",
+      "observation": "Each pickup increments once, disappears/becomes inert, and the count never exceeds three.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "crystals-failed",
+      "criterion_id": "crystals",
+      "observation": "Revisiting one crystal increments repeatedly, or the count rises without world pickups.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "goal-passed",
+      "criterion_id": "goal",
+      "observation": "Incomplete entry does not win; complete entry gives a distinct victory state.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "goal-failed",
+      "criterion_id": "goal",
+      "observation": "Goal wins with fewer than three, or never wins after a demonstrated complete collection.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "restart-passed",
+      "criterion_id": "restart",
+      "observation": "Fresh state and controls return; subsequent fall returns to the original start.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "restart-failed",
+      "criterion_id": "restart",
+      "observation": "Restart retains crystals, the activated checkpoint or the previous victory.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "still-image-only",
+      "criterion_id": "movement",
+      "observation": "Only an attractive still image and creator claim are supplied; no corresponding input/action sequence was captured.",
+      "expected": {
+        "status": "not_tested",
+        "score": 0,
+        "reason": "Static appearance cannot establish the required interaction."
+      }
+    },
+    {
+      "id": "lost-browser-input",
+      "criterion_id": "ready",
+      "observation": "The browser-control transport failed before the game could receive any ordinary input, and no artifact defect was established.",
+      "expected": {
+        "status": "infra_error",
+        "score": null,
+        "reason": "Evaluator infrastructure failure invalidates the measurement; it is not a game failure."
+      }
+    }
+  ]
+}

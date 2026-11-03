@@ -1,0 +1,206 @@
+{
+  "kind": "hypothetical_review_cases_not_run_evidence",
+  "description": "Authored pass/fault examples for method review, not actual gameplay or judge calibration.",
+  "cases": [
+    {
+      "id": "ready-passed",
+      "criterion_id": "ready",
+      "observation": "View-dependent depth and occlusion occur in a responsive explorable room.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ready-failed",
+      "criterion_id": "ready",
+      "observation": "A static room illustration with UI buttons substitutes for spatial exploration.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "navigation-passed",
+      "criterion_id": "navigation",
+      "observation": "Inputs change world position and the intended objects are reachable without teleport/debug actions.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "navigation-failed",
+      "criterion_id": "navigation",
+      "observation": "Walking animation occurs without movement, or necessary objects are unreachable.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "camera-passed",
+      "criterion_id": "camera",
+      "observation": "The view changes coherently and player-facing interactions remain usable.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "camera-failed",
+      "criterion_id": "camera",
+      "observation": "View controls fail or looking away still acts on unrelated off-screen objects.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "collision-passed",
+      "criterion_id": "collision",
+      "observation": "Solid geometry blocks penetration and ordinary route access still works.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "collision-failed",
+      "criterion_id": "collision",
+      "observation": "Walls are cosmetic and the player passes through them.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "item-pickup-passed",
+      "criterion_id": "item-pickup",
+      "observation": "Each key adds once, cannot be duplicated and remains recorded after moving away.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "item-pickup-failed",
+      "criterion_id": "item-pickup",
+      "observation": "Inventory increments without interaction or repeated collection duplicates a key.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "interaction-range-passed",
+      "criterion_id": "interaction-range",
+      "observation": "Far/occluded attempts leave inventory unchanged; nearby line-of-sight interaction succeeds.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "interaction-range-failed",
+      "criterion_id": "interaction-range",
+      "observation": "A global interact key collects a far or fully occluded item.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "lock-order-passed",
+      "criterion_id": "lock-order",
+      "observation": "Neither one key nor proximity alone bypasses the chest; the badge is obtained from opening it and required for the exit.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "lock-order-failed",
+      "criterion_id": "lock-order",
+      "observation": "Chest opens with one key, badge is pre-granted or exit ignores its badge condition.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "escape-passed",
+      "criterion_id": "escape",
+      "observation": "Opening alone is not a win; crossing the now-open exit produces the terminal state.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "escape-failed",
+      "criterion_id": "escape",
+      "observation": "Any interaction with the door declares victory before traversal, or crossing never ends the round.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "restart-passed",
+      "criterion_id": "restart",
+      "observation": "The new round restores all required locks and items and remains controllable.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "restart-failed",
+      "criterion_id": "restart",
+      "observation": "Badge/keys, an open chest/door or victory survives restart.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "still-image-only",
+      "criterion_id": "navigation",
+      "observation": "Only an attractive still image and creator claim are supplied; no corresponding input/action sequence was captured.",
+      "expected": {
+        "status": "not_tested",
+        "score": 0,
+        "reason": "Static appearance cannot establish the required interaction."
+      }
+    },
+    {
+      "id": "lost-browser-input",
+      "criterion_id": "ready",
+      "observation": "The browser-control transport failed before the game could receive any ordinary input, and no artifact defect was established.",
+      "expected": {
+        "status": "infra_error",
+        "score": null,
+        "reason": "Evaluator infrastructure failure invalidates the measurement; it is not a game failure."
+      }
+    }
+  ]
+}

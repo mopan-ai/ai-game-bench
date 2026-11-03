@@ -20,6 +20,7 @@ native execution, browser-observation protocols and evidence review.
 | Need | Read |
 | --- | --- |
 | Design or contribute a task | [Adding tasks](adding-tasks.md) |
+| Review six browser-based 3D creation tasks | [Web 3D suite v1](../protocols/web-3d-create-v1/README.md) |
 | Inspect platformer/racing method history | [Contributor method proposal](proposals/platformer-racing-pilot.md) |
 | Calibrate gameplay checks before a live pilot | [Acceptance cards and local pass/fault examples](../fixtures/calibration/gameplay-v1/README.md) |
 | Calibrate an independent gameplay evaluator | [Screenshot-only judge development cohort](judge-calibration.md) |

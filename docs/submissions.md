@@ -29,6 +29,10 @@ configuration, separate generation-timeout semantics and explicit-set summaries.
 See [measurement rules](measurement.md). They require method approval and fresh
 runs; never relabel historical submissions. Existing v0.1 workflows still work.
 
+The proposed [Web 3D suite v1](../protocols/web-3d-create-v1/README.md) uses the
+same v0.2 export contract. Select one task's pinned policy; its six-task catalog
+is not an executable batch runner or a single combined submission policy.
+
 `init` creates an unapproved draft with empty trajectories. It does not fabricate
 evidence, approve publication or connect a browser. Read the policy's limits.
 For agents, schemas are available without network calls:

@@ -1,0 +1,206 @@
+{
+  "kind": "hypothetical_review_cases_not_run_evidence",
+  "description": "Authored pass/fault examples for method review, not actual gameplay or judge calibration.",
+  "cases": [
+    {
+      "id": "ready-passed",
+      "criterion_id": "ready",
+      "observation": "The interactive scene and counters match the requested initial world.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ready-failed",
+      "criterion_id": "ready",
+      "observation": "Only a menu/list or static garden illustration is present, or initial resources/sites differ.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "camera-passed",
+      "criterion_id": "camera",
+      "observation": "Viewpoint changes with consistent object depth/occlusion and the garden stays usable.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "camera-failed",
+      "criterion_id": "camera",
+      "observation": "A flat image rotates without changing object depth or occlusion, or the orbit control does nothing.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "world-selection-passed",
+      "criterion_id": "world-selection",
+      "observation": "The clicked visible site, not a stale screen coordinate, receives the action at both views.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "world-selection-failed",
+      "criterion_id": "world-selection",
+      "observation": "After camera orbit the old screen coordinate affects a different plot or only a separate list can be used.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "placement-passed",
+      "criterion_id": "placement",
+      "observation": "Valid placement creates exactly one pot; blocked/occupied attempts do not add a pot or charge coins.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "placement-failed",
+      "criterion_id": "placement",
+      "observation": "Pots overlap, can be put on the rock or a rejected action spends money.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "economy-passed",
+      "criterion_id": "economy",
+      "observation": "Purchases cost exactly two, insufficient funds reject, each valid harvest adds exactly three and arithmetic stays nonnegative.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "economy-failed",
+      "criterion_id": "economy",
+      "observation": "Free/incorrectly priced pots, negative balance or unsupported rewards change the budget.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "growth-passed",
+      "criterion_id": "growth",
+      "observation": "No water means no growth; watered seed matures in the observed interval, cannot be harvested early and extra water does not instantly mature it.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "growth-failed",
+      "criterion_id": "growth",
+      "observation": "A dry/just-watered seed is harvestable, repeat water instantly matures it, or it never matures.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "harvest-passed",
+      "criterion_id": "harvest",
+      "observation": "One mature plant yields one reward, duplicates do nothing and the pot supports a fresh cycle.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "harvest-failed",
+      "criterion_id": "harvest",
+      "observation": "Repeated clicks repeatedly reward an empty pot or the pot cannot be used again.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "complete-passed",
+      "criterion_id": "complete",
+      "observation": "Only two supported harvests finish; completed-round operations are disabled or inert until restart.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "complete-failed",
+      "criterion_id": "complete",
+      "observation": "Completion is early/absent or economic operations continue to change the finished round.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "restart-passed",
+      "criterion_id": "restart",
+      "observation": "Initial state persists without old timers creating rewards/plants, and a fresh two-coin purchase works.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "restart-failed",
+      "criterion_id": "restart",
+      "observation": "Old growth/rewards fire after reset, pots persist or resources/completion remain stale.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "still-image-only",
+      "criterion_id": "world-selection",
+      "observation": "Only an attractive still image and creator claim are supplied; no corresponding input/action sequence was captured.",
+      "expected": {
+        "status": "not_tested",
+        "score": 0,
+        "reason": "Static appearance cannot establish the required interaction."
+      }
+    },
+    {
+      "id": "lost-browser-input",
+      "criterion_id": "ready",
+      "observation": "The browser-control transport failed before the game could receive any ordinary input, and no artifact defect was established.",
+      "expected": {
+        "status": "infra_error",
+        "score": null,
+        "reason": "Evaluator infrastructure failure invalidates the measurement; it is not a game failure."
+      }
+    }
+  ]
+}

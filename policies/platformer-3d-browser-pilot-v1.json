@@ -1,0 +1,163 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "platformer-3d-browser-pilot-v1",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "platformer-3d-browser-pilot-v1",
+    "version": "0.1.0",
+    "instruction_sha256": "787f7858548d9eef0d3dde2da3c876fb1f4186e82ee05ca3338dff63379c7264",
+    "rubric_sha256": "0b344c6ead83ef2c817c2266380571f7a47616a7b5f83c1fc43d9015891db979",
+    "verifier_sha256": "67da5a31bc10fbcdf20e964d51d544a4d8418d03c16127c58130dd74a2594c37"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Interactive three-dimensional island scene",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Movement across both ground-plane axes",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "camera",
+      "description": "Controllable third-person view and visible landing route",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "jump-landing",
+      "description": "Controllable jump, fall and stable elevated landing",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "solid-collision",
+      "description": "Platforms and a solid obstacle block penetration",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "checkpoint",
+      "description": "Checkpoint changes respawn while preserving collection state",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "crystals",
+      "description": "Three world collectibles increment once each",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "goal",
+      "description": "Goal rejects incomplete collection and accepts a complete route",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Full restart clears checkpoints, pickups and victory",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Character silhouette, landing edges, height/depth, crystals, checkpoint and counter remain legible while moving.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Visible movement, jump, camera and restart instructions match tested input; collectible and goal requirements are discoverable.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Jump/landing, crystal pickup, checkpoint activation, insufficient goal and victory have distinguishable visible feedback.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Bright low-poly toy style is coherent across the playable islands, character and result; depth cues and essential UI remain clear at both viewports.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "movement",
+      "jump-landing",
+      "checkpoint",
+      "goal"
+    ]
+  },
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "movement",
+      "camera",
+      "jump-landing",
+      "solid-collision",
+      "checkpoint",
+      "crystals",
+      "goal",
+      "restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  },
+  "limitations": [
+    "Proposed engine-agnostic browser method; no maintainer acceptance or calibrated live-game judge is claimed.",
+    "Data-only protocol, not an executable Harbor task, creator adapter or automated recorder.",
+    "Evidence structure/arithmetic does not establish observation truth or authentic provenance.",
+    "Visible 3D behavior is assessed, not source-level engine implementation, exact physics or measured FPS.",
+    "Remote URLs can change; model labels and sampled delivery times are observations, not backend attestations.",
+    "Non-blind evaluation, platform defaults, missing data and all interventions must be disclosed.",
+    "Costs are reported separately; 60/10/30 totals are not historical Tetris scores or proof of equal task difficulty."
+  ]
+}

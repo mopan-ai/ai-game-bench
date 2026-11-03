@@ -1,0 +1,163 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "escape-3d-browser-pilot-v1",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "escape-3d-browser-pilot-v1",
+    "version": "0.1.0",
+    "instruction_sha256": "350cc4f947c624a5f683424f7d1f7d1610423cea7525fd60cdde0e77851248e5",
+    "rubric_sha256": "9954838dd0c072d411180768e32bba102a24a7228e09624b435147e98033ecdd",
+    "verifier_sha256": "67d796fa3ea6756623b544c26029d134811bede04893de11c368a26bf9578ded"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Interactive three-dimensional escape room",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "navigation",
+      "description": "World navigation on two axes reaches the intended objects",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "camera",
+      "description": "First-person view supports looking around and interaction",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "collision",
+      "description": "Walls, partition and furniture are physically blocking",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "item-pickup",
+      "description": "Distinct near-visible keys enter inventory once",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "interaction-range",
+      "description": "Pickup requires proximity and unobstructed sight",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "lock-order",
+      "description": "Chest needs both keys and exit needs the chest badge",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "escape",
+      "description": "Win follows physically traversing the unlocked exit",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart resets inventory, locks and escape state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Keys are color-distinguishable, near/far objects and solid boundaries are legible, and inventory/lock state can be read.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Move/look/interact/restart instructions, current objective and missing-key/badge feedback guide the full route.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Pickup, rejected interaction, chest opening, badge acquisition, door unlock and actual escape are visibly distinguishable.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Warm wood/metal room style and lighting are coherent and readable from multiple viewpoints; essential UI fits both viewports. Photorealism is not required.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "navigation",
+      "item-pickup",
+      "lock-order",
+      "escape"
+    ]
+  },
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "navigation",
+      "camera",
+      "collision",
+      "item-pickup",
+      "interaction-range",
+      "lock-order",
+      "escape",
+      "restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  },
+  "limitations": [
+    "Proposed engine-agnostic browser method; no maintainer acceptance or calibrated live-game judge is claimed.",
+    "Data-only protocol, not an executable Harbor task, creator adapter or automated recorder.",
+    "Evidence structure/arithmetic does not establish observation truth or authentic provenance.",
+    "Visible 3D behavior is assessed, not source-level engine implementation, exact physics or measured FPS.",
+    "Remote URLs can change; model labels and sampled delivery times are observations, not backend attestations.",
+    "Non-blind evaluation, platform defaults, missing data and all interventions must be disclosed.",
+    "Costs are reported separately; 60/10/30 totals are not historical Tetris scores or proof of equal task difficulty."
+  ]
+}

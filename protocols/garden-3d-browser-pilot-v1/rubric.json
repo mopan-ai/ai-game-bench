@@ -1,0 +1,105 @@
+{
+  "schema_version": "browser-rubric/0.1",
+  "verification": "manual_observation",
+  "total_max": 100,
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Playable 3D greenhouse with the declared initial state",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "camera",
+      "description": "Left/right orbit provides a usable spatial view",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "world-selection",
+      "description": "World picking matches the visible plot after view changes",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "placement",
+      "description": "Blocked and occupied placement are rejected without charge",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "economy",
+      "description": "Purchases and harvests conserve the specified resources",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "growth",
+      "description": "Water-gated real-time growth rejects early harvest",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "harvest",
+      "description": "Harvest is single-use and restores an empty reusable pot",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "complete",
+      "description": "Two valid harvests end the round and freeze operations",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart clears pots, timers, resources and completion",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Plot selection, rock/occupancy, the four plant stages, coins and harvest target are distinguishable across camera angles.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Camera/select/buy/seed/water/harvest/restart actions, prices and the two-harvest goal are visible and match tested behavior.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Valid/rejected placement, insufficient funds, watering/growth/readiness, harvest and completion have clear visible state cues.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Pastel miniature-greenhouse style is coherent across plants, pots, setting and UI; lighting/depth do not obscure selection; essential UI fits both viewports.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ]
+}
