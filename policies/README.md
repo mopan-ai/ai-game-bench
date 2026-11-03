@@ -39,3 +39,8 @@ their v1 prompts, criteria and weights, but distinguish generation timeout
 v0.2 manifests require evaluator configuration. These are method proposals,
 not authorization for live runs. [Rules and offline summaries](../docs/measurement.md).
 All v0.1 contracts, including their null timeout totals, remain unchanged.
+
+The [Web 3D suite v1](../protocols/web-3d-create-v1/README.md) adds five v0.2-policy
+browser methods and references the existing racing v2 policy unchanged. Its
+manifest pins each policy hash. Task versions and schema versions are separate:
+the new tasks start at 0.1.0 while exports use `public-submission/0.2`.

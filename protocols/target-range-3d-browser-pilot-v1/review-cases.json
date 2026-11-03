@@ -1,0 +1,206 @@
+{
+  "kind": "hypothetical_review_cases_not_run_evidence",
+  "description": "Authored pass/fault examples for method review, not actual gameplay or judge calibration.",
+  "cases": [
+    {
+      "id": "ready-passed",
+      "criterion_id": "ready",
+      "observation": "A responsive first-person scene shows changing depth/occlusion and three distinct targets.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ready-failed",
+      "criterion_id": "ready",
+      "observation": "Only a flat shooting gallery or prerecorded background is shown.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "movement-passed",
+      "criterion_id": "movement",
+      "observation": "World position changes on both axes, solid wall blocks passage and side access is possible.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "movement-failed",
+      "criterion_id": "movement",
+      "observation": "Player crosses the wall or input changes only a UI animation.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "aim-passed",
+      "criterion_id": "aim",
+      "observation": "View/crosshair changes aim, empty-space shots miss and an aimed visible shot can hit.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "aim-failed",
+      "criterion_id": "aim",
+      "observation": "Every shot hits regardless of aim, or aim input moves a crosshair without a corresponding usable view.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "occlusion-passed",
+      "criterion_id": "occlusion",
+      "observation": "Fully occluded shots do not score, but a later exposed aimed shot hits the same target.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "occlusion-failed",
+      "criterion_id": "occlusion",
+      "observation": "The wall blocks appearance but shots pass through it and score.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "hits-passed",
+      "criterion_id": "hits",
+      "observation": "Three distinct hits each count once; repeats do not count; the moving target can be hit in motion.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "hits-failed",
+      "criterion_id": "hits",
+      "observation": "Repeated shots on one target inflate the count or the moving target is an untargetable animation.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "ammo-passed",
+      "criterion_id": "ammo",
+      "observation": "Each actual shot consumes one of six rounds and empty attempts cannot fire.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ammo-failed",
+      "criterion_id": "ammo",
+      "observation": "Ammo is cosmetic, decrements incorrectly or firing continues at zero.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "reload-passed",
+      "criterion_id": "reload",
+      "observation": "Reload has a visible interval, no firing during it, then returns to six and permits shots.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "reload-failed",
+      "criterion_id": "reload",
+      "observation": "Reload instantly replenishes, never completes, or allows shots during the reload interval.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "complete-passed",
+      "criterion_id": "complete",
+      "observation": "Victory appears only after all three distinct targets were demonstrated hit.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "complete-failed",
+      "criterion_id": "complete",
+      "observation": "Victory appears early, from duplicate hits, or not after all three.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "restart-passed",
+      "criterion_id": "restart",
+      "observation": "All initial state returns and the new round is playable.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "restart-failed",
+      "criterion_id": "restart",
+      "observation": "A target stays destroyed, the magazine/hit count is stale or victory persists.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "still-image-only",
+      "criterion_id": "aim",
+      "observation": "Only an attractive still image and creator claim are supplied; no corresponding input/action sequence was captured.",
+      "expected": {
+        "status": "not_tested",
+        "score": 0,
+        "reason": "Static appearance cannot establish the required interaction."
+      }
+    },
+    {
+      "id": "lost-browser-input",
+      "criterion_id": "ready",
+      "observation": "The browser-control transport failed before the game could receive any ordinary input, and no artifact defect was established.",
+      "expected": {
+        "status": "infra_error",
+        "score": null,
+        "reason": "Evaluator infrastructure failure invalidates the measurement; it is not a game failure."
+      }
+    }
+  ]
+}

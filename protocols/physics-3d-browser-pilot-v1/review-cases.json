@@ -1,0 +1,206 @@
+{
+  "kind": "hypothetical_review_cases_not_run_evidence",
+  "description": "Authored pass/fault examples for method review, not actual gameplay or judge calibration.",
+  "cases": [
+    {
+      "id": "ready-passed",
+      "criterion_id": "ready",
+      "observation": "Depth/height and puzzle components are visible and the ball responds to player control.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ready-failed",
+      "criterion_id": "ready",
+      "observation": "A decorative 3D screenshot or static board has no interactive spatial scene.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "movement-passed",
+      "criterion_id": "movement",
+      "observation": "Each direction produces the corresponding controllable displacement.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "movement-failed",
+      "criterion_id": "movement",
+      "observation": "Only the ball texture/HUD animates, or motion is limited to one axis.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "inertia-passed",
+      "criterion_id": "inertia",
+      "observation": "The released ball continues briefly and its displacement per equal interval decreases.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "inertia-failed",
+      "criterion_id": "inertia",
+      "observation": "The ball stops instantly on release or maintains constant motion indefinitely on the flat.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "solid-contacts-passed",
+      "criterion_id": "solid-contacts",
+      "observation": "Ball and crate remain supported/constrained and the closed gate blocks exit access.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "solid-contacts-failed",
+      "criterion_id": "solid-contacts",
+      "observation": "Either object passes through a solid wall/floor, or the ball crosses a closed gate.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "ramp-height-passed",
+      "criterion_id": "ramp-height",
+      "observation": "Ball follows the continuous ramp to a distinct elevated surface and can return.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "ramp-height-failed",
+      "criterion_id": "ramp-height",
+      "observation": "A textured ramp is decorative: the ball stays at ground height or clips through it.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "crate-push-passed",
+      "criterion_id": "crate-push",
+      "observation": "Crate displacement follows ball contact, can be changed from different sides and is retained afterward.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "crate-push-failed",
+      "criterion_id": "crate-push",
+      "observation": "The crate teleports on a button, is immovable, or moves without contact.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "plate-gate-passed",
+      "criterion_id": "plate-gate",
+      "observation": "Only crate occupancy opens the gate; removal closes it; replacing the crate opens it again.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "plate-gate-failed",
+      "criterion_id": "plate-gate",
+      "observation": "Any plate contact opens it permanently, or the ball alone activates it.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "goal-passed",
+      "criterion_id": "goal",
+      "observation": "Victory follows the demonstrated open-gate traversal and exit entry.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "goal-failed",
+      "criterion_id": "goal",
+      "observation": "A button or plate contact alone declares victory, or traversing the exit never finishes.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "restart-passed",
+      "criterion_id": "restart",
+      "observation": "Both restarts restore initial puzzle state and responsive control.",
+      "expected": {
+        "status": "passed",
+        "score": 10,
+        "reason": "Hypothetical complete observable behavior."
+      }
+    },
+    {
+      "id": "restart-failed",
+      "criterion_id": "restart",
+      "observation": "One restart route is absent or retains an open gate, moved crate or terminal state.",
+      "expected": {
+        "status": "failed",
+        "score": 0,
+        "reason": "Hypothetical contradiction of an explicit requirement."
+      }
+    },
+    {
+      "id": "still-image-only",
+      "criterion_id": "movement",
+      "observation": "Only an attractive still image and creator claim are supplied; no corresponding input/action sequence was captured.",
+      "expected": {
+        "status": "not_tested",
+        "score": 0,
+        "reason": "Static appearance cannot establish the required interaction."
+      }
+    },
+    {
+      "id": "lost-browser-input",
+      "criterion_id": "ready",
+      "observation": "The browser-control transport failed before the game could receive any ordinary input, and no artifact defect was established.",
+      "expected": {
+        "status": "infra_error",
+        "score": null,
+        "reason": "Evaluator infrastructure failure invalidates the measurement; it is not a game failure."
+      }
+    }
+  ]
+}

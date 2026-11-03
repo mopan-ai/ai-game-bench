@@ -81,6 +81,7 @@ and browser images. Harbor owns runs and local `jobs/`. [Runbook](docs/running.m
 | [Classic Tetris](protocols/tetris-browser-pilot-v1/evaluation.md) | Browser observation and evidence protocol; no automatic creator or calibrated game judge |
 | [2D platformer](protocols/platformer-browser-pilot-v2/evaluation.md) | Versioned browser-method proposal and pass/fault fixtures; live creator pilot still gated |
 | [3D racing](protocols/racing-3d-browser-pilot-v2/evaluation.md) | Versioned browser-method proposal and pass/fault fixtures; live creator pilot still gated |
+| [Web 3D suite v1](protocols/web-3d-create-v1/README.md) | Six engine-agnostic game contracts: racing, platformer, physics, target range, escape and simulation; local development/calibration gates before formal comparisons |
 
 Choose a task and freeze its policy before recording. Keep creation evidence
 separate from evaluation, and preserve failures, gaps and unknown values.

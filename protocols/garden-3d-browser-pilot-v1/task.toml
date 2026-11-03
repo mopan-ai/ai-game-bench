@@ -1,0 +1,7 @@
+[task]
+name = "garden-3d"
+version = "0.1.0"
+
+[protocol]
+mode = "browser_observation"
+status = "proposed"

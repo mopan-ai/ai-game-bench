@@ -1,0 +1,105 @@
+{
+  "schema_version": "browser-rubric/0.1",
+  "verification": "manual_observation",
+  "total_max": 100,
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Interactive three-dimensional escape room",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "navigation",
+      "description": "World navigation on two axes reaches the intended objects",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "camera",
+      "description": "First-person view supports looking around and interaction",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "collision",
+      "description": "Walls, partition and furniture are physically blocking",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "item-pickup",
+      "description": "Distinct near-visible keys enter inventory once",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "interaction-range",
+      "description": "Pickup requires proximity and unobstructed sight",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "lock-order",
+      "description": "Chest needs both keys and exit needs the chest badge",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "escape",
+      "description": "Win follows physically traversing the unlocked exit",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart resets inventory, locks and escape state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Keys are color-distinguishable, near/far objects and solid boundaries are legible, and inventory/lock state can be read.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Move/look/interact/restart instructions, current objective and missing-key/badge feedback guide the full route.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Pickup, rejected interaction, chest opening, badge acquisition, door unlock and actual escape are visibly distinguishable.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Warm wood/metal room style and lighting are coherent and readable from multiple viewpoints; essential UI fits both viewports. Photorealism is not required.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ]
+}

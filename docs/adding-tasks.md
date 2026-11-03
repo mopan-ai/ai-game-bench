@@ -79,3 +79,8 @@ For this manual track use a data-only package under `protocols/<version>/` with
 policy's `task.kind` to `browser_protocol`. These packages are deliberately not
 listed by `agb tasks` or executable by `agb run`. Test identity/arithmetic and
 document the manual gameplay-review gate; do not fake an Oracle gameplay pass.
+
+The [Web 3D suite v1](../protocols/web-3d-create-v1/README.md) is a collection of
+these packages with an engine-neutral coverage matrix and pinned policy catalog.
+Use its explicit actions and pass/fault examples as a task-authoring pattern,
+not as evidence that its new games or an AI judge have already been calibrated.

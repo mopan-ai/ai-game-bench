@@ -1,0 +1,105 @@
+{
+  "schema_version": "browser-rubric/0.1",
+  "verification": "manual_observation",
+  "total_max": 100,
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Interactive 3D tabletop with identifiable puzzle parts",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Ball moves on both ground-plane axes",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "inertia",
+      "description": "Release produces observable coast and slowing",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "solid-contacts",
+      "description": "Ball and crate respect floor, walls and closed gate",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "ramp-height",
+      "description": "Traversable ramp changes actual visible elevation",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "crate-push",
+      "description": "Physical contact moves the crate controllably",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "plate-gate",
+      "description": "Gate depends on continuing crate occupancy",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "goal",
+      "description": "Opened route leads to a genuine victory",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Loss and win restart restore all puzzle state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Ball, slope edges/heights, crate contact, pressure plate, gate state and exit are distinguishable during play.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Movement, plate condition, goal and loss/win restart controls are visible and match observed behavior.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Contact, plate on/off, gate open/closed, fall/loss and victory are visibly distinguishable.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Clean tabletop materials and scale are coherent, depth is legible and essential UI fits both viewports without obscuring the puzzle.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "garden-3d-browser-pilot-v1",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "garden-3d-browser-pilot-v1",
+    "version": "0.1.0",
+    "instruction_sha256": "9661ead03d4a4a8cef3ef925c1593380856ad298f5d248952baf4b859a742acf",
+    "rubric_sha256": "6b8bbf640fabd2ff99d8130a3b1d2323ca68d1dab1c5863ba0b137b06c56fb3c",
+    "verifier_sha256": "799ee5f709c8f9d315e2201fab86a6a561d298d15b92b81c5ccbbe05e1cd6a0d"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Playable 3D greenhouse with the declared initial state",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "camera",
+      "description": "Left/right orbit provides a usable spatial view",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "world-selection",
+      "description": "World picking matches the visible plot after view changes",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "placement",
+      "description": "Blocked and occupied placement are rejected without charge",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "economy",
+      "description": "Purchases and harvests conserve the specified resources",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "growth",
+      "description": "Water-gated real-time growth rejects early harvest",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "harvest",
+      "description": "Harvest is single-use and restores an empty reusable pot",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "complete",
+      "description": "Two valid harvests end the round and freeze operations",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Restart clears pots, timers, resources and completion",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Plot selection, rock/occupancy, the four plant stages, coins and harvest target are distinguishable across camera angles.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Camera/select/buy/seed/water/harvest/restart actions, prices and the two-harvest goal are visible and match tested behavior.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Valid/rejected placement, insufficient funds, watering/growth/readiness, harvest and completion have clear visible state cues.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Pastel miniature-greenhouse style is coherent across plants, pots, setting and UI; lighting/depth do not obscure selection; essential UI fits both viewports.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "world-selection",
+      "economy",
+      "growth",
+      "complete"
+    ]
+  },
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "camera",
+      "world-selection",
+      "placement",
+      "economy",
+      "growth",
+      "harvest",
+      "complete",
+      "restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  },
+  "limitations": [
+    "Proposed engine-agnostic browser method; no maintainer acceptance or calibrated live-game judge is claimed.",
+    "Data-only protocol, not an executable Harbor task, creator adapter or automated recorder.",
+    "Evidence structure/arithmetic does not establish observation truth or authentic provenance.",
+    "Visible 3D behavior is assessed, not source-level engine implementation, exact physics or measured FPS.",
+    "Remote URLs can change; model labels and sampled delivery times are observations, not backend attestations.",
+    "Non-blind evaluation, platform defaults, missing data and all interventions must be disclosed.",
+    "Costs are reported separately; 60/10/30 totals are not historical Tetris scores or proof of equal task difficulty."
+  ]
+}

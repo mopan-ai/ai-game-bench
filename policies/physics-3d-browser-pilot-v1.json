@@ -1,0 +1,163 @@
+{
+  "schema_version": "public-policy/0.2",
+  "id": "physics-3d-browser-pilot-v1",
+  "task": {
+    "kind": "browser_protocol",
+    "path": "physics-3d-browser-pilot-v1",
+    "version": "0.1.0",
+    "instruction_sha256": "bf43d4cf56403049a63d91f86f9f418d0b2e9d19dfb3b49e40a4f76f058afe29",
+    "rubric_sha256": "f9adfeebf0033e496a08eba35e9c1fccc83ee9666648dad66ee093456a349d14",
+    "verifier_sha256": "22a42f9c5d2730d13179bef4ba57f264e4b46f2d5bc8f184cc32d45d96cc6893"
+  },
+  "prompt_mode": "full_instruction",
+  "attempt_limit": 1,
+  "timeout_seconds": 3600,
+  "allow_followups": true,
+  "allow_repairs": false,
+  "artifact_kinds": [
+    "public_url"
+  ],
+  "criteria": [
+    {
+      "id": "ready",
+      "description": "Interactive 3D tabletop with identifiable puzzle parts",
+      "max_score": 10,
+      "weight": 4,
+      "allow_partial": false
+    },
+    {
+      "id": "movement",
+      "description": "Ball moves on both ground-plane axes",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "inertia",
+      "description": "Release produces observable coast and slowing",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "solid-contacts",
+      "description": "Ball and crate respect floor, walls and closed gate",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "ramp-height",
+      "description": "Traversable ramp changes actual visible elevation",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "crate-push",
+      "description": "Physical contact moves the crate controllably",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "plate-gate",
+      "description": "Gate depends on continuing crate occupancy",
+      "max_score": 10,
+      "weight": 8,
+      "allow_partial": false
+    },
+    {
+      "id": "goal",
+      "description": "Opened route leads to a genuine victory",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "restart",
+      "description": "Loss and win restart restore all puzzle state",
+      "max_score": 10,
+      "weight": 6,
+      "allow_partial": false
+    },
+    {
+      "id": "readability",
+      "description": "Ball, slope edges/heights, crate contact, pressure plate, gate state and exit are distinguishable during play.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "guidance",
+      "description": "Movement, plate condition, goal and loss/win restart controls are visible and match observed behavior.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "feedback",
+      "description": "Contact, plate on/off, gate open/closed, fall/loss and victory are visibly distinguishable.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "presentation",
+      "description": "Clean tabletop materials and scale are coherent, depth is legible and essential UI fits both viewports without obscuring the puzzle.",
+      "max_score": 10,
+      "weight": 2.5,
+      "allow_partial": true
+    },
+    {
+      "id": "delivery-time",
+      "description": "Observed delivery duration gated by demonstrated main-loop gameplay",
+      "max_score": 10,
+      "weight": 30,
+      "allow_partial": true
+    }
+  ],
+  "total_max": 100,
+  "time_score": {
+    "criterion_id": "delivery-time",
+    "full_credit_seconds": 300,
+    "required_passes": [
+      "ready",
+      "movement",
+      "crate-push",
+      "plate-gate",
+      "goal"
+    ]
+  },
+  "measurement": {
+    "core_criteria": [
+      "ready",
+      "movement",
+      "inertia",
+      "solid-contacts",
+      "ramp-height",
+      "crate-push",
+      "plate-gate",
+      "goal",
+      "restart"
+    ],
+    "allowed_access": [
+      "visible_ui",
+      "screenshot_only"
+    ],
+    "evaluation_budget_seconds": 1800,
+    "session_limit": 6,
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "clock": "realtime"
+  },
+  "limitations": [
+    "Proposed engine-agnostic browser method; no maintainer acceptance or calibrated live-game judge is claimed.",
+    "Data-only protocol, not an executable Harbor task, creator adapter or automated recorder.",
+    "Evidence structure/arithmetic does not establish observation truth or authentic provenance.",
+    "Visible 3D behavior is assessed, not source-level engine implementation, exact physics or measured FPS.",
+    "Remote URLs can change; model labels and sampled delivery times are observations, not backend attestations.",
+    "Non-blind evaluation, platform defaults, missing data and all interventions must be disclosed.",
+    "Costs are reported separately; 60/10/30 totals are not historical Tetris scores or proof of equal task difficulty."
+  ]
+}

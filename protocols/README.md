@@ -9,6 +9,12 @@ A file in `policies/` pins those bytes. The public submission validator checks
 records, references and arithmetic; a maintainer must still inspect the evidence.
 No submitted game or script is executed by this lane.
 
+The [Web 3D suite v1](web-3d-create-v1/README.md) catalogs six engine-agnostic
+creation tasks with exact policy hashes, instructions, rubrics, acceptance steps
+and hypothetical pass/fault examples. It reuses racing v2 unchanged and adds
+platformer, physics, target-range, escape and simulation methods. These are
+method candidates; full gameplay calibration and live comparisons remain gated.
+
 - [Classic Tetris pilot v1](tetris-browser-pilot-v1/evaluation.md): one fresh
   browser creation, normal player input, nine core checks and four UX checks.
   This is a new pilot scale, not comparable to historical website scores.

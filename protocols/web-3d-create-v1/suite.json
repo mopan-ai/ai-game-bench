@@ -1,0 +1,107 @@
+{
+  "schema_version": "browser-suite/0.1",
+  "id": "web-3d-create-v1",
+  "status": "proposed",
+  "version": "0.1.0",
+  "language": "zh",
+  "execution": "browser_observation",
+  "engine_constraint": null,
+  "aggregation": "per_task_only",
+  "tasks": [
+    {
+      "policy_id": "racing-3d-browser-pilot-v2",
+      "policy_sha256": "8fe39ac88828e94bbc10003be48c93afaaf4b9f90bd4b6bcdd3d3a9c14382a60",
+      "name": "Timed 3D circuit",
+      "genre": "racing",
+      "visual_style": "original low-poly",
+      "capabilities": [
+        "vehicle-control",
+        "follow-camera",
+        "track-boundaries",
+        "checkpoint-order",
+        "timed-finish"
+      ],
+      "method_status": "proposed"
+    },
+    {
+      "policy_id": "platformer-3d-browser-pilot-v1",
+      "policy_sha256": "f3357c73f4bd468f71d3f861e1f5fe71fb22c26c26ac1e403399f913da25c54c",
+      "name": "Floating-island platformer",
+      "genre": "platformer",
+      "visual_style": "bright toy-like low-poly",
+      "capabilities": [
+        "depth-and-height",
+        "third-person-camera",
+        "jump-and-landing",
+        "collision",
+        "checkpoint-state"
+      ],
+      "method_status": "proposed"
+    },
+    {
+      "policy_id": "physics-3d-browser-pilot-v1",
+      "policy_sha256": "60a79019f53e9df06b424aa36d240c7dab4965d5ec262379e60dc73cf8b95925",
+      "name": "Marble-and-crate puzzle",
+      "genre": "physics-puzzle",
+      "visual_style": "clean tabletop diorama",
+      "capabilities": [
+        "inertia",
+        "height-and-ramp",
+        "solid-contacts",
+        "object-interaction",
+        "continuous-state-condition"
+      ],
+      "method_status": "proposed"
+    },
+    {
+      "policy_id": "target-range-3d-browser-pilot-v1",
+      "policy_sha256": "ae3308b98db564fe79290614db56051c20ff8da052bc3609d7abb8b61b23213d",
+      "name": "Robot target range",
+      "genre": "target-shooter",
+      "visual_style": "original neon training arena",
+      "capabilities": [
+        "first-person-view",
+        "aim-and-depth",
+        "occlusion",
+        "hit-registration",
+        "ammo-state"
+      ],
+      "method_status": "proposed"
+    },
+    {
+      "policy_id": "escape-3d-browser-pilot-v1",
+      "policy_sha256": "bc151e0604a6e467c29d162edb736b0405da10901043a3080c3da1c3e487eefe",
+      "name": "Two-key room escape",
+      "genre": "exploration-puzzle",
+      "visual_style": "warm stylized wood-and-metal room",
+      "capabilities": [
+        "camera-and-navigation",
+        "occlusion",
+        "interaction-range",
+        "inventory",
+        "ordered-state-transitions"
+      ],
+      "method_status": "proposed"
+    },
+    {
+      "policy_id": "garden-3d-browser-pilot-v1",
+      "policy_sha256": "2cb997535c607d211b010b226d0325d7af45e71de496046b07827f6ad67c94a4",
+      "name": "Small 3D greenhouse",
+      "genre": "simulation-management",
+      "visual_style": "pastel miniature greenhouse",
+      "capabilities": [
+        "orbit-camera",
+        "screen-to-world-selection",
+        "placement",
+        "resource-accounting",
+        "timed-lifecycle"
+      ],
+      "method_status": "proposed"
+    }
+  ],
+  "limitations": [
+    "Coverage-selected six-task seed suite, not representative of all 3D games.",
+    "No creator run, held-out evaluator calibration or method acceptance is implied.",
+    "Manifest catalogs existing task policies; it is not an executable runner configuration."
+  ]
+}
