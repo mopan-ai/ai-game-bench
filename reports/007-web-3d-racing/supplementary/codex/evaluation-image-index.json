@@ -1,0 +1,653 @@
+[
+  {
+    "event_id": "frame-00001",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00002",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00003",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00004",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00005",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": "frames/frame-00005.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00006",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00007",
+    "source_sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+    "bytes": 361336,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00008",
+    "source_sha256": "f534ca595681f240ce3781fed735dd1711e7c9bc6738ea9ccac10c4c6e7d79cc",
+    "bytes": 335280,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00009",
+    "source_sha256": "8b6b17f9b52b896a5a045bfd25deab994e5b4d0e784663713decaa0456f47e99",
+    "bytes": 328222,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00010",
+    "source_sha256": "0a378027fa157cd654b0b0820dcc6837ff1fc1a1d7fb8b9e03d69fb55509f9cd",
+    "bytes": 327798,
+    "path": "frames/frame-00010.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00011",
+    "source_sha256": "3c3030ba46168bcd058f7722837cfea1ecb1354dcdac672eee1a1e7f148fff32",
+    "bytes": 298929,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00012",
+    "source_sha256": "5c2770b47e4ff6727ac2d792d155e0cdc255bc0142208a4233c27fa0f239e10f",
+    "bytes": 299132,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00013",
+    "source_sha256": "5c2770b47e4ff6727ac2d792d155e0cdc255bc0142208a4233c27fa0f239e10f",
+    "bytes": 299132,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00014",
+    "source_sha256": "48e83704db33fabe6bf6409be0b9585ebb730e0007cc945ed2dfffc936532066",
+    "bytes": 289130,
+    "path": "frames/frame-00014.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00015",
+    "source_sha256": "d74ff31ce19fcdd17666daba8ce66505c897bf43895408b6ac8137e5d66aa441",
+    "bytes": 287124,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00016",
+    "source_sha256": "5b1d51b000547505890432c0e1a1b145acb308d4e06a30d280a43399baa35612",
+    "bytes": 324484,
+    "path": "frames/frame-00016.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00017",
+    "source_sha256": "37b3be1944135150c5a9bffdd98f48a8664f1b1dd46ca33bdece519ffe2f4f19",
+    "bytes": 354896,
+    "path": "frames/frame-00017.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00018",
+    "source_sha256": "a0d90f15778a83027be61a307021e931f1fba0b209ae8726510e1aa30d210c9d",
+    "bytes": 269868,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00019",
+    "source_sha256": "7a5ac36b2a74a4902693556382b82b218f834c883c734f08b9c1c0bc28d81eee",
+    "bytes": 291919,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00020",
+    "source_sha256": "40d49d405abe4421ea559dfe8b29dfa18f43a423318dd391071a984a92165af1",
+    "bytes": 286208,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00021",
+    "source_sha256": "e8919c62d0bb3cf0f7d160890e65c6710b0770a88f2c4ed43d9e234f26ed3bee",
+    "bytes": 310493,
+    "path": "frames/frame-00021.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00022",
+    "source_sha256": "a72cccc72807670f4d4f651e2446b6cf44daaed38dcf3d660a6b658216cf1646",
+    "bytes": 296743,
+    "path": "frames/frame-00022.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00023",
+    "source_sha256": "c5023d6210e5dc7f37c38f3e3c18b66ceaace6bd70571e9dfddeeaa1c48608ca",
+    "bytes": 299902,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00024",
+    "source_sha256": "18dcf5b87d3192cbb91446a9dffccae25487c4127cad9c9683d266caf1a4b29e",
+    "bytes": 280343,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00025",
+    "source_sha256": "92aeee35e68ea5489befdb763846762afa1f62a056fd1f4a9e2efd69bb25de5c",
+    "bytes": 296015,
+    "path": "frames/frame-00025.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00026",
+    "source_sha256": "dd374a8706033dbe9480a28f4b6928ff74e24dd5c1171868600a4b5c535f1255",
+    "bytes": 292643,
+    "path": "frames/frame-00026.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00027",
+    "source_sha256": "646ee49c4672ef64a157a59367a4db07879963e72379a05b93000e75cb169905",
+    "bytes": 248756,
+    "path": "frames/frame-00027.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00028",
+    "source_sha256": "da89d600740a879e6e16205ec375dfc94f3b530590c1f2e295c8836a7a5c037c",
+    "bytes": 304899,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00029",
+    "source_sha256": "66b44bde4e40b98660f01db0af3b0a653736e02cac0bd28c69111bc1c1db65a6",
+    "bytes": 315392,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00030",
+    "source_sha256": "43eabe1909134627f0db6843219a3adbb7991cc29e2f4aac90c8fcb7f387a57a",
+    "bytes": 236386,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00031",
+    "source_sha256": "a97de98a3b130c2080efc08d6ca59353b2fcf4901f816b0668efdfb489b7089f",
+    "bytes": 269525,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00032",
+    "source_sha256": "3e50b6193491b95a19250e4ad393cbad5ce2339e76781dec656d99ddb7a13d80",
+    "bytes": 303440,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00033",
+    "source_sha256": "6b1ff2af0c7c6e09b01f354fbdb6d05ae0e72c517db8ec3c9c4de5de57b6d48c",
+    "bytes": 267932,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00034",
+    "source_sha256": "3ccac17a2f881b7f9376850eb208e2fd5cbda2a2cdb41e3c114ccf6a01aee4ab",
+    "bytes": 279960,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00035",
+    "source_sha256": "9af2c19797a6e0f593b935847a4609d111418a947ad87e642b7233ff71659146",
+    "bytes": 278865,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00036",
+    "source_sha256": "9af2c19797a6e0f593b935847a4609d111418a947ad87e642b7233ff71659146",
+    "bytes": 278865,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00037",
+    "source_sha256": "9af2c19797a6e0f593b935847a4609d111418a947ad87e642b7233ff71659146",
+    "bytes": 278865,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00038",
+    "source_sha256": "d0378d095813c41ce04fda6e23541e92abeb3acf801f1d3e91ce7b6987e7345e",
+    "bytes": 84463,
+    "path": "frames/frame-00038.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00039",
+    "source_sha256": "7578f17eda809abf6f722354ba7059b2886dc90f6aa274e7a27bdbb41f2f9228",
+    "bytes": 82990,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00040",
+    "source_sha256": "c238ebc60dffddc83aed76bc90fb5c581e82cf6c0124fb1057c82edd0520565c",
+    "bytes": 286873,
+    "path": "frames/frame-00040.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00041",
+    "source_sha256": "76182288d17ac472dc5f4ef8857e1917ef78b5e02e70a8a1cbf5ac0d4eb5c46d",
+    "bytes": 278876,
+    "path": "frames/frame-00041.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00042",
+    "source_sha256": "d0449bce59857547370005312a13a898fd80fb2cb98016db3756307e34a7e12a",
+    "bytes": 336034,
+    "path": "frames/frame-00042.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00043",
+    "source_sha256": "568506bd569887c3c6c2795143a93e788393d0ae81f5b4893412101bb4bdd653",
+    "bytes": 328533,
+    "path": "frames/frame-00043.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00044",
+    "source_sha256": "97bf91cfee50c59ae8392a1cc650258874fa4ecffe89d01a3be8be8133de20fc",
+    "bytes": 76035,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00045",
+    "source_sha256": "bd3a34fc02f778b723e9b46aac3d1819d44e7ddf3adfd119196220a47de27ce1",
+    "bytes": 116740,
+    "path": "frames/frame-00045.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00046",
+    "source_sha256": "149ed6f9f41e4e79d87246c30d94907677708d0c2aad45db4a15e28ac1964cb2",
+    "bytes": 117160,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00047",
+    "source_sha256": "62cd83c4853e9410b0b712958d2b2e8a4629c472b3f2d72d7c203cf312ed4811",
+    "bytes": 266318,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00048",
+    "source_sha256": "d1d3ec179e33bcfaf55e90c7a8fa656dfcab4dd702609dc3fc3acdce55c0578b",
+    "bytes": 277840,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00049",
+    "source_sha256": "91a1482480b7e41cf3e1314ca5af20bd48ba06eb7551a9740f4add7973ae0895",
+    "bytes": 277929,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00050",
+    "source_sha256": "3bfe47c76697a1cd6c1f7c499d3000d3e2b11d66ec4fd2ae61d15ddf3228e287",
+    "bytes": 292825,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00051",
+    "source_sha256": "cee839d316eac280f0c8e566d78f07cda8f50e59e9d967242c916c3c2ed5032d",
+    "bytes": 277501,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00052",
+    "source_sha256": "b0d9c596dbc6d869c910b32abac83d161149ecc032c03d883fb1bc319812e4f4",
+    "bytes": 277723,
+    "path": "frames/frame-00052.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00053",
+    "source_sha256": "05873ee882cc0475bcaad6bfdde3393715c31c5679308157b45b17405a3519ba",
+    "bytes": 280074,
+    "path": "frames/frame-00053.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00054",
+    "source_sha256": "e89f545aa176e666af27b47208383ef519c8cd7ca384db98b098037325368b39",
+    "bytes": 303699,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00055",
+    "source_sha256": "4eb2c885bfd991b30d54c55cfcf586b7c6ecd35c2baaef0589b0d0fe8ecfe4b2",
+    "bytes": 363095,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00056",
+    "source_sha256": "eda48237317deab411b3868cdb213d0cad911237e4263de06c8aecbc355eebdc",
+    "bytes": 277603,
+    "path": "frames/frame-00056.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00057",
+    "source_sha256": "d74ab24208a550cae5e62c7d9516a68170a49a60b4b91cc81d88616a76547777",
+    "bytes": 277773,
+    "path": "frames/frame-00057.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00058",
+    "source_sha256": "0296c46cdbf15759f7589377a79c679b46e2665db554682534aa0a601265bfe8",
+    "bytes": 330266,
+    "path": "frames/frame-00058.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00059",
+    "source_sha256": "9aac31e6dcd69611ff356baf57710cd035c750ebf1163c6e01786eda8a90eb9a",
+    "bytes": 250133,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00060",
+    "source_sha256": "63cae86041854d70f84cee36b4853eb03d3ac77b1692042c38e763159a73d73a",
+    "bytes": 323238,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00061",
+    "source_sha256": "370508fe5bbb28bd44f0bcb5fe9b91cc744063e29a07407865495b3c076a31f6",
+    "bytes": 313629,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00062",
+    "source_sha256": "0295a620cb344c233749f8f53baecf638cd2591dd4a4e670f5466ce2ea231977",
+    "bytes": 314615,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00063",
+    "source_sha256": "80814494469f92e3bfb7f8f856eb50ba6523377ef4375ba8915a49168e135473",
+    "bytes": 285011,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00064",
+    "source_sha256": "ec03a713701606e83b04081b1561c9efaa2984a5f55ca61c58f83ef49bf6041d",
+    "bytes": 242020,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00065",
+    "source_sha256": "d9440c6d6ff4a4016b5bd635044c4714e1a49abb14afdf74a00fc5edd6dcf6b8",
+    "bytes": 260082,
+    "path": "frames/frame-00065.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00066",
+    "source_sha256": "9f949d7d78c5f537888886cd79be4e8fdc50d8b06cac39a3991f1f2db9e1a778",
+    "bytes": 313109,
+    "path": "frames/frame-00066.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00067",
+    "source_sha256": "af4fefcaa7f68d4a211ed107a01c81ab4a039cb382343fdcd7e2a9622ea63d86",
+    "bytes": 278901,
+    "path": "frames/frame-00067.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00068",
+    "source_sha256": "fc61e6f2925145d93acbffd225bf2a163fd5d2399e4893298bed7362d3329de1",
+    "bytes": 275770,
+    "path": "frames/frame-00068.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00069",
+    "source_sha256": "789b90ed5ff348950e02f323b446c29bfa81317976e5cee6ea6c55b3d42faf57",
+    "bytes": 237455,
+    "path": "frames/frame-00069.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00070",
+    "source_sha256": "64d24bf42be652599c1320cf628c97dd3bf64e88c4a214f57daaa846cd7ab99d",
+    "bytes": 287133,
+    "path": "frames/frame-00070.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00071",
+    "source_sha256": "c0d10e974d3799f385a591e2c3c3c4309d5778f6d0d6255a85bd0053425237b8",
+    "bytes": 316717,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00072",
+    "source_sha256": "5726da63d90dfc8f99c5d21925f2c67fc43fe28f3e500329408fb24d68963c91",
+    "bytes": 313193,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00073",
+    "source_sha256": "a06d3de16864bf8882293df5915776e10a4ebb62ffdc7f29991cceff30fc46c3",
+    "bytes": 298623,
+    "path": "frames/frame-00073.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00074",
+    "source_sha256": "9cb76ebf006a16116a22b19899c8d0d159223058c417c76af5abf9f50bfd28ed",
+    "bytes": 227695,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00075",
+    "source_sha256": "32f15fa163ad39ed3b363304c9bea41d059957b9c017ea4827b68a0d4e1672d4",
+    "bytes": 258821,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00076",
+    "source_sha256": "62134fb6a5e30f82a97d63deed7e3689fd29d9f289583b00828f039b9da7f4b7",
+    "bytes": 295648,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00077",
+    "source_sha256": "807180d341df81668fb6de47061be64a604494ea64bdbd20fdb16c1e1d80e4ac",
+    "bytes": 261823,
+    "path": "frames/frame-00077.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00078",
+    "source_sha256": "90d34307b8113df30034a03416321619749c89912e59cc17a9c3b5e0b8482180",
+    "bytes": 270285,
+    "path": "frames/frame-00078.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00079",
+    "source_sha256": "dc73c8641151405a5699d818d0e6fba3c3e348a33108b67c3a78a00430e2314f",
+    "bytes": 280567,
+    "path": "frames/frame-00079.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00080",
+    "source_sha256": "0784057da365cafd374c95f592aa78eca96911ab0c2ddf20e09b4cc412ed486e",
+    "bytes": 256116,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00081",
+    "source_sha256": "6ddccc9b49cfc2c421eb183d87677668a9dfaef14c01444be2bb00f6e7cdab0b",
+    "bytes": 304513,
+    "path": "frames/frame-00081.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00082",
+    "source_sha256": "e3f5503bbac1bf5dbc6ca088821154e786911adc708c69ddbad953a6171af073",
+    "bytes": 301392,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00083",
+    "source_sha256": "78eedb5cdb774f14edf10d809ee9b4794e2e8ac758b7be7748742ff21bc71dfb",
+    "bytes": 302543,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00084",
+    "source_sha256": "bd99ac3e7eecc2c36bcb86805937077c67d5aad9b20208de27b2375b54033b80",
+    "bytes": 309316,
+    "path": "frames/frame-00084.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00085",
+    "source_sha256": "d2581fff91f0d8e999db2d006dc022d16c70cc55729a4997a2264bb41757e5e1",
+    "bytes": 261417,
+    "path": "frames/frame-00085.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00086",
+    "source_sha256": "d2581fff91f0d8e999db2d006dc022d16c70cc55729a4997a2264bb41757e5e1",
+    "bytes": 261417,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00087",
+    "source_sha256": "d2581fff91f0d8e999db2d006dc022d16c70cc55729a4997a2264bb41757e5e1",
+    "bytes": 261417,
+    "path": "frames/frame-00087.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00088",
+    "source_sha256": "13407bcbe9632bbe6eaa09ecf22672527952c87a91bbafbabb50d85ce6a49142",
+    "bytes": 278964,
+    "path": "frames/frame-00088.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00089",
+    "source_sha256": "9b8f83789fa1e7387de83d99a842866ebd02e15a1cd8cf57816291f5b0798d09",
+    "bytes": 277057,
+    "path": "frames/frame-00089.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00090",
+    "source_sha256": "262c94da0422f2d37a70fc166179abd79d13593b9bcfcefba5901f073677387e",
+    "bytes": 285271,
+    "path": "frames/frame-00090.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00091",
+    "source_sha256": "09af47d490763333b600df95a9dc1b54542841ab40e25b9326cbca859629cf71",
+    "bytes": 247011,
+    "path": "frames/frame-00091.png",
+    "omission": null
+  },
+  {
+    "event_id": "frame-00092",
+    "source_sha256": "041691f07b9f646e64210823ea339b6629d1247178108ccb27ff057223b3f0f2",
+    "bytes": 160047,
+    "path": null,
+    "omission": "Not selected; original frame hash and timing retained."
+  },
+  {
+    "event_id": "frame-00093",
+    "source_sha256": "93a84bc092dd63909996920b03a635ddeedd6493c13710b6576c8e72115ddf01",
+    "bytes": 249359,
+    "path": "frames/frame-00093.png",
+    "omission": null
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "id": "observed-duration-v1",
+  "schema_version": "local-timing-addendum/1",
+  "adopted_on": "2026-11-03",
+  "scope": "This local selected-run comparison only. Retrospective owner-requested change; not an official frozen-protocol score.",
+  "owner_request": "codex 为什么时间是0分呢？你就按照9:19的测算就好了",
+  "source_policy": "policies/racing-3d-browser-pilot-v2.json",
+  "source_policy_sha256": "8fe39ac88828e94bbc10003be48c93afaaf4b9f90bd4b6bcdd3d3a9c14382a60",
+  "weights": {
+    "core": 60,
+    "ux": 10,
+    "time": 30,
+    "cost": 0
+  },
+  "applies_to": [
+    "mopan",
+    "wanaka",
+    "codex"
+  ],
+  "change": "For each selected delivered artifact with a recorded creation duration, calculate time independently of gameplay criteria. Preserve gameplay ratings, measurement timings, original gated scores and source reports.",
+  "time_score": {
+    "rating_out_of_10": "round(10 * clamp((3600 - seconds) / 3300, 0, 1), 6)",
+    "weighted_points": "round(rating_out_of_10 / 10 * 30, 6)",
+    "gameplay_gate_applied": false,
+    "missing_duration": "No invented duration or score; report measurement unavailable."
+  },
+  "codex_input": {
+    "seconds": 559.239,
+    "display": "9分19秒",
+    "source": "history/original-three-platform-report.json",
+    "field": "results[id=codex].timing.agent_execution_seconds"
+  },
+  "comparability": "New totals use this addendum, not the original racing v2 time gate. All three selected runs use the same revised calculation. Different execution/evaluation conditions remain disclosed.",
+  "pre_change_report": "history/selected-comparison-before-observed-duration-v1.json",
+  "publication_authorized": false
+}

@@ -1,0 +1,312 @@
+{
+  "label": "Codex",
+  "date": "2026-11-02",
+  "model_label": "gpt-6.1-sol",
+  "effort": "high",
+  "criteria": [
+    {
+      "id": "ready",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Started and controlled a car on a perspective 3D track with readable timer and checkpoint progress.",
+      "observation_ids": [
+        "codex-frame-00005",
+        "codex-frame-00016"
+      ],
+      "label": "启动与可操作",
+      "weight": 4,
+      "weighted_points": 4.0
+    },
+    {
+      "id": "acceleration",
+      "rating_out_of_10": 0,
+      "status": "not_tested",
+      "reason": "Forward motion was observed, but repeated matched-duration probes did not establish increasing world displacement reliably: pause overlays obscured the car and screenshot delays complicated comparison.",
+      "observation_ids": [
+        "codex-frame-00067",
+        "codex-frame-00068",
+        "codex-frame-00069",
+        "codex-frame-00088",
+        "codex-frame-00089",
+        "codex-frame-00090"
+      ],
+      "label": "加速",
+      "weight": 6,
+      "weighted_points": 0.0
+    },
+    {
+      "id": "braking",
+      "rating_out_of_10": 0,
+      "status": "not_tested",
+      "reason": "Attempted comparable 700 ms acceleration builds followed by coast or S braking intervals. Blurred pause captures and imperfect matching prevented a reliable world-motion deceleration comparison; S reversing alone does not satisfy this criterion.",
+      "observation_ids": [
+        "codex-frame-00052",
+        "codex-frame-00053",
+        "codex-frame-00056",
+        "codex-frame-00057",
+        "codex-frame-00091",
+        "codex-frame-00093"
+      ],
+      "label": "刹车对照",
+      "weight": 6,
+      "weighted_points": 0.0
+    },
+    {
+      "id": "steering",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Moving A and D inputs changed the car's heading and world path in opposite directions and enabled traversal around the loop.",
+      "observation_ids": [
+        "codex-frame-00016",
+        "codex-frame-00021",
+        "codex-frame-00022",
+        "codex-frame-00077",
+        "codex-frame-00078"
+      ],
+      "label": "左右转向",
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "follow-camera",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "The third-person camera followed forward driving and turns, retaining the car and upcoming road in view.",
+      "observation_ids": [
+        "codex-frame-00016",
+        "codex-frame-00025",
+        "codex-frame-00026",
+        "codex-frame-00084"
+      ],
+      "label": "跟随相机",
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "track-bounds",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Deliberate steering contacted both inner and outer walls. Moving approaches ended constrained beside the walls rather than crossing the infield; no shortcut progress was observed.",
+      "observation_ids": [
+        "codex-frame-00016",
+        "codex-frame-00017",
+        "codex-frame-00026",
+        "codex-frame-00027",
+        "codex-frame-00065",
+        "codex-frame-00066"
+      ],
+      "label": "内外侧边界",
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "ordered-checkpoints",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "An early start/finish crossing did not finish. Crossing checkpoint 3 in the wrong route direction with zero progress left progress at 0/3. Subsequently, a fresh continuous round accepted checkpoints 1, 2 and 3 in order.",
+      "observation_ids": [
+        "codex-frame-00010",
+        "codex-frame-00014",
+        "codex-frame-00065",
+        "codex-frame-00066",
+        "codex-frame-00067",
+        "codex-frame-00073",
+        "codex-frame-00079",
+        "codex-frame-00081"
+      ],
+      "label": "检查点顺序",
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "lap-finish",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Session 5 continuously traversed all three ordered checkpoints from zero progress, approached and crossed the finish correctly, and displayed 03:17.082 unchanged after a 3.2-second wait.",
+      "observation_ids": [
+        "codex-frame-00067",
+        "codex-frame-00073",
+        "codex-frame-00079",
+        "codex-frame-00081",
+        "codex-frame-00084",
+        "codex-frame-00085",
+        "codex-frame-00087"
+      ],
+      "label": "合法整圈与计时冻结",
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "restart",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "After a valid finish, visible replay restored the starting position, zero timer and 0/3 progress, cleared the result, and produced a responsive new round with an advancing timer. The previous time remained only as a labeled personal best.",
+      "observation_ids": [
+        "codex-frame-00040",
+        "codex-frame-00041",
+        "codex-frame-00042",
+        "codex-frame-00043",
+        "codex-frame-00070"
+      ],
+      "label": "完赛后重开",
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "readability",
+      "rating_out_of_10": 5,
+      "status": "partial",
+      "reason": "Timer, progress, car and result were readable, but overhead checkpoint/start banners sometimes substantially obscured the upcoming road.",
+      "observation_ids": [
+        "codex-frame-00026",
+        "codex-frame-00027",
+        "codex-frame-00085",
+        "codex-frame-00093"
+      ],
+      "label": "画面可读性",
+      "weight": 2.5,
+      "weighted_points": 1.25
+    },
+    {
+      "id": "guidance",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Visible W/S/A/D instructions matched observed controls. Clockwise route guidance, numbered progress and restart controls were discoverable and exercised.",
+      "observation_ids": [
+        "codex-frame-00005",
+        "codex-frame-00022",
+        "codex-frame-00058",
+        "codex-frame-00066",
+        "codex-frame-00085"
+      ],
+      "label": "操作与路线指引",
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "feedback",
+      "rating_out_of_10": 5,
+      "status": "partial",
+      "reason": "Accepted checkpoints produced progress changes and confirmation messages; valid finish produced a distinct result modal. Boundary feedback was limited to constrained motion/stopping, without an equally clear contact cue.",
+      "observation_ids": [
+        "codex-frame-00017",
+        "codex-frame-00027",
+        "codex-frame-00066",
+        "codex-frame-00073",
+        "codex-frame-00085"
+      ],
+      "label": "交互反馈",
+      "weight": 2.5,
+      "weighted_points": 1.25
+    },
+    {
+      "id": "presentation",
+      "rating_out_of_10": 10,
+      "status": "passed",
+      "reason": "Driving and finish used a coherent low-poly 3D style. Essential driving and result interfaces fit both tested viewport sizes.",
+      "observation_ids": [
+        "codex-frame-00026",
+        "codex-frame-00038",
+        "codex-frame-00045",
+        "codex-frame-00085"
+      ],
+      "label": "视觉与布局",
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "delivery-time",
+      "rating_out_of_10": 9.214427,
+      "status": "computed",
+      "reason": "按记录耗时 559.239 秒独立计算时间分；本地 observed-duration-v1 不应用玩法门槛，原规则结果另存。",
+      "observation_ids": [],
+      "label": "交付时间",
+      "weight": 30,
+      "weighted_points": 27.643281,
+      "timing_evidence": {
+        "source": "history/original-three-platform-report.json",
+        "result_id": "codex",
+        "field": "timing",
+        "seconds": 559.239
+      },
+      "scoring_addendum": "scoring/observed-duration-v1.json"
+    }
+  ],
+  "timing": {
+    "agent_execution_seconds": 559.239,
+    "native_trial_seconds": 566.214,
+    "comparable_remote_acceptance_duration": null,
+    "basis": "native agent_execution start-to-finish; environment setup and gameplay excluded"
+  },
+  "evaluation": {
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "harness": "Codex CLI screenshot-only development judge",
+    "harness_version": "codex-cli 0.165.0",
+    "adapter_version": "0.1.1-web3d-dev.4",
+    "adapter_sha256": "87240eedea71da66d42fed9ee0717e505391d583c4c6f578b12fc2f67e108ea7",
+    "creation_context_hidden": true,
+    "elapsed_seconds": 1749.331,
+    "sessions": 6,
+    "browser_version": "151.0.7922.34",
+    "rendering": "software ANGLE/SwiftShader; no FPS score",
+    "screenshots": 93,
+    "actions": 167,
+    "continuous_video": true,
+    "usage": {
+      "input_including_cache": 7644204,
+      "cached_input": 7490176,
+      "output": 19860
+    },
+    "cost_usd": null,
+    "max_seconds": 1800,
+    "max_sessions": 6,
+    "video_public": false,
+    "video_omission": {
+      "sha256": "abdcf9dac45fc7a98892431eda94c2fb25fec910939add950bff3effa64b273d",
+      "bytes": 102795145,
+      "reason": "Large local video not uploaded; selected unchanged screenshots and all recorded input events are public."
+    }
+  },
+  "diagnostic_score": {
+    "core": 48.0,
+    "ux": 7.5,
+    "time": 27.643281,
+    "total": 83.143281,
+    "core_passes": 7,
+    "time_gate_applied": false,
+    "scoring_version": "observed-duration-v1"
+  },
+  "frozen_protocol_diagnostic_score": {
+    "core": 48.0,
+    "ux": 7.5,
+    "time": 0.0,
+    "total": 55.5,
+    "time_gate_passed": false,
+    "core_passes": 7
+  },
+  "frozen_protocol_time_criterion": {
+    "id": "delivery-time",
+    "rating_out_of_10": 0,
+    "status": "gated_zero",
+    "reason": "五项玩法门槛全部通过后，才按冻结公式分配时间分。",
+    "observation_ids": [],
+    "label": "交付时间",
+    "weight": 30,
+    "weighted_points": 0.0
+  },
+  "summary": "已记录合法整圈与重开。加速、刹车的对照证据不足，各计 0；时间按记录的9分19秒独立计分。",
+  "delivery_wrapper": "本地 CLI 额外要求静态 dist/index.html、依赖自包含、交付说明；游戏需求相同，全量输入不完全相同。",
+  "id": "codex",
+  "selected": true,
+  "official_benchmark_score": null,
+  "maintainer_review": "not_yet_reviewed",
+  "score_status": "affiliated_development_pilot",
+  "scoring_policy": "observed-duration-v1",
+  "artifact": {
+    "published_public_play_url": null,
+    "bundle_manifest": "artifact-files.json",
+    "public_play_url": null
+  },
+  "evidence_path": "reports/007-web-3d-racing/supplementary/codex"
+}

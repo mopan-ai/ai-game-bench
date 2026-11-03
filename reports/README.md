@@ -11,8 +11,11 @@ do not guarantee anonymous access or independent reproducibility.
 | [002](https://aigamebench.com/reports/002-codex-gpt-6-sol-astra-tetris/report.html) | Two Codex model configurations |
 | [003](https://aigamebench.com/reports/003-manus-six-platform-tetris/report.html) | Six-platform Tetris comparison |
 | [004](https://aigamebench.com/reports/004-mopan-astra-gemini-tetris/report.html) | Two Mopan main-agent models |
+| [007 — evidence](007-web-3d-racing/) | Codex / Mopan / Wanaka Web 3D racing development pilot; contribution awaiting review |
 
-Each reference has its own directory and `reference.json`. The initial catalog
+Each reference has its own directory and `reference.json`. Report 007 additionally
+links task-scoped contributor evidence and explicitly retains nonconforming
+development records; it is not an accepted benchmark result. The initial catalog
 contains no scores to silently reinterpret, normalize or rerank. Historical
 results were not regenerated using the public counter task.
 

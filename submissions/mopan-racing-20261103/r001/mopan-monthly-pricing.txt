@@ -1,0 +1,274 @@
+Browser tab: 1595916251, Title: "Plans | Mopan", URL: "https://mopan.ai/membership/plans".
+1 AXWebArea Plans | Mopan, URL: mopan.ai/membership/plans
+	2 container root
+		3 container
+			4 button Description: Mopan home, Help: Mopan
+			5 button Collapse sidebar
+				6 image
+			7 container Product navigation
+				8 button Home
+					9 image
+					10 text Home
+				11 button Create Game
+					12 image
+					13 text Create Game
+				14 button Games
+					15 image
+					16 text Games
+				17 button Characters
+					18 text Characters
+				19 button Skills
+					20 text Skills
+				21 button Assets
+					22 image
+					23 text Assets
+			24 container Account navigation
+				25 button Upgrade, 569K credits
+					26 image
+					27 container
+						28 text Upgrade
+						29 text 569K
+			30 pop up button (collapsed) Description: [account-handle], Secondary Actions: Expand
+				31 container
+					32 text [account-handle]
+		33 container
+			34 container Membership
+				35 heading Membership, Value: 2
+					36 button Membership
+				37 button Plans
+				38 button Usage
+				39 button Billing
+			40 container Plans content
+				41 container Pass plan preview
+					42 heading Plans, Value: 1
+						43 text Plans
+					44 container Membership details
+						45 text Current plan
+						46 heading Free, Value: 2
+							47 text Free
+						48 text No paid subscription Available credits
+						49 text 568,809
+						50 container
+							51 link Description: View usage, Value: mopan.ai/membership/usage
+							52 link Description: View billing, Value: mopan.ai/membership/billing
+					53 heading Compare plans, Value: 2
+						54 text Compare plans
+					55 container Billing period
+						56 checkbox Monthly, Value: 1
+						57 checkbox Annually · Save 17%, Value: 0
+					58 container Mopan plans
+						59 container Free
+							60 heading Free, Value: 2, ID: plan-free
+								61 text Free
+							62 text Remix a game. Make it yours.
+							63 container
+								64 text Free Free every month A little inspiration goes a long way.
+							65 text 3,000
+							66 text  credits / month
+							67 heading Standard Quality, Value: 3
+								68 text Standard Quality
+							69 content list
+								70 text Remix from curated game library
+								71 text Standard-quality sprite generation
+							72 button (disabled) Free plan coming soon
+						73 container Hero
+							74 heading Hero, Value: 2, ID: plan-hero
+								75 text Hero
+							76 text Turn your ideas into games.
+							77 container
+								78 text $0.99
+								79 container Regular monthly price: $9.99
+									80 text $9.99
+								81 text FIRST MONTH $9.99 /month afterwards
+							82 text 20,000
+							83 text  credits / month
+							84 heading Maximum Quality, Value: 3
+								85 text Maximum Quality
+							86 container
+								87 text Everything in  Free , plus:
+							88 content list
+								89 text Create new games from your ideas
+								90 text Generate high-fidelity sprites
+								91 text Create custom background music
+								92 text Generate custom sound effects
+							93 button Choose Hero
+						94 container Epic
+							95 text Best Value
+							96 heading Epic, Value: 2, ID: plan-epic
+								97 text Epic
+							98 text More room to build and explore.
+							99 container
+								100 text $1.99
+								101 container Regular monthly price: $19.99
+									102 text $19.99
+								103 text FIRST MONTH $19.99 /month afterwards
+							104 text 60,000
+							105 text  credits / month
+							106 container 3× Hero's monthly credits
+								107 text 3 ×
+							108 heading Maximum Quality, Value: 3
+								109 text Maximum Quality
+							110 container
+								111 text Everything in  Hero , plus:
+							112 content list
+								113 text 3× monthly credits
+								114 text Early access to new features
+								115 text Early access to the latest models
+							116 button Choose Epic
+					117 text Subscriptions include monthly credits. Feature tiers are in preview.
+					118 text All generation uses credits. First-month offer once per account.
+					119 link Description: Compare all features, Value: mopan.ai/membership/plans#compare-pass-plans
+					120 container Top up credits
+						121 heading Top up credits, Value: 2
+							122 text Top up credits
+						123 container
+							124 text 5,000  Credits
+						125 text  ·  $5.99 USD  · One-time payment
+						126 button Purchase credits
+					127 container Find your creative fit., ID: compare-pass-plans
+						128 heading Find your creative fit., Value: 2, ID: compare-title
+							129 text Find your creative fit.
+						130 container Plan feature comparison
+							131 table Mopan Free, Hero and Epic plan features
+								132 text Mopan Free, Hero and Epic plan features
+								133 row
+									134 cell
+										135 text Compare plans
+									136 cell
+										137 text Free
+									138 cell
+										139 text Hero
+									140 cell
+										141 text Epic
+								142 row
+									143 cell
+										144 text Monthly credits
+									145 cell
+										146 text 3,000
+									147 cell
+										148 text 20,000
+									149 cell
+										150 text 60,000
+								151 row
+									152 cell
+										153 text Create & customize
+								154 row
+									155 cell
+										156 text Remix from curated game library
+									157 cell
+										158 container Included
+									159 cell
+										160 container Included
+									161 cell
+										162 container Included
+								163 row
+									164 cell
+										165 text Create games from scratch
+									166 cell
+										167 container Not included
+											168 text —
+									169 cell
+										170 container Included
+									171 cell
+										172 container Included
+								173 row
+									174 cell
+										175 text Sprite generation
+									176 cell
+										177 text Standard
+									178 cell
+										179 text High fidelity
+									180 cell
+										181 text High fidelity
+								182 row
+									183 cell
+										184 text Animation generation
+									185 cell
+										186 container Included
+									187 cell
+										188 container Included
+									189 cell
+										190 container Included
+								191 row
+									192 cell
+										193 text Music & sound library
+									194 cell
+										195 container Included
+									196 cell
+										197 container Included
+									198 cell
+										199 container Included
+								200 row
+									201 cell
+										202 text AI-generated background music
+									203 cell
+										204 container Not included
+											205 text —
+									206 cell
+										207 container Included
+									208 cell
+										209 container Included
+								210 row
+									211 cell
+										212 text AI-generated sound effects
+									213 cell
+										214 container Not included
+											215 text —
+									216 cell
+										217 container Included
+									218 cell
+										219 container Included
+								220 row
+									221 cell
+										222 text Play, publish & share
+									223 cell
+										224 container Included
+									225 cell
+										226 container Included
+									227 cell
+										228 container Included
+								229 row
+									230 cell
+										231 text Your creative workflow
+								232 row
+									233 cell
+										234 text Early access to new features
+									235 cell
+										236 container Not included
+											237 text —
+									238 cell
+										239 container Not included
+											240 text —
+									241 cell
+										242 container Included
+								243 row
+									244 cell
+										245 text Early access to the latest models
+									246 cell
+										247 container Not included
+											248 text —
+									249 cell
+										250 container Not included
+											251 text —
+									252 cell
+										253 container Included
+						254 container
+							255 text Generation and edits require sufficient credits.  Feature comparison is a preview. Credit expiry is not enabled during this preview.
+					256 container A few things to know.
+						257 heading A few things to know., Value: 2, ID: faq-title
+							258 text A few things to know.
+						259 button (collapsed) What can I make with Free?, Secondary Actions: Expand
+							260 text What can I make with Free?
+						261 button (collapsed) How do credits work?, Secondary Actions: Expand
+							262 text How do credits work?
+						263 button (collapsed) How does the first-month offer work?, Secondary Actions: Expand
+							264 text How does the first-month offer work?
+						265 button (collapsed) Do unused credits roll over?, Secondary Actions: Expand
+							266 text Do unused credits roll over?
+						267 button (collapsed) Can I change my paid plan?, Secondary Actions: Expand
+							268 text Can I change my paid plan?
+					269 container
+						270 text Questions? 
+						271 link Description: Talk to us, Value: mailto:[email]
+
+The focused UI element is 1 AXWebArea Plans | Mopan, URL: mopan.ai/membership/plans

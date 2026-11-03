@@ -1,0 +1,94 @@
+{
+  "schema_version": "local-game-publication/1",
+  "recorded_at": "2026-11-03T06:53:53.693697+00:00",
+  "authorization": "Owner explicitly requested publishing both selected Mopan and Wanaka games and returning playable links without login.",
+  "scope": "Only the two selected game artifacts. Local benchmark reports, receipts and trajectories remain unpublished.",
+  "games": {
+    "mopan": {
+      "url": "https://mopan.ai/play/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+      "title": "低多边形极速计时赛",
+      "status": "published",
+      "access": "anonymous_play_verified_in_chrome_incognito",
+      "display_status": "已发布；无痕窗口已验证，无需登录。",
+      "checks": [
+        "Incognito Chrome window, no login performed",
+        "Game rendered with timing/checkpoint HUD",
+        "Restart reset timer",
+        "W held for 1200ms; displayed speed reached 152 km/h"
+      ],
+      "evidence_omission": "Publication screenshots/text include account/browser chrome and are not copied. Recorded checks and hashes retained; this is a contributor claim, not an independent replay receipt.",
+      "local_source_hashes": [
+        {
+          "file": "publication-evidence/mopan-share.jpg",
+          "sha256": "4ee875ea9bed84bd2365d7fa6199b26b715a7b0ec9265fb061b426fda89d9696",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/mopan-share.txt",
+          "sha256": "3dd45dbcca465cc7168639b29ef97d5ede4cf019767f1b7df62437c1d2d88d01",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/mopan-incognito-play.jpg",
+          "sha256": "8d688fea6fdbe9d9f8880fd522376010a397d9ffbeb5ecc863ed8f1e7b179399",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/mopan-incognito-play.txt",
+          "sha256": "f12df0025bcb2333297f6cbe0122766bb55f6bb4430c11428a2d304b1fe4daf6",
+          "uploaded": false
+        }
+      ]
+    },
+    "wanaka": {
+      "url": "https://wanaka.games/g/gam_0bEjLvYbpJbNOXn",
+      "title": "低多边形环道计时赛",
+      "status": "submitted_for_review",
+      "access": "public_shell_accessible_game_loading_unverified",
+      "display_status": "已提交发布；公开页可访问，游戏加载暂卡在99%。",
+      "publish_options": {
+        "genre": "Racing",
+        "visibility": "Public",
+        "submit_for_mobile_review": false
+      },
+      "checks": [
+        "Publish Game accepted; Submitted for review and public URL shown",
+        "Public player shell opened without requesting login",
+        "Normal and incognito page attempts reached loading; gameplay not yet observed",
+        "One page reload and one UI Retry attempted",
+        "Final public player observation remains Preparing your world at 99%; no additional generation or code repair was performed."
+      ],
+      "evidence_omission": "Publication screenshots/text include account/browser chrome and are not copied. Recorded checks and hashes retained; this is a contributor claim, not an independent replay receipt.",
+      "local_source_hashes": [
+        {
+          "file": "publication-evidence/wanaka-submitted.jpg",
+          "sha256": "37494d4da130b9cc446b8e900f7361ae188e0720418b22db9c20ae511e970871",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/wanaka-submitted.txt",
+          "sha256": "9c78ce9b49e5a18b47d41a59d60c9b05b22b763c450601cf3e7a2600f4085464",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/wanaka-public-stalled.jpg",
+          "sha256": "481b79b29cc1fbd2960966764390ecfdcf421102dbbb27de752a914735414221",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/wanaka-public-final.txt",
+          "sha256": "5abe5608473f2c2fcf0827dffdb8a983e7b861b6cba2b37371915280cb877577",
+          "uploaded": false
+        },
+        {
+          "file": "publication-evidence/wanaka-public-final.jpg",
+          "sha256": "0711086d3fc2610400b285519c9807daefc233b350aab21591efc5c31c848fa1",
+          "uploaded": false
+        }
+      ]
+    }
+  },
+  "not_full_gameplay_re_evaluation": true,
+  "scores_unchanged_by_publication": true,
+  "last_checked_at": "2026-11-03T06:57:32.377134+00:00"
+}

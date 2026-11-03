@@ -1,0 +1,19 @@
+{
+  "price": {
+    "plan": "Pro",
+    "monthly_usd": 19,
+    "monthly_credits": 2000,
+    "unit_usd": 0.0095,
+    "source": "https://wanaka.app/pricing"
+  },
+  "usage": {
+    "user_charge_usd": null,
+    "subscription_credit_value_usd": 0.228,
+    "model_cost_estimate_usd": null,
+    "credits": 24,
+    "credit_precision": "difference of rounded visible balances 260 → 236; approximately 24",
+    "scope": "Observed generation-window credit balance delta; no per-request/model token receipt exposed.",
+    "token_usage": null,
+    "basis": "24 × $19 ÷ 2000"
+  }
+}

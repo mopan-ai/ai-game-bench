@@ -1,0 +1,1491 @@
+{
+  "schema_version": "task-scoped-file-inventory/1",
+  "scope": "Hash/size inventory only; not an authenticity or gameplay attestation.",
+  "files": [
+    {
+      "path": "reports/007-web-3d-racing/README.md",
+      "sha256": "a9b6070be5c018bb2d564c8c4e938e8ec37af7c3700f76156808aac78b6ba12a",
+      "bytes": 6231
+    },
+    {
+      "path": "reports/007-web-3d-racing/costs.json",
+      "sha256": "699cf78c3069544fce229f838b7b9f4d17f054efc93f91345fd7d65e5dd52c38",
+      "bytes": 2954
+    },
+    {
+      "path": "reports/007-web-3d-racing/observed-duration-v1.json",
+      "sha256": "f0bfc03b75d64a46d7294a21ac6a62528147827f22b1740d00cbdc91e9996722",
+      "bytes": 1683
+    },
+    {
+      "path": "reports/007-web-3d-racing/publication.json",
+      "sha256": "5cc276d4f28c09940225216ac480ee96a3035e407944e5258022c26cd3ca82e4",
+      "bytes": 4285
+    },
+    {
+      "path": "reports/007-web-3d-racing/reference.json",
+      "sha256": "cb2a7b3fc9a9623e4c3daf3defeefedcef956e78fde630a4839c5a6500a2c72b",
+      "bytes": 379
+    },
+    {
+      "path": "reports/007-web-3d-racing/results.json",
+      "sha256": "4d9bc6b666cff36d684ad2fe5f9bf5aa16f8f509d6b9003dc1d29a8df9ec9b37",
+      "bytes": 64540
+    },
+    {
+      "path": "reports/007-web-3d-racing/source-receipts.json",
+      "sha256": "e4bb60d89a1afa8754d620351e9a792317e625cd27bc7828132254dc18729f74",
+      "bytes": 3241
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/README.md",
+      "sha256": "bf2db79c4f6b6021373a2741b66bb8ed7a592faa3b19bdb9cc21c1d40fbe84d3",
+      "bytes": 544
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/artifact-files.json",
+      "sha256": "0a94fbb09829612766aad0dd904bed1ea1265a96d7043e99dbe6f7384dfde6a3",
+      "bytes": 646
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/creation-image-index.json",
+      "sha256": "d6030e4581340c814aeca0b5ceb9b8eb3aa50a19ce32470659f9d7cc980dfb3f",
+      "bytes": 1213
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/creation-input.md",
+      "sha256": "1081bd8b93ba0818150aaa09fdc1e4f70e832a989c256f13d196b3ef22c7d3a3",
+      "bytes": 1577
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/creation.jsonl",
+      "sha256": "ef8979328b3d96489aca5b6e973ced18d68aa0e5d1be7b6e248c3643de76ce6a",
+      "bytes": 101361
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/creator-usage.json",
+      "sha256": "da5c96086391b861ac56f4787a05d756d5dda263b026bb2837fc0cc78f572ea7",
+      "bytes": 9572
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/environment.json",
+      "sha256": "c663044d1c35137406d24e017d53f2da574d497e6f2a481564906ec260a59f2a",
+      "bytes": 417
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/evaluation-image-index.json",
+      "sha256": "2fdc1dcc294dbd5b131f49a27300fce5c92039d38929f1c642fcf881d72fba23",
+      "bytes": 21133
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/evaluation.jsonl",
+      "sha256": "3b732c673244de1ac29cdc47b95bd73d90d18ff71b6599ffda37e0dc5b00a01f",
+      "bytes": 98378
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/codex-creation-source-0126-01.png",
+      "sha256": "4e5416273a07c98b67db769f0ebd52e5e66f94a39f66bd46e72650f492b93a61",
+      "bytes": 447181
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/codex-creation-source-0141-01.png",
+      "sha256": "d6347fd7a0cb0ccbea5f153c84638aa10e34f0f5932d65900d31714754ab97ab",
+      "bytes": 137751
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/codex-creation-source-0165-01.png",
+      "sha256": "0a68cf7c41aa7a5a087ee5a24311ab0a069ebd7498950f7d99e0010070437b96",
+      "bytes": 441587
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/codex-creation-source-0180-01.png",
+      "sha256": "0e3d372611862d8e401ea09e937a9e4bfa7f151908221a29ad516f69d8613057",
+      "bytes": 140354
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/codex-creation-source-0180-02.png",
+      "sha256": "7393a23a301120225b1323813f4bf5d632f70f63575ae8ea5c3ac87a71e97f93",
+      "bytes": 371624
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00005.png",
+      "sha256": "784cb00981c86810ca827a376902374174e44b0333a98bd175c2a82ccd63e34f",
+      "bytes": 361336
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00010.png",
+      "sha256": "0a378027fa157cd654b0b0820dcc6837ff1fc1a1d7fb8b9e03d69fb55509f9cd",
+      "bytes": 327798
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00014.png",
+      "sha256": "48e83704db33fabe6bf6409be0b9585ebb730e0007cc945ed2dfffc936532066",
+      "bytes": 289130
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00016.png",
+      "sha256": "5b1d51b000547505890432c0e1a1b145acb308d4e06a30d280a43399baa35612",
+      "bytes": 324484
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00017.png",
+      "sha256": "37b3be1944135150c5a9bffdd98f48a8664f1b1dd46ca33bdece519ffe2f4f19",
+      "bytes": 354896
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00021.png",
+      "sha256": "e8919c62d0bb3cf0f7d160890e65c6710b0770a88f2c4ed43d9e234f26ed3bee",
+      "bytes": 310493
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00022.png",
+      "sha256": "a72cccc72807670f4d4f651e2446b6cf44daaed38dcf3d660a6b658216cf1646",
+      "bytes": 296743
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00025.png",
+      "sha256": "92aeee35e68ea5489befdb763846762afa1f62a056fd1f4a9e2efd69bb25de5c",
+      "bytes": 296015
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00026.png",
+      "sha256": "dd374a8706033dbe9480a28f4b6928ff74e24dd5c1171868600a4b5c535f1255",
+      "bytes": 292643
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00027.png",
+      "sha256": "646ee49c4672ef64a157a59367a4db07879963e72379a05b93000e75cb169905",
+      "bytes": 248756
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00038.png",
+      "sha256": "d0378d095813c41ce04fda6e23541e92abeb3acf801f1d3e91ce7b6987e7345e",
+      "bytes": 84463
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00040.png",
+      "sha256": "c238ebc60dffddc83aed76bc90fb5c581e82cf6c0124fb1057c82edd0520565c",
+      "bytes": 286873
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00041.png",
+      "sha256": "76182288d17ac472dc5f4ef8857e1917ef78b5e02e70a8a1cbf5ac0d4eb5c46d",
+      "bytes": 278876
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00042.png",
+      "sha256": "d0449bce59857547370005312a13a898fd80fb2cb98016db3756307e34a7e12a",
+      "bytes": 336034
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00043.png",
+      "sha256": "568506bd569887c3c6c2795143a93e788393d0ae81f5b4893412101bb4bdd653",
+      "bytes": 328533
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00045.png",
+      "sha256": "bd3a34fc02f778b723e9b46aac3d1819d44e7ddf3adfd119196220a47de27ce1",
+      "bytes": 116740
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00052.png",
+      "sha256": "b0d9c596dbc6d869c910b32abac83d161149ecc032c03d883fb1bc319812e4f4",
+      "bytes": 277723
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00053.png",
+      "sha256": "05873ee882cc0475bcaad6bfdde3393715c31c5679308157b45b17405a3519ba",
+      "bytes": 280074
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00056.png",
+      "sha256": "eda48237317deab411b3868cdb213d0cad911237e4263de06c8aecbc355eebdc",
+      "bytes": 277603
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00057.png",
+      "sha256": "d74ab24208a550cae5e62c7d9516a68170a49a60b4b91cc81d88616a76547777",
+      "bytes": 277773
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00058.png",
+      "sha256": "0296c46cdbf15759f7589377a79c679b46e2665db554682534aa0a601265bfe8",
+      "bytes": 330266
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00065.png",
+      "sha256": "d9440c6d6ff4a4016b5bd635044c4714e1a49abb14afdf74a00fc5edd6dcf6b8",
+      "bytes": 260082
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00066.png",
+      "sha256": "9f949d7d78c5f537888886cd79be4e8fdc50d8b06cac39a3991f1f2db9e1a778",
+      "bytes": 313109
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00067.png",
+      "sha256": "af4fefcaa7f68d4a211ed107a01c81ab4a039cb382343fdcd7e2a9622ea63d86",
+      "bytes": 278901
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00068.png",
+      "sha256": "fc61e6f2925145d93acbffd225bf2a163fd5d2399e4893298bed7362d3329de1",
+      "bytes": 275770
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00069.png",
+      "sha256": "789b90ed5ff348950e02f323b446c29bfa81317976e5cee6ea6c55b3d42faf57",
+      "bytes": 237455
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00070.png",
+      "sha256": "64d24bf42be652599c1320cf628c97dd3bf64e88c4a214f57daaa846cd7ab99d",
+      "bytes": 287133
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00073.png",
+      "sha256": "a06d3de16864bf8882293df5915776e10a4ebb62ffdc7f29991cceff30fc46c3",
+      "bytes": 298623
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00077.png",
+      "sha256": "807180d341df81668fb6de47061be64a604494ea64bdbd20fdb16c1e1d80e4ac",
+      "bytes": 261823
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00078.png",
+      "sha256": "90d34307b8113df30034a03416321619749c89912e59cc17a9c3b5e0b8482180",
+      "bytes": 270285
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00079.png",
+      "sha256": "dc73c8641151405a5699d818d0e6fba3c3e348a33108b67c3a78a00430e2314f",
+      "bytes": 280567
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00081.png",
+      "sha256": "6ddccc9b49cfc2c421eb183d87677668a9dfaef14c01444be2bb00f6e7cdab0b",
+      "bytes": 304513
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00084.png",
+      "sha256": "bd99ac3e7eecc2c36bcb86805937077c67d5aad9b20208de27b2375b54033b80",
+      "bytes": 309316
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00085.png",
+      "sha256": "d2581fff91f0d8e999db2d006dc022d16c70cc55729a4997a2264bb41757e5e1",
+      "bytes": 261417
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00087.png",
+      "sha256": "d2581fff91f0d8e999db2d006dc022d16c70cc55729a4997a2264bb41757e5e1",
+      "bytes": 261417
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00088.png",
+      "sha256": "13407bcbe9632bbe6eaa09ecf22672527952c87a91bbafbabb50d85ce6a49142",
+      "bytes": 278964
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00089.png",
+      "sha256": "9b8f83789fa1e7387de83d99a842866ebd02e15a1cd8cf57816291f5b0798d09",
+      "bytes": 277057
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00090.png",
+      "sha256": "262c94da0422f2d37a70fc166179abd79d13593b9bcfcefba5901f073677387e",
+      "bytes": 285271
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00091.png",
+      "sha256": "09af47d490763333b600df95a9dc1b54542841ab40e25b9326cbca859629cf71",
+      "bytes": 247011
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/frames/frame-00093.png",
+      "sha256": "93a84bc092dd63909996920b03a635ddeedd6493c13710b6576c8e72115ddf01",
+      "bytes": 249359
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/codex/result.json",
+      "sha256": "cf1808287afe7abad1310bd0dac4818f37218d9d6dbdb5e462728d746c30c387",
+      "bytes": 10637
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/README.md",
+      "sha256": "6b578b0152571c083e92398c77a73efffa2000ed8ed321b08acf0696efe91d01",
+      "bytes": 292
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/creation-image-index.json",
+      "sha256": "5c62056bbf92c509514066d5d25d616c15dc8ede93e963ef83e5ee58900f9f54",
+      "bytes": 5090
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/creation-observations.jsonl",
+      "sha256": "eceaa9b71b3caad369193bb85a4406a73ee385b6e552c8cb9653a9f78ce1add8",
+      "bytes": 209561
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/creation.jsonl",
+      "sha256": "1f4ba205c51c72434a07df46dd229bfa2b1eead29145e78d6ba44b973f49a0d0",
+      "bytes": 7073
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/evaluation-image-index.json",
+      "sha256": "454e08b016212f03963cc3c557acc23c8b9a0f5782cdba69f5a763f084eb8aa1",
+      "bytes": 47361
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/evaluation-observations.jsonl",
+      "sha256": "2b2cc0f70e9c09b80c3a01ffc3152cb41b1d705ccc98c7e3d8a54459463d1fa8",
+      "bytes": 132361
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/evaluation.jsonl",
+      "sha256": "e5dd8013c17e70067426631e9a01371d28ba36e3f329fdbfafd51684f2188c4c",
+      "bytes": 47073
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-0001.jpg",
+      "sha256": "ce53742635e0b4a6ffab0d54d47c7a8a4ba492bbcdfa9e8f159da0c5fc0be733",
+      "bytes": 76743
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-0003.jpg",
+      "sha256": "0900a466bbbf278016b350202a81988e2af12026d3c042081139c26cbe4fb4c9",
+      "bytes": 60172
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-0032.jpg",
+      "sha256": "072affdbc1c3f58f183763dca11cbec0489a145f3eca29c0611a9bc91efa6efc",
+      "bytes": 163084
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0001.jpg",
+      "sha256": "7b80f176cc0cf3c16e3d65c336efa37fe8e2e9d1da8f0a8b092de300b2276e80",
+      "bytes": 56397
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0011.jpg",
+      "sha256": "18704df414dade2851f36aaca2c1ddc2c000ba4cf51db174c181a45a591f317a",
+      "bytes": 62408
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0021.jpg",
+      "sha256": "a169a4520ae0398e839f812b320bf667e0da3600b35a70d04c588c6d03554ca1",
+      "bytes": 62662
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0031.jpg",
+      "sha256": "82137d46d714e46736bc0274a6b13e0d423864100c083a2e47839387dc754f22",
+      "bytes": 62472
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0041.jpg",
+      "sha256": "7186c95567040a59735a5df564d5807275600c98a9a2f73eca4112d0b6799a62",
+      "bytes": 60720
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0051.jpg",
+      "sha256": "ed78ed3eeb1d42e8e042e2e74f071696e990bcbfcaec6676048469f806545148",
+      "bytes": 51912
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0061.jpg",
+      "sha256": "20b28041bc05dcba468da24ade6a6d16b7c3f1d8da8c5ad5e3cea560e0e76d1c",
+      "bytes": 43472
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0071.jpg",
+      "sha256": "03c2783a3242ac504d719a4e1734382f4e1c77898c17029d7efea7d080c37808",
+      "bytes": 45682
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0081.jpg",
+      "sha256": "b1fdd7c83729088443d53bbd8ec0f61e820f8bd017a3e3cce3da7d87d9bafc36",
+      "bytes": 44260
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0091.jpg",
+      "sha256": "7d3d530defe4472aea3a26265f8de43c456a9d1d8c22d76be1df9858b80fc8cb",
+      "bytes": 45158
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0101.jpg",
+      "sha256": "09d5c836c84675c835fabf679fc970d48cc043c933593c925f29e4c9cfd6c344",
+      "bytes": 45959
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0111.jpg",
+      "sha256": "8bf00b3d3363d9c7aeaa8fdbfd2c46297107659174f8683a2b9556b48e5411e1",
+      "bytes": 45208
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0121.jpg",
+      "sha256": "59a489a71ec063f95954578d696793348a83f531c348a633827e2782d1d3ea19",
+      "bytes": 74539
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0131.jpg",
+      "sha256": "8b302c43516f623fef767cbd4b1dda0b4e0b7b6a0a521b3ea6743b28b87e8b33",
+      "bytes": 77170
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0141.jpg",
+      "sha256": "47e1328cc5973fff9bd3d4b8dd1cbce0e4dfe7818d0c06bb8db5fcf87701ab08",
+      "bytes": 75049
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0151.jpg",
+      "sha256": "000a7db276f8100a3a4a7058cb390e347e357270ed289491ad0ccf1c3fd72a88",
+      "bytes": 74414
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0161.jpg",
+      "sha256": "df8575548199e72b18a078ca6c980348e5f9acb31d8ba95580a5923179ff39f1",
+      "bytes": 71613
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0171.jpg",
+      "sha256": "f1179cf711f5881149ee3cd8a639d1a91718f8c8684a9b5d43e3566de1245b85",
+      "bytes": 73662
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-game-0181.jpg",
+      "sha256": "3e18bc48ef8b7f67f9346631c895abd32e23d53a1267b5676eb5ca8f6a0bf10e",
+      "bytes": 74765
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0001.jpg",
+      "sha256": "ad8e8469593e55e6219a7b8e281feec5d362df2c2cc0a1fa1ae1eaa8446c1852",
+      "bytes": 84488
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0011.jpg",
+      "sha256": "70f0f48970f581a2fdcbeef1043dad7e814f2a534e8dd3ec288fa060497d0fc5",
+      "bytes": 90549
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0021.jpg",
+      "sha256": "4f2c912f8c5756b7b063a32e01fd9b410fa90720625808ed5a58255aa71efc89",
+      "bytes": 88795
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0031.jpg",
+      "sha256": "17658ce116eca95e8f6d06b7cd30b49fc4bcbf375d123484e0e8878164f91995",
+      "bytes": 80833
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0041.jpg",
+      "sha256": "d2815cc10dbcc73c5b15d63936ee03c16d4a87c6fc81d9106dc2980c863d8d5d",
+      "bytes": 92700
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0051.jpg",
+      "sha256": "a548a8113d4a876b1892309471a307f16ae714922680cad51bb3abf82a3a355e",
+      "bytes": 47314
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0061.jpg",
+      "sha256": "cd8659e5002284d4e4f644ff29ec4610f25210d8ba70334c24a6ce41597d9de8",
+      "bytes": 70934
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0071.jpg",
+      "sha256": "8322906001ccb1f87ecbd6664bf162671469ef2a60f149cb3ac534f8fba8400f",
+      "bytes": 72837
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0081.jpg",
+      "sha256": "ca42afd0ac84ede6dfa74fbbfee36950ea65031a07b8b6272a08fbcec9d66e64",
+      "bytes": 72589
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/frames/mopan-recheck-0088.jpg",
+      "sha256": "d89f3242a7742795e38842eabccc31ec68a52ed8adc69260125d422b89e62781",
+      "bytes": 66929
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/recheck-image-index.json",
+      "sha256": "bf4fd0444d022d5dbf56ade687b92c9647d764090640f5b14ca3636477232e1d",
+      "bytes": 23283
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/recheck-observations.jsonl",
+      "sha256": "fbb0a70d1e8df4a0bcd5f563db9e1618bc52af559e69df59bf724fc7fe97c4f2",
+      "bytes": 65683
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/recheck.jsonl",
+      "sha256": "2f8433c73254234ee103bd99ebf906eed4d4791a493638e36e779ecb55a52f53",
+      "bytes": 28262
+    },
+    {
+      "path": "reports/007-web-3d-racing/supplementary/mopan-first/result.json",
+      "sha256": "b623fa0ad6ef5831cef35ad768baddd47599f8e85607e72ca987c850ef434760",
+      "bytes": 13034
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/cost-summary.json",
+      "sha256": "f6439015e8dc0ed959ffc62959481da9c25468c0be737de96e715e6ef4f18f2e",
+      "bytes": 715
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/creation-image-index.json",
+      "sha256": "eda04212038eb5768d93aa82263d72c339edaf8976f40234fa306f40ecb03079",
+      "bytes": 8977
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/creation-observations.jsonl",
+      "sha256": "0d71855a7eae28b9333e17b52032ef3b7efacbaaf9e49b968cf70ca44f32f718",
+      "bytes": 438531
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/creation.jsonl",
+      "sha256": "e8208b6b99619803968302693081d72a8843e9da47d320f252f1b183e25d40dd",
+      "bytes": 9954
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/evaluation-image-index.json",
+      "sha256": "3b0856778c20fcb89967dfed3a936a0e5ee10c9162017a840386b79ccd147e70",
+      "bytes": 90687
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/evaluation-instructions.md",
+      "sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+      "bytes": 14525
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/evaluation-observations.jsonl",
+      "sha256": "a93a579b67c0ad3814bbb4c0ed1050a1209e63dd61ee80740a78dc114bc07a29",
+      "bytes": 669953
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/evaluation.jsonl",
+      "sha256": "c22466fc76daa45dafc9dfadd45435caef16b5f92adbbb5904333c551a96d16c",
+      "bytes": 142178
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-creation-0001.jpg",
+      "sha256": "fa20a2117b53cc6df5f6e7b75210a70ea636ff9108dc110df27add7509278eea",
+      "bytes": 73395
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-creation-0003.jpg",
+      "sha256": "dbb14ef4e27c9750023290bd2d595b2bb70171d5fa3e9c5f8b412d0a8859110a",
+      "bytes": 58635
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-creation-0033.jpg",
+      "sha256": "2ad2b2c31f650ee77bbe49c3c651c1b245d4d0970228bc0c68f5dc145e5e7c14",
+      "bytes": 228147
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0005.jpg",
+      "sha256": "2c46fdec8a8507357790e7a549e547fe374c961116ba557338a7153889c7331a",
+      "bytes": 83274
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0006.jpg",
+      "sha256": "9187571e42bf6149f19390ab9e6b6c9175fc4c5cfa0627f03dae7346ac25093f",
+      "bytes": 83301
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0007.jpg",
+      "sha256": "d0c525dec020fcb0f696be403b4363ae675901f935bfda218bb0ca1ac925c1cc",
+      "bytes": 73074
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0008.jpg",
+      "sha256": "e55fa140af4f19df98924badc03db03b396f03fa361be04e38d0504aabee7b15",
+      "bytes": 73792
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0009.jpg",
+      "sha256": "9cd83bf53d8b3b3a78cbf69b060d3d6d490dd349e88a2123d0fe2456f224d58b",
+      "bytes": 74969
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0010.jpg",
+      "sha256": "0b09567c977c9c4a6648d7efbd3630de5ac50c92f1d4722f5c1e0e70aa6390c7",
+      "bytes": 74856
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0013.jpg",
+      "sha256": "32a0e1a8c8df11855482c20a619bb4946820b8ba9e9bb65a50d8993b6205b146",
+      "bytes": 88641
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0015.jpg",
+      "sha256": "526e8434592233896f24b430a8d0aa24273747587cf6ff1ef14a012717cf6b2e",
+      "bytes": 89818
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0017.jpg",
+      "sha256": "b77d7706dd2d7f49bcd3f7b6a7241160298842c905edcf48c92fe852f43d2541",
+      "bytes": 79589
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0018.jpg",
+      "sha256": "381721275fab8ccf07e40bcb5d0dd8b8e790c8b9eb200a8d2bd8ee40aaa30209",
+      "bytes": 80040
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0019.jpg",
+      "sha256": "8b0ea2eb2182995fc566ac0ca9a5fbaf5fbd8660b6083f481276d764cf28fb51",
+      "bytes": 80557
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0020.jpg",
+      "sha256": "62a4f5bc003ada2132dde20a185ef706640e79c54f5c02f37cfa4db63961b97d",
+      "bytes": 81158
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0023.jpg",
+      "sha256": "1b6dc5075a649c46457ade9ef8e66bc7a1d2430c047bfc2053f64888595beda7",
+      "bytes": 88631
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0025.jpg",
+      "sha256": "2717b640dfda31751fd5699fa55c822cb86bfedbdf5b56b3ec4deebf247d20c5",
+      "bytes": 89860
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0027.jpg",
+      "sha256": "7c0940e34e1739dbef49b533dfa06e4208a2a5dbde9d08a02c21e4772f7fd43a",
+      "bytes": 80215
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0028.jpg",
+      "sha256": "8944f8900d487bed360e4f82384b5929962903e2d9b7d6c7678748e178cd4e54",
+      "bytes": 80420
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0029.jpg",
+      "sha256": "dd0c0a1cf368958c7cfa8008011d0c8704f5ac8460ca3e767f90745d4b06a0d7",
+      "bytes": 80739
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0030.jpg",
+      "sha256": "b8ba5336fc57d16647f2c2dd014424ded688a13335864bacd7db5003f709a51a",
+      "bytes": 74485
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0031.jpg",
+      "sha256": "9e56f2ff1b1850f06c7a0a4f6ac08ae4f594d0b9db505f0c1f9a1f8ede126e49",
+      "bytes": 75286
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0033.jpg",
+      "sha256": "19b8866957daf6ec9b9a8537ed8602ae33a98435f9c7b9e1d695093b7c63608c",
+      "bytes": 84601
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0035.jpg",
+      "sha256": "a3e2754320e68ff822ec1e8f23b1b9d56a662bf85107fbdc2349e94676fc5406",
+      "bytes": 83966
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0039.jpg",
+      "sha256": "a10435575fb6fa63435dfb88e9113fd9f0b76f135196f9c04cb7e05896b44480",
+      "bytes": 78853
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0041.jpg",
+      "sha256": "e3f47454cba8e3fec5c218e7cab81dcdd3aca849e066920ec913216bfb8fb643",
+      "bytes": 75038
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0043.jpg",
+      "sha256": "6d44a1caa385c61470b6eaf27a9e145c04f68a3525ea22a43b4cdaada6a643f9",
+      "bytes": 68060
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0045.jpg",
+      "sha256": "4ef2c995b6574d6555b51b432d7806c279fd4bf405dc19f08ab8b98d280925e9",
+      "bytes": 67886
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0047.jpg",
+      "sha256": "0d88b2fd4caef9207919702be71282e4d639bbbe0560dfe80ef906dafda65c53",
+      "bytes": 69697
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0049.jpg",
+      "sha256": "c8037d2ebe6bb60069ef2d22a153d58f7438c60e4eca0cecba5773602c04f395",
+      "bytes": 72341
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0051.jpg",
+      "sha256": "adfee24d3eacd9377773bcc7e3c3e7e714143d85f6571ab2496ba86c66902b8f",
+      "bytes": 72065
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0081.jpg",
+      "sha256": "d228e6f4a78225404180be6eeea4048a14c4ca478c53c31674662526f1e590cb",
+      "bytes": 66888
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0083.jpg",
+      "sha256": "bdf6b31016a6a2dbbb6b76684d9738902a24883212d6d4576b577be56b497ed2",
+      "bytes": 74765
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0085.jpg",
+      "sha256": "518c291b1491c1656be85b8909e5b28a8b1a7454c4d5866840548ba5e681690a",
+      "bytes": 72584
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0087.jpg",
+      "sha256": "5eb38375ae9a28316f60c52f3107b87181b401947e073a79d8a0839ecb50ff64",
+      "bytes": 72662
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0093.jpg",
+      "sha256": "255cb461fb27ab5b6fe956f91a50d44959b4aeaa0384a10c6008be888a8f5bf1",
+      "bytes": 72849
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0109.jpg",
+      "sha256": "776e7356dcc39f0be7ad8c66e5d829d0da109d0d058e784566f5cd866f0a7399",
+      "bytes": 81185
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0111.jpg",
+      "sha256": "40f60db8670d5c4fee561d59811527baa2a7dc85be9b8b434d925b5f78b9e2b7",
+      "bytes": 84269
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0112.jpg",
+      "sha256": "993609ddab35894915932de528b422be6f862ea41caa8536609f0a6bb99a756d",
+      "bytes": 80474
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0113.jpg",
+      "sha256": "9d04b5be9b6140b1c454fcb4306b31b9004348a66aaeb8499bef96cfc7a32d68",
+      "bytes": 80292
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0115.jpg",
+      "sha256": "46c1921581dd5ecacf67c1f81c0c22d1a5f6f6a8884ae21a69df13cf0764ce43",
+      "bytes": 78537
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0117.jpg",
+      "sha256": "5ac5e92163577e007621e85cc486de431f1a33199adc38b17a3e40f843efcf94",
+      "bytes": 88182
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0123.jpg",
+      "sha256": "d895f350960aa65c6b8319480a56b40619330015776fbb3d44fd8b2f2ee26e12",
+      "bytes": 75630
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0155.jpg",
+      "sha256": "3ff7c7c521d042c0032d92c746b8125df75a8ca355b021a573e96242170d368c",
+      "bytes": 85962
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0193.jpg",
+      "sha256": "f155222a2168c9d9f71e1803f999d45c6d50f3cb602e722b7a95ccbaea432230",
+      "bytes": 71473
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0197.jpg",
+      "sha256": "5ed11ed6e8ec818fb3b4678694830f7327a4d14ff4f9183cb0e5cc9d0b20e291",
+      "bytes": 69269
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0199.jpg",
+      "sha256": "a0880e9425830a71eb899ebb22d2b368aa261055c5bbc4e87f2aab7e789c76b9",
+      "bytes": 74660
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0215.jpg",
+      "sha256": "6294173f77d31ac3570364aa01b2532955ec3d319e7c863d3e0977945fb9c3a8",
+      "bytes": 89381
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0217.jpg",
+      "sha256": "7e1de2691009e2a0e0bcb428e97e783971d30946cf307832af5083d55b12f99d",
+      "bytes": 84354
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0221.jpg",
+      "sha256": "8dcb8855315baa98fbf5be0784759af6d7b149a9c42c36d005940fd6cf43a980",
+      "bytes": 80138
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0223.jpg",
+      "sha256": "48b9f23c2a6805aebb51380e7e84195ddea1e6db2a4e26475ff9773d192315bf",
+      "bytes": 76685
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0266.jpg",
+      "sha256": "6415761bd74c86179979bd11aa62bacc320b3bb8eb0b96d2f4bea281a3e1d75b",
+      "bytes": 80346
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0295.jpg",
+      "sha256": "ff8a8a7b0e9b029a4a898510222e4a3d3f7e29f644d2bc24838772d3eeb82e3c",
+      "bytes": 84456
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0321.jpg",
+      "sha256": "291c92fdab6ae5d6b524d5ecf0ed71e3ce1ea2b90e8689f81c7543333678fe36",
+      "bytes": 80952
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0323.jpg",
+      "sha256": "05410e0658b5b43c37cfafe68998c54c6942ba347b57696d5664f05bd448687c",
+      "bytes": 83195
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0324.jpg",
+      "sha256": "1fad4ac7bde8b8a541434898bc3dee460da22e6ebb24d76b61f0a57260c4ca90",
+      "bytes": 83954
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0325.jpg",
+      "sha256": "ad5143a58dc7897e6639ea2ba85b77cb660e068a14447c20ebfd8f5028bec252",
+      "bytes": 47188
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0326.jpg",
+      "sha256": "7d19f85eb7cdb4fa93151437d96e7d2f73eac8e6dcbdfdbbf98a73d3268df5cd",
+      "bytes": 45351
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0327.jpg",
+      "sha256": "86493bdaa6f48d4c34495b52cec4569811a9520cf0e489482552a4488d553ec3",
+      "bytes": 45585
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0328.jpg",
+      "sha256": "c91044e8b3dbf3210ba6c31c6e682ee5b2fa4404feca1080024499f74543c98c",
+      "bytes": 45601
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0329.jpg",
+      "sha256": "bd2d4ccf7b1abaf0b160c21e53f82e9130b13a40e182c0c87ba526ce5a3c4cb5",
+      "bytes": 25532
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0330.jpg",
+      "sha256": "324a61e1ff6efe6647c00c4c214d4d26e8b4ffc949d1b0f8726c2ac9b59aa258",
+      "bytes": 45579
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0331.jpg",
+      "sha256": "ae7e4e691c80c86b1cb18874cd3b8e8e54c658b356ca9650e19b1519340094ae",
+      "bytes": 87117
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0332.jpg",
+      "sha256": "1f5f27d66d90cd35b5ddf3a21fdbbe7e44a8569bd4bde8e201813afdd668e7ee",
+      "bytes": 88104
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0333.jpg",
+      "sha256": "afce844f5c90b753ef84cfd0ff55649276fcb79f20ad0226eefb87ba0deca37e",
+      "bytes": 89579
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0334.jpg",
+      "sha256": "f75b91513b727621594da36959dc97d6b8815a53a7c468c0194b355ce1e3ff39",
+      "bytes": 88964
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0335.jpg",
+      "sha256": "efa7b14a37ca766ee92562bea3da13c379073c7c601801f3e0f273d8e24016e9",
+      "bytes": 90521
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/frames/mopan-new-evaluation-0336.jpg",
+      "sha256": "c34cc848c05452c385e005d37e1acea8b5a6c26fadcb7c2a6d6309e2e67bd096",
+      "bytes": 36782
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/manifest.json",
+      "sha256": "5fc8aac84c9e9125a73d04569828925cc1a89a590593d95b2f63ed8565ee8d9e",
+      "bytes": 28383
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/mopan-build-usage.txt",
+      "sha256": "16fe306ddc15d2270f0921c2f505bf1014c9a52b28c00c8e7f6e31f9676638bc",
+      "bytes": 2103
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/mopan-monthly-pricing.txt",
+      "sha256": "70b3263a60b7c1d7b4f48f815b51a6bceedc6a6ecf628d63c9fd2ceb2434eb56",
+      "bytes": 8871
+    },
+    {
+      "path": "submissions/mopan-racing-20261103/r001/result.json",
+      "sha256": "3a5ad88b3555f6b53a6dfdb7781c6ff93ccd8f3973e1750a1ac67519dd68d85a",
+      "bytes": 13859
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/cost-summary.json",
+      "sha256": "8f5bfd4b5ce3c3e1340db9c257944928b2187c2c42c4686099a023460952964a",
+      "bytes": 569
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/creation-image-index.json",
+      "sha256": "62baa7c071719f0b93774c40c6bd4d9ae5ce187f8dfc5024cd4d786b7e0b5001",
+      "bytes": 9754
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/creation-observations.jsonl",
+      "sha256": "88eb9a8971d579d92e98c19702149daa946b3aa7f3de4f11eb5b5ea14c0e4027",
+      "bytes": 329630
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/creation.jsonl",
+      "sha256": "8fe3a5ac55027eef592b29c002bf89266c1ded1f8d554078f93f6eca359be5f2",
+      "bytes": 14712
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/evaluation-image-index.json",
+      "sha256": "e05b922b9937c65596983bdca5240f076120767bed1811e5965fc321093de723",
+      "bytes": 53818
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/evaluation-instructions.md",
+      "sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+      "bytes": 14525
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/evaluation-observations.jsonl",
+      "sha256": "6f0e7a32136b09a2671cf6ba5e9fab31fa39b4bbac974915a2d4f587c4cda1b8",
+      "bytes": 118922
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/evaluation.jsonl",
+      "sha256": "47b2e96c2d4a702c80468a61d585875e23c95e9d55ddcecb1c36a66515ebfd2e",
+      "bytes": 90313
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0001.jpg",
+      "sha256": "b2f2be959a3e02c68d34cabeaccd610fbdebdeb48f2ce90c3c4c7b28a8a196f5",
+      "bytes": 78544
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0002.jpg",
+      "sha256": "7ab8dd0f5df058b1edb1ae2c24c449c6fdf05290651cf596725b94a41772800e",
+      "bytes": 98736
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0003.jpg",
+      "sha256": "bc7125cb79f05c7119b501fbbe62415ca2a03eac3349192eec5bbc3a55f318b2",
+      "bytes": 98742
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0004.jpg",
+      "sha256": "24aff224b794dc638dff07f5450c2bc6683932df61041f9c54f5879d2d83df9a",
+      "bytes": 96971
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0005.jpg",
+      "sha256": "8cb9846e9ce92935fd39e1bad7ada425bb5f007caf868e0d677f3121dd7071df",
+      "bytes": 100268
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0006.jpg",
+      "sha256": "676cffff91e28da1c5c2848fc1c97bdd808fb20ccafcfdc5285eff4099994c3c",
+      "bytes": 92878
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0007.jpg",
+      "sha256": "20ddd012fd1e49901bffdf438398f8704d25dd21638e8e0042c9b0089603fdbd",
+      "bytes": 87550
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0008.jpg",
+      "sha256": "2aa56ea4a53aac2642a9783e9c3ace21141ac53bae307080b74b34989100a1c2",
+      "bytes": 73877
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0009.jpg",
+      "sha256": "290cedba6e7b810aa8b01058f4ab35889ccc277b910d615470d32eddb598f5f1",
+      "bytes": 98897
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0010.jpg",
+      "sha256": "66d5f7069ae50d81e4a85983568e0dbaa97699d613deb35fa7ca9fe22471e110",
+      "bytes": 98258
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0011.jpg",
+      "sha256": "b07d596d297a452836ecf517744f99365445d59bf9a3ce353586fb966d8750c6",
+      "bytes": 97571
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0012.jpg",
+      "sha256": "53c1c15a342bbc892a87bd530877787765d1ca21502cba8cd57bf3936cbbad14",
+      "bytes": 97625
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0013.jpg",
+      "sha256": "d670803895e8c058868ddc3623e97bd11135ad8e3ec25948fd179694fe031940",
+      "bytes": 99598
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0014.jpg",
+      "sha256": "c281896a04506e166b1a1c660b3f024209cfc03009640219af8a454e7f6e0159",
+      "bytes": 100080
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0015.jpg",
+      "sha256": "1918fbc3ceb60588ddddc689bb5146d6be312266d321f87ed86aa95c6cda32eb",
+      "bytes": 99982
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0016.jpg",
+      "sha256": "582821604fc795b189f90a5f3b61905ee5b924d443fc299e980a98f560653156",
+      "bytes": 96057
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0017.jpg",
+      "sha256": "59eaf05f63a03e0a2f8b072f5c4d4474cc72fa76fee1e08ef049626ce27d9392",
+      "bytes": 91351
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0018.jpg",
+      "sha256": "9d57118ff8d2a03025570f82952720e25a8be409a4ce82faae0f29649806ac53",
+      "bytes": 90794
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0019.jpg",
+      "sha256": "fbacdedb37a9e37dd48eb3b5210f0434a1eaa60f24df68d2f56a1e36005fef57",
+      "bytes": 89946
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0020.jpg",
+      "sha256": "99dccf98f9cac6fe70ee30de15fcb0fc6099a7f4e1a7780e06af97385e6b0642",
+      "bytes": 99011
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0021.jpg",
+      "sha256": "b9ad6f6721cb29caa00201f2aecec3cc33c7efd8db059e2a89182f96bba0cafc",
+      "bytes": 98869
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0022.jpg",
+      "sha256": "dac0bf94d85be73ccb9067c7487ce3d5cdb3f394d985c1cad3e9bc1e06bf4b1f",
+      "bytes": 98550
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0023.jpg",
+      "sha256": "d9fb886002f780db4b2f5d350feefb29d3cf053b8d9338d0b63273d557a49d45",
+      "bytes": 97990
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0024.jpg",
+      "sha256": "4f2063412e69b2779a834da0fce5f7e6dbb5c20215c49c9879a5a27a387c034a",
+      "bytes": 99971
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0025.jpg",
+      "sha256": "423f8d5a0079be5cec2c2c6aa9843b70b71018c812f70ee82c28c311964fb3ca",
+      "bytes": 100322
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0026.jpg",
+      "sha256": "1699020d7c815cf83f344322f19488abe65fd5dcc51996daad94dcdf7421a045",
+      "bytes": 99873
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0027.jpg",
+      "sha256": "1ff97de121838070a50a14588baaf96c1492cf6c353e2ae78b71a81417bd1c45",
+      "bytes": 97372
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0028.jpg",
+      "sha256": "0f34fe33df8641fa431bee5935fbafeccd844f8ad3295c65a28de6641312c765",
+      "bytes": 96489
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0029.jpg",
+      "sha256": "9322156e95df95288985986844f9998e1f791d2c2a9a520c1a5f75e788dd618d",
+      "bytes": 97236
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0030.jpg",
+      "sha256": "06d99891b6f40f396d5726b1a2e48645f01b49f3217e13f4c901d130d2c8f5ff",
+      "bytes": 99381
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0031.jpg",
+      "sha256": "1e02a3cc567fded4bb4a56bd4e34eb0f700a459579d7c02875e97ab6ca8021d8",
+      "bytes": 102549
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0032.jpg",
+      "sha256": "a4376272e79079651b0106973ba9a11dec6f32702a2332f829a089409543b7eb",
+      "bytes": 99685
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0033.jpg",
+      "sha256": "c5572e30e39f7bafb35710bf41fc53041072bca9065a075f6f0ca58cc4c137e3",
+      "bytes": 95537
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0037.jpg",
+      "sha256": "01278afa7ae5205e8f3b52c88a2e4f1461dd51275d47fa747d93fb24ff2b0ba6",
+      "bytes": 87198
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0038.jpg",
+      "sha256": "5f5ec67b16fb33723337489963e3d4b8eceefa9b347507606fb4056f40cf71fa",
+      "bytes": 88197
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0041.jpg",
+      "sha256": "d5dd37ab755e7fc17f4115f2669146dc940d2272f06e509e6b540a753efce882",
+      "bytes": 75015
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0045.jpg",
+      "sha256": "d6de083ba0c81db3ee1784cd4a9420a7051cdcf5455a8bc402f58d0d4c848a7a",
+      "bytes": 79012
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0049.jpg",
+      "sha256": "6102595f3daf6796f17b5a83656f57da979ccdcc613ac9f7cd5c6d4ee0368e8a",
+      "bytes": 70281
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0050.jpg",
+      "sha256": "04a210aa0b3d1eabfce2ee61d641dbe753eb942e8f8cc16b443827b00763876a",
+      "bytes": 71020
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0051.jpg",
+      "sha256": "c85ed00903057b53c91d550ad9c21e1c42545652b44ecaedf087660da5f9969b",
+      "bytes": 67795
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0052.jpg",
+      "sha256": "c40cc622a69f484180147ff008e591fe3f12cd01e43ebc68615f3a766fb444c1",
+      "bytes": 98863
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0053.jpg",
+      "sha256": "25425db8eb8d08e8398ce3a91472c52c8a399528f46b8147da986db98c556260",
+      "bytes": 98943
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0057.jpg",
+      "sha256": "930301c01c8767de7c9e7f29cdb0fe192fdb9094700837cdf69a7db93d6c1836",
+      "bytes": 113739
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0061.jpg",
+      "sha256": "b178b50643788c5d47c2e7d788b27b6c0478e147180454b5a8b2f12cf20f0e3f",
+      "bytes": 95039
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0065.jpg",
+      "sha256": "9c89c57dece3c622ec6429f7b7c966a3c196fb11d18ed9299835a0bd28440b6c",
+      "bytes": 79651
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0069.jpg",
+      "sha256": "8c49b56cae82e16175b5176c472da3a2713a916f78ed5e2df9c34f0d58900ba4",
+      "bytes": 84688
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0073.jpg",
+      "sha256": "ce8983414eb2cdaef3ce349d407cd6a638529779eb9102d4bbb50f5dcb206419",
+      "bytes": 71308
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0077.jpg",
+      "sha256": "5355b535f9073790e901aa73751718d8cff0cdb285108ea20cf74627f91bcc68",
+      "bytes": 67534
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0081.jpg",
+      "sha256": "e5d80ca3da197e1ff258603badbe5ab1d4e8fc67aa490945fd56e84360efb623",
+      "bytes": 68306
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0085.jpg",
+      "sha256": "afc6fe62c60f1d674ed1a84344a79a5d6b12394e8399f6fa8c75d0e1a4d77e4b",
+      "bytes": 99315
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0086.jpg",
+      "sha256": "90de3efbe209c66134cc418d4dca84f5ac4bd1d5a36aed3de65e344416dba089",
+      "bytes": 98674
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0089.jpg",
+      "sha256": "d67c91d5a95e249533e1213ad5d2d96f331a4b927f1c368c0f1bfe16481042c4",
+      "bytes": 95579
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0093.jpg",
+      "sha256": "00b85e7ae875661e76fd510acfdd6df78df6001c8c91b411278a3a2e7799c9cd",
+      "bytes": 87678
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0097.jpg",
+      "sha256": "2813208a27f93ddfa4d529ea39121ac10fbfe541c8f3d4faac73bc4c1f43475d",
+      "bytes": 98883
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0101.jpg",
+      "sha256": "54abed755d1ffcd03bc9c47c00f043cbe6e17088a6b26efac0f31f3f0d8996b6",
+      "bytes": 104455
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0105.jpg",
+      "sha256": "34f9b28bdd8a2bbfae70f5fcd4df591e28d18970df9d8a8594b1513a6149fb24",
+      "bytes": 89418
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0109.jpg",
+      "sha256": "d3181421d05b99dcbd7db6f377e7bc740f934de39eadf824ddc9b676c8ed6670",
+      "bytes": 69994
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0113.jpg",
+      "sha256": "319a3df467ebd23cd57ed0e5c1066932fa58fadb83f97963e64f469182ba4150",
+      "bytes": 86417
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0117.jpg",
+      "sha256": "007baed6e0f106ae8df271c37090546846aa4d61cfbb88547873e16785998774",
+      "bytes": 76040
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0121.jpg",
+      "sha256": "88001ff9a5306a65b8232f0d7fc4401e86bcb7eece756513a0aa8f9eec9d83fe",
+      "bytes": 84722
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0125.jpg",
+      "sha256": "c0314c565ec4cbe1f353edd80796c497a91d9fe34310b0c10238524fcc80e52b",
+      "bytes": 97921
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0129.jpg",
+      "sha256": "63dc2eb5244e0696e00923097e57a75cb216921473bb78997c7083367fa8c9d4",
+      "bytes": 80422
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0133.jpg",
+      "sha256": "a29341176c4491067297e261c5738c71a530012529876b316167857f09d90321",
+      "bytes": 69001
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0137.jpg",
+      "sha256": "df3d2d4246d91b7fbb671507e6e529a3ce1cdd6f7f67d6f34da9beb72c348a92",
+      "bytes": 69468
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0141.jpg",
+      "sha256": "a906c9d22305c5426024fa2186eb75a9a59501b5e94be3c04432dd680d428a2a",
+      "bytes": 78903
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0143.jpg",
+      "sha256": "97a8b5cb2e671ba554654937eaa7a57ecea89ad9ce2aec3a3316bcdf632ea8d2",
+      "bytes": 77375
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0145.jpg",
+      "sha256": "43eab6337ca73f19b995d38f5291bddbd49c5f58ec691304d11eda6f83ca060e",
+      "bytes": 74318
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0149.jpg",
+      "sha256": "86c33d6622ec5a2c2729075da6cb98d5b77ca7c302c592be0f94ad352c9bf340",
+      "bytes": 82233
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0153.jpg",
+      "sha256": "193dd2751ab1b7811d0eb792be6453696d0fd91d822f9bfd051ae27dec5261e2",
+      "bytes": 72190
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0157.jpg",
+      "sha256": "3ae023ab7decc8a39e332425b8ff38c45cfe2ba668930c835461f8a3d2a8a9a7",
+      "bytes": 76078
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0161.jpg",
+      "sha256": "3ddd03ce8d5c1f4d3d45c14f621bac5785b549447b40efb3040226b89f990f44",
+      "bytes": 68816
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0165.jpg",
+      "sha256": "173f0586796f56201ad92c66af39341c25e33629664de5e1ce0352360e8fb077",
+      "bytes": 82748
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0166.jpg",
+      "sha256": "cffafccc34b8d88f97b2b5c334c950a8a5c06843871ff5a192aaa22d1df7d0c0",
+      "bytes": 77564
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0169.jpg",
+      "sha256": "69a3a917165ed19b012fa1fbef8793beb04bd60e54bb8f323ed18d79a57d13a3",
+      "bytes": 74087
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0173.jpg",
+      "sha256": "81d6415799673dedbd747b7342e3b6a9f291460ee0d3cb06de205799c79a0d1b",
+      "bytes": 81294
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0177.jpg",
+      "sha256": "920859658fa7700e293e51a931d5a7f8967ff58a2a29a0f81fee069b04e8cbd7",
+      "bytes": 68668
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0181.jpg",
+      "sha256": "c4e53fefc55b437862b05f1fc25c77927c84ea0a1497112e31df7d1f613634ba",
+      "bytes": 78419
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0185.jpg",
+      "sha256": "a132fb88cd55a13dd04e5e8e02c64f22562f339d5d318d546e1d28b8f6a92b6e",
+      "bytes": 84766
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0189.jpg",
+      "sha256": "7ec54737027db0e6ebcdd97fca1365d4244057add6bd215630f128ce084bee71",
+      "bytes": 65725
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0193.jpg",
+      "sha256": "6505fc34c94e4349f49ca65f229f793ee579ac26a9dfcbc7e7550b29ea533c2b",
+      "bytes": 69297
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0197.jpg",
+      "sha256": "fe94a90ce7838c91d3aa41f5daca15c70c03746143f4914c9a2d8967fb4086c1",
+      "bytes": 91665
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0201.jpg",
+      "sha256": "f1fb387f61c4fe8ec36cf7821606431883a4876ce73e632fe1775e5edb6d06c5",
+      "bytes": 114297
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0204.jpg",
+      "sha256": "6785c2541525531ef7ae55d35f57b9d6e12063b3847a4e0e6524c9c782b29085",
+      "bytes": 86731
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0205.jpg",
+      "sha256": "be77ef11f642543cee9b906c6aa8f44a78bd8529b1d96af987015ddd09b67612",
+      "bytes": 93793
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0206.jpg",
+      "sha256": "c541e10fcaa09087c8c68f640883f6a022feaa46634c84db786e0de181366b53",
+      "bytes": 93491
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0207.jpg",
+      "sha256": "85916c903a4f805fc77d48a1b56b115163ce5ee482d31eed562474d8e85c0aac",
+      "bytes": 93403
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0208.jpg",
+      "sha256": "9a979b674763157afe782eb08ceb21e93d3359ed2a9e5fcdf628f34809b9972d",
+      "bytes": 93472
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0209.jpg",
+      "sha256": "bc27f5e588a771dba769e2513c65ba18389a97b213d98fb3fa3d64fc764cbb9f",
+      "bytes": 93543
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0210.jpg",
+      "sha256": "5cbb5e17a5c412f15d0c9ddd560d174485bafb5736c754b5edc80b45fdf4e5cb",
+      "bytes": 93549
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0211.jpg",
+      "sha256": "f5ca6a74c73f8e96b092a29610ff7e57389023d4248d2d309fef78a0cdcee29f",
+      "bytes": 93493
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0212.jpg",
+      "sha256": "2cb77e5ca0de5b1fb15d299d8529cea10a9583428f60b64070eb2681d4585059",
+      "bytes": 38818
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0213.jpg",
+      "sha256": "caa22cac92ff70212137a9818920a47692a26eee022f7146779e102adcb97a9a",
+      "bytes": 98189
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0214.jpg",
+      "sha256": "a57e12a5f5023dadf2e03fc93e0591cbc590d7758473f0fc59cf02330fb51c50",
+      "bytes": 99088
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0215.jpg",
+      "sha256": "58081127a43529ac1b439038706aecffaa2006585a08bf7d4ef831fec8e62db5",
+      "bytes": 98115
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0216.jpg",
+      "sha256": "b862af7c183b1c4af755d0102954a0ed7e441f5279ab600cf84e417e10cf7436",
+      "bytes": 100952
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0217.jpg",
+      "sha256": "0a6c35d1e1a6702e46de8061c5810480659a9d43b5246615229f55b8cf485659",
+      "bytes": 98518
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0218.jpg",
+      "sha256": "3b4bc0bb481c54183cc5f420c2b82a40846d3437aac6527c95501584b832d6e1",
+      "bytes": 38114
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/frames/wanaka-game-0219.jpg",
+      "sha256": "a7f098376e6470dcc2efb6af6835a70e75e69f80b7e397440b4368daa3aac270",
+      "bytes": 38088
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/manifest.json",
+      "sha256": "c397e267d388d2c535ec61454a873d05fb33c13f30ba5f5f6e602c08884aac6b",
+      "bytes": 37492
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/post-delivery.jsonl",
+      "sha256": "56d068b7aa5e58bff53a53706977b53e84a45e4162fb002e4702786ae02ac22a",
+      "bytes": 640
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/result.json",
+      "sha256": "9f2077cb1f54217c80747993ecd133c2b8af5c6e337f1d68a61224b220ce504f",
+      "bytes": 19457
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/wanaka-after.txt",
+      "sha256": "b9e209ade77cef53a95bdaf2ebc323806aedc9974de9e63fd226f015b708a6fe",
+      "bytes": 11652
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/wanaka-before.txt",
+      "sha256": "90793bc85efe369bbaf86708a895ecb5f132daecad90f26e02938f676cb1bcf8",
+      "bytes": 17337
+    },
+    {
+      "path": "submissions/wanaka-racing-20261103/r001/wanaka-monthly-pricing.txt",
+      "sha256": "f78c92cafadda424e8a581725a3f5e87e222fd67513fc70e5d974e51206bc7c6",
+      "bytes": 4791
+    }
+  ]
+}

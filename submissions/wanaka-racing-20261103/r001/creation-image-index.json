@@ -1,0 +1,261 @@
+[
+  {
+    "event_id": "wanaka-0001",
+    "source_sha256": "948b9ef874e808085c2689c1701175eeafc3f8f7ab6ad7bcb2bd88d51358d173",
+    "bytes": 236170,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0002",
+    "source_sha256": "c4b69e371c096a4f6e50f45993e224d7fdcf2974f395e398dd10f2c0e90d482f",
+    "bytes": 256193,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0003",
+    "source_sha256": "c6d4f74c06a4ebd407887705d9337eb9f5c15b8b9092590836c15ff860a7dfc9",
+    "bytes": 15104,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0004",
+    "source_sha256": "45dc3675aadab3975c75a66511647a6963567aeae0c216569ef5ac5c61a46d80",
+    "bytes": 15356,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0005",
+    "source_sha256": "5842e30d3eca2ac648b598b1c21259572ffda2cd14b4bceceaf80920d8baf7a6",
+    "bytes": 17749,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0006",
+    "source_sha256": "9c11cf8248d53c521012889dd4c581215f5473fcd075420fec7df21544112dfc",
+    "bytes": 96249,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0007",
+    "source_sha256": "f4fb46508da0ce66dbc41e7634d6f3e18e4fd2fbb15a52087ffbb9124aff7e01",
+    "bytes": 99773,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0008",
+    "source_sha256": "9130b80e2d1b11ec6a951c1540af76df7526c6470ef12dd66f03337c33ce76f1",
+    "bytes": 93634,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0009",
+    "source_sha256": "531af675db1061d60906461ffc408866fcd6eff7ed1fdad4b06fdeda4bc6492a",
+    "bytes": 96229,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0010",
+    "source_sha256": "1de826bbfe3c976d45efa5eea395c5a9e8364a915d5e9891619cf07d459057ad",
+    "bytes": 96587,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0011",
+    "source_sha256": "8e9da7d4497562483e8d561e49546b51b5e4afa7eea1f6410d067e610dcac8f9",
+    "bytes": 96537,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0012",
+    "source_sha256": "42a4e9f08b2e4a6a4299d9eafc3d911c28c86cafe8dc4730daf36d1eeca7bd29",
+    "bytes": 14909,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0013",
+    "source_sha256": "2f76beaf29da66584b23d36b79f447ef3f7363b7f81537ae3a73ac3c6e78feb4",
+    "bytes": 17668,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0014",
+    "source_sha256": "38c9325998014cc21c0cd2e9586058df0cd853e73410bdbe89ef3d06d2040a61",
+    "bytes": 82913,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0015",
+    "source_sha256": "090c7bd60fbb3f7e1f0a3dda9d71ecf3952ecd1def55d982b81bb65b33e2cdc6",
+    "bytes": 99182,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0016",
+    "source_sha256": "18807bfb5b8115d8d25ef3848d3783c14584150fc7c7f9a8c53c651bc449d0e3",
+    "bytes": 88548,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0017",
+    "source_sha256": "cc6f2b49a54a2712bfbb8517a3fa408a31557f2686909c648f07688149784670",
+    "bytes": 79736,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0018",
+    "source_sha256": "9edda9d07b524ab6fbc17bb34c52d94a05a1889117ed7b8fc917e48985d57dda",
+    "bytes": 120432,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0019",
+    "source_sha256": "dfd00893b1ef6fd67ee7e844084ba6d4ba2b255052457dcde95d4008647e4379",
+    "bytes": 98096,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0020",
+    "source_sha256": "516b7fe968d7dc4f87a23675b742c02c2cd1e08e9fe17a1f0b6c324638354803",
+    "bytes": 94787,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0021",
+    "source_sha256": "9edd5916593a087bae3b0549e469006b25a15d9925896610b3ac6cd83e611c85",
+    "bytes": 132591,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0022",
+    "source_sha256": "563303a149a764015af375c717851c6dd81226cb31ef47e616b5b723b6c05573",
+    "bytes": 119002,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0023",
+    "source_sha256": "e084cbcdde81ea4b7bfa383131e6ac5642b0c51ee464a2c4023dcdae4370e381",
+    "bytes": 117645,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0024",
+    "source_sha256": "316d491c0eb7ab7f00e8b3b4d3491ef5fcd06c9e582c30db25a0dac3d3c2cfac",
+    "bytes": 105719,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0025",
+    "source_sha256": "612dc0501e678c96ebe2ec36ddd0ec819ff2933afe268a5d642ef39910310de7",
+    "bytes": 110798,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0026",
+    "source_sha256": "fb100cc72d39fdfd578bf06dfdf33f27c280d461c076f93d0f1168092f78df63",
+    "bytes": 109573,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0027",
+    "source_sha256": "809412140107005556dfd3986455cd7ca30ab1ae1ee721e5a2dc1b8666bc7818",
+    "bytes": 105870,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0028",
+    "source_sha256": "97eb3f3aa2496cdf3d32602e2e4368b370a60283ca0d9658903a792c971f22f9",
+    "bytes": 106237,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0029",
+    "source_sha256": "49ce9530a7c44c4f10755881c14b287bbd6675078a278f5051a72cfe772d9732",
+    "bytes": 132154,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0030",
+    "source_sha256": "a7e3d4f01db5bf67f161d2ab45f6eb32e76b1bf835c580bee60d939f2e59bcf6",
+    "bytes": 152455,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0031",
+    "source_sha256": "a7e3d4f01db5bf67f161d2ab45f6eb32e76b1bf835c580bee60d939f2e59bcf6",
+    "bytes": 152455,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0032",
+    "source_sha256": "00f7021b2614fd6cb195532839487fd6f37845d396d1f1db5687cad6fb5aa72d",
+    "bytes": 149386,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0033",
+    "source_sha256": "20c500f26bd167c6afbda613b8b12828cd0408711f054d4bf0f38a9325c24186",
+    "bytes": 150985,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0034",
+    "source_sha256": "20c500f26bd167c6afbda613b8b12828cd0408711f054d4bf0f38a9325c24186",
+    "bytes": 150985,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0035",
+    "source_sha256": "87341f654dd3204ca778f9a06f6c3cd4993bf9f6a20cd0f97e47bebb7e8403c4",
+    "bytes": 199740,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0036",
+    "source_sha256": "87341f654dd3204ca778f9a06f6c3cd4993bf9f6a20cd0f97e47bebb7e8403c4",
+    "bytes": 199740,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-0037",
+    "source_sha256": "87341f654dd3204ca778f9a06f6c3cd4993bf9f6a20cd0f97e47bebb7e8403c4",
+    "bytes": 199740,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  }
+]

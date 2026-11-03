@@ -1,0 +1,401 @@
+{
+  "label": "Mopan",
+  "date": "2026-11-03",
+  "model_label": "Default",
+  "effort": null,
+  "criteria": [
+    {
+      "id": "ready",
+      "label": "启动与可操作",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "透视 3D 赛道、可操控车辆、计时与进度可见；键盘输入产生世界位移。",
+      "observation_ids": [
+        "mopan-new-evaluation-0005",
+        "mopan-new-evaluation-0006",
+        "mopan-new-evaluation-0007",
+        "mopan-new-evaluation-0009"
+      ],
+      "weight": 4,
+      "weighted_points": 4.0
+    },
+    {
+      "id": "acceleration",
+      "label": "加速",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "两段相同 700 ms 前进输入中，起终点门、路边标志与小地图位置的位移增大。第三段已碰边界，不用于加速判定。HUD 仅辅助；未推算物理米数。",
+      "observation_ids": [
+        "mopan-new-evaluation-0006",
+        "mopan-new-evaluation-0007",
+        "mopan-new-evaluation-0008",
+        "mopan-new-evaluation-0009",
+        "mopan-new-evaluation-0010"
+      ],
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "braking",
+      "label": "刹车对照",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "第 2/3 局从相同起点各两段 350 ms 加速；对照起点地标接近（HUD 约 75/79）。350 ms 松油门仍继续前进，刹车后世界位移停止；无转向或撞墙。截图/输入调度使实际观察窗口并非严格等长，保留原始时间。",
+      "observation_ids": [
+        "mopan-new-evaluation-0013",
+        "mopan-new-evaluation-0015",
+        "mopan-new-evaluation-0017",
+        "mopan-new-evaluation-0018",
+        "mopan-new-evaluation-0019",
+        "mopan-new-evaluation-0020",
+        "mopan-new-evaluation-0023",
+        "mopan-new-evaluation-0025",
+        "mopan-new-evaluation-0027",
+        "mopan-new-evaluation-0028",
+        "mopan-new-evaluation-0029",
+        "mopan-new-evaluation-0030"
+      ],
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "steering",
+      "label": "左右转向",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "左右输入均改变车头与行驶路线；合法圈中实际通过左弯、右弯和 S 弯。",
+      "observation_ids": [
+        "mopan-new-evaluation-0039",
+        "mopan-new-evaluation-0041",
+        "mopan-new-evaluation-0049",
+        "mopan-new-evaluation-0051",
+        "mopan-new-evaluation-0197",
+        "mopan-new-evaluation-0199",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0217",
+        "mopan-new-evaluation-0221",
+        "mopan-new-evaluation-0223"
+      ],
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "follow-camera",
+      "label": "跟随镜头",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "直道及两向弯道中相机随车运动，车辆与前方路线始终可见。",
+      "observation_ids": [
+        "mopan-new-evaluation-0007",
+        "mopan-new-evaluation-0009",
+        "mopan-new-evaluation-0051",
+        "mopan-new-evaluation-0123",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0223",
+        "mopan-new-evaluation-0295",
+        "mopan-new-evaluation-0323"
+      ],
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "track-bounds",
+      "label": "内外侧边界",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "第 3 局通过正常转向接触两侧护栏，车辆被约束在道路内；接触过程中未获取检查点或抄近路进度。第 4 局也记录到护栏接触火花。",
+      "observation_ids": [
+        "mopan-new-evaluation-0039",
+        "mopan-new-evaluation-0041",
+        "mopan-new-evaluation-0043",
+        "mopan-new-evaluation-0045",
+        "mopan-new-evaluation-0047",
+        "mopan-new-evaluation-0081",
+        "mopan-new-evaluation-0083",
+        "mopan-new-evaluation-0085",
+        "mopan-new-evaluation-0087",
+        "mopan-new-evaluation-0093",
+        "mopan-new-evaluation-0193"
+      ],
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "ordered-checkpoints",
+      "label": "有序检查点",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "第 3 局提前反向越过起终点保持 0/4；通过 CP1 后倒退重穿 CP1 保持 1/4，没有冒充 CP2。随后第 4 局从 0/4 连续依次通过四门。反例范围是反向重穿已过检查点，不宣称穷尽所有跳点路线。",
+      "observation_ids": [
+        "mopan-new-evaluation-0029",
+        "mopan-new-evaluation-0031",
+        "mopan-new-evaluation-0033",
+        "mopan-new-evaluation-0035",
+        "mopan-new-evaluation-0109",
+        "mopan-new-evaluation-0111",
+        "mopan-new-evaluation-0112",
+        "mopan-new-evaluation-0113",
+        "mopan-new-evaluation-0115",
+        "mopan-new-evaluation-0117",
+        "mopan-new-evaluation-0155",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0266",
+        "mopan-new-evaluation-0295"
+      ],
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "lap-finish",
+      "label": "合法整圈与计时冻结",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "第 4 局零进度起步，四门依次通过后正向冲线；出现完赛页，09:07.04 从 05:24:09.646Z 至 05:24:13.113Z 保持不变（3.467 秒）。这是含观察停顿的试玩用时，不是竞速成绩。",
+      "observation_ids": [
+        "mopan-new-evaluation-0117",
+        "mopan-new-evaluation-0155",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0266",
+        "mopan-new-evaluation-0295",
+        "mopan-new-evaluation-0321",
+        "mopan-new-evaluation-0323",
+        "mopan-new-evaluation-0324",
+        "mopan-new-evaluation-0325",
+        "mopan-new-evaluation-0326",
+        "mopan-new-evaluation-0327",
+        "mopan-new-evaluation-0328"
+      ],
+      "weight": 8,
+      "weighted_points": 8.0
+    },
+    {
+      "id": "restart",
+      "label": "完赛后重开",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "点击完赛页的重开按钮，第 5 局恢复起点、0/4、约 0 秒并清除完赛层；前进仍响应。历史最佳单圈保留，当前圈已清零。",
+      "observation_ids": [
+        "mopan-new-evaluation-0330",
+        "mopan-new-evaluation-0331",
+        "mopan-new-evaluation-0332",
+        "mopan-new-evaluation-0333",
+        "mopan-new-evaluation-0334",
+        "mopan-new-evaluation-0335"
+      ],
+      "weight": 6,
+      "weighted_points": 6.0
+    },
+    {
+      "id": "readability",
+      "label": "画面可读性",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "驾驶中车辆、赛道、计时与检查点可读；完赛数字、状态清楚。",
+      "observation_ids": [
+        "mopan-new-evaluation-0123",
+        "mopan-new-evaluation-0155",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0266",
+        "mopan-new-evaluation-0295",
+        "mopan-new-evaluation-0328"
+      ],
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "guidance",
+      "label": "操作与路线指引",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "W/S/A/D、R 与已观察行为一致；下一检查点文字、高亮门、小地图和重开按钮可发现。",
+      "observation_ids": [
+        "mopan-new-evaluation-0006",
+        "mopan-new-evaluation-0029",
+        "mopan-new-evaluation-0051",
+        "mopan-new-evaluation-0155",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0328",
+        "mopan-new-evaluation-0331"
+      ],
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "feedback",
+      "label": "交互反馈",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "检查点变绿并出现通过提示、护栏接触出现火花、合法冲线有独立结果层；反例未显示伪成功。未评价音效或 FPS。",
+      "observation_ids": [
+        "mopan-new-evaluation-0033",
+        "mopan-new-evaluation-0047",
+        "mopan-new-evaluation-0111",
+        "mopan-new-evaluation-0115",
+        "mopan-new-evaluation-0193",
+        "mopan-new-evaluation-0215",
+        "mopan-new-evaluation-0295",
+        "mopan-new-evaluation-0328"
+      ],
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "presentation",
+      "label": "视觉与布局",
+      "status": "passed",
+      "rating_out_of_10": 10,
+      "reason": "低多边形车辆、树木、山体与赛道风格一致；1280×800、390×844 页面下驾驶 HUD 与完赛层均可见。手机只做布局检查。",
+      "observation_ids": [
+        "mopan-new-evaluation-0123",
+        "mopan-new-evaluation-0328",
+        "mopan-new-evaluation-0329",
+        "mopan-new-evaluation-0331",
+        "mopan-new-evaluation-0336"
+      ],
+      "weight": 2.5,
+      "weighted_points": 2.5
+    },
+    {
+      "id": "delivery-time",
+      "label": "交付时间",
+      "status": "computed",
+      "rating_out_of_10": 8.71957,
+      "reason": "按记录耗时 722.542 秒独立计算时间分；本地 observed-duration-v1 不应用玩法门槛，原规则结果另存。",
+      "observation_ids": [
+        "mopan-new-creation-0033"
+      ],
+      "weight": 30,
+      "weighted_points": 26.15871,
+      "timing_evidence": {
+        "source": "history/mopan-new-generation-report.json",
+        "result_id": "mopan",
+        "field": "timing",
+        "seconds": 722.542
+      },
+      "scoring_addendum": "scoring/observed-duration-v1.json"
+    }
+  ],
+  "timing": {
+    "accepted_at": "2026-11-03T04:44:10.080Z",
+    "first_observed_final_playable_at": "2026-11-03T04:56:12.622Z",
+    "accepted_to_observed_delivery_seconds": 722.542,
+    "platform_reported_work_seconds": 656
+  },
+  "evaluation": {
+    "requested_start": "2026-11-03T05:05:24.630Z",
+    "active_start": "2026-11-03T05:09:16.177Z",
+    "end": "2026-11-03T05:25:50.406Z",
+    "sessions_used": 5,
+    "elapsed_active_seconds": 994.229,
+    "transport_outage": "Before active_start: ordinary browser input timed out while temporary DevTools was open. Closed DevTools; same visible restart then succeeded. No driving input sent during outage.",
+    "access_mode": "visible_ui",
+    "creation_context_hidden": false,
+    "affiliation": "Mopan-owner-authorized operator",
+    "model": null,
+    "effort": null,
+    "tools": [
+      "cua_repl browser AX/screenshot/keyboard/Playwright visible locators",
+      "Chrome CDP Emulation viewport only"
+    ],
+    "source_or_hidden_state_read": false
+  },
+  "creation_context_hidden": false,
+  "creation_capture": {
+    "frames": 33,
+    "gaps_over_30_seconds": [
+      {
+        "from_id": "mopan-new-creation-0003",
+        "to_id": "mopan-new-creation-0004",
+        "seconds": 31.172
+      },
+      {
+        "from_id": "mopan-new-creation-0005",
+        "to_id": "mopan-new-creation-0006",
+        "seconds": 56.82
+      },
+      {
+        "from_id": "mopan-new-creation-0006",
+        "to_id": "mopan-new-creation-0007",
+        "seconds": 53.745
+      },
+      {
+        "from_id": "mopan-new-creation-0007",
+        "to_id": "mopan-new-creation-0008",
+        "seconds": 66.195
+      },
+      {
+        "from_id": "mopan-new-creation-0008",
+        "to_id": "mopan-new-creation-0009",
+        "seconds": 41.265
+      },
+      {
+        "from_id": "mopan-new-creation-0009",
+        "to_id": "mopan-new-creation-0010",
+        "seconds": 30.071
+      },
+      {
+        "from_id": "mopan-new-creation-0012",
+        "to_id": "mopan-new-creation-0013",
+        "seconds": 30.567
+      },
+      {
+        "from_id": "mopan-new-creation-0026",
+        "to_id": "mopan-new-creation-0027",
+        "seconds": 37.117
+      },
+      {
+        "from_id": "mopan-new-creation-0032",
+        "to_id": "mopan-new-creation-0033",
+        "seconds": 59.314
+      }
+    ]
+  },
+  "diagnostic_score": {
+    "core": 60,
+    "ux": 10,
+    "time": 26.15871,
+    "total": 96.15871,
+    "core_passes": 9,
+    "core_total": 9,
+    "time_gate_applied": false,
+    "scoring_version": "observed-duration-v1"
+  },
+  "frozen_protocol_diagnostic_score": {
+    "core": 60,
+    "ux": 10,
+    "time": 26.15871,
+    "total": 96.15871,
+    "core_passes": 9,
+    "core_total": 9,
+    "time_gate_passed": true
+  },
+  "frozen_protocol_time_criterion": {
+    "id": "delivery-time",
+    "label": "交付时间",
+    "status": "computed",
+    "rating_out_of_10": 8.71957,
+    "reason": "从 prompt 已接受至首个已保存的最终可玩画面，共 722.542 秒。Ready 画面仍空白，未提前计为交付。五项时间门槛均通过。",
+    "observation_ids": [
+      "mopan-new-creation-0033"
+    ],
+    "weight": 30,
+    "weighted_points": 26.15871
+  },
+  "summary": "九项核心均有通过证据：有序检查点、合法整圈、计时冻结及完赛重开。最新一次独立生成，旧轮次保留。",
+  "id": "mopan",
+  "selected": true,
+  "official_benchmark_score": null,
+  "maintainer_review": "not_yet_reviewed",
+  "score_status": "affiliated_development_pilot",
+  "scoring_policy": "observed-duration-v1",
+  "artifact": {
+    "title": "低多边形极速计时赛",
+    "workspace_url": "https://mopan.ai/workspace/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+    "immutable_build_hash": null,
+    "public_play_url": "https://mopan.ai/play/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+    "access": "anonymous_play_verified_in_chrome_incognito",
+    "post_run_usage_build_id": "2ad25743-324e-4163-9303-b0ffada8af57",
+    "publication_state": "published"
+  },
+  "evidence_path": "submissions/mopan-racing-20261103/r001"
+}

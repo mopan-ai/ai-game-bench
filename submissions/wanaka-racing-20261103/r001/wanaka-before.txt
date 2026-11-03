@@ -1,0 +1,668 @@
+- main "Create a game":
+  - heading "Make your imagination playable" [level=1]:
+    - generic: ✨
+    - generic: Make your imagination playable
+    - generic: ✨
+  - region "Prompt composer":
+    - textbox "Describe the game you want to make":
+      - /placeholder: Invent a puzzle that argues back
+    - text: Invent a puzzle that argues back
+    - generic: (Tab to fill
+    - button "Add attachment":
+    - button "Wanaka 1.0 Lite":
+      - generic: Wanaka 1.0 Lite
+    - button "Plan Mode":
+      - generic: Plan
+    - button "Random prompt":
+    - button "Create" [disabled]:
+  - button "Race neon taxis and drift around midnight traffic":
+    - generic: 🚕
+    - text: Race neon taxis and drift around midnight traffic
+  - button "Sail between islands collecting treasure and dodging storms":
+    - generic: 🏴‍☠️
+    - text: Sail between islands collecting treasure and dodging storms
+  - button "Leap between lily pads and catch flies for points":
+    - generic: 🐸
+    - text: Leap between lily pads and catch flies for points
+- complementary "Main navigation":
+  - button "Go to home"
+  - button "Collapse sidebar" [expanded]:
+  - button "Home":
+    - generic: Home
+  - button "My Games":
+    - generic: My Games
+  - button "Character":
+    - generic: Character
+  - button "Generator":
+    - generic: Generator
+  - button "Play Games":
+    - generic: Play Games
+  - button "Subscription":
+    - generic: Subscription
+  - button "New project"
+  - generic: 260/60 Credits
+  - button "Upgrade"
+  - 'button "Account: [account-name]"':
+    - generic: [account-name]
+- region "Game library":
+  - toolbar "Trending games filters":
+    - group "Filter by genre":
+      - button "All" [pressed]
+      - button "Featured"
+      - button "Multiplayer"
+    - searchbox "Search trending games"
+  - region "Trending":
+    - heading "Browse Trending" [level=2]:
+      - button "Browse Trending": Trending
+    - button "View more Trending":
+      - text: View more
+    - article:
+      - text: Platformer
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Bean Party
+      - generic: CHAI
+      - text: 1.3k
+      - text: 24.5k
+    - article:
+      - generic: RPG
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Neon
+      - generic: CHAI
+      - text: 1.1k
+      - text: 22.8k
+    - article:
+      - text: Action
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: wanaka sports
+      - generic: CHAI
+      - text: "895"
+      - text: 19.7k
+    - article:
+      - text: Shooter
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: "WANA: Fire"
+      - generic: Bowie
+      - text: "848"
+      - text: 18.6k
+    - article:
+      - text: Shooter
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: OUTPOST TAU
+      - generic: JH T
+      - text: "803"
+      - text: 17.5k
+    - article:
+      - generic: Strategy
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Dual Rifts
+      - generic: Bowie
+      - text: "761"
+      - text: 16.6k
+    - article:
+      - generic: Casual
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Japanese Seaside Street
+      - generic: sangyu
+      - text: "719"
+      - text: 15.8k
+    - article:
+      - text: Racing
+      - generic "Multiplayer · 1–6 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Racing
+      - generic: Bowie
+      - text: "683"
+      - text: 15.0k
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Hakurei Shrine
+      - generic: Umo
+      - text: "641"
+      - text: 14.2k
+    - article:
+      - generic: Action
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Slingshot Menace
+      - generic: Leon
+      - text: "626"
+      - text: 13.9k
+  - region "Action Games":
+    - heading "Browse Action Games" [level=2]:
+      - button "Browse Action Games": Action Games
+    - button "View more Action Games":
+      - text: View more
+    - article:
+      - text: Action
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: wanaka sports
+      - generic: CHAI
+      - text: "895"
+      - text: 19.7k
+    - article:
+      - generic: Action
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Slingshot Menace
+      - generic: Leon
+      - text: "626"
+      - text: 13.9k
+    - article:
+      - generic: Action
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Kill Wana
+      - generic: Bowie
+      - text: "185"
+      - text: 6.4k
+    - article:
+      - generic: Action
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Bulb Head
+      - generic: CHAI
+      - text: "137"
+      - text: 3.1k
+    - article:
+      - generic: Action
+      - button "Play":
+        - generic: Play
+      - generic: Living Life
+      - generic: Oghenero Julius
+      - text: "22"
+      - text: "792"
+  - region "Adventure Games":
+    - heading "Browse Adventure Games" [level=2]:
+      - button "Browse Adventure Games": Adventure Games
+    - button "View more Adventure Games":
+      - text: View more
+    - article:
+      - generic: Adventure
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: The Wizard's WiFi
+      - generic: willwinter
+      - text: "607"
+      - text: 13.6k
+    - article:
+      - generic: Adventure
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Lunar Expedition
+      - generic: Bowie
+      - text: "425"
+      - text: 9.3k
+    - article:
+      - generic: Adventure
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wana Land
+      - generic: CHAI
+      - text: "163"
+      - text: 6.5k
+    - article:
+      - generic: Adventure
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Dungeon
+      - generic: Bowie
+      - text: "241"
+      - text: 5.1k
+    - article:
+      - generic: Adventure
+      - button "Play":
+        - generic: Play
+      - generic: Nebula Raid
+      - generic: yang zhang
+      - text: "33"
+      - text: "975"
+  - region "Casual Games":
+    - heading "Browse Casual Games" [level=2]:
+      - button "Browse Casual Games": Casual Games
+    - button "View more Casual Games":
+      - text: View more
+    - article:
+      - generic: Casual
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Japanese Seaside Street
+      - generic: sangyu
+      - text: "719"
+      - text: 15.8k
+    - article:
+      - text: Casual
+      - generic "Multiplayer · 1–4 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wa Mahjong House
+      - generic: Bowie
+      - text: "449"
+      - text: 11.3k
+    - article:
+      - generic: Casual
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Aqvavias
+      - generic: nursba
+      - text: "386"
+      - text: 8.9k
+    - article:
+      - generic: Casual
+      - button "Play":
+        - generic: Play
+      - generic: DRIFT
+      - generic: sangyu
+      - text: "19"
+      - text: "867"
+    - article:
+      - generic: Casual
+      - button "Play":
+        - generic: Play
+      - generic: Chocolate
+      - generic: CHAI
+      - text: "28"
+      - text: "765"
+  - region "RPG Games":
+    - heading "Browse RPG Games" [level=2]:
+      - button "Browse RPG Games": RPG Games
+    - button "View more RPG Games":
+      - text: View more
+    - article:
+      - generic: RPG
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Neon
+      - generic: CHAI
+      - text: 1.1k
+      - text: 22.8k
+    - article:
+      - generic: RPG
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: 瓦纳卡城 Wanaka City
+      - generic: Bowie
+      - text: "569"
+      - text: 12.9k
+    - article:
+      - generic: RPG
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Carboard Knight
+      - generic: CHAI
+      - text: "60"
+      - text: 2.7k
+    - article:
+      - generic: RPG
+      - button "Play":
+        - generic: Play
+      - generic: Dawnstar Traveler
+      - generic: CHAI
+      - text: "3"
+      - text: "37"
+    - article:
+      - generic: RPG
+      - button "Play":
+        - generic: Play
+      - generic: Glimmer Wild
+      - generic: CHAI
+      - text: "1"
+      - text: "27"
+  - region "Horror Games":
+    - heading "Browse Horror Games" [level=2]:
+      - button "Browse Horror Games": Horror Games
+    - button "View more Horror Games":
+      - text: View more
+    - article:
+      - generic: Horror
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Don't Look at Him
+      - generic: luckynumchris (luckynumchris)
+      - text: "2"
+      - text: "58"
+    - article:
+      - generic: Horror
+      - button "Play":
+        - generic: Play
+      - generic: DEAD FREQUENCY
+      - generic: Tiberius Papenhagen
+      - text: "0"
+      - text: "23"
+    - article:
+      - generic: Horror
+      - button "Play":
+        - generic: Play
+      - generic: The Cursed Twins
+      - generic: Tinu123
+      - text: "1"
+      - text: "13"
+    - article:
+      - generic: Horror
+      - button "Play":
+        - generic: Play
+      - generic: Abyssal Echo
+      - generic: CHAI
+      - text: "0"
+      - text: "12"
+  - region "Platformer Games":
+    - heading "Browse Platformer Games" [level=2]:
+      - button "Browse Platformer Games": Platformer Games
+    - button "View more Platformer Games":
+      - text: View more
+    - article:
+      - text: Platformer
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Bean Party
+      - generic: CHAI
+      - text: 1.3k
+      - text: 24.5k
+    - article:
+      - generic: Platformer
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: ASMR Rush
+      - generic: CHAI
+      - text: "258"
+      - text: 10.9k
+    - article:
+      - generic: Platformer
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Roped Together
+      - generic: CHAI
+      - text: "397"
+      - text: 9.6k
+    - article:
+      - generic: Platformer
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Fruit Canyon
+      - generic: CHAI
+      - text: "88"
+      - text: 4.3k
+    - article:
+      - text: Platformer
+      - generic "Multiplayer · 2 players":
+      - button "Play":
+        - generic: Play
+      - generic: Homelight
+      - generic: Bowie
+      - text: "0"
+      - text: "52"
+  - region "Puzzle Games":
+    - heading "Browse Puzzle Games" [level=2]:
+      - button "Browse Puzzle Games": Puzzle Games
+    - button "View more Puzzle Games":
+      - text: View more
+    - article:
+      - generic: Puzzle
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: The Telephone
+      - generic: nursba
+      - text: "48"
+      - text: 2.3k
+    - article:
+      - generic: Puzzle
+      - button "Play":
+        - generic: Play
+      - generic: Destructive Intent
+      - generic: Tydorius Jenkins
+      - text: "0"
+      - text: "29"
+    - article:
+      - generic: Puzzle
+      - button "Play":
+        - generic: Play
+      - generic: Rig it Morty
+      - generic: Yes No
+      - text: "1"
+      - text: "11"
+  - region "Racing Games":
+    - heading "Browse Racing Games" [level=2]:
+      - button "Browse Racing Games": Racing Games
+    - button "View more Racing Games":
+      - text: View more
+    - article:
+      - text: Racing
+      - generic "Multiplayer · 1–6 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Racing
+      - generic: Bowie
+      - text: "683"
+      - text: 15.0k
+    - article:
+      - generic: Racing
+      - button "Play":
+        - generic: Play
+      - generic: NASCAR Allstars Racing!!
+      - generic: Harsh
+      - text: "22"
+      - text: "911"
+  - region "Shooter Games":
+    - heading "Browse Shooter Games" [level=2]:
+      - button "Browse Shooter Games": Shooter Games
+    - button "View more Shooter Games":
+      - text: View more
+    - article:
+      - text: Shooter
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: "WANA: Fire"
+      - generic: Bowie
+      - text: "848"
+      - text: 18.6k
+    - article:
+      - text: Shooter
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: OUTPOST TAU
+      - generic: JH T
+      - text: "803"
+      - text: 17.5k
+    - article:
+      - text: Shooter
+      - generic "Multiplayer · 1–8 players":
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Gridlock Ops
+      - generic: Bowie
+      - text: "86"
+      - text: 2.8k
+    - article:
+      - generic: Shooter
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka CoD
+      - generic: Bowie
+      - text: "42"
+      - text: 1.7k
+  - region "Simulation Games":
+    - heading "Browse Simulation Games" [level=2]:
+      - button "Browse Simulation Games": Simulation Games
+    - button "View more Simulation Games":
+      - text: View more
+    - article:
+      - generic: Simulation
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: CLAIMFALL
+      - generic: Petit_burger86
+      - text: "153"
+      - text: 4.9k
+    - article:
+      - generic: Simulation
+      - button "Play":
+        - generic: Play
+      - generic: Fish Tank Simulator
+      - generic: CHAI
+      - text: "32"
+      - text: "942"
+    - article:
+      - generic: Simulation
+      - button "Play":
+        - generic: Play
+      - generic: 拯救冰块计划 — Save the Ice Cube
+      - generic: MaxDemo06
+      - text: "20"
+      - text: "861"
+    - article:
+      - generic: Simulation
+      - button "Play":
+        - generic: Play
+      - generic: 程序化城市 · Procedural City
+      - generic: Bowie
+      - text: "13"
+      - text: "375"
+  - region "Sports Games":
+    - heading "Browse Sports Games" [level=2]:
+      - button "Browse Sports Games": Sports Games
+    - button "View more Sports Games":
+      - text: View more
+    - article:
+      - generic: Sports
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Ember Duel
+      - generic: Bowie
+      - text: "123"
+      - text: 3.2k
+  - region "Strategy Games":
+    - heading "Browse Strategy Games" [level=2]:
+      - button "Browse Strategy Games": Strategy Games
+    - button "View more Strategy Games":
+      - text: View more
+    - article:
+      - generic: Strategy
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Dual Rifts
+      - generic: Bowie
+      - text: "761"
+      - text: 16.6k
+    - article:
+      - generic: Strategy
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Docked
+      - generic: sangyu
+      - text: "533"
+      - text: 12.3k
+    - article:
+      - generic: Strategy
+      - button "Play":
+        - generic: Play
+      - generic: "Dune Extraction: Defend the Harvester"
+      - generic: Harsh
+      - text: "1"
+      - text: "12"
+  - region "Other Games":
+    - heading "Browse Other Games" [level=2]:
+      - button "Browse Other Games": Other Games
+    - button "View more Other Games":
+      - text: View more
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Hakurei Shrine
+      - generic: Umo
+      - text: "641"
+      - text: 14.2k
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Create
+      - generic: Bowie
+      - text: "209"
+      - text: 8.6k
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Wanaka Tide
+      - generic: Bowie
+      - text: "191"
+      - text: 7.0k
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: "Interstellar: Four-Dimensional Echo"
+      - generic: Bowie
+      - text: "115"
+      - text: 2.9k
+    - article:
+      - generic: Other
+      - generic: Featured
+      - button "Play":
+        - generic: Play
+      - generic: Sunset Drive FM
+      - generic: sangyu
+      - text: "47"
+      - text: 2.3k

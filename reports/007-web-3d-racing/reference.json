@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1",
+  "kind": "historical_reference",
+  "id": "007-web-3d-racing",
+  "title": "Web 3D racing: Mopan, Wanaka and Codex \u2014 development pilot",
+  "date": "2026-11-03",
+  "platforms": [
+    "Mopan",
+    "Wanaka",
+    "Codex"
+  ],
+  "report_url": "https://aigamebench.com/reports/007-web-3d-racing/report.html",
+  "reproduced_by_public_checkout": false
+}
