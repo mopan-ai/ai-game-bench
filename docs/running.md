@@ -2,6 +2,7 @@
 
 Use the repository checkout, uv, Python 3.12 and a running Docker daemon.
 macOS with Docker Desktop is the initial local target; CI targets Ubuntu Linux.
+For an introduction without Docker or model calls, [validate the free example](getting-started.md#try-the-free-example).
 
 ```bash
 uv sync --locked

@@ -41,14 +41,17 @@ curation happens separately in the landing repository, after publication approva
 
 | Layer | Location | Responsibility |
 | --- | --- | --- |
-| Task contracts | `datasets/`, `protocols/` | Executable Harbor tasks versus data-only browser procedures |
+| Task contracts | `datasets/`, `protocols/`; [task catalog](tasks.md) | Executable Harbor tasks versus data-only browser procedures |
 | Measurement policy | `policies/`, `scoring/` | Frozen identities, budgets, criteria and score mappings; historical addenda remain separate |
 | Execution integration | `src/ai_game_bench/cli.py`, `platforms/` | Thin Harbor entry point and creator-platform references; references are not adapters |
 | Game verification | `datasets/*/*/tests/` | Standalone file-to-JSON checks with a thin Harbor bridge |
-| Evaluator development | `fixtures/calibration/`, `calibration/`, `src/ai_game_bench/judge_agent.py` | Authored examples and experimental gameplay-judge adapter |
-| Public evidence | `submissions/`, `reviews/`, `reports/` | Immutable scoped exports, separate review evidence and report references |
+| Learning the format | [examples/](../examples/README.md) | Invented teaching packages, never reported as real trials |
+| Evaluator development | [fixtures/](../fixtures/README.md), [calibration/](../calibration/README.md), `src/ai_game_bench/judge_agent.py` | Known pass/fault games, experiment definitions and the experimental judge adapter |
+| Contributor evidence | [submissions/](../submissions/README.md) | Immutable, task-scoped real-run exports |
+| Reviewer evidence | [reviews/](../reviews/README.md) | Additional reviewer recordings; the exact-revision decision belongs in the PR |
+| Result navigation | [reports/](../reports/README.md) | Task → submission → decision → presentation links; existing exports stay frozen |
 | Validation and review automation | `tests/`, `scripts/`, `.github/` | Contract/regression checks and trusted structural review |
-| Method documentation | `docs/` | Methodology, glossary, runbooks, research decisions and dated history |
+| Documentation | [docs/](README.md) | Get started, guides, reference and maintainer instructions; history is archived separately |
 
 `jobs/` and `artifacts/` are ignored local outputs, not public datasets. Frozen
 paths stay stable because task identities, manifests and results refer to them.
@@ -124,7 +127,7 @@ duration, credit valuation, model-cost estimate and actual payment separately.
 
 `jobs/` is the canonical local Harbor record, excluded from Git. Public report
 references and evidence exports do not replace trial JSON. The public export uses
-`manifest.json` with schema `public-submission/0.1`; it is distinct from the
+`manifest.json` with schema `public-submission/0.1` or `0.2`; it is distinct from the
 game-to-verifier `submission.json` contract above. Existing frozen task bytes are
 unchanged. `policies/` pins their identity and the export's score mapping.
 
@@ -142,7 +145,7 @@ they do not create a parallel runtime, job store or automatic judge.
 Public submission data is public by default, with pre-upload rights/privacy
 confirmation. Credentials, private content and whole raw jobs never enter Git.
 No additional training agreement is inferred; reuse follows the declared license.
-See [public-data terms](../README.md#public-data-and-privacy-terms).
+See [public-data terms](public-data.md).
 
 The [v0.2 measurement contract](measurement.md) adds evaluator metadata,
 separate timeout/error semantics and offline selected-set summaries. It uses the

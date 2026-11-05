@@ -1,6 +1,6 @@
 # Submit public evidence — for humans and agents
 
-**Read the [public-data terms](../README.md#public-data-and-privacy-terms) first.**
+**Read the [public-data terms](public-data.md) first.**
 Everything pushed to a public fork is already public. No private workspace is
 needed. These commands prepare/check files; they do not run a creator or upload.
 
@@ -8,6 +8,8 @@ needed. These commands prepare/check files; they do not run a creator or upload.
 
 Fork the repository and clone **your fork**. Install with `uv sync --locked`.
 The current tools target macOS/Linux (use WSL on Windows).
+Use the [task catalog](tasks.md) to choose a method and the
+[results index](../reports/README.md) to inspect real packages and review decisions.
 
 ```bash
 uv run agb submission policies

@@ -30,11 +30,11 @@ adapters here. The public checkout executes only free Oracle/Nop calibration.
 
 [Logo sources and attribution](LOGOS.md). Platform listing does not imply endorsement.
 
-Inspect the [real Mopan package](../submissions/mopan-gemini4-tetris-20261014/r003/README.md)
-and [maintainer decision](https://github.com/mopan-ai/ai-game-bench/pull/4#issuecomment-6162702189).
-It is one affiliated, non-blind creation, not independent reproduction. Other
-platforms' [historical reports](../reports/README.md) are not accepted submissions
-under this new contract. Neither kind establishes current account availability.
+The [results index](../reports/README.md#accepted-evidence) links accepted Tetris
+packages and the Codex / Mopan / Wanaka racing development pilot to their review
+decisions. Wanaka has pilot evidence but no platform guide yet. Accepted evidence
+retains its review limits; historical website reports alone are not accepted
+submissions. Neither kind establishes current account availability.
 
 **Requirements:** CLI routes need your local CLI/provider account. Browser
 references use an owner-selected, logged-in Chrome profile with explicit control

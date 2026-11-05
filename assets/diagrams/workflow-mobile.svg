@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="548" viewBox="0 0 400 548" role="img" aria-labelledby="title desc">
+  <title id="title">AI Game Bench in four steps</title>
+  <desc id="desc">Define a task: prompt and rubric. Create a game: game and run evidence. Play and evaluate: checks and scores. Review and publish: evidence review followed by a curated report. This is a process overview, not a claim of automated platform support.</desc>
+  <style>
+    svg { --card:#f6f8fa; --border:#d8e0e6; --text:#1f2937; --muted:#526174; --arrow:#76869a; --purple:#7044a7; --blue:#275cad; --green:#18765d; --ochre:#916222; }
+    @media (prefers-color-scheme: dark) { svg { --card:#161b22; --border:#3d4652; --text:#f0f3f6; --muted:#b2bdca; --arrow:#8b9bac; --purple:#c6a6f3; --blue:#8cbbff; --green:#7bd4b3; --ochre:#e6ba72; } }
+    text { font-family:Arial,Helvetica,sans-serif; }
+    .card { fill:var(--card); stroke:var(--border); }
+    .heading { font-size:25px; font-weight:700; fill:var(--text); }
+    .detail { font-size:19px; fill:var(--muted); }
+    .step { font-size:22px; font-weight:700; }
+    .arrow { fill:none; stroke:var(--arrow); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+  </style>
+  <g>
+    <rect class="card" x="8.5" y="8.5" width="383" height="111" rx="12"/>
+    <text class="step" x="30" y="70" fill="var(--purple)">01</text>
+    <text class="heading" x="82" y="55">Define a task</text>
+    <text class="detail" x="82" y="87">Prompt + rubric</text>
+  </g>
+  <path class="arrow" d="M200 126 V141 M195 136 L200 141 L205 136"/>
+  <g>
+    <rect class="card" x="8.5" y="148.5" width="383" height="111" rx="12"/>
+    <text class="step" x="30" y="210" fill="var(--blue)">02</text>
+    <text class="heading" x="82" y="195">Create a game</text>
+    <text class="detail" x="82" y="227">Game + run evidence</text>
+  </g>
+  <path class="arrow" d="M200 266 V281 M195 276 L200 281 L205 276"/>
+  <g>
+    <rect class="card" x="8.5" y="288.5" width="383" height="111" rx="12"/>
+    <text class="step" x="30" y="350" fill="var(--green)">03</text>
+    <text class="heading" x="82" y="335">Play &amp; evaluate</text>
+    <text class="detail" x="82" y="367">Checks + scores</text>
+  </g>
+  <path class="arrow" d="M200 406 V421 M195 416 L200 421 L205 416"/>
+  <g>
+    <rect class="card" x="8.5" y="428.5" width="383" height="111" rx="12"/>
+    <text class="step" x="30" y="490" fill="var(--ochre)">04</text>
+    <text class="heading" x="82" y="475">Review &amp; publish</text>
+    <text class="detail" x="82" y="507">Evidence → report</text>
+  </g>
+</svg>
