@@ -1,0 +1,1535 @@
+[
+  {
+    "event_id": "wanaka-game-0001",
+    "source_sha256": "b2f2be959a3e02c68d34cabeaccd610fbdebdeb48f2ce90c3c4c7b28a8a196f5",
+    "bytes": 78544,
+    "path": "frames/wanaka-game-0001.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0002",
+    "source_sha256": "7ab8dd0f5df058b1edb1ae2c24c449c6fdf05290651cf596725b94a41772800e",
+    "bytes": 98736,
+    "path": "frames/wanaka-game-0002.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0003",
+    "source_sha256": "bc7125cb79f05c7119b501fbbe62415ca2a03eac3349192eec5bbc3a55f318b2",
+    "bytes": 98742,
+    "path": "frames/wanaka-game-0003.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0004",
+    "source_sha256": "24aff224b794dc638dff07f5450c2bc6683932df61041f9c54f5879d2d83df9a",
+    "bytes": 96971,
+    "path": "frames/wanaka-game-0004.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0005",
+    "source_sha256": "8cb9846e9ce92935fd39e1bad7ada425bb5f007caf868e0d677f3121dd7071df",
+    "bytes": 100268,
+    "path": "frames/wanaka-game-0005.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0006",
+    "source_sha256": "676cffff91e28da1c5c2848fc1c97bdd808fb20ccafcfdc5285eff4099994c3c",
+    "bytes": 92878,
+    "path": "frames/wanaka-game-0006.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0007",
+    "source_sha256": "20ddd012fd1e49901bffdf438398f8704d25dd21638e8e0042c9b0089603fdbd",
+    "bytes": 87550,
+    "path": "frames/wanaka-game-0007.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0008",
+    "source_sha256": "2aa56ea4a53aac2642a9783e9c3ace21141ac53bae307080b74b34989100a1c2",
+    "bytes": 73877,
+    "path": "frames/wanaka-game-0008.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0009",
+    "source_sha256": "290cedba6e7b810aa8b01058f4ab35889ccc277b910d615470d32eddb598f5f1",
+    "bytes": 98897,
+    "path": "frames/wanaka-game-0009.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0010",
+    "source_sha256": "66d5f7069ae50d81e4a85983568e0dbaa97699d613deb35fa7ca9fe22471e110",
+    "bytes": 98258,
+    "path": "frames/wanaka-game-0010.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0011",
+    "source_sha256": "b07d596d297a452836ecf517744f99365445d59bf9a3ce353586fb966d8750c6",
+    "bytes": 97571,
+    "path": "frames/wanaka-game-0011.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0012",
+    "source_sha256": "53c1c15a342bbc892a87bd530877787765d1ca21502cba8cd57bf3936cbbad14",
+    "bytes": 97625,
+    "path": "frames/wanaka-game-0012.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0013",
+    "source_sha256": "d670803895e8c058868ddc3623e97bd11135ad8e3ec25948fd179694fe031940",
+    "bytes": 99598,
+    "path": "frames/wanaka-game-0013.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0014",
+    "source_sha256": "c281896a04506e166b1a1c660b3f024209cfc03009640219af8a454e7f6e0159",
+    "bytes": 100080,
+    "path": "frames/wanaka-game-0014.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0015",
+    "source_sha256": "1918fbc3ceb60588ddddc689bb5146d6be312266d321f87ed86aa95c6cda32eb",
+    "bytes": 99982,
+    "path": "frames/wanaka-game-0015.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0016",
+    "source_sha256": "582821604fc795b189f90a5f3b61905ee5b924d443fc299e980a98f560653156",
+    "bytes": 96057,
+    "path": "frames/wanaka-game-0016.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0017",
+    "source_sha256": "59eaf05f63a03e0a2f8b072f5c4d4474cc72fa76fee1e08ef049626ce27d9392",
+    "bytes": 91351,
+    "path": "frames/wanaka-game-0017.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0018",
+    "source_sha256": "9d57118ff8d2a03025570f82952720e25a8be409a4ce82faae0f29649806ac53",
+    "bytes": 90794,
+    "path": "frames/wanaka-game-0018.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0019",
+    "source_sha256": "fbacdedb37a9e37dd48eb3b5210f0434a1eaa60f24df68d2f56a1e36005fef57",
+    "bytes": 89946,
+    "path": "frames/wanaka-game-0019.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0020",
+    "source_sha256": "99dccf98f9cac6fe70ee30de15fcb0fc6099a7f4e1a7780e06af97385e6b0642",
+    "bytes": 99011,
+    "path": "frames/wanaka-game-0020.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0021",
+    "source_sha256": "b9ad6f6721cb29caa00201f2aecec3cc33c7efd8db059e2a89182f96bba0cafc",
+    "bytes": 98869,
+    "path": "frames/wanaka-game-0021.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0022",
+    "source_sha256": "dac0bf94d85be73ccb9067c7487ce3d5cdb3f394d985c1cad3e9bc1e06bf4b1f",
+    "bytes": 98550,
+    "path": "frames/wanaka-game-0022.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0023",
+    "source_sha256": "d9fb886002f780db4b2f5d350feefb29d3cf053b8d9338d0b63273d557a49d45",
+    "bytes": 97990,
+    "path": "frames/wanaka-game-0023.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0024",
+    "source_sha256": "4f2063412e69b2779a834da0fce5f7e6dbb5c20215c49c9879a5a27a387c034a",
+    "bytes": 99971,
+    "path": "frames/wanaka-game-0024.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0025",
+    "source_sha256": "423f8d5a0079be5cec2c2c6aa9843b70b71018c812f70ee82c28c311964fb3ca",
+    "bytes": 100322,
+    "path": "frames/wanaka-game-0025.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0026",
+    "source_sha256": "1699020d7c815cf83f344322f19488abe65fd5dcc51996daad94dcdf7421a045",
+    "bytes": 99873,
+    "path": "frames/wanaka-game-0026.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0027",
+    "source_sha256": "1ff97de121838070a50a14588baaf96c1492cf6c353e2ae78b71a81417bd1c45",
+    "bytes": 97372,
+    "path": "frames/wanaka-game-0027.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0028",
+    "source_sha256": "0f34fe33df8641fa431bee5935fbafeccd844f8ad3295c65a28de6641312c765",
+    "bytes": 96489,
+    "path": "frames/wanaka-game-0028.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0029",
+    "source_sha256": "9322156e95df95288985986844f9998e1f791d2c2a9a520c1a5f75e788dd618d",
+    "bytes": 97236,
+    "path": "frames/wanaka-game-0029.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0030",
+    "source_sha256": "06d99891b6f40f396d5726b1a2e48645f01b49f3217e13f4c901d130d2c8f5ff",
+    "bytes": 99381,
+    "path": "frames/wanaka-game-0030.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0031",
+    "source_sha256": "1e02a3cc567fded4bb4a56bd4e34eb0f700a459579d7c02875e97ab6ca8021d8",
+    "bytes": 102549,
+    "path": "frames/wanaka-game-0031.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0032",
+    "source_sha256": "a4376272e79079651b0106973ba9a11dec6f32702a2332f829a089409543b7eb",
+    "bytes": 99685,
+    "path": "frames/wanaka-game-0032.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0033",
+    "source_sha256": "c5572e30e39f7bafb35710bf41fc53041072bca9065a075f6f0ca58cc4c137e3",
+    "bytes": 95537,
+    "path": "frames/wanaka-game-0033.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0034",
+    "source_sha256": "85914aedbd94175b66b2b67c4c4111568ab7c3167a504d27d700982cd6e12fc4",
+    "bytes": 95688,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0035",
+    "source_sha256": "bb7698b6d55bf058fe393a37304659dc6970100d5352a9c2e779f216c39a9401",
+    "bytes": 89745,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0036",
+    "source_sha256": "b01968432265915f60e472c7c776a5413b8a3a4c604f5c9b8967ba0232870245",
+    "bytes": 88168,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0037",
+    "source_sha256": "01278afa7ae5205e8f3b52c88a2e4f1461dd51275d47fa747d93fb24ff2b0ba6",
+    "bytes": 87198,
+    "path": "frames/wanaka-game-0037.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0038",
+    "source_sha256": "5f5ec67b16fb33723337489963e3d4b8eceefa9b347507606fb4056f40cf71fa",
+    "bytes": 88197,
+    "path": "frames/wanaka-game-0038.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0039",
+    "source_sha256": "4f8ab6fb1c88afd81c225c1b4365d89911111896408620eda2bdcb1e657672a5",
+    "bytes": 71534,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0040",
+    "source_sha256": "9e86024165fb85a5a42b42dcf567b149acf834e66555c2ef3c024e204ed1ab97",
+    "bytes": 78527,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0041",
+    "source_sha256": "d5dd37ab755e7fc17f4115f2669146dc940d2272f06e509e6b540a753efce882",
+    "bytes": 75015,
+    "path": "frames/wanaka-game-0041.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0042",
+    "source_sha256": "6085655728222820e6eb9e53e735dfa18d1d3ae32689287c8ef0d0e1ef721b1f",
+    "bytes": 75378,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0043",
+    "source_sha256": "fc366f2c4ab8036b1be14fa5020df7cfc260a42a16deecb2c1ececdc39aca4bd",
+    "bytes": 84195,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0044",
+    "source_sha256": "69b069da7db62431c4a37b1977c2754fef26058c634db10970af631055539d68",
+    "bytes": 81585,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0045",
+    "source_sha256": "d6de083ba0c81db3ee1784cd4a9420a7051cdcf5455a8bc402f58d0d4c848a7a",
+    "bytes": 79012,
+    "path": "frames/wanaka-game-0045.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0046",
+    "source_sha256": "17e948205369ba678d346564c0124bcbffdaa088f56a7c071d9e08d66953cf06",
+    "bytes": 79118,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0047",
+    "source_sha256": "a2faf3918a0244fd432c600c5113866aa682dec307d6cffcf5e9a0a0e04b967f",
+    "bytes": 75914,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0048",
+    "source_sha256": "f2167e22e8fd693fea877fb908c638419cbb7ec381c110220284d59364492416",
+    "bytes": 71442,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0049",
+    "source_sha256": "6102595f3daf6796f17b5a83656f57da979ccdcc613ac9f7cd5c6d4ee0368e8a",
+    "bytes": 70281,
+    "path": "frames/wanaka-game-0049.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0050",
+    "source_sha256": "04a210aa0b3d1eabfce2ee61d641dbe753eb942e8f8cc16b443827b00763876a",
+    "bytes": 71020,
+    "path": "frames/wanaka-game-0050.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0051",
+    "source_sha256": "c85ed00903057b53c91d550ad9c21e1c42545652b44ecaedf087660da5f9969b",
+    "bytes": 67795,
+    "path": "frames/wanaka-game-0051.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0052",
+    "source_sha256": "c40cc622a69f484180147ff008e591fe3f12cd01e43ebc68615f3a766fb444c1",
+    "bytes": 98863,
+    "path": "frames/wanaka-game-0052.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0053",
+    "source_sha256": "25425db8eb8d08e8398ce3a91472c52c8a399528f46b8147da986db98c556260",
+    "bytes": 98943,
+    "path": "frames/wanaka-game-0053.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0054",
+    "source_sha256": "063c2f529961c85b3a7f9373775a7e49ab197124c7700f9e18fd5413a50ef18e",
+    "bytes": 96991,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0055",
+    "source_sha256": "3965aa3b733c85c5a6873b090d5438333fd1268b8f3cc76d887eabe8a1acfdd5",
+    "bytes": 135413,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0056",
+    "source_sha256": "513c2b0cf41588f8a8c7e1089b924ca79a613d63b78508977b1293c85e56578d",
+    "bytes": 111389,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0057",
+    "source_sha256": "930301c01c8767de7c9e7f29cdb0fe192fdb9094700837cdf69a7db93d6c1836",
+    "bytes": 113739,
+    "path": "frames/wanaka-game-0057.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0058",
+    "source_sha256": "ac1b69e0a1bed0e8731cc6fc36f27b6550941e666408af2d741a2d071eb82d65",
+    "bytes": 108812,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0059",
+    "source_sha256": "32bf0cbfd931fc8caa6bdb3bfd628aadfd070fe9526fb3c180e4095145c3554f",
+    "bytes": 109786,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0060",
+    "source_sha256": "f3ea05b1aa365aadc972bd0112abf70657232b39cfd86c26f221e52752a2eab7",
+    "bytes": 129098,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0061",
+    "source_sha256": "b178b50643788c5d47c2e7d788b27b6c0478e147180454b5a8b2f12cf20f0e3f",
+    "bytes": 95039,
+    "path": "frames/wanaka-game-0061.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0062",
+    "source_sha256": "a7a76db55b830c81eb8c03228ae92dbee669644f35a169c385d75c82d4735d4a",
+    "bytes": 82349,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0063",
+    "source_sha256": "bbc5ddaa056bb4973921532c0a4eeba10ab3243c44e3e3b5d65b3f60cf472481",
+    "bytes": 74254,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0064",
+    "source_sha256": "51c317b54f9f169e05ddc657eb09daf14fd256341e3d2e0ce6f9a032c1d79425",
+    "bytes": 76213,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0065",
+    "source_sha256": "9c89c57dece3c622ec6429f7b7c966a3c196fb11d18ed9299835a0bd28440b6c",
+    "bytes": 79651,
+    "path": "frames/wanaka-game-0065.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0066",
+    "source_sha256": "b37344734db69165250429bfcd00255e26375d24847d1fe6c5849c5a38f20eb8",
+    "bytes": 79340,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0067",
+    "source_sha256": "d4274160cf476fae75fc398ee316927ee6460f87c3d7628b139e5c28a29ec8ce",
+    "bytes": 78455,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0068",
+    "source_sha256": "123cfae8c14ec19af76e37e9ba11d5c7b2d7c6daf0edb657081651c966b007a7",
+    "bytes": 79922,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0069",
+    "source_sha256": "8c49b56cae82e16175b5176c472da3a2713a916f78ed5e2df9c34f0d58900ba4",
+    "bytes": 84688,
+    "path": "frames/wanaka-game-0069.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0070",
+    "source_sha256": "339f1839560305169e00dbc438fd20f284f9e8cef34ea1b39b0c173a6fa2bb40",
+    "bytes": 79891,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0071",
+    "source_sha256": "a907787b787501cf29da466196060e8c69e0f46b49c1ac5e7e6bc1b7ea54ca28",
+    "bytes": 75550,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0072",
+    "source_sha256": "378cf16619fee5adc65f2847492fa7f04d41475ec056b0dad7d505aa71dc3ddc",
+    "bytes": 71794,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0073",
+    "source_sha256": "ce8983414eb2cdaef3ce349d407cd6a638529779eb9102d4bbb50f5dcb206419",
+    "bytes": 71308,
+    "path": "frames/wanaka-game-0073.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0074",
+    "source_sha256": "7026028121be970818e1b2074d402631ce04eddfbc7cf84e3f12cc467b979c9d",
+    "bytes": 71574,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0075",
+    "source_sha256": "aad2195a808a960b51369d5a53f49addcef33fd9296f73a23b760d3d9335a745",
+    "bytes": 56097,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0076",
+    "source_sha256": "e16f93feaf885f2619d02f37976cc0946de0af7171ba138d8db438a215744e71",
+    "bytes": 70510,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0077",
+    "source_sha256": "5355b535f9073790e901aa73751718d8cff0cdb285108ea20cf74627f91bcc68",
+    "bytes": 67534,
+    "path": "frames/wanaka-game-0077.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0078",
+    "source_sha256": "2c3e83a1cbdc8b87aafa53805dfe5c8182e148af360236a316f3a1a0735e1a47",
+    "bytes": 69884,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0079",
+    "source_sha256": "f13701297d4d1f80e2da05a8ca492f25caefb459e59bfaa8506610ca2bf89777",
+    "bytes": 88062,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0080",
+    "source_sha256": "e36c9bdf2eb2a2a88f009c29aec7324872f471de31f06a6fa984a55dc0cc48ab",
+    "bytes": 78087,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0081",
+    "source_sha256": "e5d80ca3da197e1ff258603badbe5ab1d4e8fc67aa490945fd56e84360efb623",
+    "bytes": 68306,
+    "path": "frames/wanaka-game-0081.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0082",
+    "source_sha256": "ec10fd12f447754083c9181ea8173592683d95a5e2af758b77436180df5b6454",
+    "bytes": 69662,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0083",
+    "source_sha256": "4ba4e05a9f6ba067e1171fcd2602f2a74421933a36500e39749bad9b664a6098",
+    "bytes": 68780,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0084",
+    "source_sha256": "603064cfe51ca938799488376c0c0e2a1fe55f8c7624104c35af913fc5b38eb7",
+    "bytes": 70860,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0085",
+    "source_sha256": "afc6fe62c60f1d674ed1a84344a79a5d6b12394e8399f6fa8c75d0e1a4d77e4b",
+    "bytes": 99315,
+    "path": "frames/wanaka-game-0085.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0086",
+    "source_sha256": "90de3efbe209c66134cc418d4dca84f5ac4bd1d5a36aed3de65e344416dba089",
+    "bytes": 98674,
+    "path": "frames/wanaka-game-0086.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0087",
+    "source_sha256": "9967f1d9a8347fc063de646c906ba452c4ab14d179669f41e0874837181e22dd",
+    "bytes": 98669,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0088",
+    "source_sha256": "e2e7b3da88c136f59717abd2ea1dc9600505b0b275aad6f852d4f0be31d4cecb",
+    "bytes": 95091,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0089",
+    "source_sha256": "d67c91d5a95e249533e1213ad5d2d96f331a4b927f1c368c0f1bfe16481042c4",
+    "bytes": 95579,
+    "path": "frames/wanaka-game-0089.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0090",
+    "source_sha256": "55de44d6677f3679f0279a3e59457873302e2bff7e27ef3db49e82c08073e1eb",
+    "bytes": 106067,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0091",
+    "source_sha256": "348c6053b584a77e45329b43a2cd078834ea46bdaa58cbf07d091b18edf25d14",
+    "bytes": 96525,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0092",
+    "source_sha256": "c748e4b8e45955d66536ed3b79cbfcc9c1575dce37b928c18a9e7451e58f8c62",
+    "bytes": 94838,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0093",
+    "source_sha256": "00b85e7ae875661e76fd510acfdd6df78df6001c8c91b411278a3a2e7799c9cd",
+    "bytes": 87678,
+    "path": "frames/wanaka-game-0093.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0094",
+    "source_sha256": "ef31ddf4a347bbebfaa9d0be3460931755a65feb6b63cc4c03dd52118edc6e55",
+    "bytes": 88320,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0095",
+    "source_sha256": "4e951d699b38dda06c1cf08a59588f11abe99cc4cd55a901231d0c51a90b3ba0",
+    "bytes": 88458,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0096",
+    "source_sha256": "849b66ebc3c2dd9ea896718eb12004693b0ff57ec4c6aa4e55675831c8bb2147",
+    "bytes": 97378,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0097",
+    "source_sha256": "2813208a27f93ddfa4d529ea39121ac10fbfe541c8f3d4faac73bc4c1f43475d",
+    "bytes": 98883,
+    "path": "frames/wanaka-game-0097.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0098",
+    "source_sha256": "dbd8dc6f274ac921447087c65bb3f1a354aa5edcec302794244bb2a6b42f34e6",
+    "bytes": 97168,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0099",
+    "source_sha256": "d86b3adefe0d7dfcb51347b1fb759e6ca8bccce669b72f31ff5972be9646e944",
+    "bytes": 103707,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0100",
+    "source_sha256": "91924f294a4d69ddc905a04cf0a4ca1417f096d1d1af96ab9dc08d98dcde05d9",
+    "bytes": 103899,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0101",
+    "source_sha256": "54abed755d1ffcd03bc9c47c00f043cbe6e17088a6b26efac0f31f3f0d8996b6",
+    "bytes": 104455,
+    "path": "frames/wanaka-game-0101.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0102",
+    "source_sha256": "930c0f2172ae711dcad325003714c3cb938463ab2f3ae11b6615ccf8f16df38e",
+    "bytes": 102838,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0103",
+    "source_sha256": "f17fb04eae6777434532bfa7c5a5f6d430ce05a8522fa2acad1946389d283c54",
+    "bytes": 100859,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0104",
+    "source_sha256": "a74287603008aaff95983a4d2428b624c75a22395b90c627b2f66a3effa97302",
+    "bytes": 86292,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0105",
+    "source_sha256": "34f9b28bdd8a2bbfae70f5fcd4df591e28d18970df9d8a8594b1513a6149fb24",
+    "bytes": 89418,
+    "path": "frames/wanaka-game-0105.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0106",
+    "source_sha256": "556c5d35047efd5b4ebc7a6a13e432464e2877aef0ca539f1c516f03153c83ef",
+    "bytes": 89584,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0107",
+    "source_sha256": "40ed4c3f5c29a0ed90d2bded302c12b87f4a8c4033f44bacd1f0149bb56eea5b",
+    "bytes": 91581,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0108",
+    "source_sha256": "8f67f9050cb28620cd0cf0fc47d67f456f629f65f080a1b61e21eaf4d8ab3b5e",
+    "bytes": 80213,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0109",
+    "source_sha256": "d3181421d05b99dcbd7db6f377e7bc740f934de39eadf824ddc9b676c8ed6670",
+    "bytes": 69994,
+    "path": "frames/wanaka-game-0109.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0110",
+    "source_sha256": "114d528eaddf1040b908ac62e898327bff2bd25acc3b24faee8cc990cff9c869",
+    "bytes": 82623,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0111",
+    "source_sha256": "b8161ff5076e478d98bd07d771c61f0c9750f515f8892efc004e855b6cfe9033",
+    "bytes": 85364,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0112",
+    "source_sha256": "ba9d4952f5be9f581e4c24194788955bd3b1992c032c6a22234d51d0bdea8214",
+    "bytes": 85453,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0113",
+    "source_sha256": "319a3df467ebd23cd57ed0e5c1066932fa58fadb83f97963e64f469182ba4150",
+    "bytes": 86417,
+    "path": "frames/wanaka-game-0113.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0114",
+    "source_sha256": "330857861545d8bdb3c7887605e4c6714493f666113b05f3ac7e8d495f8e505f",
+    "bytes": 95085,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0115",
+    "source_sha256": "a8c118c79198c1499d391f4eefc09bab4004815ee728fb5beb55c965302569db",
+    "bytes": 79028,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0116",
+    "source_sha256": "3e8637fea9837da4e51f5503b8e4a39aa255cb0a84702e81e5a7b8213c35e237",
+    "bytes": 74406,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0117",
+    "source_sha256": "007baed6e0f106ae8df271c37090546846aa4d61cfbb88547873e16785998774",
+    "bytes": 76040,
+    "path": "frames/wanaka-game-0117.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0118",
+    "source_sha256": "44e201638c56842e4ffefaae49c7164d281e05d373c167123b0f194deabd05d3",
+    "bytes": 74154,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0119",
+    "source_sha256": "ce77e802451dab3302eb768bf68fe39f1349d4320d469e8706c5176e54d7e4fc",
+    "bytes": 79376,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0120",
+    "source_sha256": "62fb732473cdbf132fb9b60e18acafeb01dd3f2010e6ed0e1a52a83cfd970564",
+    "bytes": 78801,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0121",
+    "source_sha256": "88001ff9a5306a65b8232f0d7fc4401e86bcb7eece756513a0aa8f9eec9d83fe",
+    "bytes": 84722,
+    "path": "frames/wanaka-game-0121.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0122",
+    "source_sha256": "03330023b9db153d4b7ade327d5e400ccdf32b115555de0a29299b49d9f300c7",
+    "bytes": 98433,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0123",
+    "source_sha256": "17f7a90a20a4beaf2eefe401c7f28e1300c2f9aca7f094086d2a56aed7843053",
+    "bytes": 101372,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0124",
+    "source_sha256": "e61e0f8650250a40bcda37e84f32500b3ed78ca0c3043ce556c2472f5207cd94",
+    "bytes": 99391,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0125",
+    "source_sha256": "c0314c565ec4cbe1f353edd80796c497a91d9fe34310b0c10238524fcc80e52b",
+    "bytes": 97921,
+    "path": "frames/wanaka-game-0125.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0126",
+    "source_sha256": "297a5ac3b8d4f66173615c2be6f4aa28ae2fa3ec202f143407e61fc6223895b4",
+    "bytes": 92525,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0127",
+    "source_sha256": "41869d8fed22fb09afa9b5b9f253a9e78d498a6e10fdfaaefc7f7a8a58c081e5",
+    "bytes": 80440,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0128",
+    "source_sha256": "18019947593ec3e3a3364247d0134eaaa3b591afc6eaaac436e3f1599dae6019",
+    "bytes": 80569,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0129",
+    "source_sha256": "63dc2eb5244e0696e00923097e57a75cb216921473bb78997c7083367fa8c9d4",
+    "bytes": 80422,
+    "path": "frames/wanaka-game-0129.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0130",
+    "source_sha256": "77c791e477dcc2f5fae2ef2115e1f4fd6438d0dd59e203d50e4b6687a14f4949",
+    "bytes": 79271,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0131",
+    "source_sha256": "dfe9518c16ca6182d9801c07c5283eba779c13912be7bd502f981565e6f307da",
+    "bytes": 71088,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0132",
+    "source_sha256": "f0d33608eba5299cf24b6cd1f740d1ef3da01cf38534a6b80923b5f55b1df5c3",
+    "bytes": 68962,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0133",
+    "source_sha256": "a29341176c4491067297e261c5738c71a530012529876b316167857f09d90321",
+    "bytes": 69001,
+    "path": "frames/wanaka-game-0133.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0134",
+    "source_sha256": "e3682ae105ef0870d8affae24d5cbbb80e6f9cc88b5aa4371ba8afa900ca32dd",
+    "bytes": 69793,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0135",
+    "source_sha256": "8b343eae9905b72f510e863925d702db01d4a3af42cc93182cdbd77f7bac5cf5",
+    "bytes": 69657,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0136",
+    "source_sha256": "bd9c78158c817cc43d799bf9a4b3f81581cf655f7f497a83afca74a94bdd0ade",
+    "bytes": 69161,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0137",
+    "source_sha256": "df3d2d4246d91b7fbb671507e6e529a3ce1cdd6f7f67d6f34da9beb72c348a92",
+    "bytes": 69468,
+    "path": "frames/wanaka-game-0137.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0138",
+    "source_sha256": "c14e48a51b85292eca96272ef05cc952beb3ed7823301f39b89ed0181e761d8a",
+    "bytes": 69467,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0139",
+    "source_sha256": "13db416f6f24490d4053045db2f632ed8206b0fdbc0c77f805ab8f92021fbdfc",
+    "bytes": 69957,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0140",
+    "source_sha256": "bbc5e3b0cf7327162e6aa9b65ea321ef84b7662a6695e5e63dc18279c6f56d75",
+    "bytes": 69454,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0141",
+    "source_sha256": "a906c9d22305c5426024fa2186eb75a9a59501b5e94be3c04432dd680d428a2a",
+    "bytes": 78903,
+    "path": "frames/wanaka-game-0141.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0142",
+    "source_sha256": "6843679b8fa85eda329de03bbb1c12d198ac39c0d2a5fbff76c7ea8e0101d084",
+    "bytes": 77202,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0143",
+    "source_sha256": "97a8b5cb2e671ba554654937eaa7a57ecea89ad9ce2aec3a3316bcdf632ea8d2",
+    "bytes": 77375,
+    "path": "frames/wanaka-game-0143.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0144",
+    "source_sha256": "54c5b84e00a57f1c00cd44151c6b464a5ed81665aa640dc6ea55f7bfb61e86a8",
+    "bytes": 77270,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0145",
+    "source_sha256": "43eab6337ca73f19b995d38f5291bddbd49c5f58ec691304d11eda6f83ca060e",
+    "bytes": 74318,
+    "path": "frames/wanaka-game-0145.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0146",
+    "source_sha256": "f283839d8eaabee7ef54d6bff5e2a62e5112365aa30b5289e796c934ff6e6f9b",
+    "bytes": 75555,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0147",
+    "source_sha256": "c326606283e2696b2de1ef35eee25938d1612375e783cb4fd1b8e636b4e6e6f6",
+    "bytes": 77631,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0148",
+    "source_sha256": "c3f2cd5eb1fefb72cfeb7c1e9227099d68e8214ef2feb00cbdca8ce0760f08f8",
+    "bytes": 81888,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0149",
+    "source_sha256": "86c33d6622ec5a2c2729075da6cb98d5b77ca7c302c592be0f94ad352c9bf340",
+    "bytes": 82233,
+    "path": "frames/wanaka-game-0149.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0150",
+    "source_sha256": "5e7d607d84497cfcb586451f401f24688d0ef9c4efd3827cca8d34bf3365c878",
+    "bytes": 79570,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0151",
+    "source_sha256": "1495e342cd18dd33223942cf38671161b11f6bf3de39260c342689b2178f268e",
+    "bytes": 78183,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0152",
+    "source_sha256": "8428ce8b991cda17a097154cf34292ab7d8397a9540fd7bdd1c77a5835695d31",
+    "bytes": 79498,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0153",
+    "source_sha256": "193dd2751ab1b7811d0eb792be6453696d0fd91d822f9bfd051ae27dec5261e2",
+    "bytes": 72190,
+    "path": "frames/wanaka-game-0153.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0154",
+    "source_sha256": "f13425471ec6487723815b5fb0560183423239aaeb813a08320a2c2485e4446b",
+    "bytes": 77310,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0155",
+    "source_sha256": "19aa424aed2b81e6ce2493b4de9fd185e4df67cd3fa69b60b51495f1ef18307f",
+    "bytes": 75893,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0156",
+    "source_sha256": "28e6e0906dfaa83e748db90225a66f4d5759e629125e53d62d3dfbb0cedd6395",
+    "bytes": 74265,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0157",
+    "source_sha256": "3ae023ab7decc8a39e332425b8ff38c45cfe2ba668930c835461f8a3d2a8a9a7",
+    "bytes": 76078,
+    "path": "frames/wanaka-game-0157.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0158",
+    "source_sha256": "3753fcd9bd16fa82a4535cfffe16a15ed94b40a32eef761c4dee1e5a9ab7bf2d",
+    "bytes": 85783,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0159",
+    "source_sha256": "2f994f78f04954a14c23a6c946a8df9bfa3b231322a70d817e58089a326db874",
+    "bytes": 81405,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0160",
+    "source_sha256": "c4c596cd3f34231b2112af4e3eea2f9bc2c68e710ddf2aae22b987f0c1f924ae",
+    "bytes": 72568,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0161",
+    "source_sha256": "3ddd03ce8d5c1f4d3d45c14f621bac5785b549447b40efb3040226b89f990f44",
+    "bytes": 68816,
+    "path": "frames/wanaka-game-0161.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0162",
+    "source_sha256": "69af4e3497107b44fafe72bc0cd7ece3aed3e9c93518336ff73a96b24fdf3eff",
+    "bytes": 69113,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0163",
+    "source_sha256": "4100c222f6a5c31da7ca6863ba4d0efe937316173ef3acb2e928ae7a308326e2",
+    "bytes": 70702,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0164",
+    "source_sha256": "7210f594a7c514551eb0d4c33153c8bbf6006e917d5c477e6a80511393377462",
+    "bytes": 92996,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0165",
+    "source_sha256": "173f0586796f56201ad92c66af39341c25e33629664de5e1ce0352360e8fb077",
+    "bytes": 82748,
+    "path": "frames/wanaka-game-0165.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0166",
+    "source_sha256": "cffafccc34b8d88f97b2b5c334c950a8a5c06843871ff5a192aaa22d1df7d0c0",
+    "bytes": 77564,
+    "path": "frames/wanaka-game-0166.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0167",
+    "source_sha256": "4f5a15009a782a8da467dbbc6abd1c3027267225572caac5af0c161805f95fb5",
+    "bytes": 76510,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0168",
+    "source_sha256": "e46e08f4e2f57df8b981b620494ee41d16045e5d3769bfbb569848f73e9b576e",
+    "bytes": 74282,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0169",
+    "source_sha256": "69a3a917165ed19b012fa1fbef8793beb04bd60e54bb8f323ed18d79a57d13a3",
+    "bytes": 74087,
+    "path": "frames/wanaka-game-0169.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0170",
+    "source_sha256": "dd097edfb938df7bfb41f15d8ad3e99aa1d98b28187eab9236ffe7e2cb8be748",
+    "bytes": 82370,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0171",
+    "source_sha256": "03c09794b815481264d01f346610a3445375125de986ed4bcf9c8d7f75239fd1",
+    "bytes": 84163,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0172",
+    "source_sha256": "c471a07c7bb1393d4e7e13c4a2ac9937f015853e50fbe85108c3f1067c572378",
+    "bytes": 83733,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0173",
+    "source_sha256": "81d6415799673dedbd747b7342e3b6a9f291460ee0d3cb06de205799c79a0d1b",
+    "bytes": 81294,
+    "path": "frames/wanaka-game-0173.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0174",
+    "source_sha256": "01a6eac4a2948dc91cdf7d0bceb407e608daa5aa96d0aa25689c8c184509daac",
+    "bytes": 72127,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0175",
+    "source_sha256": "7db3945db56631732fafecd4cf3e6b9242004c8b5cb798ab1ecc283956c4ace1",
+    "bytes": 65987,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0176",
+    "source_sha256": "f2566a850c3a5a567149a7859f7208b89dd35d345091966e9b2a2168df48ac94",
+    "bytes": 67129,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0177",
+    "source_sha256": "920859658fa7700e293e51a931d5a7f8967ff58a2a29a0f81fee069b04e8cbd7",
+    "bytes": 68668,
+    "path": "frames/wanaka-game-0177.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0178",
+    "source_sha256": "ba786c69552dce40b0f3f0c609a51b5bf717bac2d4dc5277122e67276fa553af",
+    "bytes": 81763,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0179",
+    "source_sha256": "a0ab84a9720751a64248ecc554399b234c180b91167cfa1827c14778f09a11e1",
+    "bytes": 82181,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0180",
+    "source_sha256": "fb52f03f521b454c6b985f2a605c80d65f489bac968bbc7462aed2d0753915cc",
+    "bytes": 81419,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0181",
+    "source_sha256": "c4e53fefc55b437862b05f1fc25c77927c84ea0a1497112e31df7d1f613634ba",
+    "bytes": 78419,
+    "path": "frames/wanaka-game-0181.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0182",
+    "source_sha256": "064a45cd2e9ba2514df3926cf98626c16d5b8896954f85e7db77f2b92b4e2621",
+    "bytes": 77329,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0183",
+    "source_sha256": "6e531638bb2c262bd25f629db367774e601796406b04c754ef08eb76906ed915",
+    "bytes": 89985,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0184",
+    "source_sha256": "153404540e919cedd214b0cb39d4135d850a8bb0cd339bf76a7e136af6511c41",
+    "bytes": 90690,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0185",
+    "source_sha256": "a132fb88cd55a13dd04e5e8e02c64f22562f339d5d318d546e1d28b8f6a92b6e",
+    "bytes": 84766,
+    "path": "frames/wanaka-game-0185.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0186",
+    "source_sha256": "d5c8d157a777d8e2391cc029a1cfccfbc868a5b7849be02a566a2b4858480f10",
+    "bytes": 84081,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0187",
+    "source_sha256": "2f9b4ddf6c4786195465f92b1857afa69fe1e06d7ac2cb77d564c884b48da808",
+    "bytes": 78227,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0188",
+    "source_sha256": "5c0bb5b6cbdcfd424c03851e6367cb68274167ee6fd0e73903659e08cd30b949",
+    "bytes": 68740,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0189",
+    "source_sha256": "7ec54737027db0e6ebcdd97fca1365d4244057add6bd215630f128ce084bee71",
+    "bytes": 65725,
+    "path": "frames/wanaka-game-0189.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0190",
+    "source_sha256": "2c5783ae241629f1268125056a3f6b7fc37c1ac55864e1a2287e9a51ce9a55d9",
+    "bytes": 57188,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0191",
+    "source_sha256": "a1443acc978a1fea32b7d635ed9663a3ad4ee3adf79d6ccaf88f9dab3c3cb4b8",
+    "bytes": 54785,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0192",
+    "source_sha256": "c2aa7da51b1b0745709d55a7f7bbd5a2dd3ac51e5b3ba4bb1fc40b3dda1cc5cd",
+    "bytes": 64540,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0193",
+    "source_sha256": "6505fc34c94e4349f49ca65f229f793ee579ac26a9dfcbc7e7550b29ea533c2b",
+    "bytes": 69297,
+    "path": "frames/wanaka-game-0193.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0194",
+    "source_sha256": "9c50b7036704c15fbed3437da00562e1d7c3dda677011ea2fcb7d9d3f3beb210",
+    "bytes": 69203,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0195",
+    "source_sha256": "25a7a94ce9a73e1ea9763f11292f96180beb8c56704b4c24e0b09dbea9ec729f",
+    "bytes": 69054,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0196",
+    "source_sha256": "af3fc3053f0755898d5ce1e1693fa7052eb0280ceecd999ed2f32b26d5764e7a",
+    "bytes": 70562,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0197",
+    "source_sha256": "fe94a90ce7838c91d3aa41f5daca15c70c03746143f4914c9a2d8967fb4086c1",
+    "bytes": 91665,
+    "path": "frames/wanaka-game-0197.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0198",
+    "source_sha256": "dfece026a145e6cf8fc09906ff7ecf95d5a0bbaece2d471f601c7901acdcb98a",
+    "bytes": 93871,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0199",
+    "source_sha256": "be939214f944cde03fe4eabb04af77612a880db186a1247464499f7b95908116",
+    "bytes": 113585,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0200",
+    "source_sha256": "a61306fc2b410345641a05657b05814b4469d80b69e87f0cba4d37e2c44e14f7",
+    "bytes": 114701,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0201",
+    "source_sha256": "f1fb387f61c4fe8ec36cf7821606431883a4876ce73e632fe1775e5edb6d06c5",
+    "bytes": 114297,
+    "path": "frames/wanaka-game-0201.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0202",
+    "source_sha256": "4d28ff8be50da70ae8bd25d8a44d1a02824d77e056a5d3d72ce84be3e7d86a3c",
+    "bytes": 119548,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0203",
+    "source_sha256": "88696529621d5925143d8ad8c6f86a14b43759dfd1993bd5f64d6ae360573857",
+    "bytes": 106087,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "wanaka-game-0204",
+    "source_sha256": "6785c2541525531ef7ae55d35f57b9d6e12063b3847a4e0e6524c9c782b29085",
+    "bytes": 86731,
+    "path": "frames/wanaka-game-0204.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0205",
+    "source_sha256": "be77ef11f642543cee9b906c6aa8f44a78bd8529b1d96af987015ddd09b67612",
+    "bytes": 93793,
+    "path": "frames/wanaka-game-0205.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0206",
+    "source_sha256": "c541e10fcaa09087c8c68f640883f6a022feaa46634c84db786e0de181366b53",
+    "bytes": 93491,
+    "path": "frames/wanaka-game-0206.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0207",
+    "source_sha256": "85916c903a4f805fc77d48a1b56b115163ce5ee482d31eed562474d8e85c0aac",
+    "bytes": 93403,
+    "path": "frames/wanaka-game-0207.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0208",
+    "source_sha256": "9a979b674763157afe782eb08ceb21e93d3359ed2a9e5fcdf628f34809b9972d",
+    "bytes": 93472,
+    "path": "frames/wanaka-game-0208.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0209",
+    "source_sha256": "bc27f5e588a771dba769e2513c65ba18389a97b213d98fb3fa3d64fc764cbb9f",
+    "bytes": 93543,
+    "path": "frames/wanaka-game-0209.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0210",
+    "source_sha256": "5cbb5e17a5c412f15d0c9ddd560d174485bafb5736c754b5edc80b45fdf4e5cb",
+    "bytes": 93549,
+    "path": "frames/wanaka-game-0210.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0211",
+    "source_sha256": "f5ca6a74c73f8e96b092a29610ff7e57389023d4248d2d309fef78a0cdcee29f",
+    "bytes": 93493,
+    "path": "frames/wanaka-game-0211.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0212",
+    "source_sha256": "2cb77e5ca0de5b1fb15d299d8529cea10a9583428f60b64070eb2681d4585059",
+    "bytes": 38818,
+    "path": "frames/wanaka-game-0212.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0213",
+    "source_sha256": "caa22cac92ff70212137a9818920a47692a26eee022f7146779e102adcb97a9a",
+    "bytes": 98189,
+    "path": "frames/wanaka-game-0213.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0214",
+    "source_sha256": "a57e12a5f5023dadf2e03fc93e0591cbc590d7758473f0fc59cf02330fb51c50",
+    "bytes": 99088,
+    "path": "frames/wanaka-game-0214.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0215",
+    "source_sha256": "58081127a43529ac1b439038706aecffaa2006585a08bf7d4ef831fec8e62db5",
+    "bytes": 98115,
+    "path": "frames/wanaka-game-0215.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0216",
+    "source_sha256": "b862af7c183b1c4af755d0102954a0ed7e441f5279ab600cf84e417e10cf7436",
+    "bytes": 100952,
+    "path": "frames/wanaka-game-0216.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0217",
+    "source_sha256": "0a6c35d1e1a6702e46de8061c5810480659a9d43b5246615229f55b8cf485659",
+    "bytes": 98518,
+    "path": "frames/wanaka-game-0217.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0218",
+    "source_sha256": "3b4bc0bb481c54183cc5f420c2b82a40846d3437aac6527c95501584b832d6e1",
+    "bytes": 38114,
+    "path": "frames/wanaka-game-0218.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "wanaka-game-0219",
+    "source_sha256": "a7f098376e6470dcc2efb6af6835a70e75e69f80b7e397440b4368daa3aac270",
+    "bytes": 38088,
+    "path": "frames/wanaka-game-0219.jpg",
+    "omission": null
+  }
+]

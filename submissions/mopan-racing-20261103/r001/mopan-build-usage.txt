@@ -1,0 +1,51 @@
+Browser tab: 1595916251, Title: "Usage | Mopan", URL: "https://mopan.ai/membership/usage".
+0 AXWebArea Usage | Mopan, URL: mopan.ai/membership/usage
+	1 container Usage details
+		2 container
+			3 button Description: Close, Help: Close (Esc)
+				4 image
+			5 text Build #1
+			6 heading 低多边形极速计时赛, Value: 2
+				7 text 低多边形极速计时赛
+			8 text Completed Nov 3, 2026, 12:46 PM
+			9 container Total consumption
+				10 text Total consumed
+				11 text 1,169
+				12 text Credits
+				13 text 6 records
+			23 container Cost breakdown
+				24 text Coding Agent
+				25 container
+					26 text 1,087  Credits
+				27 text Images
+				28 container
+					29 text 68  Credits
+				30 text Sound effects
+				31 container
+					32 text 14  Credits
+			14 container Records
+				15 container
+					16 heading Records, Value: 3, ID: usage-records-title
+						17 text Records
+					18 pop up button (collapsed, settable) Description: Filter records by type, Value: All types, Secondary Actions: Expand
+						19 menu
+							20 (selected) All types
+							33 Coding Agent (1)
+							34 Images (1)
+							35 Sound effects (4)
+				36 content list
+					37 container
+						38 text Coding Agent Coding Agent  ·  Nov 3, 2026, 12:55 PM [platform-default model withheld] 1,087
+					39 container
+						40 text Barrier Bumper Thud Impact Sound effects  ·  Nov 3, 2026, 12:46 PM byteplus/seed-audio-1.0 2
+					41 container
+						42 text Tire Brake Skid Screech Sound effects  ·  Nov 3, 2026, 12:46 PM byteplus/seed-audio-1.0 3
+					43 container
+						44 text Lap Finish Victory Fanfare Sound effects  ·  Nov 3, 2026, 12:46 PM byteplus/seed-audio-1.0 6
+					45 container
+						46 text Race Checkpoint Chime Sound effects  ·  Nov 3, 2026, 12:46 PM byteplus/seed-audio-1.0 3
+					47 container
+						48 text Low Poly Speed Time Trial Cover Images  ·  Nov 3, 2026, 12:46 PM gemini/gemini-3.1-flash-image 68
+			22 link Description: Open build, Value: mopan.ai/play/ff754065-db73-4ef8-9749-1c3b4659dc7b?build=2ad25743-324e-4163-9303-b0ffada8af57
+
+The focused UI element is 3 button Description: Close, Help: Close (Esc)

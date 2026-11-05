@@ -1,0 +1,110 @@
+[
+  {
+    "id": "mopan-creation-original",
+    "sha256": "bdfd00a2d2b984100296526f8e343a523746aa2ca3ea7eb542496841ac290560",
+    "bytes": 16875,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-evaluation-original",
+    "sha256": "2d3c90c126080166a0d8ff9c8ae8b6f8c4a750c675d1373cc3f9f865a3c69856",
+    "bytes": 199806,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-creation-original",
+    "sha256": "a85ea73bc3ee28bf3a085c6b1e621321fda13feab23d3fc8cbee5668f1c06d76",
+    "bytes": 22062,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-evaluation-original",
+    "sha256": "e52dde1e28e76c212822bd2693eb579a8b6b560c2a92c753e94c195f619396de",
+    "bytes": 159270,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-first-creation-original",
+    "sha256": "23507831b0145912f599fd5d9123c84c07c40e84279a5339119698be24a1f70c",
+    "bytes": 11953,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-first-evaluation-original",
+    "sha256": "cebffa68d475c3895a2b9d446972475276eb484992086acbac5bd01c2721028e",
+    "bytes": 76040,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-first-recheck-original",
+    "sha256": "bae7ffade406c1f0975ee4453068b2498ca074506639d605289bbcdf18b0a5a4",
+    "bytes": 48436,
+    "public_raw_file": false
+  },
+  {
+    "id": "codex-creator-original",
+    "sha256": "a04d935e5d518333761adf635228e4e2efff13741458318c58a863d8157f062c",
+    "bytes": 2591795,
+    "public_raw_file": false
+  },
+  {
+    "id": "codex-gameplay-original",
+    "sha256": "971462588505f48cf5923e94803afbfa488013d09cdf722d8ee877bd0d853303",
+    "bytes": 133910,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-result-source",
+    "sha256": "cbbda85af598d3ee27a2482f33418f951e2da23ab2621530e8685a10352a9f42",
+    "bytes": 67362,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-result-source",
+    "sha256": "cbbda85af598d3ee27a2482f33418f951e2da23ab2621530e8685a10352a9f42",
+    "bytes": 67362,
+    "public_raw_file": false
+  },
+  {
+    "id": "codex-result-source",
+    "sha256": "cbbda85af598d3ee27a2482f33418f951e2da23ab2621530e8685a10352a9f42",
+    "bytes": 67362,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-first-result-source",
+    "sha256": "656c4c5e1a4d005af104ec6869f1f9d4d51ef65e5402d7f788594e0f8a79fa5f",
+    "bytes": 66047,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-monthly-pricing.txt-original",
+    "sha256": "142b4dd7a8684d9f5fce2997b72c4c156e15b5ffe475a64d334d4d25283640b2",
+    "bytes": 8852,
+    "public_raw_file": false
+  },
+  {
+    "id": "mopan-build-usage.txt-original",
+    "sha256": "dbba03e50800e0a80f404d6cac9aea87b1caae5d53b862f3a5cb2af00fe61251",
+    "bytes": 2091,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-monthly-pricing.txt-original",
+    "sha256": "b5393eab723d1cac45fe37f1ccd9e835a3279c19a1017b16b6576ea856fa25c9",
+    "bytes": 4811,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-before.txt-original",
+    "sha256": "99e0311f7ddd071a015547eb68b9631205a6db6631290610d3df5033e2ff6a54",
+    "bytes": 17315,
+    "public_raw_file": false
+  },
+  {
+    "id": "wanaka-after.txt-original",
+    "sha256": "b9e209ade77cef53a95bdaf2ebc323806aedc9974de9e63fd226f015b708a6fe",
+    "bytes": 11652,
+    "public_raw_file": false
+  }
+]

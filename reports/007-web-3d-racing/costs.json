@@ -1,0 +1,80 @@
+{
+  "observed_on": "2026-11-03",
+  "currency": "USD",
+  "scope": "Creator only; actual user payments not known.",
+  "pricing": {
+    "mopan": {
+      "plan": "Hero",
+      "monthly_usd": 9.99,
+      "monthly_credits": 20000,
+      "unit_usd": 0.0004995,
+      "source": "https://mopan.ai/membership/plans",
+      "excluded_intro_usd": 0.99
+    },
+    "wanaka": {
+      "plan": "Pro",
+      "monthly_usd": 19,
+      "monthly_credits": 2000,
+      "unit_usd": 0.0095,
+      "source": "https://wanaka.app/pricing"
+    },
+    "codex": {
+      "monthly_subscription_allocated_usd": null,
+      "reason": "No fixed token/credit allowance or measured monthly usage share available to allocate subscription fee to this run.",
+      "reference_basis": "Standard API token equivalent; separate from monthly user-cost column.",
+      "source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "subscription_source": "https://learn.chatgpt.com/docs/pricing",
+      "rates_per_million_usd": {
+        "input": 2.0,
+        "cache_read": 0.1,
+        "cache_write": 2.5,
+        "output": 10.0
+      },
+      "rate_capture_note": "Official model page opened 2026-11-03; input $2, cached $0.10, write $2.50, output $10 per million; above 272K prompt tokens has surcharges. Actual service tier unrecorded, Standard is an explicit estimate assumption."
+    }
+  },
+  "platforms": {
+    "mopan": {
+      "user_charge_usd": null,
+      "subscription_credit_value_usd": 0.5839155,
+      "model_cost_estimate_usd": null,
+      "credits": 1169,
+      "credit_precision": "rounded displayed integer",
+      "scope": "Build total shown by platform, including recorded generated assets; no unlisted music charge added.",
+      "breakdown_credits": {
+        "coding_agent": 1087,
+        "image": 68,
+        "sound_effects": 14
+      },
+      "records": 6,
+      "token_usage": null,
+      "basis": "1169 × $9.99 ÷ 20000"
+    },
+    "wanaka": {
+      "user_charge_usd": null,
+      "subscription_credit_value_usd": 0.228,
+      "model_cost_estimate_usd": null,
+      "credits": 24,
+      "credit_precision": "difference of rounded visible balances 260 → 236; approximately 24",
+      "scope": "Observed generation-window credit balance delta; no per-request/model token receipt exposed.",
+      "token_usage": null,
+      "basis": "24 × $19 ÷ 2000"
+    },
+    "codex": {
+      "user_charge_usd": null,
+      "subscription_credit_value_usd": null,
+      "model_cost_estimate_usd": 0.514194,
+      "credits": null,
+      "usage": {
+        "input_tokens": 959334,
+        "cached_input_tokens": 876160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26023,
+        "reasoning_output_tokens": 5315,
+        "total_tokens": 985357
+      },
+      "scope": "Creator model only; evaluator, hosting and monthly subscription allocation excluded.",
+      "basis": "(83174 × $2 + 876160 × $0.10 + 0 × $2.50 + 26023 × $10) / 1000000"
+    }
+  }
+}

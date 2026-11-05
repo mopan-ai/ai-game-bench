@@ -1,0 +1,37 @@
+[
+  {
+    "event_id": "codex-creation-source-0126",
+    "source_sha256": "4e5416273a07c98b67db769f0ebd52e5e66f94a39f66bd46e72650f492b93a61",
+    "bytes": 447181,
+    "path": "frames/codex-creation-source-0126-01.png",
+    "omission": null
+  },
+  {
+    "event_id": "codex-creation-source-0141",
+    "source_sha256": "d6347fd7a0cb0ccbea5f153c84638aa10e34f0f5932d65900d31714754ab97ab",
+    "bytes": 137751,
+    "path": "frames/codex-creation-source-0141-01.png",
+    "omission": null
+  },
+  {
+    "event_id": "codex-creation-source-0165",
+    "source_sha256": "0a68cf7c41aa7a5a087ee5a24311ab0a069ebd7498950f7d99e0010070437b96",
+    "bytes": 441587,
+    "path": "frames/codex-creation-source-0165-01.png",
+    "omission": null
+  },
+  {
+    "event_id": "codex-creation-source-0180",
+    "source_sha256": "0e3d372611862d8e401ea09e937a9e4bfa7f151908221a29ad516f69d8613057",
+    "bytes": 140354,
+    "path": "frames/codex-creation-source-0180-01.png",
+    "omission": null
+  },
+  {
+    "event_id": "codex-creation-source-0180",
+    "source_sha256": "7393a23a301120225b1323813f4bf5d632f70f63575ae8ea5c3ac87a71e97f93",
+    "bytes": 371624,
+    "path": "frames/codex-creation-source-0180-02.png",
+    "omission": null
+  }
+]

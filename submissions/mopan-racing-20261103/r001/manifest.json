@@ -1,0 +1,731 @@
+{
+  "schema_version": "public-submission/0.2",
+  "id": "mopan-racing-20261103",
+  "revision": 1,
+  "kind": "result",
+  "policy_id": "racing-3d-browser-pilot-v2",
+  "policy_sha256": "8fe39ac88828e94bbc10003be48c93afaaf4b9f90bd4b6bcdd3d3a9c14382a60",
+  "author": "haot3x",
+  "affiliation": "Mopan; owner-authorized AI operator collected this affiliated pilot.",
+  "creator": {
+    "platform": "Mopan",
+    "harness_version": null,
+    "model": null,
+    "model_source": "unknown",
+    "effort": null
+  },
+  "environment": "Chrome on macOS; visible UI/screenshot/keyboard operation. Page viewport 1280x800, mobile-layout-only check 390x844. No source/hidden game state used. See publication limitations for actual game area and capture gaps.",
+  "source_kind": "browser_observation",
+  "source_ref": "mopan-racing-20261103-ff754065-db73-4ef8-9749-1c3b4659dc7b",
+  "attempts": [
+    {
+      "id": "attempt-1",
+      "outcome": "delivered",
+      "creation": "creation.jsonl",
+      "evaluation": "evaluation.jsonl",
+      "artifact": {
+        "id": "mopan-racing-final-preview",
+        "kind": "public_url",
+        "url": "https://mopan.ai/play/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+        "build_version": "2ad25743-324e-4163-9303-b0ffada8af57",
+        "bundle_sha256": null,
+        "access": "anonymous_play_verified_in_chrome_incognito; full grading used authenticated project preview, published URL is not byte-verified equivalent."
+      },
+      "result": {
+        "evaluator": "AI browser operator, Mopan-affiliated",
+        "model": null,
+        "mode": "agent_dom",
+        "creation_context_hidden": false,
+        "criteria": [
+          {
+            "criterion_id": "ready",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "透视 3D 赛道、可操控车辆、计时与进度可见；键盘输入产生世界位移。",
+            "evidence_events": [
+              "mopan-new-evaluation-0005",
+              "mopan-new-evaluation-0006",
+              "mopan-new-evaluation-0007",
+              "mopan-new-evaluation-0009"
+            ]
+          },
+          {
+            "criterion_id": "acceleration",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "两段相同 700 ms 前进输入中，起终点门、路边标志与小地图位置的位移增大。第三段已碰边界，不用于加速判定。HUD 仅辅助；未推算物理米数。",
+            "evidence_events": [
+              "mopan-new-evaluation-0006",
+              "mopan-new-evaluation-0007",
+              "mopan-new-evaluation-0008",
+              "mopan-new-evaluation-0009",
+              "mopan-new-evaluation-0010"
+            ]
+          },
+          {
+            "criterion_id": "braking",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "第 2/3 局从相同起点各两段 350 ms 加速；对照起点地标接近（HUD 约 75/79）。350 ms 松油门仍继续前进，刹车后世界位移停止；无转向或撞墙。截图/输入调度使实际观察窗口并非严格等长，保留原始时间。",
+            "evidence_events": [
+              "mopan-new-evaluation-0013",
+              "mopan-new-evaluation-0015",
+              "mopan-new-evaluation-0017",
+              "mopan-new-evaluation-0018",
+              "mopan-new-evaluation-0019",
+              "mopan-new-evaluation-0020",
+              "mopan-new-evaluation-0023",
+              "mopan-new-evaluation-0025",
+              "mopan-new-evaluation-0027",
+              "mopan-new-evaluation-0028",
+              "mopan-new-evaluation-0029",
+              "mopan-new-evaluation-0030"
+            ]
+          },
+          {
+            "criterion_id": "steering",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "左右输入均改变车头与行驶路线；合法圈中实际通过左弯、右弯和 S 弯。",
+            "evidence_events": [
+              "mopan-new-evaluation-0039",
+              "mopan-new-evaluation-0041",
+              "mopan-new-evaluation-0049",
+              "mopan-new-evaluation-0051",
+              "mopan-new-evaluation-0197",
+              "mopan-new-evaluation-0199",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0217",
+              "mopan-new-evaluation-0221",
+              "mopan-new-evaluation-0223"
+            ]
+          },
+          {
+            "criterion_id": "follow-camera",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "直道及两向弯道中相机随车运动，车辆与前方路线始终可见。",
+            "evidence_events": [
+              "mopan-new-evaluation-0007",
+              "mopan-new-evaluation-0009",
+              "mopan-new-evaluation-0051",
+              "mopan-new-evaluation-0123",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0223",
+              "mopan-new-evaluation-0295",
+              "mopan-new-evaluation-0323"
+            ]
+          },
+          {
+            "criterion_id": "track-bounds",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "第 3 局通过正常转向接触两侧护栏，车辆被约束在道路内；接触过程中未获取检查点或抄近路进度。第 4 局也记录到护栏接触火花。",
+            "evidence_events": [
+              "mopan-new-evaluation-0039",
+              "mopan-new-evaluation-0041",
+              "mopan-new-evaluation-0043",
+              "mopan-new-evaluation-0045",
+              "mopan-new-evaluation-0047",
+              "mopan-new-evaluation-0081",
+              "mopan-new-evaluation-0083",
+              "mopan-new-evaluation-0085",
+              "mopan-new-evaluation-0087",
+              "mopan-new-evaluation-0093",
+              "mopan-new-evaluation-0193"
+            ]
+          },
+          {
+            "criterion_id": "ordered-checkpoints",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "第 3 局提前反向越过起终点保持 0/4；通过 CP1 后倒退重穿 CP1 保持 1/4，没有冒充 CP2。随后第 4 局从 0/4 连续依次通过四门。反例范围是反向重穿已过检查点，不宣称穷尽所有跳点路线。",
+            "evidence_events": [
+              "mopan-new-evaluation-0029",
+              "mopan-new-evaluation-0031",
+              "mopan-new-evaluation-0033",
+              "mopan-new-evaluation-0035",
+              "mopan-new-evaluation-0109",
+              "mopan-new-evaluation-0111",
+              "mopan-new-evaluation-0112",
+              "mopan-new-evaluation-0113",
+              "mopan-new-evaluation-0115",
+              "mopan-new-evaluation-0117",
+              "mopan-new-evaluation-0155",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0266",
+              "mopan-new-evaluation-0295"
+            ]
+          },
+          {
+            "criterion_id": "lap-finish",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "第 4 局零进度起步，四门依次通过后正向冲线；出现完赛页，09:07.04 从 05:24:09.646Z 至 05:24:13.113Z 保持不变（3.467 秒）。这是含观察停顿的试玩用时，不是竞速成绩。",
+            "evidence_events": [
+              "mopan-new-evaluation-0117",
+              "mopan-new-evaluation-0155",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0266",
+              "mopan-new-evaluation-0295",
+              "mopan-new-evaluation-0321",
+              "mopan-new-evaluation-0323",
+              "mopan-new-evaluation-0324",
+              "mopan-new-evaluation-0325",
+              "mopan-new-evaluation-0326",
+              "mopan-new-evaluation-0327",
+              "mopan-new-evaluation-0328"
+            ]
+          },
+          {
+            "criterion_id": "restart",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "点击完赛页的重开按钮，第 5 局恢复起点、0/4、约 0 秒并清除完赛层；前进仍响应。历史最佳单圈保留，当前圈已清零。",
+            "evidence_events": [
+              "mopan-new-evaluation-0330",
+              "mopan-new-evaluation-0331",
+              "mopan-new-evaluation-0332",
+              "mopan-new-evaluation-0333",
+              "mopan-new-evaluation-0334",
+              "mopan-new-evaluation-0335"
+            ]
+          },
+          {
+            "criterion_id": "readability",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "驾驶中车辆、赛道、计时与检查点可读；完赛数字、状态清楚。",
+            "evidence_events": [
+              "mopan-new-evaluation-0123",
+              "mopan-new-evaluation-0155",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0266",
+              "mopan-new-evaluation-0295",
+              "mopan-new-evaluation-0328"
+            ]
+          },
+          {
+            "criterion_id": "guidance",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "W/S/A/D、R 与已观察行为一致；下一检查点文字、高亮门、小地图和重开按钮可发现。",
+            "evidence_events": [
+              "mopan-new-evaluation-0006",
+              "mopan-new-evaluation-0029",
+              "mopan-new-evaluation-0051",
+              "mopan-new-evaluation-0155",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0328",
+              "mopan-new-evaluation-0331"
+            ]
+          },
+          {
+            "criterion_id": "feedback",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "检查点变绿并出现通过提示、护栏接触出现火花、合法冲线有独立结果层；反例未显示伪成功。未评价音效或 FPS。",
+            "evidence_events": [
+              "mopan-new-evaluation-0033",
+              "mopan-new-evaluation-0047",
+              "mopan-new-evaluation-0111",
+              "mopan-new-evaluation-0115",
+              "mopan-new-evaluation-0193",
+              "mopan-new-evaluation-0215",
+              "mopan-new-evaluation-0295",
+              "mopan-new-evaluation-0328"
+            ]
+          },
+          {
+            "criterion_id": "presentation",
+            "status": "passed",
+            "score": 10.0,
+            "reason": "低多边形车辆、树木、山体与赛道风格一致；1280×800、390×844 页面下驾驶 HUD 与完赛层均可见。手机只做布局检查。",
+            "evidence_events": [
+              "mopan-new-evaluation-0123",
+              "mopan-new-evaluation-0328",
+              "mopan-new-evaluation-0329",
+              "mopan-new-evaluation-0331",
+              "mopan-new-evaluation-0336"
+            ]
+          },
+          {
+            "criterion_id": "delivery-time",
+            "status": "partial",
+            "score": 8.71957,
+            "reason": "Frozen v2 time formula from accepted prompt to first observed delivered preview; playable gates passed. Creation timestamps determine duration; evaluation observation corroborates playable delivery.",
+            "evidence_events": [
+              "mopan-new-evaluation-0002"
+            ]
+          }
+        ],
+        "total": 96.15871,
+        "configuration": {
+          "harness_version": null,
+          "effort": null,
+          "instructions_file": "evaluation-instructions.md",
+          "instructions_sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+          "tools": [
+            {
+              "name": "CUA REPL visible UI/screenshot/keyboard",
+              "version": null
+            },
+            {
+              "name": "Chrome viewport emulation",
+              "version": null
+            }
+          ],
+          "access_mode": "visible_ui",
+          "browser": "Chrome",
+          "browser_version": null,
+          "viewport_width": 1280,
+          "viewport_height": 800,
+          "clock": "realtime"
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "cost-summary.json",
+      "sha256": "f6439015e8dc0ed959ffc62959481da9c25468c0be737de96e715e6ef4f18f2e",
+      "bytes": 715
+    },
+    {
+      "path": "creation-image-index.json",
+      "sha256": "eda04212038eb5768d93aa82263d72c339edaf8976f40234fa306f40ecb03079",
+      "bytes": 8977
+    },
+    {
+      "path": "creation-observations.jsonl",
+      "sha256": "0d71855a7eae28b9333e17b52032ef3b7efacbaaf9e49b968cf70ca44f32f718",
+      "bytes": 438531
+    },
+    {
+      "path": "creation.jsonl",
+      "sha256": "e8208b6b99619803968302693081d72a8843e9da47d320f252f1b183e25d40dd",
+      "bytes": 9954
+    },
+    {
+      "path": "evaluation-image-index.json",
+      "sha256": "3b0856778c20fcb89967dfed3a936a0e5ee10c9162017a840386b79ccd147e70",
+      "bytes": 90687
+    },
+    {
+      "path": "evaluation-instructions.md",
+      "sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+      "bytes": 14525
+    },
+    {
+      "path": "evaluation-observations.jsonl",
+      "sha256": "a93a579b67c0ad3814bbb4c0ed1050a1209e63dd61ee80740a78dc114bc07a29",
+      "bytes": 669953
+    },
+    {
+      "path": "evaluation.jsonl",
+      "sha256": "c22466fc76daa45dafc9dfadd45435caef16b5f92adbbb5904333c551a96d16c",
+      "bytes": 142178
+    },
+    {
+      "path": "frames/mopan-new-creation-0001.jpg",
+      "sha256": "fa20a2117b53cc6df5f6e7b75210a70ea636ff9108dc110df27add7509278eea",
+      "bytes": 73395
+    },
+    {
+      "path": "frames/mopan-new-creation-0003.jpg",
+      "sha256": "dbb14ef4e27c9750023290bd2d595b2bb70171d5fa3e9c5f8b412d0a8859110a",
+      "bytes": 58635
+    },
+    {
+      "path": "frames/mopan-new-creation-0033.jpg",
+      "sha256": "2ad2b2c31f650ee77bbe49c3c651c1b245d4d0970228bc0c68f5dc145e5e7c14",
+      "bytes": 228147
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0005.jpg",
+      "sha256": "2c46fdec8a8507357790e7a549e547fe374c961116ba557338a7153889c7331a",
+      "bytes": 83274
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0006.jpg",
+      "sha256": "9187571e42bf6149f19390ab9e6b6c9175fc4c5cfa0627f03dae7346ac25093f",
+      "bytes": 83301
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0007.jpg",
+      "sha256": "d0c525dec020fcb0f696be403b4363ae675901f935bfda218bb0ca1ac925c1cc",
+      "bytes": 73074
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0008.jpg",
+      "sha256": "e55fa140af4f19df98924badc03db03b396f03fa361be04e38d0504aabee7b15",
+      "bytes": 73792
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0009.jpg",
+      "sha256": "9cd83bf53d8b3b3a78cbf69b060d3d6d490dd349e88a2123d0fe2456f224d58b",
+      "bytes": 74969
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0010.jpg",
+      "sha256": "0b09567c977c9c4a6648d7efbd3630de5ac50c92f1d4722f5c1e0e70aa6390c7",
+      "bytes": 74856
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0013.jpg",
+      "sha256": "32a0e1a8c8df11855482c20a619bb4946820b8ba9e9bb65a50d8993b6205b146",
+      "bytes": 88641
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0015.jpg",
+      "sha256": "526e8434592233896f24b430a8d0aa24273747587cf6ff1ef14a012717cf6b2e",
+      "bytes": 89818
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0017.jpg",
+      "sha256": "b77d7706dd2d7f49bcd3f7b6a7241160298842c905edcf48c92fe852f43d2541",
+      "bytes": 79589
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0018.jpg",
+      "sha256": "381721275fab8ccf07e40bcb5d0dd8b8e790c8b9eb200a8d2bd8ee40aaa30209",
+      "bytes": 80040
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0019.jpg",
+      "sha256": "8b0ea2eb2182995fc566ac0ca9a5fbaf5fbd8660b6083f481276d764cf28fb51",
+      "bytes": 80557
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0020.jpg",
+      "sha256": "62a4f5bc003ada2132dde20a185ef706640e79c54f5c02f37cfa4db63961b97d",
+      "bytes": 81158
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0023.jpg",
+      "sha256": "1b6dc5075a649c46457ade9ef8e66bc7a1d2430c047bfc2053f64888595beda7",
+      "bytes": 88631
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0025.jpg",
+      "sha256": "2717b640dfda31751fd5699fa55c822cb86bfedbdf5b56b3ec4deebf247d20c5",
+      "bytes": 89860
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0027.jpg",
+      "sha256": "7c0940e34e1739dbef49b533dfa06e4208a2a5dbde9d08a02c21e4772f7fd43a",
+      "bytes": 80215
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0028.jpg",
+      "sha256": "8944f8900d487bed360e4f82384b5929962903e2d9b7d6c7678748e178cd4e54",
+      "bytes": 80420
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0029.jpg",
+      "sha256": "dd0c0a1cf368958c7cfa8008011d0c8704f5ac8460ca3e767f90745d4b06a0d7",
+      "bytes": 80739
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0030.jpg",
+      "sha256": "b8ba5336fc57d16647f2c2dd014424ded688a13335864bacd7db5003f709a51a",
+      "bytes": 74485
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0031.jpg",
+      "sha256": "9e56f2ff1b1850f06c7a0a4f6ac08ae4f594d0b9db505f0c1f9a1f8ede126e49",
+      "bytes": 75286
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0033.jpg",
+      "sha256": "19b8866957daf6ec9b9a8537ed8602ae33a98435f9c7b9e1d695093b7c63608c",
+      "bytes": 84601
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0035.jpg",
+      "sha256": "a3e2754320e68ff822ec1e8f23b1b9d56a662bf85107fbdc2349e94676fc5406",
+      "bytes": 83966
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0039.jpg",
+      "sha256": "a10435575fb6fa63435dfb88e9113fd9f0b76f135196f9c04cb7e05896b44480",
+      "bytes": 78853
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0041.jpg",
+      "sha256": "e3f47454cba8e3fec5c218e7cab81dcdd3aca849e066920ec913216bfb8fb643",
+      "bytes": 75038
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0043.jpg",
+      "sha256": "6d44a1caa385c61470b6eaf27a9e145c04f68a3525ea22a43b4cdaada6a643f9",
+      "bytes": 68060
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0045.jpg",
+      "sha256": "4ef2c995b6574d6555b51b432d7806c279fd4bf405dc19f08ab8b98d280925e9",
+      "bytes": 67886
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0047.jpg",
+      "sha256": "0d88b2fd4caef9207919702be71282e4d639bbbe0560dfe80ef906dafda65c53",
+      "bytes": 69697
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0049.jpg",
+      "sha256": "c8037d2ebe6bb60069ef2d22a153d58f7438c60e4eca0cecba5773602c04f395",
+      "bytes": 72341
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0051.jpg",
+      "sha256": "adfee24d3eacd9377773bcc7e3c3e7e714143d85f6571ab2496ba86c66902b8f",
+      "bytes": 72065
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0081.jpg",
+      "sha256": "d228e6f4a78225404180be6eeea4048a14c4ca478c53c31674662526f1e590cb",
+      "bytes": 66888
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0083.jpg",
+      "sha256": "bdf6b31016a6a2dbbb6b76684d9738902a24883212d6d4576b577be56b497ed2",
+      "bytes": 74765
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0085.jpg",
+      "sha256": "518c291b1491c1656be85b8909e5b28a8b1a7454c4d5866840548ba5e681690a",
+      "bytes": 72584
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0087.jpg",
+      "sha256": "5eb38375ae9a28316f60c52f3107b87181b401947e073a79d8a0839ecb50ff64",
+      "bytes": 72662
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0093.jpg",
+      "sha256": "255cb461fb27ab5b6fe956f91a50d44959b4aeaa0384a10c6008be888a8f5bf1",
+      "bytes": 72849
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0109.jpg",
+      "sha256": "776e7356dcc39f0be7ad8c66e5d829d0da109d0d058e784566f5cd866f0a7399",
+      "bytes": 81185
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0111.jpg",
+      "sha256": "40f60db8670d5c4fee561d59811527baa2a7dc85be9b8b434d925b5f78b9e2b7",
+      "bytes": 84269
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0112.jpg",
+      "sha256": "993609ddab35894915932de528b422be6f862ea41caa8536609f0a6bb99a756d",
+      "bytes": 80474
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0113.jpg",
+      "sha256": "9d04b5be9b6140b1c454fcb4306b31b9004348a66aaeb8499bef96cfc7a32d68",
+      "bytes": 80292
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0115.jpg",
+      "sha256": "46c1921581dd5ecacf67c1f81c0c22d1a5f6f6a8884ae21a69df13cf0764ce43",
+      "bytes": 78537
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0117.jpg",
+      "sha256": "5ac5e92163577e007621e85cc486de431f1a33199adc38b17a3e40f843efcf94",
+      "bytes": 88182
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0123.jpg",
+      "sha256": "d895f350960aa65c6b8319480a56b40619330015776fbb3d44fd8b2f2ee26e12",
+      "bytes": 75630
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0155.jpg",
+      "sha256": "3ff7c7c521d042c0032d92c746b8125df75a8ca355b021a573e96242170d368c",
+      "bytes": 85962
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0193.jpg",
+      "sha256": "f155222a2168c9d9f71e1803f999d45c6d50f3cb602e722b7a95ccbaea432230",
+      "bytes": 71473
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0197.jpg",
+      "sha256": "5ed11ed6e8ec818fb3b4678694830f7327a4d14ff4f9183cb0e5cc9d0b20e291",
+      "bytes": 69269
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0199.jpg",
+      "sha256": "a0880e9425830a71eb899ebb22d2b368aa261055c5bbc4e87f2aab7e789c76b9",
+      "bytes": 74660
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0215.jpg",
+      "sha256": "6294173f77d31ac3570364aa01b2532955ec3d319e7c863d3e0977945fb9c3a8",
+      "bytes": 89381
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0217.jpg",
+      "sha256": "7e1de2691009e2a0e0bcb428e97e783971d30946cf307832af5083d55b12f99d",
+      "bytes": 84354
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0221.jpg",
+      "sha256": "8dcb8855315baa98fbf5be0784759af6d7b149a9c42c36d005940fd6cf43a980",
+      "bytes": 80138
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0223.jpg",
+      "sha256": "48b9f23c2a6805aebb51380e7e84195ddea1e6db2a4e26475ff9773d192315bf",
+      "bytes": 76685
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0266.jpg",
+      "sha256": "6415761bd74c86179979bd11aa62bacc320b3bb8eb0b96d2f4bea281a3e1d75b",
+      "bytes": 80346
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0295.jpg",
+      "sha256": "ff8a8a7b0e9b029a4a898510222e4a3d3f7e29f644d2bc24838772d3eeb82e3c",
+      "bytes": 84456
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0321.jpg",
+      "sha256": "291c92fdab6ae5d6b524d5ecf0ed71e3ce1ea2b90e8689f81c7543333678fe36",
+      "bytes": 80952
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0323.jpg",
+      "sha256": "05410e0658b5b43c37cfafe68998c54c6942ba347b57696d5664f05bd448687c",
+      "bytes": 83195
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0324.jpg",
+      "sha256": "1fad4ac7bde8b8a541434898bc3dee460da22e6ebb24d76b61f0a57260c4ca90",
+      "bytes": 83954
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0325.jpg",
+      "sha256": "ad5143a58dc7897e6639ea2ba85b77cb660e068a14447c20ebfd8f5028bec252",
+      "bytes": 47188
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0326.jpg",
+      "sha256": "7d19f85eb7cdb4fa93151437d96e7d2f73eac8e6dcbdfdbbf98a73d3268df5cd",
+      "bytes": 45351
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0327.jpg",
+      "sha256": "86493bdaa6f48d4c34495b52cec4569811a9520cf0e489482552a4488d553ec3",
+      "bytes": 45585
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0328.jpg",
+      "sha256": "c91044e8b3dbf3210ba6c31c6e682ee5b2fa4404feca1080024499f74543c98c",
+      "bytes": 45601
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0329.jpg",
+      "sha256": "bd2d4ccf7b1abaf0b160c21e53f82e9130b13a40e182c0c87ba526ce5a3c4cb5",
+      "bytes": 25532
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0330.jpg",
+      "sha256": "324a61e1ff6efe6647c00c4c214d4d26e8b4ffc949d1b0f8726c2ac9b59aa258",
+      "bytes": 45579
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0331.jpg",
+      "sha256": "ae7e4e691c80c86b1cb18874cd3b8e8e54c658b356ca9650e19b1519340094ae",
+      "bytes": 87117
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0332.jpg",
+      "sha256": "1f5f27d66d90cd35b5ddf3a21fdbbe7e44a8569bd4bde8e201813afdd668e7ee",
+      "bytes": 88104
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0333.jpg",
+      "sha256": "afce844f5c90b753ef84cfd0ff55649276fcb79f20ad0226eefb87ba0deca37e",
+      "bytes": 89579
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0334.jpg",
+      "sha256": "f75b91513b727621594da36959dc97d6b8815a53a7c468c0194b355ce1e3ff39",
+      "bytes": 88964
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0335.jpg",
+      "sha256": "efa7b14a37ca766ee92562bea3da13c379073c7c601801f3e0f273d8e24016e9",
+      "bytes": 90521
+    },
+    {
+      "path": "frames/mopan-new-evaluation-0336.jpg",
+      "sha256": "c34cc848c05452c385e005d37e1acea8b5a6c26fadcb7c2a6d6309e2e67bd096",
+      "bytes": 36782
+    },
+    {
+      "path": "mopan-build-usage.txt",
+      "sha256": "16fe306ddc15d2270f0921c2f505bf1014c9a52b28c00c8e7f6e31f9676638bc",
+      "bytes": 2103
+    },
+    {
+      "path": "mopan-monthly-pricing.txt",
+      "sha256": "70b3263a60b7c1d7b4f48f815b51a6bceedc6a6ecf628d63c9fd2ceb2434eb56",
+      "bytes": 8871
+    },
+    {
+      "path": "result.json",
+      "sha256": "3a5ad88b3555f6b53a6dfdb7781c6ff93ccd8f3973e1750a1ac67519dd68d85a",
+      "bytes": 13859
+    }
+  ],
+  "external_evidence": [],
+  "costs": [
+    {
+      "kind": "credit_value",
+      "component": "creator",
+      "amount": 0.5839155,
+      "currency": "USD",
+      "basis": "Regular monthly subscription full-quota allocation; not an actual payment. 1169 × $9.99 ÷ 20000",
+      "evidence": [
+        "cost-summary.json",
+        "mopan-monthly-pricing.txt"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "component": "evaluator",
+      "amount": null,
+      "currency": null,
+      "basis": "Evaluator/operator billing not captured.",
+      "evidence": []
+    }
+  ],
+  "publication": {
+    "public_release_confirmed": true,
+    "rights_confirmed": true,
+    "sensitive_data_checked": true,
+    "all_attempts_disclosed": true,
+    "license": "Contributor-authored records CC BY 4.0; screenshots shared as task evidence, not a license to underlying platform artwork or trademarks.",
+    "redactions": [
+      "Account names, email addresses and local profile paths redacted from text. Account/profile creation screenshots omitted when not selected.",
+      "Mopan underlying model identity omitted; no system/developer prompts, private reasoning, credentials or raw job archive included."
+    ],
+    "capture_gaps": [
+      "Sampled, not continuous recording. Maximum creation gap 66.195 seconds; exceeds 30-second observation target."
+    ],
+    "limitations": [
+      "Affiliated development pilot. Structural validation is not calibrated gameplay verification or independent reproduction. Proposed policy; no leaderboard admission claimed.",
+      "Same assistant created and evaluated this platform; creation_context_hidden=false. Evaluator model/effort and some tool/browser versions were not recorded.",
+      "Report 007 selects three runs from four creations. Earlier Mopan generation and its recheck are disclosed in reports/007-web-3d-racing/supplementary/mopan-first; regeneration was separately requested, not a repair.",
+      "Only selected original screenshots are included; all recorded action details and text observations are exported. See image indexes for omitted files and source hashes. No continuous backend trajectory exists.",
+      "Remote game bytes are not frozen by a content hash. The artifact URL is a later publication of the same project; full grading was performed on its preview, not repeated on public publication.",
+      "Platform default only: underlying model identity withheld at owner request; no verified model-routing claim. Game viewport was 1280x744 inside a 1280x800 page, mobile 390x788 inside 390x844; not exact game-viewport compliance.",
+      "Earlier Mopan attempt scored 29.0 with input/focus limitations. Latest-run selection is not a controlled model-improvement claim. Anonymous publication received only a drive/restart smoke check."
+    ]
+  },
+  "score_addenda": []
+}

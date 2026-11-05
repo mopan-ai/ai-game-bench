@@ -1,0 +1,421 @@
+{
+  "label": "Mopan",
+  "date": "2026-11-03",
+  "model_label": "Default",
+  "effort": null,
+  "criteria": [
+    {
+      "id": "ready",
+      "weight": 4,
+      "rating_out_of_10": 10,
+      "weighted_points": 4.0,
+      "status": "passed",
+      "reason": "可以控制车辆；真实交互的透视赛道、计时与检查点 UI 可见。不证明具体引擎。",
+      "observation_ids": [
+        "mopan-game-0163",
+        "mopan-game-0164",
+        "mopan-game-0165",
+        "mopan-game-0166"
+      ],
+      "label": "启动与可操作"
+    },
+    {
+      "id": "acceleration",
+      "weight": 6,
+      "rating_out_of_10": 10,
+      "weighted_points": 6.0,
+      "status": "passed",
+      "reason": "同一重置后连续 1 秒 W 输入，起终点线及路侧地标的世界位移由小变大；不是仅看速度表。镜头有跟随滞后，结论为定性观察。",
+      "observation_ids": [
+        "mopan-game-0163",
+        "mopan-game-0164",
+        "mopan-game-0165",
+        "mopan-game-0166",
+        "mopan-game-0167"
+      ],
+      "label": "加速"
+    },
+    {
+      "id": "braking",
+      "weight": 6,
+      "rating_out_of_10": 0,
+      "weighted_points": 0.0,
+      "status": "not_tested",
+      "reason": "做过滑行/刹车对照，但起始世界姿态和镜头位移匹配不足；只有 HUD 的减速非常明确，不能据此通过。",
+      "observation_ids": [
+        "mopan-game-0017",
+        "mopan-game-0018",
+        "mopan-game-0019",
+        "mopan-game-0020",
+        "mopan-game-0021",
+        "mopan-game-0022",
+        "mopan-game-0023",
+        "mopan-game-0024",
+        "mopan-game-0025",
+        "mopan-game-0026",
+        "mopan-game-0027",
+        "mopan-game-0028",
+        "mopan-game-0029",
+        "mopan-game-0030",
+        "mopan-game-0031",
+        "mopan-game-0032",
+        "mopan-game-0033",
+        "mopan-game-0034",
+        "mopan-game-0035",
+        "mopan-game-0036",
+        "mopan-game-0037",
+        "mopan-game-0038",
+        "mopan-game-0039",
+        "mopan-game-0040",
+        "mopan-game-0041",
+        "mopan-game-0042"
+      ],
+      "label": "刹车对照"
+    },
+    {
+      "id": "steering",
+      "weight": 8,
+      "rating_out_of_10": 10,
+      "weighted_points": 8.0,
+      "status": "passed",
+      "reason": "左右输入改变车辆朝向和世界路径，可进入弯道；本轮未完成整圈。",
+      "observation_ids": [
+        "mopan-game-0074",
+        "mopan-game-0075",
+        "mopan-game-0076",
+        "mopan-game-0077",
+        "mopan-game-0078",
+        "mopan-game-0079",
+        "mopan-game-0080",
+        "mopan-game-0081",
+        "mopan-game-0082",
+        "mopan-game-0083",
+        "mopan-game-0084",
+        "mopan-game-0085",
+        "mopan-game-0086",
+        "mopan-game-0087",
+        "mopan-game-0088",
+        "mopan-game-0089",
+        "mopan-game-0173",
+        "mopan-game-0174",
+        "mopan-game-0175",
+        "mopan-game-0176",
+        "mopan-game-0177",
+        "mopan-game-0178",
+        "mopan-game-0179",
+        "mopan-game-0180"
+      ],
+      "label": "左右转向"
+    },
+    {
+      "id": "follow-camera",
+      "weight": 6,
+      "rating_out_of_10": 10,
+      "weighted_points": 6.0,
+      "status": "passed",
+      "reason": "直道和转弯中第三人称镜头跟车，车辆与前方赛道保持可见。",
+      "observation_ids": [
+        "mopan-game-0163",
+        "mopan-game-0164",
+        "mopan-game-0165",
+        "mopan-game-0166",
+        "mopan-game-0167",
+        "mopan-game-0168",
+        "mopan-game-0169",
+        "mopan-game-0170",
+        "mopan-game-0171",
+        "mopan-game-0172",
+        "mopan-game-0173",
+        "mopan-game-0174",
+        "mopan-game-0175",
+        "mopan-game-0176",
+        "mopan-game-0177",
+        "mopan-game-0178",
+        "mopan-game-0179",
+        "mopan-game-0180"
+      ],
+      "label": "跟随相机"
+    },
+    {
+      "id": "track-bounds",
+      "weight": 8,
+      "rating_out_of_10": 0,
+      "weighted_points": 0.0,
+      "status": "not_tested",
+      "reason": "观察到内外护栏约束及接触变色，但主要接触在 HUD 183–190 km/h；没有完整的中等速度双侧对照，不满足冻结验收条件。",
+      "observation_ids": [
+        "mopan-game-0081",
+        "mopan-game-0085",
+        "mopan-game-0089",
+        "mopan-game-0104",
+        "mopan-game-0111",
+        "mopan-game-0143",
+        "mopan-game-0157"
+      ],
+      "label": "内外侧边界"
+    },
+    {
+      "id": "ordered-checkpoints",
+      "weight": 8,
+      "rating_out_of_10": 0,
+      "weighted_points": 0.0,
+      "status": "not_tested",
+      "reason": "有 4 个可见检查点和无效冲线提示，但全程未记录有效检查点递增。工具焦点/输入问题与驾驶困难混杂，不能判定检查点实现有缺陷。",
+      "observation_ids": [
+        "mopan-game-0163",
+        "mopan-game-0176",
+        "mopan-game-0181"
+      ],
+      "label": "检查点顺序"
+    },
+    {
+      "id": "lap-finish",
+      "weight": 8,
+      "rating_out_of_10": 0,
+      "weighted_points": 0.0,
+      "status": "not_tested",
+      "reason": "六个 player sessions 内未完成一条合法的 0→全部检查点→冲线轨迹。20 分 29 秒时停止，未耗尽 30 分钟。",
+      "observation_ids": [
+        "mopan-game-0181"
+      ],
+      "label": "合法整圈与计时冻结"
+    },
+    {
+      "id": "restart",
+      "weight": 6,
+      "rating_out_of_10": 0,
+      "weighted_points": 0.0,
+      "status": "not_tested",
+      "reason": "中途重置有效，但没有先完成合法一圈，无法证明完赛后的完整重置。",
+      "observation_ids": [
+        "mopan-game-0163",
+        "mopan-game-0164",
+        "mopan-game-0181"
+      ],
+      "label": "完赛后重开"
+    },
+    {
+      "id": "readability",
+      "weight": 2.5,
+      "rating_out_of_10": 5,
+      "weighted_points": 1.25,
+      "status": "partial",
+      "reason": "驾驶时 HUD、路面及顺序可读；完赛状态未覆盖。",
+      "observation_ids": [
+        "mopan-game-0116",
+        "mopan-game-0164",
+        "mopan-game-0167"
+      ],
+      "label": "画面可读性"
+    },
+    {
+      "id": "guidance",
+      "weight": 2.5,
+      "rating_out_of_10": 5,
+      "weighted_points": 1.25,
+      "status": "partial",
+      "reason": "加速、转向、重置及路径说明可见；全部操作与完整路线尚未验证。",
+      "observation_ids": [
+        "mopan-game-0164",
+        "mopan-game-0176"
+      ],
+      "label": "操作与路线指引"
+    },
+    {
+      "id": "feedback",
+      "weight": 2.5,
+      "rating_out_of_10": 5,
+      "weighted_points": 1.25,
+      "status": "partial",
+      "reason": "接触和无效方向有反馈；未观察到有效检查点/完赛反馈。",
+      "observation_ids": [
+        "mopan-game-0085",
+        "mopan-game-0176"
+      ],
+      "label": "交互反馈"
+    },
+    {
+      "id": "presentation",
+      "weight": 2.5,
+      "rating_out_of_10": 5,
+      "weighted_points": 1.25,
+      "status": "partial",
+      "reason": "低多边形风格清晰，桌面及手机尺寸驾驶 UI 可见；完赛布局未覆盖，早期预览截图还存在缩放黑边。",
+      "observation_ids": [
+        "mopan-game-0116",
+        "mopan-game-0164",
+        "mopan-game-0167"
+      ],
+      "label": "视觉与布局"
+    },
+    {
+      "id": "delivery-time",
+      "rating_out_of_10": 0,
+      "status": "gated_zero",
+      "reason": "五项玩法门槛全部通过后，才按冻结公式分配时间分。",
+      "observation_ids": [
+        "mopan-0028"
+      ],
+      "label": "交付时间",
+      "weight": 30,
+      "weighted_points": 0.0
+    }
+  ],
+  "timing": {
+    "initial_send_at": "2026-11-03T02:18:41.102Z",
+    "accepted_at": "2026-11-03T02:18:41.394Z",
+    "first_observed_final_playable_at": "2026-11-03T02:33:42.706Z",
+    "delivery_observation_id": "mopan-0028",
+    "accepted_to_observed_delivery_seconds": 901.312,
+    "initial_send_to_acceptance_seconds": 0.292,
+    "initial_send_to_observed_delivery_seconds": 901.604,
+    "platform_reported_work_seconds": 767,
+    "platform_work_is_not_wall_clock": true
+  },
+  "evaluation": {
+    "first_persisted_event_at": "2026-11-03T02:41:28.857Z",
+    "last_event_at": "2026-11-03T03:01:57.445Z",
+    "persisted_span_seconds": 1228.588,
+    "sessions": 6,
+    "max_sessions": 6,
+    "budget_seconds": 1800,
+    "budget_exhausted": false,
+    "clock_pauses_subtracted_seconds": 0,
+    "model": null,
+    "effort": null,
+    "harness": "CUA REPL interactive operator",
+    "harness_version": null,
+    "tool_version": null,
+    "browser": "Chrome",
+    "browser_version": null,
+    "access_mode": "visible_ui",
+    "declared_viewport": [
+      1280,
+      800
+    ],
+    "game_viewport": [
+      1280,
+      744
+    ],
+    "mobile_layout_viewport": [
+      390,
+      844
+    ],
+    "clock": "real_time",
+    "instructions_path": "frozen/protocols/racing-3d-browser-pilot-v2/evaluation.md",
+    "instructions_sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+    "gameplay_events": 181,
+    "continuous_video": false,
+    "notes": "No proof of exact evaluator model/version. Frames/actions retained. Mobile layout only, not touch gameplay. Wanaka first persisted start excludes about 16 seconds of setup observed by the operator; even including this, under 30 minutes."
+  },
+  "creation_context_hidden": false,
+  "creation_capture": {
+    "events": 20,
+    "required_max_gap_seconds": 30,
+    "observed_max_gap_before_delivery_seconds": 284.515,
+    "gap_requirement_met": false,
+    "gaps_over_30_seconds": [
+      {
+        "from": "2026-11-03T02:18:56.723Z",
+        "to": "2026-11-03T02:19:38.874Z",
+        "seconds": 42.151,
+        "from_id": "mopan-0004",
+        "to_id": "mopan-0005"
+      },
+      {
+        "from": "2026-11-03T02:19:38.874Z",
+        "to": "2026-11-03T02:20:31.757Z",
+        "seconds": 52.883,
+        "from_id": "mopan-0005",
+        "to_id": "mopan-0006"
+      },
+      {
+        "from": "2026-11-03T02:20:59.919Z",
+        "to": "2026-11-03T02:21:40.241Z",
+        "seconds": 40.322,
+        "from_id": "mopan-0007",
+        "to_id": "mopan-0008"
+      },
+      {
+        "from": "2026-11-03T02:21:40.241Z",
+        "to": "2026-11-03T02:22:14.649Z",
+        "seconds": 34.408,
+        "from_id": "mopan-0008",
+        "to_id": "mopan-0009"
+      },
+      {
+        "from": "2026-11-03T02:22:14.649Z",
+        "to": "2026-11-03T02:23:23.208Z",
+        "seconds": 68.559,
+        "from_id": "mopan-0009",
+        "to_id": "mopan-0010"
+      },
+      {
+        "from": "2026-11-03T02:23:23.208Z",
+        "to": "2026-11-03T02:24:29.601Z",
+        "seconds": 66.393,
+        "from_id": "mopan-0010",
+        "to_id": "mopan-0011"
+      },
+      {
+        "from": "2026-11-03T02:24:29.601Z",
+        "to": "2026-11-03T02:25:21.601Z",
+        "seconds": 52.0,
+        "from_id": "mopan-0011",
+        "to_id": "mopan-0012"
+      },
+      {
+        "from": "2026-11-03T02:25:21.601Z",
+        "to": "2026-11-03T02:26:40.372Z",
+        "seconds": 78.771,
+        "from_id": "mopan-0012",
+        "to_id": "mopan-0013"
+      },
+      {
+        "from": "2026-11-03T02:26:40.372Z",
+        "to": "2026-11-03T02:27:51.157Z",
+        "seconds": 70.785,
+        "from_id": "mopan-0013",
+        "to_id": "mopan-0014"
+      },
+      {
+        "from": "2026-11-03T02:27:51.157Z",
+        "to": "2026-11-03T02:28:58.191Z",
+        "seconds": 67.034,
+        "from_id": "mopan-0014",
+        "to_id": "mopan-0015"
+      },
+      {
+        "from": "2026-11-03T02:28:58.191Z",
+        "to": "2026-11-03T02:33:42.706Z",
+        "seconds": 284.515,
+        "from_id": "mopan-0015",
+        "to_id": "mopan-0028"
+      }
+    ],
+    "sampling_note": "These are successful frame-to-frame gaps, not the shorter interval beginning at the first logged recorder error. No missing frame was reconstructed."
+  },
+  "diagnostic_score": {
+    "core": 24.0,
+    "ux": 5.0,
+    "time": 0.0,
+    "total": 29.0,
+    "time_gate_passed": false,
+    "core_passes": 4
+  },
+  "summary": "启动、加速、转向、跟随相机有通过记录；原轮次未验证完整圈赛链路。输入与焦点问题混杂，不能将低分直接归因于游戏逻辑。",
+  "id": "mopan-first",
+  "selected": false,
+  "official_benchmark_score": null,
+  "maintainer_review": "not_yet_reviewed",
+  "score_status": "affiliated_development_pilot",
+  "scoring_policy": "racing-3d-browser-pilot-v2",
+  "artifact": {
+    "workspace_url": "https://mopan.ai/workspace/bea2dc13-6462-4a38-bae4-4f9c4d4cab3f",
+    "immutable_artifact_hash": null,
+    "published_public_play_url": null,
+    "publication_state": "unpublished_after_reversed_operator_incident"
+  },
+  "evidence_path": "reports/007-web-3d-racing/supplementary/mopan-first",
+  "selection_note": "Earlier independent generation, retained for attempt accounting; not selected for Report 007. One later recheck of this build is included separately."
+}

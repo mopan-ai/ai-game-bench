@@ -1,0 +1,127 @@
+Browser tab: 1595916254, Title: "Wanaka Pricing — Plans for every creator", URL: "https://wanaka.app/pricing".
+0 AXWebArea Wanaka Pricing — Plans for every creator, URL: wanaka.app/pricing
+	1 container
+		2 link Description: Wanaka home, Value: wanaka.app/
+		3 container Main navigation
+			4 link Description: Games, Value: wanaka.app/#games
+			5 link Description: How it works, Value: wanaka.app/#how
+			6 link Description: Studio, Value: studio.wanaka.app/
+			7 link Description: Pricing, Value: wanaka.app/#pricing
+			8 link Description: Community, Value: community.wanaka.app/
+		9 link Description: Sign in, Value: studio.wanaka.app/
+		10 link Description: Start free, Value: studio.wanaka.app/
+		11 container pricing
+			12 container
+				13 heading Start making games for free, Value: 2
+					14 text Start making games for free
+				15 text Select the plan that best fits your needs
+			16 container Billing period
+				17 checkbox Monthly, Value: 1
+				18 checkbox Yearly 2 months free, Value: 0
+			30 container Subscription plans
+				31 container home-plan-free
+					32 heading Free, Value: 3
+						33 text Free
+					34 text For trying Wanaka and shipping your first game.
+					35 container $0
+						36 container
+							37 text $
+						38 container
+							39 text 0
+					40 text forever
+					41 text No credit card required
+					42 button (disabled) Free plan
+					43 content list
+						44 text 60 credits / day
+						45 text Wanaka 1.0 Lite only
+						46 text Generate image × 5
+						47 text Generate 3D model × 2
+						48 text Character rigging × 3
+						49 text Character animation retargeting × 30
+				50 container home-plan-pro
+					51 heading Pro, Value: 3
+						52 text Pro
+					53 text For trying Wanaka and shipping your first game.
+					54 container $19
+						55 container
+							56 text $
+						57 container
+							58 text 1
+							59 text 9
+					60 text /month
+					61 text Billed monthly · Plus applicable tax
+					62 link Description: Upgrade to Pro, Value: studio.wanaka.app/subscription
+					63 content list
+						64 text 2,000 credits / month
+						65 text Access to all Wanaka models
+						66 text Generate image × 50
+						67 text Generate 3D model × 20
+						68 text Character rigging × 20
+						69 text Character animation retargeting × 200
+						70 text No watermark on exports
+				71 container home-plan-max
+					72 heading Max, Value: 3
+						73 text Max
+					74 text For creators shipping real games regularly.
+					75 container $49
+						76 container
+							77 text $
+						78 container
+							79 text 4
+							80 text 9
+					81 text /month
+					82 text Billed monthly · Plus applicable tax
+					83 link Description: Upgrade to Max, Value: studio.wanaka.app/subscription
+					84 content list
+						85 text 6,000 credits / month
+						86 text Access to all Wanaka models
+						87 text Generate image × 200
+						88 text Generate 3D model × 60
+						89 text Character rigging × 24
+						90 text Character animation retargeting × 240
+						91 text No watermark on exports
+						92 text Exclusive feedback channel
+						93 text More game exposure opportunities
+						94 text Opportunities to preview new releases
+						95 text More personalized features
+				96 container home-plan-ultra
+					97 heading Ultra, Value: 3
+						98 text Ultra
+					99 text For pros and small teams going commercial.
+					100 container $200
+						101 container
+							102 text $
+						103 container
+							104 text 2
+							105 text 0
+							106 text 0
+					107 text /month
+					108 text Billed monthly · Plus applicable tax
+					109 link Description: Upgrade to Ultra, Value: studio.wanaka.app/subscription
+					110 content list
+						111 text 24,000 credits / month
+						112 text Access to all Wanaka models
+						113 text Generate image × 800
+						114 text Generate 3D model × 240
+						115 text Character rigging × 96
+						116 text Character animation retargeting × 960
+						117 text No watermark on exports
+						118 text Exclusive feedback channel
+						119 text More game exposure opportunities
+						120 text Opportunities to preview new releases
+						121 text More personalized features
+						122 text Dedicated personal support
+						123 text Invitations to in-person Game Jams
+		19 image Wanaka
+		20 text © 2026 Wanaka Studio Limited. All rights reserved.
+		21 heading CONTACT, Value: 2
+			22 text CONTACT
+		23 link Description: Email: [email], Value: mailto:[email]
+		24 link Description: Discord, Value: discord.gg/xJcKYM6vJ3
+		25 heading LEGAL, Value: 2
+			26 text LEGAL
+		27 link Description: Privacy Policy, Value: wanaka.app/privacy-policy
+		28 link Description: Terms of Service, Value: wanaka.app/terms-of-service
+		29 link Description: Refund Policy, Value: wanaka.app/refund-policy
+
+The focused UI element is 17 checkbox Monthly, Value: 1

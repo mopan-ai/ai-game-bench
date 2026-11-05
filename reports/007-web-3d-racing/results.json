@@ -1,0 +1,1794 @@
+{
+  "schema_version": "report007-development-selection/1",
+  "task_id": "racing-3d-browser-pilot-v2",
+  "scoring_addendum": "observed-duration-v1.json",
+  "selected_attempts": [
+    "mopan",
+    "wanaka",
+    "codex"
+  ],
+  "total_creation_attempts": 4,
+  "results": [
+    {
+      "label": "Mopan",
+      "date": "2026-11-03",
+      "model_label": "Default",
+      "effort": null,
+      "criteria": [
+        {
+          "id": "ready",
+          "label": "启动与可操作",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "透视 3D 赛道、可操控车辆、计时与进度可见；键盘输入产生世界位移。",
+          "observation_ids": [
+            "mopan-new-evaluation-0005",
+            "mopan-new-evaluation-0006",
+            "mopan-new-evaluation-0007",
+            "mopan-new-evaluation-0009"
+          ],
+          "weight": 4,
+          "weighted_points": 4.0
+        },
+        {
+          "id": "acceleration",
+          "label": "加速",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "两段相同 700 ms 前进输入中，起终点门、路边标志与小地图位置的位移增大。第三段已碰边界，不用于加速判定。HUD 仅辅助；未推算物理米数。",
+          "observation_ids": [
+            "mopan-new-evaluation-0006",
+            "mopan-new-evaluation-0007",
+            "mopan-new-evaluation-0008",
+            "mopan-new-evaluation-0009",
+            "mopan-new-evaluation-0010"
+          ],
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "braking",
+          "label": "刹车对照",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "第 2/3 局从相同起点各两段 350 ms 加速；对照起点地标接近（HUD 约 75/79）。350 ms 松油门仍继续前进，刹车后世界位移停止；无转向或撞墙。截图/输入调度使实际观察窗口并非严格等长，保留原始时间。",
+          "observation_ids": [
+            "mopan-new-evaluation-0013",
+            "mopan-new-evaluation-0015",
+            "mopan-new-evaluation-0017",
+            "mopan-new-evaluation-0018",
+            "mopan-new-evaluation-0019",
+            "mopan-new-evaluation-0020",
+            "mopan-new-evaluation-0023",
+            "mopan-new-evaluation-0025",
+            "mopan-new-evaluation-0027",
+            "mopan-new-evaluation-0028",
+            "mopan-new-evaluation-0029",
+            "mopan-new-evaluation-0030"
+          ],
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "steering",
+          "label": "左右转向",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "左右输入均改变车头与行驶路线；合法圈中实际通过左弯、右弯和 S 弯。",
+          "observation_ids": [
+            "mopan-new-evaluation-0039",
+            "mopan-new-evaluation-0041",
+            "mopan-new-evaluation-0049",
+            "mopan-new-evaluation-0051",
+            "mopan-new-evaluation-0197",
+            "mopan-new-evaluation-0199",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0217",
+            "mopan-new-evaluation-0221",
+            "mopan-new-evaluation-0223"
+          ],
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "follow-camera",
+          "label": "跟随镜头",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "直道及两向弯道中相机随车运动，车辆与前方路线始终可见。",
+          "observation_ids": [
+            "mopan-new-evaluation-0007",
+            "mopan-new-evaluation-0009",
+            "mopan-new-evaluation-0051",
+            "mopan-new-evaluation-0123",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0223",
+            "mopan-new-evaluation-0295",
+            "mopan-new-evaluation-0323"
+          ],
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "track-bounds",
+          "label": "内外侧边界",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "第 3 局通过正常转向接触两侧护栏，车辆被约束在道路内；接触过程中未获取检查点或抄近路进度。第 4 局也记录到护栏接触火花。",
+          "observation_ids": [
+            "mopan-new-evaluation-0039",
+            "mopan-new-evaluation-0041",
+            "mopan-new-evaluation-0043",
+            "mopan-new-evaluation-0045",
+            "mopan-new-evaluation-0047",
+            "mopan-new-evaluation-0081",
+            "mopan-new-evaluation-0083",
+            "mopan-new-evaluation-0085",
+            "mopan-new-evaluation-0087",
+            "mopan-new-evaluation-0093",
+            "mopan-new-evaluation-0193"
+          ],
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "ordered-checkpoints",
+          "label": "有序检查点",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "第 3 局提前反向越过起终点保持 0/4；通过 CP1 后倒退重穿 CP1 保持 1/4，没有冒充 CP2。随后第 4 局从 0/4 连续依次通过四门。反例范围是反向重穿已过检查点，不宣称穷尽所有跳点路线。",
+          "observation_ids": [
+            "mopan-new-evaluation-0029",
+            "mopan-new-evaluation-0031",
+            "mopan-new-evaluation-0033",
+            "mopan-new-evaluation-0035",
+            "mopan-new-evaluation-0109",
+            "mopan-new-evaluation-0111",
+            "mopan-new-evaluation-0112",
+            "mopan-new-evaluation-0113",
+            "mopan-new-evaluation-0115",
+            "mopan-new-evaluation-0117",
+            "mopan-new-evaluation-0155",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0266",
+            "mopan-new-evaluation-0295"
+          ],
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "lap-finish",
+          "label": "合法整圈与计时冻结",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "第 4 局零进度起步，四门依次通过后正向冲线；出现完赛页，09:07.04 从 05:24:09.646Z 至 05:24:13.113Z 保持不变（3.467 秒）。这是含观察停顿的试玩用时，不是竞速成绩。",
+          "observation_ids": [
+            "mopan-new-evaluation-0117",
+            "mopan-new-evaluation-0155",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0266",
+            "mopan-new-evaluation-0295",
+            "mopan-new-evaluation-0321",
+            "mopan-new-evaluation-0323",
+            "mopan-new-evaluation-0324",
+            "mopan-new-evaluation-0325",
+            "mopan-new-evaluation-0326",
+            "mopan-new-evaluation-0327",
+            "mopan-new-evaluation-0328"
+          ],
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "restart",
+          "label": "完赛后重开",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "点击完赛页的重开按钮，第 5 局恢复起点、0/4、约 0 秒并清除完赛层；前进仍响应。历史最佳单圈保留，当前圈已清零。",
+          "observation_ids": [
+            "mopan-new-evaluation-0330",
+            "mopan-new-evaluation-0331",
+            "mopan-new-evaluation-0332",
+            "mopan-new-evaluation-0333",
+            "mopan-new-evaluation-0334",
+            "mopan-new-evaluation-0335"
+          ],
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "readability",
+          "label": "画面可读性",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "驾驶中车辆、赛道、计时与检查点可读；完赛数字、状态清楚。",
+          "observation_ids": [
+            "mopan-new-evaluation-0123",
+            "mopan-new-evaluation-0155",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0266",
+            "mopan-new-evaluation-0295",
+            "mopan-new-evaluation-0328"
+          ],
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "guidance",
+          "label": "操作与路线指引",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "W/S/A/D、R 与已观察行为一致；下一检查点文字、高亮门、小地图和重开按钮可发现。",
+          "observation_ids": [
+            "mopan-new-evaluation-0006",
+            "mopan-new-evaluation-0029",
+            "mopan-new-evaluation-0051",
+            "mopan-new-evaluation-0155",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0328",
+            "mopan-new-evaluation-0331"
+          ],
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "feedback",
+          "label": "交互反馈",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "检查点变绿并出现通过提示、护栏接触出现火花、合法冲线有独立结果层；反例未显示伪成功。未评价音效或 FPS。",
+          "observation_ids": [
+            "mopan-new-evaluation-0033",
+            "mopan-new-evaluation-0047",
+            "mopan-new-evaluation-0111",
+            "mopan-new-evaluation-0115",
+            "mopan-new-evaluation-0193",
+            "mopan-new-evaluation-0215",
+            "mopan-new-evaluation-0295",
+            "mopan-new-evaluation-0328"
+          ],
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "presentation",
+          "label": "视觉与布局",
+          "status": "passed",
+          "rating_out_of_10": 10,
+          "reason": "低多边形车辆、树木、山体与赛道风格一致；1280×800、390×844 页面下驾驶 HUD 与完赛层均可见。手机只做布局检查。",
+          "observation_ids": [
+            "mopan-new-evaluation-0123",
+            "mopan-new-evaluation-0328",
+            "mopan-new-evaluation-0329",
+            "mopan-new-evaluation-0331",
+            "mopan-new-evaluation-0336"
+          ],
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "delivery-time",
+          "label": "交付时间",
+          "status": "computed",
+          "rating_out_of_10": 8.71957,
+          "reason": "按记录耗时 722.542 秒独立计算时间分；本地 observed-duration-v1 不应用玩法门槛，原规则结果另存。",
+          "observation_ids": [
+            "mopan-new-creation-0033"
+          ],
+          "weight": 30,
+          "weighted_points": 26.15871,
+          "timing_evidence": {
+            "source": "history/mopan-new-generation-report.json",
+            "result_id": "mopan",
+            "field": "timing",
+            "seconds": 722.542
+          },
+          "scoring_addendum": "scoring/observed-duration-v1.json"
+        }
+      ],
+      "timing": {
+        "accepted_at": "2026-11-03T04:44:10.080Z",
+        "first_observed_final_playable_at": "2026-11-03T04:56:12.622Z",
+        "accepted_to_observed_delivery_seconds": 722.542,
+        "platform_reported_work_seconds": 656
+      },
+      "evaluation": {
+        "requested_start": "2026-11-03T05:05:24.630Z",
+        "active_start": "2026-11-03T05:09:16.177Z",
+        "end": "2026-11-03T05:25:50.406Z",
+        "sessions_used": 5,
+        "elapsed_active_seconds": 994.229,
+        "transport_outage": "Before active_start: ordinary browser input timed out while temporary DevTools was open. Closed DevTools; same visible restart then succeeded. No driving input sent during outage.",
+        "access_mode": "visible_ui",
+        "creation_context_hidden": false,
+        "affiliation": "Mopan-owner-authorized operator",
+        "model": null,
+        "effort": null,
+        "tools": [
+          "cua_repl browser AX/screenshot/keyboard/Playwright visible locators",
+          "Chrome CDP Emulation viewport only"
+        ],
+        "source_or_hidden_state_read": false
+      },
+      "creation_context_hidden": false,
+      "creation_capture": {
+        "frames": 33,
+        "gaps_over_30_seconds": [
+          {
+            "from_id": "mopan-new-creation-0003",
+            "to_id": "mopan-new-creation-0004",
+            "seconds": 31.172
+          },
+          {
+            "from_id": "mopan-new-creation-0005",
+            "to_id": "mopan-new-creation-0006",
+            "seconds": 56.82
+          },
+          {
+            "from_id": "mopan-new-creation-0006",
+            "to_id": "mopan-new-creation-0007",
+            "seconds": 53.745
+          },
+          {
+            "from_id": "mopan-new-creation-0007",
+            "to_id": "mopan-new-creation-0008",
+            "seconds": 66.195
+          },
+          {
+            "from_id": "mopan-new-creation-0008",
+            "to_id": "mopan-new-creation-0009",
+            "seconds": 41.265
+          },
+          {
+            "from_id": "mopan-new-creation-0009",
+            "to_id": "mopan-new-creation-0010",
+            "seconds": 30.071
+          },
+          {
+            "from_id": "mopan-new-creation-0012",
+            "to_id": "mopan-new-creation-0013",
+            "seconds": 30.567
+          },
+          {
+            "from_id": "mopan-new-creation-0026",
+            "to_id": "mopan-new-creation-0027",
+            "seconds": 37.117
+          },
+          {
+            "from_id": "mopan-new-creation-0032",
+            "to_id": "mopan-new-creation-0033",
+            "seconds": 59.314
+          }
+        ]
+      },
+      "diagnostic_score": {
+        "core": 60,
+        "ux": 10,
+        "time": 26.15871,
+        "total": 96.15871,
+        "core_passes": 9,
+        "core_total": 9,
+        "time_gate_applied": false,
+        "scoring_version": "observed-duration-v1"
+      },
+      "frozen_protocol_diagnostic_score": {
+        "core": 60,
+        "ux": 10,
+        "time": 26.15871,
+        "total": 96.15871,
+        "core_passes": 9,
+        "core_total": 9,
+        "time_gate_passed": true
+      },
+      "frozen_protocol_time_criterion": {
+        "id": "delivery-time",
+        "label": "交付时间",
+        "status": "computed",
+        "rating_out_of_10": 8.71957,
+        "reason": "从 prompt 已接受至首个已保存的最终可玩画面，共 722.542 秒。Ready 画面仍空白，未提前计为交付。五项时间门槛均通过。",
+        "observation_ids": [
+          "mopan-new-creation-0033"
+        ],
+        "weight": 30,
+        "weighted_points": 26.15871
+      },
+      "summary": "九项核心均有通过证据：有序检查点、合法整圈、计时冻结及完赛重开。最新一次独立生成，旧轮次保留。",
+      "id": "mopan",
+      "selected": true,
+      "official_benchmark_score": null,
+      "maintainer_review": "not_yet_reviewed",
+      "score_status": "affiliated_development_pilot",
+      "scoring_policy": "observed-duration-v1",
+      "artifact": {
+        "title": "低多边形极速计时赛",
+        "workspace_url": "https://mopan.ai/workspace/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+        "immutable_build_hash": null,
+        "public_play_url": "https://mopan.ai/play/ff754065-db73-4ef8-9749-1c3b4659dc7b",
+        "access": "anonymous_play_verified_in_chrome_incognito",
+        "post_run_usage_build_id": "2ad25743-324e-4163-9303-b0ffada8af57",
+        "publication_state": "published"
+      },
+      "evidence_path": "submissions/mopan-racing-20261103/r001"
+    },
+    {
+      "label": "Wanaka",
+      "date": "2026-11-03",
+      "model_label": "Wanaka 1.0 Lite",
+      "effort": null,
+      "criteria": [
+        {
+          "id": "ready",
+          "weight": 4,
+          "rating_out_of_10": 10,
+          "weighted_points": 4.0,
+          "status": "passed",
+          "reason": "开始后可控制车辆，3D 透视赛道、计时及进度可见。",
+          "observation_ids": [
+            "wanaka-game-0001",
+            "wanaka-game-0002",
+            "wanaka-game-0004"
+          ],
+          "label": "启动与可操作"
+        },
+        {
+          "id": "acceleration",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "静止后连续 500 ms 前进采样，树木、路缘和拱门的位移随时间增长；没有以速度表代替。",
+          "observation_ids": [
+            "wanaka-game-0003",
+            "wanaka-game-0004",
+            "wanaka-game-0005",
+            "wanaka-game-0006",
+            "wanaka-game-0007"
+          ],
+          "label": "加速"
+        },
+        {
+          "id": "braking",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "相同重置/前进序列后，滑行和 S 刹车段起始地标近似一致；相同约 1 秒内刹车组地标位移更小，没有转弯或撞墙。非精确物理测量。",
+          "observation_ids": [
+            "wanaka-game-0009",
+            "wanaka-game-0010",
+            "wanaka-game-0011",
+            "wanaka-game-0012",
+            "wanaka-game-0013",
+            "wanaka-game-0014",
+            "wanaka-game-0015",
+            "wanaka-game-0016",
+            "wanaka-game-0017",
+            "wanaka-game-0018",
+            "wanaka-game-0019",
+            "wanaka-game-0020",
+            "wanaka-game-0021",
+            "wanaka-game-0022",
+            "wanaka-game-0023",
+            "wanaka-game-0024",
+            "wanaka-game-0025",
+            "wanaka-game-0026",
+            "wanaka-game-0027",
+            "wanaka-game-0028",
+            "wanaka-game-0029",
+            "wanaka-game-0030"
+          ],
+          "label": "刹车对照"
+        },
+        {
+          "id": "steering",
+          "weight": 8,
+          "rating_out_of_10": 10,
+          "weighted_points": 8.0,
+          "status": "passed",
+          "reason": "左右输入改变车辆路径，连续合法圈中完成多次转弯。",
+          "observation_ids": [
+            "wanaka-game-0031",
+            "wanaka-game-0032",
+            "wanaka-game-0033",
+            "wanaka-game-0034",
+            "wanaka-game-0035",
+            "wanaka-game-0036",
+            "wanaka-game-0037",
+            "wanaka-game-0038",
+            "wanaka-game-0039",
+            "wanaka-game-0040",
+            "wanaka-game-0041",
+            "wanaka-game-0042",
+            "wanaka-game-0043",
+            "wanaka-game-0044",
+            "wanaka-game-0045",
+            "wanaka-game-0046",
+            "wanaka-game-0047",
+            "wanaka-game-0048",
+            "wanaka-game-0049",
+            "wanaka-game-0050",
+            "wanaka-game-0051",
+            "wanaka-game-0144",
+            "wanaka-game-0145",
+            "wanaka-game-0146",
+            "wanaka-game-0147",
+            "wanaka-game-0148",
+            "wanaka-game-0149",
+            "wanaka-game-0150",
+            "wanaka-game-0151",
+            "wanaka-game-0152",
+            "wanaka-game-0153",
+            "wanaka-game-0154",
+            "wanaka-game-0155",
+            "wanaka-game-0156",
+            "wanaka-game-0157",
+            "wanaka-game-0158",
+            "wanaka-game-0159",
+            "wanaka-game-0160",
+            "wanaka-game-0161",
+            "wanaka-game-0162",
+            "wanaka-game-0163",
+            "wanaka-game-0164",
+            "wanaka-game-0165",
+            "wanaka-game-0166"
+          ],
+          "label": "左右转向"
+        },
+        {
+          "id": "follow-camera",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "加速直线及弯道都保持车辆、前方路线可见。",
+          "observation_ids": [
+            "wanaka-game-0003",
+            "wanaka-game-0007",
+            "wanaka-game-0038",
+            "wanaka-game-0143",
+            "wanaka-game-0166",
+            "wanaka-game-0189"
+          ],
+          "label": "跟随相机"
+        },
+        {
+          "id": "track-bounds",
+          "weight": 8,
+          "rating_out_of_10": 10,
+          "weighted_points": 8.0,
+          "status": "passed",
+          "reason": "短时前进/转向刻意探测内外侧，车辆受边界约束，没有穿过内场或得到检查点增益。接触速度未做数值测量。",
+          "observation_ids": [
+            "wanaka-game-0031",
+            "wanaka-game-0032",
+            "wanaka-game-0033",
+            "wanaka-game-0034",
+            "wanaka-game-0035",
+            "wanaka-game-0036",
+            "wanaka-game-0037",
+            "wanaka-game-0038",
+            "wanaka-game-0039",
+            "wanaka-game-0040",
+            "wanaka-game-0041",
+            "wanaka-game-0042",
+            "wanaka-game-0043",
+            "wanaka-game-0044",
+            "wanaka-game-0045",
+            "wanaka-game-0046",
+            "wanaka-game-0047",
+            "wanaka-game-0048",
+            "wanaka-game-0049",
+            "wanaka-game-0050",
+            "wanaka-game-0051"
+          ],
+          "label": "内外侧边界"
+        },
+        {
+          "id": "ordered-checkpoints",
+          "weight": 8,
+          "rating_out_of_10": 10,
+          "weighted_points": 8.0,
+          "status": "passed",
+          "reason": "先验证 0/3 时逆向及提前冲线不完赛、逆向重穿检查点 1 不增加 1/3 进度；session 5 再记录正确的 0→1→2→3。",
+          "observation_ids": [
+            "wanaka-game-0052",
+            "wanaka-game-0053",
+            "wanaka-game-0054",
+            "wanaka-game-0055",
+            "wanaka-game-0056",
+            "wanaka-game-0057",
+            "wanaka-game-0058",
+            "wanaka-game-0059",
+            "wanaka-game-0060",
+            "wanaka-game-0061",
+            "wanaka-game-0062",
+            "wanaka-game-0063",
+            "wanaka-game-0064",
+            "wanaka-game-0065",
+            "wanaka-game-0066",
+            "wanaka-game-0067",
+            "wanaka-game-0068",
+            "wanaka-game-0069",
+            "wanaka-game-0070",
+            "wanaka-game-0071",
+            "wanaka-game-0072",
+            "wanaka-game-0073",
+            "wanaka-game-0074",
+            "wanaka-game-0075",
+            "wanaka-game-0076",
+            "wanaka-game-0077",
+            "wanaka-game-0078",
+            "wanaka-game-0079",
+            "wanaka-game-0080",
+            "wanaka-game-0081",
+            "wanaka-game-0082",
+            "wanaka-game-0083",
+            "wanaka-game-0084",
+            "wanaka-game-0085",
+            "wanaka-game-0143",
+            "wanaka-game-0166",
+            "wanaka-game-0189"
+          ],
+          "label": "检查点顺序"
+        },
+        {
+          "id": "lap-finish",
+          "weight": 8,
+          "rating_out_of_10": 10,
+          "weighted_points": 8.0,
+          "status": "passed",
+          "reason": "session 5 从 0 开始连续驶过三个检查点并正确冲线；最终 7:05.083，在连续无输入采样中保持超过 4 秒。未拼接其他局次。",
+          "observation_ids": [
+            "wanaka-game-0085",
+            "wanaka-game-0086",
+            "wanaka-game-0087",
+            "wanaka-game-0088",
+            "wanaka-game-0089",
+            "wanaka-game-0090",
+            "wanaka-game-0091",
+            "wanaka-game-0092",
+            "wanaka-game-0093",
+            "wanaka-game-0094",
+            "wanaka-game-0095",
+            "wanaka-game-0096",
+            "wanaka-game-0097",
+            "wanaka-game-0098",
+            "wanaka-game-0099",
+            "wanaka-game-0100",
+            "wanaka-game-0101",
+            "wanaka-game-0102",
+            "wanaka-game-0103",
+            "wanaka-game-0104",
+            "wanaka-game-0105",
+            "wanaka-game-0106",
+            "wanaka-game-0107",
+            "wanaka-game-0108",
+            "wanaka-game-0109",
+            "wanaka-game-0110",
+            "wanaka-game-0111",
+            "wanaka-game-0112",
+            "wanaka-game-0113",
+            "wanaka-game-0114",
+            "wanaka-game-0115",
+            "wanaka-game-0116",
+            "wanaka-game-0117",
+            "wanaka-game-0118",
+            "wanaka-game-0119",
+            "wanaka-game-0120",
+            "wanaka-game-0121",
+            "wanaka-game-0122",
+            "wanaka-game-0123",
+            "wanaka-game-0124",
+            "wanaka-game-0125",
+            "wanaka-game-0126",
+            "wanaka-game-0127",
+            "wanaka-game-0128",
+            "wanaka-game-0129",
+            "wanaka-game-0130",
+            "wanaka-game-0131",
+            "wanaka-game-0132",
+            "wanaka-game-0133",
+            "wanaka-game-0134",
+            "wanaka-game-0135",
+            "wanaka-game-0136",
+            "wanaka-game-0137",
+            "wanaka-game-0138",
+            "wanaka-game-0139",
+            "wanaka-game-0140",
+            "wanaka-game-0141",
+            "wanaka-game-0142",
+            "wanaka-game-0143",
+            "wanaka-game-0144",
+            "wanaka-game-0145",
+            "wanaka-game-0146",
+            "wanaka-game-0147",
+            "wanaka-game-0148",
+            "wanaka-game-0149",
+            "wanaka-game-0150",
+            "wanaka-game-0151",
+            "wanaka-game-0152",
+            "wanaka-game-0153",
+            "wanaka-game-0154",
+            "wanaka-game-0155",
+            "wanaka-game-0156",
+            "wanaka-game-0157",
+            "wanaka-game-0158",
+            "wanaka-game-0159",
+            "wanaka-game-0160",
+            "wanaka-game-0161",
+            "wanaka-game-0162",
+            "wanaka-game-0163",
+            "wanaka-game-0164",
+            "wanaka-game-0165",
+            "wanaka-game-0166",
+            "wanaka-game-0167",
+            "wanaka-game-0168",
+            "wanaka-game-0169",
+            "wanaka-game-0170",
+            "wanaka-game-0171",
+            "wanaka-game-0172",
+            "wanaka-game-0173",
+            "wanaka-game-0174",
+            "wanaka-game-0175",
+            "wanaka-game-0176",
+            "wanaka-game-0177",
+            "wanaka-game-0178",
+            "wanaka-game-0179",
+            "wanaka-game-0180",
+            "wanaka-game-0181",
+            "wanaka-game-0182",
+            "wanaka-game-0183",
+            "wanaka-game-0184",
+            "wanaka-game-0185",
+            "wanaka-game-0186",
+            "wanaka-game-0187",
+            "wanaka-game-0188",
+            "wanaka-game-0189",
+            "wanaka-game-0190",
+            "wanaka-game-0191",
+            "wanaka-game-0192",
+            "wanaka-game-0193",
+            "wanaka-game-0194",
+            "wanaka-game-0195",
+            "wanaka-game-0196",
+            "wanaka-game-0197",
+            "wanaka-game-0198",
+            "wanaka-game-0199",
+            "wanaka-game-0200",
+            "wanaka-game-0201",
+            "wanaka-game-0202",
+            "wanaka-game-0203",
+            "wanaka-game-0204",
+            "wanaka-game-0205",
+            "wanaka-game-0206",
+            "wanaka-game-0207",
+            "wanaka-game-0208",
+            "wanaka-game-0209",
+            "wanaka-game-0210",
+            "wanaka-game-0211"
+          ],
+          "label": "合法整圈与计时冻结"
+        },
+        {
+          "id": "restart",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "完赛后点击可见重新开始：位置回到起点、进度 0/3、结果消失；首个渲染帧计时 0:00.016，随后新局计时和控制正常。不是严格捕获 0 ms。",
+          "observation_ids": [
+            "wanaka-game-0213",
+            "wanaka-game-0214",
+            "wanaka-game-0215",
+            "wanaka-game-0216",
+            "wanaka-game-0217"
+          ],
+          "label": "完赛后重开"
+        },
+        {
+          "id": "readability",
+          "weight": 2.5,
+          "rating_out_of_10": 10,
+          "weighted_points": 2.5,
+          "status": "passed",
+          "reason": "驾驶、进度、终点和结算显示可读。",
+          "observation_ids": [
+            "wanaka-game-0143",
+            "wanaka-game-0166",
+            "wanaka-game-0189",
+            "wanaka-game-0206",
+            "wanaka-game-0212",
+            "wanaka-game-0218"
+          ],
+          "label": "画面可读性"
+        },
+        {
+          "id": "guidance",
+          "weight": 2.5,
+          "rating_out_of_10": 10,
+          "weighted_points": 2.5,
+          "status": "passed",
+          "reason": "可见 WASD/方向键、检查点顺序及重开提示，与测试输入一致。",
+          "observation_ids": [
+            "wanaka-game-0001",
+            "wanaka-game-0002",
+            "wanaka-game-0143",
+            "wanaka-game-0206",
+            "wanaka-game-0213"
+          ],
+          "label": "操作与路线指引"
+        },
+        {
+          "id": "feedback",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "检查点与完赛有明确文字/状态反馈；边界主要表现为物理约束，未证明独立清晰的碰撞提示。",
+          "observation_ids": [
+            "wanaka-game-0038",
+            "wanaka-game-0051",
+            "wanaka-game-0143",
+            "wanaka-game-0166",
+            "wanaka-game-0206"
+          ],
+          "label": "交互反馈"
+        },
+        {
+          "id": "presentation",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "桌面/手机尺寸驾驶及完赛 UI 可见；汽车、树木、岩石使用纹理，与统一原创低多边形风格不完全一致。资产来源/授权未核实，不作侵权判定。",
+          "observation_ids": [
+            "wanaka-game-0002",
+            "wanaka-game-0206",
+            "wanaka-game-0212",
+            "wanaka-game-0218"
+          ],
+          "label": "视觉与布局"
+        },
+        {
+          "id": "delivery-time",
+          "rating_out_of_10": 7.164627,
+          "status": "computed",
+          "reason": "按记录耗时 1235.673 秒独立计算时间分；本地 observed-duration-v1 不应用玩法门槛，原规则结果另存。",
+          "observation_ids": [
+            "wanaka-0035"
+          ],
+          "label": "交付时间",
+          "weight": 30,
+          "weighted_points": 21.493881,
+          "timing_evidence": {
+            "source": "history/original-three-platform-report.json",
+            "result_id": "wanaka",
+            "field": "timing",
+            "seconds": 1235.673
+          },
+          "scoring_addendum": "scoring/observed-duration-v1.json"
+        }
+      ],
+      "timing": {
+        "initial_send_at": "2026-11-03T02:18:41.633Z",
+        "accepted_at": "2026-11-03T02:24:43.991Z",
+        "first_observed_final_playable_at": "2026-11-03T02:45:19.664Z",
+        "delivery_observation_id": "wanaka-0035",
+        "accepted_to_observed_delivery_seconds": 1235.673,
+        "initial_send_to_acceptance_seconds": 362.358,
+        "initial_send_to_observed_delivery_seconds": 1598.031,
+        "platform_reported_work_seconds": 840,
+        "platform_work_is_not_wall_clock": true
+      },
+      "evaluation": {
+        "first_persisted_event_at": "2026-11-03T03:03:29.314Z",
+        "last_event_at": "2026-11-03T03:18:35.722Z",
+        "persisted_span_seconds": 906.408,
+        "sessions": 6,
+        "max_sessions": 6,
+        "budget_seconds": 1800,
+        "budget_exhausted": false,
+        "clock_pauses_subtracted_seconds": 0,
+        "model": null,
+        "effort": null,
+        "harness": "CUA REPL interactive operator",
+        "harness_version": null,
+        "tool_version": null,
+        "browser": "Chrome",
+        "browser_version": null,
+        "access_mode": "visible_ui",
+        "declared_viewport": [
+          1280,
+          800
+        ],
+        "game_viewport": [
+          1280,
+          800
+        ],
+        "mobile_layout_viewport": [
+          390,
+          844
+        ],
+        "clock": "real_time",
+        "instructions_sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+        "gameplay_events": 219,
+        "continuous_video": false,
+        "notes": "No proof of exact evaluator model/version. Frames/actions retained. Mobile layout only, not touch gameplay. Wanaka first persisted start excludes about 16 seconds of setup observed by the operator; even including this, under 30 minutes."
+      },
+      "creation_context_hidden": false,
+      "creation_capture": {
+        "events": 37,
+        "required_max_gap_seconds": 30,
+        "observed_max_gap_before_delivery_seconds": 284.541,
+        "gap_requirement_met": false,
+        "gaps_over_30_seconds": [
+          {
+            "from": "2026-11-03T02:25:36.907Z",
+            "to": "2026-11-03T02:26:40.435Z",
+            "seconds": 63.528,
+            "from_id": "wanaka-0019",
+            "to_id": "wanaka-0020"
+          },
+          {
+            "from": "2026-11-03T02:26:54.608Z",
+            "to": "2026-11-03T02:27:51.221Z",
+            "seconds": 56.613,
+            "from_id": "wanaka-0021",
+            "to_id": "wanaka-0022"
+          },
+          {
+            "from": "2026-11-03T02:27:51.221Z",
+            "to": "2026-11-03T02:28:58.242Z",
+            "seconds": 67.021,
+            "from_id": "wanaka-0022",
+            "to_id": "wanaka-0023"
+          },
+          {
+            "from": "2026-11-03T02:28:58.242Z",
+            "to": "2026-11-03T02:33:42.783Z",
+            "seconds": 284.541,
+            "from_id": "wanaka-0023",
+            "to_id": "wanaka-0024"
+          },
+          {
+            "from": "2026-11-03T02:33:42.783Z",
+            "to": "2026-11-03T02:34:34.869Z",
+            "seconds": 52.086,
+            "from_id": "wanaka-0024",
+            "to_id": "wanaka-0025"
+          },
+          {
+            "from": "2026-11-03T02:34:34.869Z",
+            "to": "2026-11-03T02:35:38.688Z",
+            "seconds": 63.819,
+            "from_id": "wanaka-0025",
+            "to_id": "wanaka-0026"
+          },
+          {
+            "from": "2026-11-03T02:35:38.688Z",
+            "to": "2026-11-03T02:37:09.404Z",
+            "seconds": 90.716,
+            "from_id": "wanaka-0026",
+            "to_id": "wanaka-0027"
+          },
+          {
+            "from": "2026-11-03T02:37:09.404Z",
+            "to": "2026-11-03T02:37:46.446Z",
+            "seconds": 37.042,
+            "from_id": "wanaka-0027",
+            "to_id": "wanaka-0028"
+          },
+          {
+            "from": "2026-11-03T02:37:46.446Z",
+            "to": "2026-11-03T02:39:36.458Z",
+            "seconds": 110.012,
+            "from_id": "wanaka-0028",
+            "to_id": "wanaka-0029"
+          },
+          {
+            "from": "2026-11-03T02:40:11.354Z",
+            "to": "2026-11-03T02:40:57.049Z",
+            "seconds": 45.695,
+            "from_id": "wanaka-0031",
+            "to_id": "wanaka-0032"
+          },
+          {
+            "from": "2026-11-03T02:40:57.049Z",
+            "to": "2026-11-03T02:43:13.310Z",
+            "seconds": 136.261,
+            "from_id": "wanaka-0032",
+            "to_id": "wanaka-0033"
+          },
+          {
+            "from": "2026-11-03T02:43:41.751Z",
+            "to": "2026-11-03T02:45:19.664Z",
+            "seconds": 97.913,
+            "from_id": "wanaka-0034",
+            "to_id": "wanaka-0035"
+          }
+        ],
+        "sampling_note": "These are successful frame-to-frame gaps, not the shorter interval beginning at the first logged recorder error. No missing frame was reconstructed."
+      },
+      "diagnostic_score": {
+        "core": 60.0,
+        "ux": 7.5,
+        "time": 21.493881,
+        "total": 88.993881,
+        "core_passes": 9,
+        "time_gate_applied": false,
+        "scoring_version": "observed-duration-v1"
+      },
+      "frozen_protocol_diagnostic_score": {
+        "core": 60.0,
+        "ux": 7.5,
+        "time": 21.493881,
+        "total": 88.993881,
+        "time_gate_passed": true,
+        "core_passes": 9
+      },
+      "frozen_protocol_time_criterion": {
+        "id": "delivery-time",
+        "rating_out_of_10": 7.164627,
+        "status": "computed",
+        "reason": "五项玩法门槛全部通过后，才按冻结公式分配时间分。",
+        "observation_ids": [
+          "wanaka-0035"
+        ],
+        "label": "交付时间",
+        "weight": 30,
+        "weighted_points": 21.493881
+      },
+      "summary": "9 项核心均有通过记录，完成有序检查点、合法整圈、冻结计时及完赛重开。主要扣分是碰撞反馈与低多边形风格一致性。",
+      "id": "wanaka",
+      "selected": true,
+      "official_benchmark_score": null,
+      "maintainer_review": "not_yet_reviewed",
+      "score_status": "affiliated_development_pilot",
+      "scoring_policy": "observed-duration-v1",
+      "artifact": {
+        "workspace_url": "https://studio.wanaka.app/editor?projectId=prj_0bDL1jV2YXcHqRs",
+        "immutable_artifact_hash": null,
+        "published_public_play_url": "https://wanaka.games/g/gam_0bEjLvYbpJbNOXn",
+        "publication_state": "submitted_for_review",
+        "public_play_url": "https://wanaka.games/g/gam_0bEjLvYbpJbNOXn",
+        "access": "public_shell_accessible_game_loading_unverified"
+      },
+      "evidence_path": "submissions/wanaka-racing-20261103/r001"
+    },
+    {
+      "label": "Codex",
+      "date": "2026-11-02",
+      "model_label": "gpt-6.1-sol",
+      "effort": "high",
+      "criteria": [
+        {
+          "id": "ready",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Started and controlled a car on a perspective 3D track with readable timer and checkpoint progress.",
+          "observation_ids": [
+            "codex-frame-00005",
+            "codex-frame-00016"
+          ],
+          "label": "启动与可操作",
+          "weight": 4,
+          "weighted_points": 4.0
+        },
+        {
+          "id": "acceleration",
+          "rating_out_of_10": 0,
+          "status": "not_tested",
+          "reason": "Forward motion was observed, but repeated matched-duration probes did not establish increasing world displacement reliably: pause overlays obscured the car and screenshot delays complicated comparison.",
+          "observation_ids": [
+            "codex-frame-00067",
+            "codex-frame-00068",
+            "codex-frame-00069",
+            "codex-frame-00088",
+            "codex-frame-00089",
+            "codex-frame-00090"
+          ],
+          "label": "加速",
+          "weight": 6,
+          "weighted_points": 0.0
+        },
+        {
+          "id": "braking",
+          "rating_out_of_10": 0,
+          "status": "not_tested",
+          "reason": "Attempted comparable 700 ms acceleration builds followed by coast or S braking intervals. Blurred pause captures and imperfect matching prevented a reliable world-motion deceleration comparison; S reversing alone does not satisfy this criterion.",
+          "observation_ids": [
+            "codex-frame-00052",
+            "codex-frame-00053",
+            "codex-frame-00056",
+            "codex-frame-00057",
+            "codex-frame-00091",
+            "codex-frame-00093"
+          ],
+          "label": "刹车对照",
+          "weight": 6,
+          "weighted_points": 0.0
+        },
+        {
+          "id": "steering",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Moving A and D inputs changed the car's heading and world path in opposite directions and enabled traversal around the loop.",
+          "observation_ids": [
+            "codex-frame-00016",
+            "codex-frame-00021",
+            "codex-frame-00022",
+            "codex-frame-00077",
+            "codex-frame-00078"
+          ],
+          "label": "左右转向",
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "follow-camera",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "The third-person camera followed forward driving and turns, retaining the car and upcoming road in view.",
+          "observation_ids": [
+            "codex-frame-00016",
+            "codex-frame-00025",
+            "codex-frame-00026",
+            "codex-frame-00084"
+          ],
+          "label": "跟随相机",
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "track-bounds",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Deliberate steering contacted both inner and outer walls. Moving approaches ended constrained beside the walls rather than crossing the infield; no shortcut progress was observed.",
+          "observation_ids": [
+            "codex-frame-00016",
+            "codex-frame-00017",
+            "codex-frame-00026",
+            "codex-frame-00027",
+            "codex-frame-00065",
+            "codex-frame-00066"
+          ],
+          "label": "内外侧边界",
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "ordered-checkpoints",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "An early start/finish crossing did not finish. Crossing checkpoint 3 in the wrong route direction with zero progress left progress at 0/3. Subsequently, a fresh continuous round accepted checkpoints 1, 2 and 3 in order.",
+          "observation_ids": [
+            "codex-frame-00010",
+            "codex-frame-00014",
+            "codex-frame-00065",
+            "codex-frame-00066",
+            "codex-frame-00067",
+            "codex-frame-00073",
+            "codex-frame-00079",
+            "codex-frame-00081"
+          ],
+          "label": "检查点顺序",
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "lap-finish",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Session 5 continuously traversed all three ordered checkpoints from zero progress, approached and crossed the finish correctly, and displayed 03:17.082 unchanged after a 3.2-second wait.",
+          "observation_ids": [
+            "codex-frame-00067",
+            "codex-frame-00073",
+            "codex-frame-00079",
+            "codex-frame-00081",
+            "codex-frame-00084",
+            "codex-frame-00085",
+            "codex-frame-00087"
+          ],
+          "label": "合法整圈与计时冻结",
+          "weight": 8,
+          "weighted_points": 8.0
+        },
+        {
+          "id": "restart",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "After a valid finish, visible replay restored the starting position, zero timer and 0/3 progress, cleared the result, and produced a responsive new round with an advancing timer. The previous time remained only as a labeled personal best.",
+          "observation_ids": [
+            "codex-frame-00040",
+            "codex-frame-00041",
+            "codex-frame-00042",
+            "codex-frame-00043",
+            "codex-frame-00070"
+          ],
+          "label": "完赛后重开",
+          "weight": 6,
+          "weighted_points": 6.0
+        },
+        {
+          "id": "readability",
+          "rating_out_of_10": 5,
+          "status": "partial",
+          "reason": "Timer, progress, car and result were readable, but overhead checkpoint/start banners sometimes substantially obscured the upcoming road.",
+          "observation_ids": [
+            "codex-frame-00026",
+            "codex-frame-00027",
+            "codex-frame-00085",
+            "codex-frame-00093"
+          ],
+          "label": "画面可读性",
+          "weight": 2.5,
+          "weighted_points": 1.25
+        },
+        {
+          "id": "guidance",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Visible W/S/A/D instructions matched observed controls. Clockwise route guidance, numbered progress and restart controls were discoverable and exercised.",
+          "observation_ids": [
+            "codex-frame-00005",
+            "codex-frame-00022",
+            "codex-frame-00058",
+            "codex-frame-00066",
+            "codex-frame-00085"
+          ],
+          "label": "操作与路线指引",
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "feedback",
+          "rating_out_of_10": 5,
+          "status": "partial",
+          "reason": "Accepted checkpoints produced progress changes and confirmation messages; valid finish produced a distinct result modal. Boundary feedback was limited to constrained motion/stopping, without an equally clear contact cue.",
+          "observation_ids": [
+            "codex-frame-00017",
+            "codex-frame-00027",
+            "codex-frame-00066",
+            "codex-frame-00073",
+            "codex-frame-00085"
+          ],
+          "label": "交互反馈",
+          "weight": 2.5,
+          "weighted_points": 1.25
+        },
+        {
+          "id": "presentation",
+          "rating_out_of_10": 10,
+          "status": "passed",
+          "reason": "Driving and finish used a coherent low-poly 3D style. Essential driving and result interfaces fit both tested viewport sizes.",
+          "observation_ids": [
+            "codex-frame-00026",
+            "codex-frame-00038",
+            "codex-frame-00045",
+            "codex-frame-00085"
+          ],
+          "label": "视觉与布局",
+          "weight": 2.5,
+          "weighted_points": 2.5
+        },
+        {
+          "id": "delivery-time",
+          "rating_out_of_10": 9.214427,
+          "status": "computed",
+          "reason": "按记录耗时 559.239 秒独立计算时间分；本地 observed-duration-v1 不应用玩法门槛，原规则结果另存。",
+          "observation_ids": [],
+          "label": "交付时间",
+          "weight": 30,
+          "weighted_points": 27.643281,
+          "timing_evidence": {
+            "source": "history/original-three-platform-report.json",
+            "result_id": "codex",
+            "field": "timing",
+            "seconds": 559.239
+          },
+          "scoring_addendum": "scoring/observed-duration-v1.json"
+        }
+      ],
+      "timing": {
+        "agent_execution_seconds": 559.239,
+        "native_trial_seconds": 566.214,
+        "comparable_remote_acceptance_duration": null,
+        "basis": "native agent_execution start-to-finish; environment setup and gameplay excluded"
+      },
+      "evaluation": {
+        "model": "gpt-6.1-sol",
+        "effort": "high",
+        "harness": "Codex CLI screenshot-only development judge",
+        "harness_version": "codex-cli 0.165.0",
+        "adapter_version": "0.1.1-web3d-dev.4",
+        "adapter_sha256": "87240eedea71da66d42fed9ee0717e505391d583c4c6f578b12fc2f67e108ea7",
+        "creation_context_hidden": true,
+        "elapsed_seconds": 1749.331,
+        "sessions": 6,
+        "browser_version": "151.0.7922.34",
+        "rendering": "software ANGLE/SwiftShader; no FPS score",
+        "screenshots": 93,
+        "actions": 167,
+        "continuous_video": true,
+        "usage": {
+          "input_including_cache": 7644204,
+          "cached_input": 7490176,
+          "output": 19860
+        },
+        "cost_usd": null,
+        "max_seconds": 1800,
+        "max_sessions": 6,
+        "video_public": false,
+        "video_omission": {
+          "sha256": "abdcf9dac45fc7a98892431eda94c2fb25fec910939add950bff3effa64b273d",
+          "bytes": 102795145,
+          "reason": "Large local video not uploaded; selected unchanged screenshots and all recorded input events are public."
+        }
+      },
+      "diagnostic_score": {
+        "core": 48.0,
+        "ux": 7.5,
+        "time": 27.643281,
+        "total": 83.143281,
+        "core_passes": 7,
+        "time_gate_applied": false,
+        "scoring_version": "observed-duration-v1"
+      },
+      "frozen_protocol_diagnostic_score": {
+        "core": 48.0,
+        "ux": 7.5,
+        "time": 0.0,
+        "total": 55.5,
+        "time_gate_passed": false,
+        "core_passes": 7
+      },
+      "frozen_protocol_time_criterion": {
+        "id": "delivery-time",
+        "rating_out_of_10": 0,
+        "status": "gated_zero",
+        "reason": "五项玩法门槛全部通过后，才按冻结公式分配时间分。",
+        "observation_ids": [],
+        "label": "交付时间",
+        "weight": 30,
+        "weighted_points": 0.0
+      },
+      "summary": "已记录合法整圈与重开。加速、刹车的对照证据不足，各计 0；时间按记录的9分19秒独立计分。",
+      "delivery_wrapper": "本地 CLI 额外要求静态 dist/index.html、依赖自包含、交付说明；游戏需求相同，全量输入不完全相同。",
+      "id": "codex",
+      "selected": true,
+      "official_benchmark_score": null,
+      "maintainer_review": "not_yet_reviewed",
+      "score_status": "affiliated_development_pilot",
+      "scoring_policy": "observed-duration-v1",
+      "artifact": {
+        "published_public_play_url": null,
+        "bundle_manifest": "artifact-files.json",
+        "public_play_url": null
+      },
+      "evidence_path": "reports/007-web-3d-racing/supplementary/codex"
+    },
+    {
+      "label": "Mopan",
+      "date": "2026-11-03",
+      "model_label": "Default",
+      "effort": null,
+      "criteria": [
+        {
+          "id": "ready",
+          "weight": 4,
+          "rating_out_of_10": 10,
+          "weighted_points": 4.0,
+          "status": "passed",
+          "reason": "可以控制车辆；真实交互的透视赛道、计时与检查点 UI 可见。不证明具体引擎。",
+          "observation_ids": [
+            "mopan-game-0163",
+            "mopan-game-0164",
+            "mopan-game-0165",
+            "mopan-game-0166"
+          ],
+          "label": "启动与可操作"
+        },
+        {
+          "id": "acceleration",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "同一重置后连续 1 秒 W 输入，起终点线及路侧地标的世界位移由小变大；不是仅看速度表。镜头有跟随滞后，结论为定性观察。",
+          "observation_ids": [
+            "mopan-game-0163",
+            "mopan-game-0164",
+            "mopan-game-0165",
+            "mopan-game-0166",
+            "mopan-game-0167"
+          ],
+          "label": "加速"
+        },
+        {
+          "id": "braking",
+          "weight": 6,
+          "rating_out_of_10": 0,
+          "weighted_points": 0.0,
+          "status": "not_tested",
+          "reason": "做过滑行/刹车对照，但起始世界姿态和镜头位移匹配不足；只有 HUD 的减速非常明确，不能据此通过。",
+          "observation_ids": [
+            "mopan-game-0017",
+            "mopan-game-0018",
+            "mopan-game-0019",
+            "mopan-game-0020",
+            "mopan-game-0021",
+            "mopan-game-0022",
+            "mopan-game-0023",
+            "mopan-game-0024",
+            "mopan-game-0025",
+            "mopan-game-0026",
+            "mopan-game-0027",
+            "mopan-game-0028",
+            "mopan-game-0029",
+            "mopan-game-0030",
+            "mopan-game-0031",
+            "mopan-game-0032",
+            "mopan-game-0033",
+            "mopan-game-0034",
+            "mopan-game-0035",
+            "mopan-game-0036",
+            "mopan-game-0037",
+            "mopan-game-0038",
+            "mopan-game-0039",
+            "mopan-game-0040",
+            "mopan-game-0041",
+            "mopan-game-0042"
+          ],
+          "label": "刹车对照"
+        },
+        {
+          "id": "steering",
+          "weight": 8,
+          "rating_out_of_10": 10,
+          "weighted_points": 8.0,
+          "status": "passed",
+          "reason": "左右输入改变车辆朝向和世界路径，可进入弯道；本轮未完成整圈。",
+          "observation_ids": [
+            "mopan-game-0074",
+            "mopan-game-0075",
+            "mopan-game-0076",
+            "mopan-game-0077",
+            "mopan-game-0078",
+            "mopan-game-0079",
+            "mopan-game-0080",
+            "mopan-game-0081",
+            "mopan-game-0082",
+            "mopan-game-0083",
+            "mopan-game-0084",
+            "mopan-game-0085",
+            "mopan-game-0086",
+            "mopan-game-0087",
+            "mopan-game-0088",
+            "mopan-game-0089",
+            "mopan-game-0173",
+            "mopan-game-0174",
+            "mopan-game-0175",
+            "mopan-game-0176",
+            "mopan-game-0177",
+            "mopan-game-0178",
+            "mopan-game-0179",
+            "mopan-game-0180"
+          ],
+          "label": "左右转向"
+        },
+        {
+          "id": "follow-camera",
+          "weight": 6,
+          "rating_out_of_10": 10,
+          "weighted_points": 6.0,
+          "status": "passed",
+          "reason": "直道和转弯中第三人称镜头跟车，车辆与前方赛道保持可见。",
+          "observation_ids": [
+            "mopan-game-0163",
+            "mopan-game-0164",
+            "mopan-game-0165",
+            "mopan-game-0166",
+            "mopan-game-0167",
+            "mopan-game-0168",
+            "mopan-game-0169",
+            "mopan-game-0170",
+            "mopan-game-0171",
+            "mopan-game-0172",
+            "mopan-game-0173",
+            "mopan-game-0174",
+            "mopan-game-0175",
+            "mopan-game-0176",
+            "mopan-game-0177",
+            "mopan-game-0178",
+            "mopan-game-0179",
+            "mopan-game-0180"
+          ],
+          "label": "跟随相机"
+        },
+        {
+          "id": "track-bounds",
+          "weight": 8,
+          "rating_out_of_10": 0,
+          "weighted_points": 0.0,
+          "status": "not_tested",
+          "reason": "观察到内外护栏约束及接触变色，但主要接触在 HUD 183–190 km/h；没有完整的中等速度双侧对照，不满足冻结验收条件。",
+          "observation_ids": [
+            "mopan-game-0081",
+            "mopan-game-0085",
+            "mopan-game-0089",
+            "mopan-game-0104",
+            "mopan-game-0111",
+            "mopan-game-0143",
+            "mopan-game-0157"
+          ],
+          "label": "内外侧边界"
+        },
+        {
+          "id": "ordered-checkpoints",
+          "weight": 8,
+          "rating_out_of_10": 0,
+          "weighted_points": 0.0,
+          "status": "not_tested",
+          "reason": "有 4 个可见检查点和无效冲线提示，但全程未记录有效检查点递增。工具焦点/输入问题与驾驶困难混杂，不能判定检查点实现有缺陷。",
+          "observation_ids": [
+            "mopan-game-0163",
+            "mopan-game-0176",
+            "mopan-game-0181"
+          ],
+          "label": "检查点顺序"
+        },
+        {
+          "id": "lap-finish",
+          "weight": 8,
+          "rating_out_of_10": 0,
+          "weighted_points": 0.0,
+          "status": "not_tested",
+          "reason": "六个 player sessions 内未完成一条合法的 0→全部检查点→冲线轨迹。20 分 29 秒时停止，未耗尽 30 分钟。",
+          "observation_ids": [
+            "mopan-game-0181"
+          ],
+          "label": "合法整圈与计时冻结"
+        },
+        {
+          "id": "restart",
+          "weight": 6,
+          "rating_out_of_10": 0,
+          "weighted_points": 0.0,
+          "status": "not_tested",
+          "reason": "中途重置有效，但没有先完成合法一圈，无法证明完赛后的完整重置。",
+          "observation_ids": [
+            "mopan-game-0163",
+            "mopan-game-0164",
+            "mopan-game-0181"
+          ],
+          "label": "完赛后重开"
+        },
+        {
+          "id": "readability",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "驾驶时 HUD、路面及顺序可读；完赛状态未覆盖。",
+          "observation_ids": [
+            "mopan-game-0116",
+            "mopan-game-0164",
+            "mopan-game-0167"
+          ],
+          "label": "画面可读性"
+        },
+        {
+          "id": "guidance",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "加速、转向、重置及路径说明可见；全部操作与完整路线尚未验证。",
+          "observation_ids": [
+            "mopan-game-0164",
+            "mopan-game-0176"
+          ],
+          "label": "操作与路线指引"
+        },
+        {
+          "id": "feedback",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "接触和无效方向有反馈；未观察到有效检查点/完赛反馈。",
+          "observation_ids": [
+            "mopan-game-0085",
+            "mopan-game-0176"
+          ],
+          "label": "交互反馈"
+        },
+        {
+          "id": "presentation",
+          "weight": 2.5,
+          "rating_out_of_10": 5,
+          "weighted_points": 1.25,
+          "status": "partial",
+          "reason": "低多边形风格清晰，桌面及手机尺寸驾驶 UI 可见；完赛布局未覆盖，早期预览截图还存在缩放黑边。",
+          "observation_ids": [
+            "mopan-game-0116",
+            "mopan-game-0164",
+            "mopan-game-0167"
+          ],
+          "label": "视觉与布局"
+        },
+        {
+          "id": "delivery-time",
+          "rating_out_of_10": 0,
+          "status": "gated_zero",
+          "reason": "五项玩法门槛全部通过后，才按冻结公式分配时间分。",
+          "observation_ids": [
+            "mopan-0028"
+          ],
+          "label": "交付时间",
+          "weight": 30,
+          "weighted_points": 0.0
+        }
+      ],
+      "timing": {
+        "initial_send_at": "2026-11-03T02:18:41.102Z",
+        "accepted_at": "2026-11-03T02:18:41.394Z",
+        "first_observed_final_playable_at": "2026-11-03T02:33:42.706Z",
+        "delivery_observation_id": "mopan-0028",
+        "accepted_to_observed_delivery_seconds": 901.312,
+        "initial_send_to_acceptance_seconds": 0.292,
+        "initial_send_to_observed_delivery_seconds": 901.604,
+        "platform_reported_work_seconds": 767,
+        "platform_work_is_not_wall_clock": true
+      },
+      "evaluation": {
+        "first_persisted_event_at": "2026-11-03T02:41:28.857Z",
+        "last_event_at": "2026-11-03T03:01:57.445Z",
+        "persisted_span_seconds": 1228.588,
+        "sessions": 6,
+        "max_sessions": 6,
+        "budget_seconds": 1800,
+        "budget_exhausted": false,
+        "clock_pauses_subtracted_seconds": 0,
+        "model": null,
+        "effort": null,
+        "harness": "CUA REPL interactive operator",
+        "harness_version": null,
+        "tool_version": null,
+        "browser": "Chrome",
+        "browser_version": null,
+        "access_mode": "visible_ui",
+        "declared_viewport": [
+          1280,
+          800
+        ],
+        "game_viewport": [
+          1280,
+          744
+        ],
+        "mobile_layout_viewport": [
+          390,
+          844
+        ],
+        "clock": "real_time",
+        "instructions_path": "frozen/protocols/racing-3d-browser-pilot-v2/evaluation.md",
+        "instructions_sha256": "76e81bf51ef8881d6b9b821f8cd198d4bd493794f61ea86abf32ebf799f2b998",
+        "gameplay_events": 181,
+        "continuous_video": false,
+        "notes": "No proof of exact evaluator model/version. Frames/actions retained. Mobile layout only, not touch gameplay. Wanaka first persisted start excludes about 16 seconds of setup observed by the operator; even including this, under 30 minutes."
+      },
+      "creation_context_hidden": false,
+      "creation_capture": {
+        "events": 20,
+        "required_max_gap_seconds": 30,
+        "observed_max_gap_before_delivery_seconds": 284.515,
+        "gap_requirement_met": false,
+        "gaps_over_30_seconds": [
+          {
+            "from": "2026-11-03T02:18:56.723Z",
+            "to": "2026-11-03T02:19:38.874Z",
+            "seconds": 42.151,
+            "from_id": "mopan-0004",
+            "to_id": "mopan-0005"
+          },
+          {
+            "from": "2026-11-03T02:19:38.874Z",
+            "to": "2026-11-03T02:20:31.757Z",
+            "seconds": 52.883,
+            "from_id": "mopan-0005",
+            "to_id": "mopan-0006"
+          },
+          {
+            "from": "2026-11-03T02:20:59.919Z",
+            "to": "2026-11-03T02:21:40.241Z",
+            "seconds": 40.322,
+            "from_id": "mopan-0007",
+            "to_id": "mopan-0008"
+          },
+          {
+            "from": "2026-11-03T02:21:40.241Z",
+            "to": "2026-11-03T02:22:14.649Z",
+            "seconds": 34.408,
+            "from_id": "mopan-0008",
+            "to_id": "mopan-0009"
+          },
+          {
+            "from": "2026-11-03T02:22:14.649Z",
+            "to": "2026-11-03T02:23:23.208Z",
+            "seconds": 68.559,
+            "from_id": "mopan-0009",
+            "to_id": "mopan-0010"
+          },
+          {
+            "from": "2026-11-03T02:23:23.208Z",
+            "to": "2026-11-03T02:24:29.601Z",
+            "seconds": 66.393,
+            "from_id": "mopan-0010",
+            "to_id": "mopan-0011"
+          },
+          {
+            "from": "2026-11-03T02:24:29.601Z",
+            "to": "2026-11-03T02:25:21.601Z",
+            "seconds": 52.0,
+            "from_id": "mopan-0011",
+            "to_id": "mopan-0012"
+          },
+          {
+            "from": "2026-11-03T02:25:21.601Z",
+            "to": "2026-11-03T02:26:40.372Z",
+            "seconds": 78.771,
+            "from_id": "mopan-0012",
+            "to_id": "mopan-0013"
+          },
+          {
+            "from": "2026-11-03T02:26:40.372Z",
+            "to": "2026-11-03T02:27:51.157Z",
+            "seconds": 70.785,
+            "from_id": "mopan-0013",
+            "to_id": "mopan-0014"
+          },
+          {
+            "from": "2026-11-03T02:27:51.157Z",
+            "to": "2026-11-03T02:28:58.191Z",
+            "seconds": 67.034,
+            "from_id": "mopan-0014",
+            "to_id": "mopan-0015"
+          },
+          {
+            "from": "2026-11-03T02:28:58.191Z",
+            "to": "2026-11-03T02:33:42.706Z",
+            "seconds": 284.515,
+            "from_id": "mopan-0015",
+            "to_id": "mopan-0028"
+          }
+        ],
+        "sampling_note": "These are successful frame-to-frame gaps, not the shorter interval beginning at the first logged recorder error. No missing frame was reconstructed."
+      },
+      "diagnostic_score": {
+        "core": 24.0,
+        "ux": 5.0,
+        "time": 0.0,
+        "total": 29.0,
+        "time_gate_passed": false,
+        "core_passes": 4
+      },
+      "summary": "启动、加速、转向、跟随相机有通过记录；原轮次未验证完整圈赛链路。输入与焦点问题混杂，不能将低分直接归因于游戏逻辑。",
+      "id": "mopan-first",
+      "selected": false,
+      "official_benchmark_score": null,
+      "maintainer_review": "not_yet_reviewed",
+      "score_status": "affiliated_development_pilot",
+      "scoring_policy": "racing-3d-browser-pilot-v2",
+      "artifact": {
+        "workspace_url": "https://mopan.ai/workspace/bea2dc13-6462-4a38-bae4-4f9c4d4cab3f",
+        "immutable_artifact_hash": null,
+        "published_public_play_url": null,
+        "publication_state": "unpublished_after_reversed_operator_incident"
+      },
+      "evidence_path": "reports/007-web-3d-racing/supplementary/mopan-first",
+      "selection_note": "Earlier independent generation, retained for attempt accounting; not selected for Report 007. One later recheck of this build is included separately."
+    }
+  ],
+  "public_submission_acceptance": "not_yet_reviewed",
+  "review_scope": "Contributor-authored claims and public-safe evidence, not independent reproduction."
+}

@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "THIRD_PARTY_LICENSES.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "assets/index-Cny3WPfP.js",
+      "bytes": 542187,
+      "sha256": "ede5d876873b9e65d7bd9f73c9180d331a5fb39ed4e343296408d15a1cda37b7"
+    },
+    {
+      "path": "assets/index-lRYSmNRv.css",
+      "bytes": 13624,
+      "sha256": "a345aa3650ed5f17e1a580bf4a72a9d4156e0d6ca272f2229c61376a9caffbe7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5183,
+      "sha256": "b4801d2bfdbec30e0ab60d2a06a4c7f8f20324ccb1a8e59340fc17858ce43efd"
+    }
+  ]
+}

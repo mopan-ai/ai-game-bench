@@ -1,0 +1,2361 @@
+[
+  {
+    "event_id": "mopan-new-evaluation-0001",
+    "source_sha256": "7738cd00405763613419b63a88ee36d95c2346567fc43b5002af877196b8825a",
+    "bytes": 86976,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0002",
+    "source_sha256": "ebae144c04369e0d6ce2d9fc6c85c4c177aa02b8401fbc6358076412551bc274",
+    "bytes": 87161,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0003",
+    "source_sha256": "508f40b3562c676a68dacb29898d4271a029805b7d4a3a4a021bd851df9dfbb9",
+    "bytes": 86976,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0004",
+    "source_sha256": "14afe84befd450db5a9b4e06c1f8f254d338927f2039ba54e1d2d06ac9e271e6",
+    "bytes": 82793,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0005",
+    "source_sha256": "2c46fdec8a8507357790e7a549e547fe374c961116ba557338a7153889c7331a",
+    "bytes": 83274,
+    "path": "frames/mopan-new-evaluation-0005.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0006",
+    "source_sha256": "9187571e42bf6149f19390ab9e6b6c9175fc4c5cfa0627f03dae7346ac25093f",
+    "bytes": 83301,
+    "path": "frames/mopan-new-evaluation-0006.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0007",
+    "source_sha256": "d0c525dec020fcb0f696be403b4363ae675901f935bfda218bb0ca1ac925c1cc",
+    "bytes": 73074,
+    "path": "frames/mopan-new-evaluation-0007.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0008",
+    "source_sha256": "e55fa140af4f19df98924badc03db03b396f03fa361be04e38d0504aabee7b15",
+    "bytes": 73792,
+    "path": "frames/mopan-new-evaluation-0008.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0009",
+    "source_sha256": "9cd83bf53d8b3b3a78cbf69b060d3d6d490dd349e88a2123d0fe2456f224d58b",
+    "bytes": 74969,
+    "path": "frames/mopan-new-evaluation-0009.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0010",
+    "source_sha256": "0b09567c977c9c4a6648d7efbd3630de5ac50c92f1d4722f5c1e0e70aa6390c7",
+    "bytes": 74856,
+    "path": "frames/mopan-new-evaluation-0010.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0011",
+    "source_sha256": "c816ca87f409f80a31aec1edfe5b7247280da689142189c3b37d3a45b709533f",
+    "bytes": 69628,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0012",
+    "source_sha256": "756a48ca93cf9cfe774b70e94afaa3e2d850251726fb3984b6465bc01088a1ea",
+    "bytes": 68242,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0013",
+    "source_sha256": "32a0e1a8c8df11855482c20a619bb4946820b8ba9e9bb65a50d8993b6205b146",
+    "bytes": 88641,
+    "path": "frames/mopan-new-evaluation-0013.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0014",
+    "source_sha256": "c9d76b06e081d063a4c1fd4dedb2132a7fa29811b89d77628b3ac62c55c4e24b",
+    "bytes": 88473,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0015",
+    "source_sha256": "526e8434592233896f24b430a8d0aa24273747587cf6ff1ef14a012717cf6b2e",
+    "bytes": 89818,
+    "path": "frames/mopan-new-evaluation-0015.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0016",
+    "source_sha256": "2dab79f35f46a1def1d48015585837bd6d26c4fdaad899110674bfe984c07b5b",
+    "bytes": 88506,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0017",
+    "source_sha256": "b77d7706dd2d7f49bcd3f7b6a7241160298842c905edcf48c92fe852f43d2541",
+    "bytes": 79589,
+    "path": "frames/mopan-new-evaluation-0017.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0018",
+    "source_sha256": "381721275fab8ccf07e40bcb5d0dd8b8e790c8b9eb200a8d2bd8ee40aaa30209",
+    "bytes": 80040,
+    "path": "frames/mopan-new-evaluation-0018.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0019",
+    "source_sha256": "8b0ea2eb2182995fc566ac0ca9a5fbaf5fbd8660b6083f481276d764cf28fb51",
+    "bytes": 80557,
+    "path": "frames/mopan-new-evaluation-0019.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0020",
+    "source_sha256": "62a4f5bc003ada2132dde20a185ef706640e79c54f5c02f37cfa4db63961b97d",
+    "bytes": 81158,
+    "path": "frames/mopan-new-evaluation-0020.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0021",
+    "source_sha256": "e80078f80701b9d3b821eb0ffaf2fcedfe2e51c5138b122d568e072f681481b7",
+    "bytes": 76055,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0022",
+    "source_sha256": "b5a249edf28b956ab0fc84ca762693ca7837bcce6bfb7365776fc56cf8033782",
+    "bytes": 75855,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0023",
+    "source_sha256": "1b6dc5075a649c46457ade9ef8e66bc7a1d2430c047bfc2053f64888595beda7",
+    "bytes": 88631,
+    "path": "frames/mopan-new-evaluation-0023.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0024",
+    "source_sha256": "8a1b3e7190c0d591ec96b96aac36f911117a53ce6cae53d85572461620ad2136",
+    "bytes": 88512,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0025",
+    "source_sha256": "2717b640dfda31751fd5699fa55c822cb86bfedbdf5b56b3ec4deebf247d20c5",
+    "bytes": 89860,
+    "path": "frames/mopan-new-evaluation-0025.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0026",
+    "source_sha256": "b6a4c938c55a904c21c19057b14c031db224f351f1bed518ae9136d612fd7c51",
+    "bytes": 88201,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0027",
+    "source_sha256": "7c0940e34e1739dbef49b533dfa06e4208a2a5dbde9d08a02c21e4772f7fd43a",
+    "bytes": 80215,
+    "path": "frames/mopan-new-evaluation-0027.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0028",
+    "source_sha256": "8944f8900d487bed360e4f82384b5929962903e2d9b7d6c7678748e178cd4e54",
+    "bytes": 80420,
+    "path": "frames/mopan-new-evaluation-0028.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0029",
+    "source_sha256": "dd0c0a1cf368958c7cfa8008011d0c8704f5ac8460ca3e767f90745d4b06a0d7",
+    "bytes": 80739,
+    "path": "frames/mopan-new-evaluation-0029.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0030",
+    "source_sha256": "b8ba5336fc57d16647f2c2dd014424ded688a13335864bacd7db5003f709a51a",
+    "bytes": 74485,
+    "path": "frames/mopan-new-evaluation-0030.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0031",
+    "source_sha256": "9e56f2ff1b1850f06c7a0a4f6ac08ae4f594d0b9db505f0c1f9a1f8ede126e49",
+    "bytes": 75286,
+    "path": "frames/mopan-new-evaluation-0031.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0032",
+    "source_sha256": "1744b94e26d877b97287ceb08e548305ec7518529cabbf7bae9730ad70a1a63c",
+    "bytes": 75455,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0033",
+    "source_sha256": "19b8866957daf6ec9b9a8537ed8602ae33a98435f9c7b9e1d695093b7c63608c",
+    "bytes": 84601,
+    "path": "frames/mopan-new-evaluation-0033.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0034",
+    "source_sha256": "a8886d896fb7f50f89b95ad84643d0b1104a34e7a1ed975e7b74fcbb31f51d54",
+    "bytes": 83815,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0035",
+    "source_sha256": "a3e2754320e68ff822ec1e8f23b1b9d56a662bf85107fbdc2349e94676fc5406",
+    "bytes": 83966,
+    "path": "frames/mopan-new-evaluation-0035.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0036",
+    "source_sha256": "49b909981df52bc55708c0dfb55338117dbcf160c6862c91cb268acbcdaa28fb",
+    "bytes": 83564,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0037",
+    "source_sha256": "7b5291b508547a6ca5322cd8a4efa89559cdccd747b0b263f8630974b07db37c",
+    "bytes": 87735,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0038",
+    "source_sha256": "205d15fe510b17551b40516533ee8247288b63f5c631a5a36821969552d967fe",
+    "bytes": 87657,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0039",
+    "source_sha256": "a10435575fb6fa63435dfb88e9113fd9f0b76f135196f9c04cb7e05896b44480",
+    "bytes": 78853,
+    "path": "frames/mopan-new-evaluation-0039.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0040",
+    "source_sha256": "871032d42456534b68904f16af8a1151fbfc21523a9bc8d67e43a4b2f72f847c",
+    "bytes": 77473,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0041",
+    "source_sha256": "e3f47454cba8e3fec5c218e7cab81dcdd3aca849e066920ec913216bfb8fb643",
+    "bytes": 75038,
+    "path": "frames/mopan-new-evaluation-0041.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0042",
+    "source_sha256": "a0b9be2f4b1327fca9d3c143eb6f0cd8de48e90eb0922ea745ede6ffa74527a1",
+    "bytes": 76162,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0043",
+    "source_sha256": "6d44a1caa385c61470b6eaf27a9e145c04f68a3525ea22a43b4cdaada6a643f9",
+    "bytes": 68060,
+    "path": "frames/mopan-new-evaluation-0043.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0044",
+    "source_sha256": "d1bd63ce702e0bb1ab63dc42f8669c69ab15409d160e53c14ae75234c7682f1e",
+    "bytes": 67932,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0045",
+    "source_sha256": "4ef2c995b6574d6555b51b432d7806c279fd4bf405dc19f08ab8b98d280925e9",
+    "bytes": 67886,
+    "path": "frames/mopan-new-evaluation-0045.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0046",
+    "source_sha256": "1768e875eb52870b9afc4e8cc93658d671cc176131997513538b0de9bf3f6d97",
+    "bytes": 67848,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0047",
+    "source_sha256": "0d88b2fd4caef9207919702be71282e4d639bbbe0560dfe80ef906dafda65c53",
+    "bytes": 69697,
+    "path": "frames/mopan-new-evaluation-0047.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0048",
+    "source_sha256": "35b4160ad718236b99f3eb1bc1e15d2139e85ee717a502720dbf76067bcee5b8",
+    "bytes": 70469,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0049",
+    "source_sha256": "c8037d2ebe6bb60069ef2d22a153d58f7438c60e4eca0cecba5773602c04f395",
+    "bytes": 72341,
+    "path": "frames/mopan-new-evaluation-0049.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0050",
+    "source_sha256": "1fd3d174679c14abad7259798248d1736a2b7a1b5c757e5527126870f5a463ec",
+    "bytes": 72849,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0051",
+    "source_sha256": "adfee24d3eacd9377773bcc7e3c3e7e714143d85f6571ab2496ba86c66902b8f",
+    "bytes": 72065,
+    "path": "frames/mopan-new-evaluation-0051.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0052",
+    "source_sha256": "c7fb3f91e281b45b8faad9dee4da909f603ccd1ef453cd0f8c39b5fd07f71884",
+    "bytes": 72539,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0053",
+    "source_sha256": "9b09baf87e167d8d2931501616a2ae2abb0716e09419880c7b0b0b13f875784a",
+    "bytes": 75254,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0054",
+    "source_sha256": "2cb5b6308179769697a16dca170c49363b5646d1210dc4ac9b9eda46c83a2f12",
+    "bytes": 74741,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0055",
+    "source_sha256": "197ee61f768b1ec1f26f289754faa2c554b3e41738c29e46f3bbdbce19b69877",
+    "bytes": 75763,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0056",
+    "source_sha256": "6071d2b70791639136e9d47525fcc9f0238fdf57d7c26fa81af708ba4291bd53",
+    "bytes": 75762,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0057",
+    "source_sha256": "1e6fdfd2650e709b78d79e627665c26a154fe3178a371179e10ce456b0fc4fe5",
+    "bytes": 75836,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0058",
+    "source_sha256": "cf6f6c88e62fa7672da8bb63ecdf8d7e0324db11d03c462b978b15c9259c61e1",
+    "bytes": 75938,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0059",
+    "source_sha256": "a8d0aa36c1fa593e16701c30b982e83cf2ffb3d2507b5e374d7d0f388aed4f72",
+    "bytes": 75333,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0060",
+    "source_sha256": "22b7648bfe38d9ab1c5785586439f5a8446d9d12b2c6fc69b866c6ee7b94c672",
+    "bytes": 75323,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0061",
+    "source_sha256": "6eb78935590e962480eb60f81df0f0011d897b2d2fd3d76cb10b4216ea5e1c5c",
+    "bytes": 72877,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0062",
+    "source_sha256": "3c79e2976c9a355fe57c37e63c98751a69b2c3511bc0062e52161ae45ee11561",
+    "bytes": 74055,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0063",
+    "source_sha256": "22cf641765e617bf0b9f9f9e9bf9f87f980b735826b509193b6f31420f8ca7d7",
+    "bytes": 72133,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0064",
+    "source_sha256": "720f770de94a9fa8b0266197a71ae6103635a48336d3be74fe0600f9787c9e49",
+    "bytes": 71518,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0065",
+    "source_sha256": "f7ff2b7c757381fa2aa7473948fd9a47af2a66dac99a4fa2dda5279cba571270",
+    "bytes": 69393,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0066",
+    "source_sha256": "c553d2a5add12dd57f36f30cd4324da4cbf47415eec821fa2a35e7e4c945746e",
+    "bytes": 68967,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0067",
+    "source_sha256": "8bed82aab58db93de7d22f36c69d3dd70835764f58417e4426b47b0cc03e000f",
+    "bytes": 69317,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0068",
+    "source_sha256": "2b2124f622a48ba83880c04d218aeee1b39a0bf25c739d5f38d12529a21c7432",
+    "bytes": 69349,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0069",
+    "source_sha256": "c2dab39e1ec7279b4d8a254a2fdd0264ee34d4868a0c13b7ced534fce447cda5",
+    "bytes": 69117,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0070",
+    "source_sha256": "bba4a2808c80827961134b3ae7f4db47cee0bf8e4e24ef77301c020f1ccc7b69",
+    "bytes": 69108,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0071",
+    "source_sha256": "ecb389da063ee2cd26774c4299a3ea32886199acf5b6b96db4e7e5b94dfc32d9",
+    "bytes": 72167,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0072",
+    "source_sha256": "51f12c25844e30ec13a3550af7d4c12ae960a09ab66806b2a5aeee05aa2019ce",
+    "bytes": 71695,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0073",
+    "source_sha256": "ec25368b8c2788f37ae3d322be7c9e9a20d3d67ae5710668f6c074bf3b960be5",
+    "bytes": 70347,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0074",
+    "source_sha256": "0b68281c4c57cff0f20e4498094f40468414b7f5fe2c1470e368ec4c32e7bf4e",
+    "bytes": 70335,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0075",
+    "source_sha256": "ee49fbd83bc51d23437799af79e7eccd583798afd05445b9635ce2ebde56c060",
+    "bytes": 69861,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0076",
+    "source_sha256": "acb784fad055912af2278a568fdecd4df6ddf6f11d0d2ef758e08c667b0910a6",
+    "bytes": 69800,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0077",
+    "source_sha256": "755fee519b373e3ad8945a7c9ab6e45a41bd32848a35046954c22891c4a133e2",
+    "bytes": 71245,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0078",
+    "source_sha256": "76e84d7e82b85c2314e4695e916a0fc71dd320dd1ffd70c4970109de1dd13f07",
+    "bytes": 71519,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0079",
+    "source_sha256": "c166f9226b5f3f5c57dcac8d7c5694cfe45d3058a7bdc4856b97064274d6e7ff",
+    "bytes": 71669,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0080",
+    "source_sha256": "5d567b3a1c387790b3f320e0b0a999df572af281eb8ce9641e6319ddd9346800",
+    "bytes": 70745,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0081",
+    "source_sha256": "d228e6f4a78225404180be6eeea4048a14c4ca478c53c31674662526f1e590cb",
+    "bytes": 66888,
+    "path": "frames/mopan-new-evaluation-0081.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0082",
+    "source_sha256": "4585cdb6343b2ff2d3aea70d8e95934a0d108ca23b2e93bd1cb7862b1c9b07e5",
+    "bytes": 67471,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0083",
+    "source_sha256": "bdf6b31016a6a2dbbb6b76684d9738902a24883212d6d4576b577be56b497ed2",
+    "bytes": 74765,
+    "path": "frames/mopan-new-evaluation-0083.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0084",
+    "source_sha256": "697025d29e7ecf2bf5b59f736eebecef11a29fbf90dbf7b29bfcd3c2500617ef",
+    "bytes": 74747,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0085",
+    "source_sha256": "518c291b1491c1656be85b8909e5b28a8b1a7454c4d5866840548ba5e681690a",
+    "bytes": 72584,
+    "path": "frames/mopan-new-evaluation-0085.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0086",
+    "source_sha256": "97a4c9ea34f93a6aad7298a818510639b38987aa7665a958c4272a02cb7aebe5",
+    "bytes": 72412,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0087",
+    "source_sha256": "5eb38375ae9a28316f60c52f3107b87181b401947e073a79d8a0839ecb50ff64",
+    "bytes": 72662,
+    "path": "frames/mopan-new-evaluation-0087.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0088",
+    "source_sha256": "a8e2e032665390072492e728b3f5f859d647c432e46f520bb846b97072b51499",
+    "bytes": 70980,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0089",
+    "source_sha256": "6d34a2f46325d45cc01d793bd1ad251d7d3e26b564d6fc1399f15fc504f29b9b",
+    "bytes": 72321,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0090",
+    "source_sha256": "d93ea4c688fc44d1974b756157710f360209e6e72e193a120831b5d5607e3e2b",
+    "bytes": 72493,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0091",
+    "source_sha256": "5bedff5dd4139315d81e360cc810485a657305aef8940af6042ff6c877487465",
+    "bytes": 74471,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0092",
+    "source_sha256": "a7c5fe605fa66e09bee2321437242027d4c741940fed34b4a0186269c01fab68",
+    "bytes": 73360,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0093",
+    "source_sha256": "255cb461fb27ab5b6fe956f91a50d44959b4aeaa0384a10c6008be888a8f5bf1",
+    "bytes": 72849,
+    "path": "frames/mopan-new-evaluation-0093.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0094",
+    "source_sha256": "8e4f0760f6b9decebdd2079a273b6bdc9ad2c13d70fc4a16e3c2d763cad2a228",
+    "bytes": 73223,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0095",
+    "source_sha256": "b106fbd9b5191e063d8c8efd3bfc489e8af4dcfd5c851cfa64802449510403a1",
+    "bytes": 76792,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0096",
+    "source_sha256": "78a5705693c499ec4dd62bba2746140b66b3d1121f42d67d3c5f084d35297394",
+    "bytes": 77667,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0097",
+    "source_sha256": "4275a8222fef917e00454c310a6f5b8060914398f55122e7752b5e43c7318c46",
+    "bytes": 79691,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0098",
+    "source_sha256": "ddf1132f9048917946fe3967fb88e7337cc775f9602f1b5c4ec21d59d9404bc8",
+    "bytes": 79768,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0099",
+    "source_sha256": "49da6f65896e0e97460ab2a2fc3ac572ff68d5bb705fe2c3c10e7766c5994324",
+    "bytes": 79160,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0100",
+    "source_sha256": "98a37513fcf252a0b9f0d79fb97549b73b4a9f69e51c1875f4d1f050cf47c867",
+    "bytes": 78535,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0101",
+    "source_sha256": "c68f8d14ca7675f135e1385b457836d37b073479f212a495bc3ea02f02421af0",
+    "bytes": 76335,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0102",
+    "source_sha256": "85726fa4e6b516cc17de4c1d1978bec6d0d19c292a19bf8e82680c6fd5bc84fb",
+    "bytes": 76068,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0103",
+    "source_sha256": "176ffca3343d7b362626f764f0781f46281b1fe19d57867f9e05a5b7ec2c03fb",
+    "bytes": 75142,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0104",
+    "source_sha256": "eb7dfb5197b9e9c82c4d4df61d5830c8840a66d5426917e6dc92e5dac5ef24b9",
+    "bytes": 75310,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0105",
+    "source_sha256": "5ec76eb3adc06491ea056dd4ed9cac1890960dec6f2cdc8aabb79820a72e2226",
+    "bytes": 75477,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0106",
+    "source_sha256": "1a6ea7e70b93deee33108b6d2cf8613257d153b680be14611ead0359fcd1809e",
+    "bytes": 75040,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0107",
+    "source_sha256": "d1ac9e9044c0900eb75c7c16ac39ebdd82824e5194b7dd185f84b808d53d4170",
+    "bytes": 79394,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0108",
+    "source_sha256": "1bc84f7eb4ef5a58b3ba3b692c3d959840a15000ba3a05b616c01873d0407b92",
+    "bytes": 79765,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0109",
+    "source_sha256": "776e7356dcc39f0be7ad8c66e5d829d0da109d0d058e784566f5cd866f0a7399",
+    "bytes": 81185,
+    "path": "frames/mopan-new-evaluation-0109.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0110",
+    "source_sha256": "5a0e1d40b093df22fb2942050cbc4802cd77be052bb0c5249d8ed39fd5b4c5da",
+    "bytes": 81123,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0111",
+    "source_sha256": "40f60db8670d5c4fee561d59811527baa2a7dc85be9b8b434d925b5f78b9e2b7",
+    "bytes": 84269,
+    "path": "frames/mopan-new-evaluation-0111.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0112",
+    "source_sha256": "993609ddab35894915932de528b422be6f862ea41caa8536609f0a6bb99a756d",
+    "bytes": 80474,
+    "path": "frames/mopan-new-evaluation-0112.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0113",
+    "source_sha256": "9d04b5be9b6140b1c454fcb4306b31b9004348a66aaeb8499bef96cfc7a32d68",
+    "bytes": 80292,
+    "path": "frames/mopan-new-evaluation-0113.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0114",
+    "source_sha256": "a7e768da2ec789a874c97b4bf24eac738b6dff0e70efc4f298edba675c80c7dc",
+    "bytes": 79945,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0115",
+    "source_sha256": "46c1921581dd5ecacf67c1f81c0c22d1a5f6f6a8884ae21a69df13cf0764ce43",
+    "bytes": 78537,
+    "path": "frames/mopan-new-evaluation-0115.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0116",
+    "source_sha256": "6714c9ea25d13bddeb6d84c6a1fc4dfa543ff20171a918cff0986a77900aae3b",
+    "bytes": 78835,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0117",
+    "source_sha256": "5ac5e92163577e007621e85cc486de431f1a33199adc38b17a3e40f843efcf94",
+    "bytes": 88182,
+    "path": "frames/mopan-new-evaluation-0117.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0118",
+    "source_sha256": "ab1a93c2700f88c9ba96a56c80b8a297e2cc4b29f20f01f18fd94bae2235a566",
+    "bytes": 87960,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0119",
+    "source_sha256": "bebe6317a6f7bf079acd6f3a7bf0d212b281998f241b81c0ba7d1077ee471a8e",
+    "bytes": 87872,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0120",
+    "source_sha256": "f7d4840e527535fead77e17a9647cb925b05af9a767daafaf7ab4a2632ec97d3",
+    "bytes": 83453,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0121",
+    "source_sha256": "c958cddfcbeb2fe3d6ce6e9d2f14f28977273d0eafefa53844caf4845697d0d0",
+    "bytes": 80410,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0122",
+    "source_sha256": "0e92c94bbbf6059ca994bcd5fc5554e2848ce96b3363c5215592c1d37a4e23ef",
+    "bytes": 80652,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0123",
+    "source_sha256": "d895f350960aa65c6b8319480a56b40619330015776fbb3d44fd8b2f2ee26e12",
+    "bytes": 75630,
+    "path": "frames/mopan-new-evaluation-0123.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0124",
+    "source_sha256": "6550e5e05fe35526849d28eda2af0ffc07048654f31ac217b1fe4e7f79ef90d8",
+    "bytes": 74312,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0125",
+    "source_sha256": "b6738dfb648058e40881418eb7a65998c66da2fcd4c5999ed3524a49c7441d8b",
+    "bytes": 75265,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0126",
+    "source_sha256": "1c18bad3f3671aab99188cf32148177eebb51977bb514028236cb2898a491c47",
+    "bytes": 75075,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0127",
+    "source_sha256": "98cba230656566ca59b3ee262abed20a2cb02a215c8104ad9e587baa542786ca",
+    "bytes": 73202,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0128",
+    "source_sha256": "2a533430b1512dd59563cd8444998cb12614d89e5de128196e2acf10b791714d",
+    "bytes": 73099,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0129",
+    "source_sha256": "6dd62b946135bdda777e5ab83e17ed4e9aea693990538ceaeed7dc95e2bf8078",
+    "bytes": 73086,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0130",
+    "source_sha256": "9ac57a6789211a78b413575139a442d79c35fb4e08d38f0cfc5662042bdc061e",
+    "bytes": 73350,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0131",
+    "source_sha256": "8825df63edbdba0fc1640ca1314e406208230f71c429b58064c79c8da07ebcbe",
+    "bytes": 73897,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0132",
+    "source_sha256": "902fd30ec1bb45cc10495d8490410c4233a6fc512d82892a2a254fbbf2f6a790",
+    "bytes": 73862,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0133",
+    "source_sha256": "3ee27f1f0caafc5a5f1b9ed7338e07cff41b977101cf4dbc9a78867158fa0178",
+    "bytes": 73935,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0134",
+    "source_sha256": "7cdabc5c453c9db5d37648d1be327853ea94fdf1d3fe8b39a2d923a57f010b9d",
+    "bytes": 74159,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0135",
+    "source_sha256": "9ef40c12973e2bb490e26097331f48207de3ad0c5672c8c14661c97783ad89b9",
+    "bytes": 74245,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0136",
+    "source_sha256": "b80bf7a512c30e7b591663fb0a3a496cfa9ca06ef73253833b42cd95473eaa59",
+    "bytes": 74531,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0137",
+    "source_sha256": "bed67e5a3ded2a156b3c0f394f5efd3f96a786bc9dfa2d6e819ff836dc4ae125",
+    "bytes": 76411,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0138",
+    "source_sha256": "12b558f792a3c6a1e8d382782411b229f797914bf88f534d0bba40200499adb7",
+    "bytes": 76280,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0139",
+    "source_sha256": "c36e6427f42951cba46789347b7fe6eb295c85f43e41c2c43fa3e49c85a5d1ba",
+    "bytes": 74866,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0140",
+    "source_sha256": "aab670a85b2ae475570e3171225b2718de69b845acfd26374811c6a882679320",
+    "bytes": 74582,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0141",
+    "source_sha256": "8a4834dbff23d66c9522025aed522a5a00bec4b0f1e2902a018ad23b8d8bd88f",
+    "bytes": 71832,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0142",
+    "source_sha256": "97a0575cf72488c6440e068c4e2e2f3b51bc6da4de4236925bd677ebd70064fe",
+    "bytes": 72551,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0143",
+    "source_sha256": "a4f96cbcfdb54bb9d9b0f4e17a4ae2029be6c8877cb9f8caf3399f64be97e777",
+    "bytes": 73615,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0144",
+    "source_sha256": "f069193430cd41ec96d9ef94cb64cd798b0b4e004388c9f949932fdc2d1d5a04",
+    "bytes": 73449,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0145",
+    "source_sha256": "d8a9a68a6bd86b5c0b3c529c9834736b130f05a4547ceecafacda8ab49d47f95",
+    "bytes": 77214,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0146",
+    "source_sha256": "c942d4f20d594cea2b173e48446b6520866011e183e2c86895e9512cea52037b",
+    "bytes": 77867,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0147",
+    "source_sha256": "e946c96ec2126eb98fadf9ea5246f27f6b8ad0fe290431639ef17dc674fc3868",
+    "bytes": 78720,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0148",
+    "source_sha256": "374fb34c782a3243dee0e1c4b618e58b3b2beb41961f7dc2fb1cf76358699128",
+    "bytes": 78893,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0149",
+    "source_sha256": "3a28cbf6e820d216f9bbba01f373159c9426c4e9d55713c23969681165778532",
+    "bytes": 79362,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0150",
+    "source_sha256": "a86410933f91ca96e5dc2cd6140b3bac1a35af6d380c92c59b37890808ce9b95",
+    "bytes": 79126,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0151",
+    "source_sha256": "235360f53580ead5fcd5fb5ea0ffadf7e30a0873bf7214c6ec5b5443769bb42c",
+    "bytes": 79316,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0152",
+    "source_sha256": "b7bd7826ad68913553fc86921f2ef86c64c5b581ca2493ea3585cd0761888703",
+    "bytes": 79540,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0153",
+    "source_sha256": "a728e7ca284478b93a5dc12d3ead88437f5300e3f2817cfd3cc78f924b416bea",
+    "bytes": 83107,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0154",
+    "source_sha256": "fa7c3b701b230f53369cf2b718158437621d420df001603dc8e06dcd0486d524",
+    "bytes": 83861,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0155",
+    "source_sha256": "3ff7c7c521d042c0032d92c746b8125df75a8ca355b021a573e96242170d368c",
+    "bytes": 85962,
+    "path": "frames/mopan-new-evaluation-0155.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0156",
+    "source_sha256": "1ac1184c88f0f669906f5135701ecbf4a11b8d60227e7b00f3359bb64d5f6d0d",
+    "bytes": 86622,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0157",
+    "source_sha256": "49d1fbb1be4dfb7cbe152fbe388a1a9fc5ce18bb6b5b57ac12c2839d70533e63",
+    "bytes": 80630,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0158",
+    "source_sha256": "8f754da77ff9ffe59166198253fc376fd2befc01a13c5a8deaeab098aaa48158",
+    "bytes": 79435,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0159",
+    "source_sha256": "10ae2ac33c33abf47fdb64a3b13bf5082d85b4b2f45171282b28ccaf10f3d916",
+    "bytes": 77803,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0160",
+    "source_sha256": "b3a2f5e0d6aa24550dde9b945471e2b5792399139b51146acf34a04e8abeba49",
+    "bytes": 73999,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0161",
+    "source_sha256": "5dff633a039448af7defb70a15cc193b1f4f060d9c2da2e764c322e3b3615678",
+    "bytes": 74611,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0162",
+    "source_sha256": "b38749e1ffb189c6dbdd4a8128c9eaeb5fc74d21fdcf9c6c25a4162069f13cd1",
+    "bytes": 74349,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0163",
+    "source_sha256": "cff1f9d20cae1264d4e0503d23265cfcdcf38d8e00dd5cadd36b5b7cddfb5255",
+    "bytes": 73625,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0164",
+    "source_sha256": "f7d67946aaae4fa27c8be1ebc9a354967fbcdfa7c815b151e773d7dc32fd1d32",
+    "bytes": 73074,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0165",
+    "source_sha256": "85309670aed563bd145453f10b6b09263e066c30e55eb791b9cf3002997c0a6a",
+    "bytes": 72491,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0166",
+    "source_sha256": "5b378560be5571037127a0a2558881ec803e9a8fd7234e4c1d9fa679a1a28c03",
+    "bytes": 72742,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0167",
+    "source_sha256": "080af3cbda84571917b4294962e4668d83fe827eb68ac0b86474ce41856559d1",
+    "bytes": 73227,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0168",
+    "source_sha256": "a74171b5319dc6ece01e175dfb577512761cccaa874f8f89426de78fddd0ad3b",
+    "bytes": 73285,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0169",
+    "source_sha256": "aa019f9167ce81051e2d47e8b33f31d35a03d0fd72c0f062984e2b5ee22efb43",
+    "bytes": 75112,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0170",
+    "source_sha256": "858eda1de91f7edc4f901aa434c1039295ac2ab8a9de041971b039df343839f2",
+    "bytes": 73689,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0171",
+    "source_sha256": "c023b13242e4baa0cfc36d0dcf4fec87675993cbf1e9da87955c776671328449",
+    "bytes": 73574,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0172",
+    "source_sha256": "877137594ea2931eec0c92da777c55b27450209788cdd45664675ecdf959885b",
+    "bytes": 73199,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0173",
+    "source_sha256": "4ab363d8b57bb51a074203fadba4f1cd19111380174f51452e8d9e0ac868ba07",
+    "bytes": 75843,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0174",
+    "source_sha256": "6b395e923a686c64acaee369d56bfb10bc29b6639104caad2083428e84aaec50",
+    "bytes": 75680,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0175",
+    "source_sha256": "c5a14bec3abe46462e73053b3668e12b10024bb9350748f25ff4c580e0007def",
+    "bytes": 75079,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0176",
+    "source_sha256": "9a08bceb196df203ec357b15c104930689b82d4abb617373db33f55fc02be425",
+    "bytes": 75112,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0177",
+    "source_sha256": "7bea5a26a32c4a1534342045312014c39a3d2c726218b668f53ad8d611a448c3",
+    "bytes": 73541,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0178",
+    "source_sha256": "b1c9eab3be014dd43f9fbab270d4fce8e03d7942c934e416d4d939a4d16cae7d",
+    "bytes": 73290,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0179",
+    "source_sha256": "f6eaa974b2e2c3706260a57b258944a12d2f18013402f9247ccdb272a94d9019",
+    "bytes": 72172,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0180",
+    "source_sha256": "04d3679cb3350ece125698f2fb16760ba56bac9507ed40c2d901da1dd21a5b0d",
+    "bytes": 72429,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0181",
+    "source_sha256": "972e959aac5038208e79678999ec06ee8648a3100aef685bf65fc05bfeb896ec",
+    "bytes": 72253,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0182",
+    "source_sha256": "41133978ac2a7876d842d49992e151322ae96a16b721f199e463c01a1fc964b8",
+    "bytes": 73007,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0183",
+    "source_sha256": "1596f820f6cbf07f7ae2187496381b3bf173154b9819bde7ff33af2078f434c6",
+    "bytes": 71727,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0184",
+    "source_sha256": "0093d0f1fedd7ba6249cde3fe8000dd5fd6b6fa537aa13a6ec62423bdd5618ad",
+    "bytes": 72187,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0185",
+    "source_sha256": "7ec71bcd974fd0b84c3db9f3136053971a073064a4ef10e35c1d955eeacc11e6",
+    "bytes": 76242,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0186",
+    "source_sha256": "7d7403c2920194a2cbad4bf7187f1f97acd0b69d4588d42dbb9e543d020a7820",
+    "bytes": 75808,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0187",
+    "source_sha256": "ae2def8c45e451acf621c6518c31c6b882625fc515c8ecd192f80e15ccaf1296",
+    "bytes": 70808,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0188",
+    "source_sha256": "8f660d0c3d43d1c50a0ad7d395459a6f865009e49b461fcf3bf58565a7e4c4d6",
+    "bytes": 70524,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0189",
+    "source_sha256": "021d4fec353d8e01856fd47b96860655294fd112133edb0de97b051ada68b9f7",
+    "bytes": 71390,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0190",
+    "source_sha256": "da8710e31a13c606a860e33a734d416c2e78343ff4ae3f1190757cd21183725d",
+    "bytes": 72010,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0191",
+    "source_sha256": "7a9d0d906e7a041817a73f226de49bddbabd32ae35f327735d28af3751c683e9",
+    "bytes": 71718,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0192",
+    "source_sha256": "fd9a5e7c1702dc58da232aa4619b94d98bd2d00aab6e52ef04d4040ce0f795eb",
+    "bytes": 71867,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0193",
+    "source_sha256": "f155222a2168c9d9f71e1803f999d45c6d50f3cb602e722b7a95ccbaea432230",
+    "bytes": 71473,
+    "path": "frames/mopan-new-evaluation-0193.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0194",
+    "source_sha256": "334ed2b07cee6a0b9d8046bae6e8dfb97e691dd08c25fdd3fef9a5df378fa4fd",
+    "bytes": 70439,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0195",
+    "source_sha256": "35fa359b6d9253cdaa9346814a4110677fde82e7372a7d435d984c4b411f50ac",
+    "bytes": 69134,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0196",
+    "source_sha256": "107b250a72bd0538463d8ccdd7625d2fcd8364c7ec4562759c9db3385ca56f60",
+    "bytes": 69194,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0197",
+    "source_sha256": "5ed11ed6e8ec818fb3b4678694830f7327a4d14ff4f9183cb0e5cc9d0b20e291",
+    "bytes": 69269,
+    "path": "frames/mopan-new-evaluation-0197.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0198",
+    "source_sha256": "717dc409980f226219f2286f6bb1eca04ed0d81d304df2a218ea089e7232c88c",
+    "bytes": 68866,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0199",
+    "source_sha256": "a0880e9425830a71eb899ebb22d2b368aa261055c5bbc4e87f2aab7e789c76b9",
+    "bytes": 74660,
+    "path": "frames/mopan-new-evaluation-0199.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0200",
+    "source_sha256": "88fe3dea2b910cbc252735d7b4e796acb5f5fdc3579c816f4543f00ebe0f5935",
+    "bytes": 73492,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0201",
+    "source_sha256": "986d760f2befa882c618d4daeb2b644b9b9e628aaa7077a0ccb83949d4ff7a65",
+    "bytes": 73915,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0202",
+    "source_sha256": "3e9d7d4fb9bc4b4f6ae938c29240936b1207406ec25f0768ba133b2170a4e437",
+    "bytes": 73252,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0203",
+    "source_sha256": "1c617b1dd444e098bbe511d9747c4474e3f134f91610e49125166dfdb8b8ed15",
+    "bytes": 76224,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0204",
+    "source_sha256": "45ce935fb6754049603fac314fc85637add8fcc2562f02021d1923106e2e9933",
+    "bytes": 76376,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0205",
+    "source_sha256": "05df3bf68862883738242d715e49d0277db08995fab488c65d78cefa081fad2a",
+    "bytes": 76718,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0206",
+    "source_sha256": "94f3221e0503f59b6abe7431b1973a81d1c34a1612f4d8dae63e68d58a81c751",
+    "bytes": 76541,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0207",
+    "source_sha256": "3ac53dc18dac37fd6697482a3263c5ac6410c8b5e8fc01f7f5d473a0493f4923",
+    "bytes": 76416,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0208",
+    "source_sha256": "993d8ebedc982875d6866bb32229284f21ff3f2e67feab227601ba838466b261",
+    "bytes": 76909,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0209",
+    "source_sha256": "ee0c17e52c5338d551db56fa2fad2eedb53105eaabe8be861323b6991134d957",
+    "bytes": 77397,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0210",
+    "source_sha256": "c8176601df99fb78016b0d383ca610b881e3ba36202e1187f0835385bd20df7e",
+    "bytes": 77124,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0211",
+    "source_sha256": "f5dad068421e1f44d6a71873a7ac58a2d74315258b9e00676f97c26325f584b1",
+    "bytes": 79996,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0212",
+    "source_sha256": "2eee07b9a00067c704a15cdd9de8d91a102a83523b999e768438fed8fd7c1bd7",
+    "bytes": 81026,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0213",
+    "source_sha256": "bdc5f408f562998eeb10fb3235c600cd56044675df39483f50608e91ea592166",
+    "bytes": 84563,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0214",
+    "source_sha256": "29e2c9b88552ec230b5b2c45bc775480deb603b5670268a7a4da776889e26a39",
+    "bytes": 83894,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0215",
+    "source_sha256": "6294173f77d31ac3570364aa01b2532955ec3d319e7c863d3e0977945fb9c3a8",
+    "bytes": 89381,
+    "path": "frames/mopan-new-evaluation-0215.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0216",
+    "source_sha256": "79cd1c2f111345ee934108d1b2ccce26ce44c0d2aaef4549c0dcf26f6ddb1c88",
+    "bytes": 89570,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0217",
+    "source_sha256": "7e1de2691009e2a0e0bcb428e97e783971d30946cf307832af5083d55b12f99d",
+    "bytes": 84354,
+    "path": "frames/mopan-new-evaluation-0217.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0218",
+    "source_sha256": "6e982a5d0c827ae278dccc36a21f18ccbe48237d2f351408af30c42ac0dd944d",
+    "bytes": 85293,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0219",
+    "source_sha256": "666b975a08af6cbcf2f1ae5db45b2cb63543c8b7a9bcff54c5c99f8857adeb19",
+    "bytes": 84359,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0220",
+    "source_sha256": "bbbe2acc550baf4cbbe19d5ee137d0bc25f12f19225c19385cd2a6819e6216c8",
+    "bytes": 81566,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0221",
+    "source_sha256": "8dcb8855315baa98fbf5be0784759af6d7b149a9c42c36d005940fd6cf43a980",
+    "bytes": 80138,
+    "path": "frames/mopan-new-evaluation-0221.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0222",
+    "source_sha256": "a36982c9642854f54eb2bf8519b3b58fe1246d7962e4211cb10a49f1c35b5321",
+    "bytes": 80293,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0223",
+    "source_sha256": "48b9f23c2a6805aebb51380e7e84195ddea1e6db2a4e26475ff9773d192315bf",
+    "bytes": 76685,
+    "path": "frames/mopan-new-evaluation-0223.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0224",
+    "source_sha256": "1d77f65de0259f6d12e642d6f97cf75910bdb107ba08768ef097847dea4d5084",
+    "bytes": 77382,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0225",
+    "source_sha256": "9195bd772ab3195808edd040cc758e4026795a9f36148093d80823b3a2e30a3d",
+    "bytes": 75429,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0226",
+    "source_sha256": "529a4d16b2b5991c3972c9fc2f53a60dadd87e644525cbc9d79a51a745d60780",
+    "bytes": 76180,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0227",
+    "source_sha256": "e52acdeaece55ddc329f6098fd57f0a8b84bc824f119cd0352ad6979a4c1f54f",
+    "bytes": 72073,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0228",
+    "source_sha256": "3c7b90f4654e38c1c51738aae4bcfb7c7209e7f7562a61de874a245680a36565",
+    "bytes": 72614,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0229",
+    "source_sha256": "0f44c354391c59b0cae23f3d1854c0871a0edecf5b4a590c88a2e9358744c579",
+    "bytes": 74866,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0230",
+    "source_sha256": "bafdde71fd23bd9852cbbb9d4f3572d06c13f170c86532f494c15e6fb28a2541",
+    "bytes": 74960,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0231",
+    "source_sha256": "ecded3ea3b9aa77885a2286a267bdaacdd6815b12f89a954cdf04bd6796fcbd1",
+    "bytes": 69512,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0232",
+    "source_sha256": "ddb2b99f504a1cd811cc4228d7335f58503c253e7218fe6a99e18adb62fc6c79",
+    "bytes": 69652,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0233",
+    "source_sha256": "f88b1ffe5b79c40947e2490ed357330f73f8a75003c9e20eaef229cdb5ee792b",
+    "bytes": 70576,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0234",
+    "source_sha256": "c7f4fe477b324461f1f7c41cc099199d27050787c4eaaedff8488b51f2952a33",
+    "bytes": 70178,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0235",
+    "source_sha256": "5379eed2fe95d0a1bda3ef58ecba63174c439c5b0899e2250ff4867ec9993b09",
+    "bytes": 71276,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0236",
+    "source_sha256": "9bb47b5d44b4faeb44b50c4fd137638f3554b873b5028f09486a1fc8d7fdc108",
+    "bytes": 71621,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0237",
+    "source_sha256": "2a9c6b0db8429471386aa7282c425de8646bab0ab4842960d950006c9221196f",
+    "bytes": 72368,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0238",
+    "source_sha256": "265529291fd594edb02929e04215af5347b46647c27aabff93c83d92c66cf392",
+    "bytes": 72941,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0239",
+    "source_sha256": "762e639e9899c3d3da2f346e8889b91cd462de26ff1bbc7873f6a9f445162986",
+    "bytes": 71112,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0240",
+    "source_sha256": "99d0fe876acf11718b9a29d7bc66b84e569ceca64f8b89897560976c218d94a1",
+    "bytes": 70848,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0241",
+    "source_sha256": "d86966c243d1e65ad31ae7f75a9d7749bd1ee7c77db1565531a82cf96f13a6da",
+    "bytes": 71853,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0242",
+    "source_sha256": "af885b6e44fd6a675eb72025f73fbf6fa5ee1bf7fb360b70430ab7cb51953ea4",
+    "bytes": 71313,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0243",
+    "source_sha256": "4e20b4caf405949470f6b7079e8795e6a2c256b778d038a096edf09803c4f68a",
+    "bytes": 64889,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0244",
+    "source_sha256": "285da288829f4a2157c1d79d0b498f37546c2f376eaaf5153bfb9da163e645dc",
+    "bytes": 65250,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0245",
+    "source_sha256": "c2eec23d91d3f68732d5fdc88e974b9c20cb4872d02e938b5d62ea3bcad62d39",
+    "bytes": 65772,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0246",
+    "source_sha256": "754985e36c08a4f13da43b879ec78a81a0028840929efe19abf794c6f7cd3845",
+    "bytes": 66182,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0247",
+    "source_sha256": "e7d6a33e4c0a76107befffb4cf1d11ab599d10c7ae42b79b4debbf87330c3897",
+    "bytes": 70904,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0248",
+    "source_sha256": "eba00f9ffdc4aa8968eb73b29cee636f018094106409857120eeecdc199b2810",
+    "bytes": 71115,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0249",
+    "source_sha256": "a6f856b4a80bc85388a8181b04c498f3361d847c44d3e558935175d58d3161b4",
+    "bytes": 73432,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0250",
+    "source_sha256": "2be44e5097530526981a25a3ea0b8c74bcc3d6a4e1b2e26216fdd3890d5ab368",
+    "bytes": 73189,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0251",
+    "source_sha256": "5efd484314fd12f7d17fe261728536e2b71ea3ee837a53a9cb5f8b5bdd32e3d6",
+    "bytes": 73260,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0252",
+    "source_sha256": "04d34c718330bbeebce5e5f0d8e9d808444ec7b542624d1352cffe24ca24499b",
+    "bytes": 73440,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0253",
+    "source_sha256": "5c48077e97c935be235f7f4aa04aba1e4ed7c19d8ba082652102a17069b687ad",
+    "bytes": 73669,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0254",
+    "source_sha256": "5f9adadb163f1c2bbaab7f1d2ebbc5caa9f87a38d468a6d33e63be37b927d909",
+    "bytes": 73766,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0255",
+    "source_sha256": "b0d90d8f8c6d5dc5c54903b47ac89c4633ce1593b23e2c7275f99290f658827c",
+    "bytes": 74448,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0256",
+    "source_sha256": "a6a677dd46d903ffec19aff91ad1c4f54d174ca94a5e64a00d70bb4c9b25f16a",
+    "bytes": 74768,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0257",
+    "source_sha256": "0a5962336d4ac8c015ebbfce35f54d572ded5d18feb71a6bec27da4df357e7d3",
+    "bytes": 75629,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0258",
+    "source_sha256": "ecb842a7d1b3242136f5b5bb8811b5931e9f1ba1ca10dfdf6317a606abc190bf",
+    "bytes": 75429,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0259",
+    "source_sha256": "3fd16ea2215378962b692ec54612935e1c91f15cfe93ae6b90a16b650d2ecdd3",
+    "bytes": 77407,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0260",
+    "source_sha256": "0fea549be635fd5ec5a9d0bac9efeb4d999bdde69e7056ab474e4721311f73cc",
+    "bytes": 77249,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0261",
+    "source_sha256": "bf221cfd795223812a2d5146db4f455dd2707e9e4ed39a61cd48f3354bc946d5",
+    "bytes": 77191,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0262",
+    "source_sha256": "c8f6776a4df6da03bca7a49e4155288ae8dce52a2ef322f818f5f4cf308d58de",
+    "bytes": 77488,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0263",
+    "source_sha256": "b08ab6611cb8116c41e05392c528c1280dc833e010b4a726068de2a43a8596cd",
+    "bytes": 75904,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0264",
+    "source_sha256": "8a1bd1f65698e5fd15ae3739c74c7bf997dd7ec332493cf285250c20e0876014",
+    "bytes": 76806,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0265",
+    "source_sha256": "0f01dd9ca387336b381aa1a21e6d0c64ae70fee1f455db0dc8bb88fe67a1bb6e",
+    "bytes": 77298,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0266",
+    "source_sha256": "6415761bd74c86179979bd11aa62bacc320b3bb8eb0b96d2f4bea281a3e1d75b",
+    "bytes": 80346,
+    "path": "frames/mopan-new-evaluation-0266.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0267",
+    "source_sha256": "b6d7d27e634a60f4ddc9e7bd92dc678a4b6d825ea1767da5f07dead3ba2a5603",
+    "bytes": 79283,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0268",
+    "source_sha256": "db640822c350db7ca16bdf3ecbf6894267a1207cfd441e8b845821147d760be8",
+    "bytes": 79542,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0269",
+    "source_sha256": "254663927291953dc6ea795784b7d49e17070f4af5122b4cb7b75978e6e24688",
+    "bytes": 80856,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0270",
+    "source_sha256": "e3408f6e20e0531028b93ef6a325dd6aaab52d442cc828f9e4e97fb2cf7b11a2",
+    "bytes": 76675,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0271",
+    "source_sha256": "97698ec446842a83640b6243e3f2c3bd700e108e7973883a79e658c2047fa680",
+    "bytes": 77153,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0272",
+    "source_sha256": "02ae827fa80483f92b5f1146470a75b34a3844d812c0d37017223ecb8936f226",
+    "bytes": 76705,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0273",
+    "source_sha256": "3ca76b449ee91551b08799f9e744886733241d7dcf548a46764c0da67834b4e7",
+    "bytes": 76577,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0274",
+    "source_sha256": "aa3633ee1dcfc3fbb8fe419a7d37177196a1c81f9190cd378bac70f96fdf7fd9",
+    "bytes": 76733,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0275",
+    "source_sha256": "f0b1c35ef37a363443f30e3e4ece0c4c9ea363b223ea40051124bd6e368d3838",
+    "bytes": 76166,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0276",
+    "source_sha256": "c52d07b3cce5043632c08cac6e92a09a41ad8ca29f2631bc1ab02ea6688da901",
+    "bytes": 75596,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0277",
+    "source_sha256": "e9ac1f6455e77225b08ef3543d1ccf7d7e42ffab30f4ae693e6fcba5d015d5e4",
+    "bytes": 75766,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0278",
+    "source_sha256": "21e68c6f425555be98c036b7e5697c3d9787074d8bd1e681fa40ce617dd6b406",
+    "bytes": 75387,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0279",
+    "source_sha256": "a9d5775a4b37a60ac5fb70cc088322feaf85f819f81f39fef4f0423db1f7fda1",
+    "bytes": 73564,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0280",
+    "source_sha256": "b181d82382721d7bba8a7a7f0f9d041ef132c2c5ba58e08a9b2c0f4a44767de3",
+    "bytes": 73379,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0281",
+    "source_sha256": "9f12266a272e043984f0147d3705ecd3eab8d22fcc8d35ece8918d86d5a9d111",
+    "bytes": 73517,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0282",
+    "source_sha256": "82963ea2c68554898c72353fa520b2905062d1f1710ad4e833f16ef39ef876eb",
+    "bytes": 73596,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0283",
+    "source_sha256": "1d61840d28d5776868fab0f8735c43b1e4ffd8bf4936dd8d16c9143c5238535b",
+    "bytes": 73859,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0284",
+    "source_sha256": "5b5d32642c188a2ae5a845f8dd574b5ac13a2defd4556b35bf0c70a6f51c8770",
+    "bytes": 73908,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0285",
+    "source_sha256": "2992ace58dce8b90b5dc5824b053765d1c461333a12cb0fee45056c88e2b47ad",
+    "bytes": 73574,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0286",
+    "source_sha256": "aa5f9597851c19120a5cbe8aed66826c2e10217a7f1a549080615b749e50303f",
+    "bytes": 74204,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0287",
+    "source_sha256": "45d363cfd155a8431c6511d391116433c2decdd9a620cbbabac98ea368f3edb0",
+    "bytes": 72629,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0288",
+    "source_sha256": "9f01e504bc6e85d9b4212aeff2c4d70fb496ae12e00fcda3b6aaf17e8cd5d464",
+    "bytes": 72858,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0289",
+    "source_sha256": "4a7376ad744250a802fca3dccc4aa81a5b6c639ffa6c500a7e221b3446fa629e",
+    "bytes": 72908,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0290",
+    "source_sha256": "2c2ea8d46dcd118f1ba2d2f69b943186eaeaabd5acd9ee17c22e54a9097e8e3a",
+    "bytes": 73104,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0291",
+    "source_sha256": "474b38a081b5dfc91da4d7f376e31cdc80fe714a28462e7fdc97e0d03fbfc296",
+    "bytes": 76869,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0292",
+    "source_sha256": "0f9564c9e70e51076eee4ec357f0a563f00f79e3692b8852b984e22c075549db",
+    "bytes": 77200,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0293",
+    "source_sha256": "c97b652b7edec08fa546b9186162dc3ce0444cb6b4629f976d460e67bea1b6f8",
+    "bytes": 79186,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0294",
+    "source_sha256": "65874f1f10b3efdaaab221ebedd77450bfd93ee4c650f04062a46fab9519e17a",
+    "bytes": 78719,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0295",
+    "source_sha256": "ff8a8a7b0e9b029a4a898510222e4a3d3f7e29f644d2bc24838772d3eeb82e3c",
+    "bytes": 84456,
+    "path": "frames/mopan-new-evaluation-0295.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0296",
+    "source_sha256": "e55cafef5c81f6adba368abbfae0d00fa23e9fcc8f58b0f8499a9c22a97c9a43",
+    "bytes": 83973,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0297",
+    "source_sha256": "40b7bfe5eb237f9fab3da82c5d1cf09730b453327b50c7a32b04d0b47e19c44a",
+    "bytes": 79086,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0298",
+    "source_sha256": "b73a09129839117ee60b53db9d09454d5867b4fa968dbdd84ca89bf98a84d290",
+    "bytes": 72156,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0299",
+    "source_sha256": "f9f6fd29e1af2b93878f6ab61af55516eb05a8fd18a5c0f8490a930719e9fbe0",
+    "bytes": 73488,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0300",
+    "source_sha256": "c1e585d4660936bb366e0ed199f524da06648c99bbc1251e457e09a43f613700",
+    "bytes": 73633,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0301",
+    "source_sha256": "bdd520b965397244e221c4906c2b512e0b9926589c5e01d58dae730d2018a728",
+    "bytes": 72508,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0302",
+    "source_sha256": "2a831d73bd2dcd6009c08cc73496e0e1249b18d41972b5cc9806f4d865e7ec44",
+    "bytes": 71870,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0303",
+    "source_sha256": "9c9ba8c63ea5568d28e1e85d078c92ae5f2128e3ace5b844d327f52555d3695d",
+    "bytes": 70983,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0304",
+    "source_sha256": "96a333b3656b4d27f61d31386e166d0b037a0484594fc61f6d215b6f3f6ec20a",
+    "bytes": 70951,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0305",
+    "source_sha256": "7ed2f61a94f0a1186768f9c07e22aa27fb5218fb15682ed5d03b5a586a37a4a2",
+    "bytes": 73089,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0306",
+    "source_sha256": "16f8f02ea5f7f882ad22c21ab8c17fcf6a74374b6b695df10ce040f0d4d13f19",
+    "bytes": 73090,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0307",
+    "source_sha256": "2be5fb8270f824ad1614bc724898317b53282689829bb7e12c1929963b84d7cd",
+    "bytes": 73682,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0308",
+    "source_sha256": "66201f627747f46ec3d0e66909e4c7da9e5a2e967249681dd31314da5d1fa82c",
+    "bytes": 74091,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0309",
+    "source_sha256": "1f18b669d37fb3eee5af517dde0aa35600a98c5eb1e0f28a380b047fc50b5297",
+    "bytes": 71874,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0310",
+    "source_sha256": "12edf117db4c6ca1fe750de999b8b34068120415a493b53b0e2f8c45b427bce4",
+    "bytes": 71993,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0311",
+    "source_sha256": "d7320bec4270cc1e0b5494dc62485c416021606898b2aa607573709a92b19b48",
+    "bytes": 75102,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0312",
+    "source_sha256": "5808206de62378b98d1dd66bf1c632f24929f04a423997543a48a08c7f33d46a",
+    "bytes": 75189,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0313",
+    "source_sha256": "7e512e97113453fbeb9601e8d1b8f6115079acc67a1a75e284e0b626d39ae622",
+    "bytes": 76090,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0314",
+    "source_sha256": "c800d20d57124b01f49de294d01902ef5ce120bdf299aae363a7a2d3c99f4ebb",
+    "bytes": 75447,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0315",
+    "source_sha256": "f3ea1c815ff028e0790023fe24ffea352c9c96ddf6a59ec674226698c69d092f",
+    "bytes": 74742,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0316",
+    "source_sha256": "9693cc7c0d9d36a0f1b5eaf9bb9e6f031b2fd9de932961d860c8b6631c857e6b",
+    "bytes": 74068,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0317",
+    "source_sha256": "5e485d6cbc1ac23fabc309c132d0ec1b80583a8ea38d4753a6d467f57f06e7f1",
+    "bytes": 74553,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0318",
+    "source_sha256": "f3177da632a55f889c4a3b56d51c75f2fd58dde61edce7fe0645a1a70b23d05a",
+    "bytes": 74396,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0319",
+    "source_sha256": "ef10c31c061c3c2e24aefb0e51754d3320d47052b8f7c830791a008073fa4fa7",
+    "bytes": 77347,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0320",
+    "source_sha256": "5dc48ac0c73d6c442bb43365d5124e9fe13eb691a4b57ef2ff7f0eac13dca5b3",
+    "bytes": 77901,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0321",
+    "source_sha256": "291c92fdab6ae5d6b524d5ecf0ed71e3ce1ea2b90e8689f81c7543333678fe36",
+    "bytes": 80952,
+    "path": "frames/mopan-new-evaluation-0321.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0322",
+    "source_sha256": "24146e63ff8130cff4b8e09ceae2c0dfab956b1e9bbcb7658bc1dfd9274371e8",
+    "bytes": 82062,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  },
+  {
+    "event_id": "mopan-new-evaluation-0323",
+    "source_sha256": "05410e0658b5b43c37cfafe68998c54c6942ba347b57696d5664f05bd448687c",
+    "bytes": 83195,
+    "path": "frames/mopan-new-evaluation-0323.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0324",
+    "source_sha256": "1fad4ac7bde8b8a541434898bc3dee460da22e6ebb24d76b61f0a57260c4ca90",
+    "bytes": 83954,
+    "path": "frames/mopan-new-evaluation-0324.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0325",
+    "source_sha256": "ad5143a58dc7897e6639ea2ba85b77cb660e068a14447c20ebfd8f5028bec252",
+    "bytes": 47188,
+    "path": "frames/mopan-new-evaluation-0325.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0326",
+    "source_sha256": "7d19f85eb7cdb4fa93151437d96e7d2f73eac8e6dcbdfdbbf98a73d3268df5cd",
+    "bytes": 45351,
+    "path": "frames/mopan-new-evaluation-0326.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0327",
+    "source_sha256": "86493bdaa6f48d4c34495b52cec4569811a9520cf0e489482552a4488d553ec3",
+    "bytes": 45585,
+    "path": "frames/mopan-new-evaluation-0327.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0328",
+    "source_sha256": "c91044e8b3dbf3210ba6c31c6e682ee5b2fa4404feca1080024499f74543c98c",
+    "bytes": 45601,
+    "path": "frames/mopan-new-evaluation-0328.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0329",
+    "source_sha256": "bd2d4ccf7b1abaf0b160c21e53f82e9130b13a40e182c0c87ba526ce5a3c4cb5",
+    "bytes": 25532,
+    "path": "frames/mopan-new-evaluation-0329.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0330",
+    "source_sha256": "324a61e1ff6efe6647c00c4c214d4d26e8b4ffc949d1b0f8726c2ac9b59aa258",
+    "bytes": 45579,
+    "path": "frames/mopan-new-evaluation-0330.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0331",
+    "source_sha256": "ae7e4e691c80c86b1cb18874cd3b8e8e54c658b356ca9650e19b1519340094ae",
+    "bytes": 87117,
+    "path": "frames/mopan-new-evaluation-0331.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0332",
+    "source_sha256": "1f5f27d66d90cd35b5ddf3a21fdbbe7e44a8569bd4bde8e201813afdd668e7ee",
+    "bytes": 88104,
+    "path": "frames/mopan-new-evaluation-0332.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0333",
+    "source_sha256": "afce844f5c90b753ef84cfd0ff55649276fcb79f20ad0226eefb87ba0deca37e",
+    "bytes": 89579,
+    "path": "frames/mopan-new-evaluation-0333.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0334",
+    "source_sha256": "f75b91513b727621594da36959dc97d6b8815a53a7c468c0194b355ce1e3ff39",
+    "bytes": 88964,
+    "path": "frames/mopan-new-evaluation-0334.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0335",
+    "source_sha256": "efa7b14a37ca766ee92562bea3da13c379073c7c601801f3e0f273d8e24016e9",
+    "bytes": 90521,
+    "path": "frames/mopan-new-evaluation-0335.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0336",
+    "source_sha256": "c34cc848c05452c385e005d37e1acea8b5a6c26fadcb7c2a6d6309e2e67bd096",
+    "bytes": 36782,
+    "path": "frames/mopan-new-evaluation-0336.jpg",
+    "omission": null
+  },
+  {
+    "event_id": "mopan-new-evaluation-0337",
+    "source_sha256": "1fa2b2facdc2393c4a912b7231863c9730fdf022b7451a835b1a8bebb1e1a0b3",
+    "bytes": 84678,
+    "path": null,
+    "omission": "Not selected for the public screenshot subset; recorded action/text retained."
+  }
+]

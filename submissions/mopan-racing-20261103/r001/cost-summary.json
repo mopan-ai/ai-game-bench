@@ -1,0 +1,26 @@
+{
+  "price": {
+    "plan": "Hero",
+    "monthly_usd": 9.99,
+    "monthly_credits": 20000,
+    "unit_usd": 0.0004995,
+    "source": "https://mopan.ai/membership/plans",
+    "excluded_intro_usd": 0.99
+  },
+  "usage": {
+    "user_charge_usd": null,
+    "subscription_credit_value_usd": 0.5839155,
+    "model_cost_estimate_usd": null,
+    "credits": 1169,
+    "credit_precision": "rounded displayed integer",
+    "scope": "Build total shown by platform, including recorded generated assets; no unlisted music charge added.",
+    "breakdown_credits": {
+      "coding_agent": 1087,
+      "image": 68,
+      "sound_effects": 14
+    },
+    "records": 6,
+    "token_usage": null,
+    "basis": "1169 × $9.99 ÷ 20000"
+  }
+}

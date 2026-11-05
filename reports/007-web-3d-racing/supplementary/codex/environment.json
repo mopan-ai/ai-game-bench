@@ -1,0 +1,10 @@
+{
+  "schema_version": "web3d-development-actions/0.2",
+  "browser": "151.0.7922.34",
+  "access_mode": "screenshot_only",
+  "clock": "realtime",
+  "rendering": "software ANGLE/SwiftShader; no FPS score",
+  "session_count_basis": "reloads plus operator-declared full restarts; review required",
+  "input_timing": "requested duration and actual key edges; PNG encoding does not delay key release",
+  "page_errors": []
+}
