@@ -6,7 +6,7 @@ this repository under its [Apache-2.0 license](../../LICENSE).
 
 | Figure | Desktop | Narrow display | Text equivalent |
 | --- | --- | --- | --- |
-| README workflow | [Four steps](workflow.svg) | [Mobile](workflow-mobile.svg) | [How it works](../../README.md#how-it-works) |
+| README framework | [Creation, evaluation and evidence](workflow.svg) | [Mobile](workflow-mobile.svg) | [How it works](../../README.md#how-it-works) |
 | System and contributions | [System map](system-overview.svg) | [Mobile](system-overview-mobile.svg) | [Architecture and contribution points](../../docs/architecture.md) |
 | Evaluation design | [Overview](evaluation-overview.svg) | [Mobile](evaluation-overview-mobile.svg) | [Methodology](../../docs/methodology.md) |
 | Evaluator validation | [Calibration loop](evaluator-calibration.svg) | [Mobile](evaluator-calibration-mobile.svg) | [Calibration guide](../../docs/judge-calibration.md) |
@@ -22,9 +22,11 @@ It adds our separate creator/evaluator evidence paths and contribution roles;
 the reference artwork is not embedded. C1–C5 are contributor labels, not run
 steps. Browser observation and native execution retain separate boundaries.
 
-README shows only the four-step workflow; the detailed system map lives in
-Architecture. The workflow supports light and dark color schemes. The final
-step includes a maintainer decision and separately curated publication, not an
+README shows the creation/evaluation split, evidence handoff, grader calibration
+and contribution roles; the detailed system map lives in Architecture. The
+README figure supports light and dark color schemes. Its dashed calibration
+panel denotes evaluator-development work, not a claim of calibrated gameplay
+verification. Review and curated publication are separate steps, not an
 automatic promotion from a passing check to a leaderboard.
 
 The diagrams use a `picture` element to select the narrow layout below 600px. Each SVG

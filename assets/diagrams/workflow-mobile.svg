@@ -1,41 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="548" viewBox="0 0 400 548" role="img" aria-labelledby="title desc">
-  <title id="title">AI Game Bench in four steps</title>
-  <desc id="desc">Define a task: prompt and rubric. Create a game: game and run evidence. Play and evaluate: checks and scores. Review and publish: evidence review followed by a curated report. This is a process overview, not a claim of automated platform support.</desc>
-  <style>
-    svg { --card:#f6f8fa; --border:#d8e0e6; --text:#1f2937; --muted:#526174; --arrow:#76869a; --purple:#7044a7; --blue:#275cad; --green:#18765d; --ochre:#916222; }
-    @media (prefers-color-scheme: dark) { svg { --card:#161b22; --border:#3d4652; --text:#f0f3f6; --muted:#b2bdca; --arrow:#8b9bac; --purple:#c6a6f3; --blue:#8cbbff; --green:#7bd4b3; --ochre:#e6ba72; } }
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="1180" viewBox="0 0 440 1180" role="img" aria-labelledby="title desc">
+  <title id="title">AI Game Bench: creation, evaluation and evidence</title>
+  <desc id="desc">A task contract fixes the prompt, rules, rubric and budget. A creator system produces a playable artifact and an observable creation record. Gameplay evaluation uses the game and task rubric, with grader calibration on known cases. Creation and playtest records join in a public evidence package for maintainer review and separately curated reporting. Contribution roles are task authors, platform integrators, result contributors, evaluator authors and reviewers. This is a protocol overview; automation and calibration readiness vary by task.</desc>
+  <style>svg { --card:#f6f8fa; --border:#d8e0e6; --text:#1f2937; --muted:#526174; --arrow:#76869a; --purple:#7044a7; --blue:#275cad; --green:#18765d; --ochre:#916222; --inset:#fff; --report:#183b40; --report-text:#fff; --report-muted:#b8e4d9; }
+    @media (prefers-color-scheme: dark) { svg { --card:#161b22; --border:#3d4652; --text:#f0f3f6; --muted:#b2bdca; --arrow:#8b9bac; --purple:#c6a6f3; --blue:#8cbbff; --green:#7bd4b3; --ochre:#e6ba72; --inset:#0d1117; --report:#183b40; --report-text:#f0f3f6; --report-muted:#b8e4d9; } }
     text { font-family:Arial,Helvetica,sans-serif; }
-    .card { fill:var(--card); stroke:var(--border); }
-    .heading { font-size:25px; font-weight:700; fill:var(--text); }
-    .detail { font-size:19px; fill:var(--muted); }
-    .step { font-size:22px; font-weight:700; }
     .arrow { fill:none; stroke:var(--arrow); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
-  </style>
-  <g>
-    <rect class="card" x="8.5" y="8.5" width="383" height="111" rx="12"/>
-    <text class="step" x="30" y="70" fill="var(--purple)">01</text>
-    <text class="heading" x="82" y="55">Define a task</text>
-    <text class="detail" x="82" y="87">Prompt + rubric</text>
-  </g>
-  <path class="arrow" d="M200 126 V141 M195 136 L200 141 L205 136"/>
-  <g>
-    <rect class="card" x="8.5" y="148.5" width="383" height="111" rx="12"/>
-    <text class="step" x="30" y="210" fill="var(--blue)">02</text>
-    <text class="heading" x="82" y="195">Create a game</text>
-    <text class="detail" x="82" y="227">Game + run evidence</text>
-  </g>
-  <path class="arrow" d="M200 266 V281 M195 276 L200 281 L205 276"/>
-  <g>
-    <rect class="card" x="8.5" y="288.5" width="383" height="111" rx="12"/>
-    <text class="step" x="30" y="350" fill="var(--green)">03</text>
-    <text class="heading" x="82" y="335">Play &amp; evaluate</text>
-    <text class="detail" x="82" y="367">Checks + scores</text>
-  </g>
-  <path class="arrow" d="M200 406 V421 M195 416 L200 421 L205 416"/>
-  <g>
-    <rect class="card" x="8.5" y="428.5" width="383" height="111" rx="12"/>
-    <text class="step" x="30" y="490" fill="var(--ochre)">04</text>
-    <text class="heading" x="82" y="475">Review &amp; publish</text>
-    <text class="detail" x="82" y="507">Evidence → report</text>
-  </g>
+</style>
+  <defs><marker id="arrowhead" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M1 1 L6 3.5 L1 6" fill="none" stroke="var(--arrow)" stroke-width="1.4"/></marker></defs>
+  <rect x="12" y="12" width="416" height="148" rx="12" fill="var(--card)" stroke="var(--border)"/>
+  <text x="32" y="43" font-size="14" font-weight="700" fill="var(--purple)">TASK AUTHORS</text>
+  <text x="32" y="80" font-size="27" font-weight="700" fill="var(--text)">Task contract</text>
+  <text x="32" y="112" font-size="20" font-weight="400" fill="var(--muted)">Prompt + starting state</text>
+  <text x="32" y="140" font-size="18" font-weight="400" fill="var(--muted)">Rules · success criteria · rubric · budget</text>
+  <path class="arrow" d="M220 170 V190" marker-end="url(#arrowhead)"/>
+  <rect x="12" y="200" width="416" height="172" rx="12" fill="var(--card)" stroke="var(--border)"/>
+  <text x="32" y="232" font-size="14" font-weight="700" fill="var(--blue)">PLATFORMS · RUN CONTRIBUTORS</text>
+  <text x="32" y="269" font-size="27" font-weight="700" fill="var(--text)">Creation trial</text>
+  <text x="32" y="301" font-size="20" font-weight="400" fill="var(--muted)">Model · harness · tools</text>
+  <text x="32" y="330" font-size="20" font-weight="400" fill="var(--muted)">Playable artifact: URL / build / files</text>
+  <text x="32" y="357" font-size="18" font-weight="400" fill="var(--blue)">Creation record → evidence package</text>
+  <path class="arrow" d="M220 382 V411" marker-end="url(#arrowhead)"/>
+  <text x="237" y="402" font-size="17" font-weight="400" fill="var(--muted)">game</text>
+  <rect x="12" y="422" width="416" height="282" rx="12" fill="var(--card)" stroke="var(--border)"/>
+  <text x="32" y="454" font-size="14" font-weight="700" fill="var(--green)">EVALUATOR AUTHORS</text>
+  <text x="32" y="491" font-size="27" font-weight="700" fill="var(--text)">Gameplay evaluation</text>
+  <text x="32" y="523" font-size="20" font-weight="400" fill="var(--muted)">Game + fixed task rubric</text>
+  <text x="32" y="553" font-size="20" font-weight="400" fill="var(--muted)">Checks + scores + playtest trajectory</text>
+  <rect x="30" y="577" width="380" height="108" rx="12" fill="var(--inset)" stroke="var(--green)" stroke-dasharray="6 5"/>
+  <text x="48" y="609" font-size="23" font-weight="700" fill="var(--text)">Calibrate the evaluator</text>
+  <text x="48" y="639" font-size="19" font-weight="400" fill="var(--muted)">Known-good / fault cases</text>
+  <text x="48" y="667" font-size="19" font-weight="400" fill="var(--muted)">Accuracy · repeatability</text>
+  <path class="arrow" d="M220 714 V734" marker-end="url(#arrowhead)"/>
+  <rect x="12" y="744" width="416" height="132" rx="12" fill="var(--card)" stroke="var(--border)"/>
+  <text x="32" y="783" font-size="26" font-weight="700" fill="var(--text)">Public evidence package</text>
+  <text x="32" y="817" font-size="20" font-weight="400" fill="var(--muted)">Creation + playtest records</text>
+  <text x="32" y="850" font-size="20" font-weight="400" fill="var(--muted)">Artifact · scores · resources</text>
+  <path class="arrow" d="M220 886 V906" marker-end="url(#arrowhead)"/>
+  <rect x="12" y="916" width="416" height="110" rx="12" fill="var(--card)" stroke="var(--border)"/>
+  <text x="32" y="944" font-size="14" font-weight="700" fill="var(--ochre)">REVIEWERS &amp; MAINTAINERS</text>
+  <text x="32" y="979" font-size="26" font-weight="700" fill="var(--text)">Evidence review</text>
+  <text x="32" y="1010" font-size="20" font-weight="400" fill="var(--muted)">Inspect claims · record limitations</text>
+  <path class="arrow" d="M220 1036 V1056" marker-end="url(#arrowhead)"/>
+  <rect x="12" y="1066" width="416" height="102" rx="12" fill="var(--report)" stroke="var(--report)"/>
+  <text x="32" y="1092" font-size="14" font-weight="700" fill="var(--report-muted)">CURATED PUBLICATION</text>
+  <text x="32" y="1125" font-size="26" font-weight="700" fill="var(--report-text)">Reports &amp; comparisons</text>
+  <text x="32" y="1154" font-size="20" font-weight="400" fill="var(--report-muted)">aigamebench.com</text>
 </svg>

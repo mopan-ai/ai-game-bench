@@ -21,14 +21,20 @@ and accounts. [Current capabilities](docs/project-state.md).
 
 ## How it works
 
+Compare a **game-creation system**: its model, agent harness, tools and platform.
+Each task fixes what to build, the run conditions and how to judge the result.
+
 <picture>
   <source media="(max-width: 600px)" srcset="assets/diagrams/workflow-mobile.svg">
-  <img src="assets/diagrams/workflow.svg" width="1000" alt="Four steps: define a task with a prompt and rubric; create a game and record run evidence; play and evaluate with checks and scores; review the evidence and curate a public report.">
+  <img src="assets/diagrams/workflow.svg" width="1200" alt="A fixed task guides creation. The game goes to gameplay evaluation, supported by grader calibration; the creation record takes a separate path into the evidence package. Both records and scores go to maintainer review and curated reporting. Contributors can add tasks, platforms, evaluators, runs or reviews.">
 </picture>
 
-Evaluate the game separately from its creation process, then review the evidence
-behind each score. Publication is curated; this flow does not imply fully
-automated platform support.
+**Evaluate the game; review the evidence.** Gameplay verdicts come from playing
+and testing the artifact. Creation records support diagnosis and review. The
+figure marks where contributors can add tasks, platforms, evaluators, runs or reviews.
+
+This is the protocol view. Platform automation and evaluator calibration remain
+limited; see [current capabilities](docs/project-state.md).
 
 [System map and contribution roles](docs/architecture.md) · [Methodology](docs/methodology.md)
 
