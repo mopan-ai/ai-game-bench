@@ -22,9 +22,9 @@ It adds our separate creator/evaluator evidence paths and contribution roles;
 the reference artwork is not embedded. C1–C5 are contributor labels, not run
 steps. Browser observation and native execution retain separate boundaries.
 
-README shows the creation/evaluation split, evidence handoff, grader calibration
-and contribution roles; the detailed system map lives in Architecture. The
-README figure supports light and dark color schemes. Its dashed calibration
+README includes both the quick workflow and the detailed system/contribution
+map. Architecture supplies the expanded text equivalent and directory map. The
+workflow figure supports light and dark color schemes. Its dashed calibration
 panel denotes evaluator-development work, not a claim of calibrated gameplay
 verification. Review and curated publication are separate steps, not an
 automatic promotion from a passing check to a leaderboard.
