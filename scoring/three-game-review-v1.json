@@ -1,0 +1,26 @@
+{
+  "policy_id": "three-game-artifact-review/1.0.0",
+  "scope": "Retrospective review of selected existing artifacts; not a controlled fresh-generation benchmark or a replacement for frozen source scores.",
+  "dimensions": {"mechanics": 50, "experience": 20, "time": 30},
+  "games": {
+    "tetris": {
+      "mechanics": {"opens": 4, "gravity_next": 5, "move_bounds": 5, "rotate": 4, "stack": 5, "line_clear": 7, "line_clear_score": 4, "top_out": 3, "restart_reset": 3},
+      "time_gates": ["opens", "gravity_next", "move_bounds", "stack", "line_clear"]
+    },
+    "racing": {
+      "mechanics": {"ready": 4, "acceleration": 6, "braking": 6, "steering": 8, "follow-camera": 6, "track-bounds": 8, "ordered-checkpoints": 8, "lap-finish": 8, "restart": 6},
+      "time_gates": ["ready", "acceleration", "steering", "lap-finish"]
+    },
+    "platformer": {
+      "mechanics": {"ready": 4, "movement": 6, "jump": 8, "solid-platforms": 8, "collectibles": 6, "fall-loss": 8, "goal-win": 8, "loss-restart": 6, "win-restart": 6},
+      "time_gates": ["ready", "movement", "jump", "goal-win"]
+    }
+  },
+  "experience": {"guidance": 4, "readability": 4, "feedback": 4, "presentation": 4, "visual_stability": 4},
+  "time": {"full_credit_seconds": 300, "zero_credit_seconds": 3600, "boundary_max_sampling_gap_seconds": 30},
+  "aggregation": "Equal-weight arithmetic mean of exactly tetris, racing and platformer, after averaging preselected repetitions within each game. Missing or invalid measurements prevent an eligible overall score; never average only successful tasks. No best-of selection.",
+  "missing": "Unobserved criteria have null ratings. Verified points use zero contribution without renormalization and are explicitly a lower bound, not a complete quality score. Complete failed observations earn zero. Eligible scores require all criteria observed or explicitly blocked by a demonstrated artifact failure.",
+  "boundary": "A completed artifact first observed after 3600 seconds may retain quality credit when the last active observation is before the deadline, the interval straddles it, and the gap is at most 30 seconds. Time credit is zero. Mark actual deadline success unknown. Deliberately continued or repaired post-budget artifacts are excluded from the capped trial.",
+  "invalid": "Creation/auth/evaluation infrastructure errors and owner-held tasks have null scores. Keep them and their reasons in the full matrix.",
+  "evidence": "Every observed rating needs task-scoped references and a reason. Numeric validation checks references/structure, not truth or gameplay. Supplementary review records are dated separately and never inserted into the original trajectory. A mutable URL does not establish byte-identical replay."
+}

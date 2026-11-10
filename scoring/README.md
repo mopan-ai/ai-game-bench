@@ -1,4 +1,10 @@
-# Fixed Tetris report scoring
+# Scoring policies
+
+For a separate cross-game retrospective, see
+[three-game final-artifact review 1.2](three-game-review-v1.md). It keeps historical
+results intact and does not replace the submission validator or create an
+accepted leaderboard. Its offline arithmetic helper accepts explicitly reviewed
+ratings; it does not play games or authenticate evidence.
 
 Use [tetris-absolute-v1.json](tetris-absolute-v1.json), policy
 `tetris-absolute/1.0.0`, for historical-scale comparisons. These are the existing
