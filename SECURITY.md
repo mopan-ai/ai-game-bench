@@ -1,7 +1,7 @@
 # Security
 
 Submissions are **public by default**. Before pushing, review the
-[public-data terms](README.md#public-data-and-privacy-terms). Keep raw captures
+[public-data terms](docs/public-data.md). Keep raw captures
 and Harbor jobs local. Never upload credentials, cookies, browser profiles,
 personal/account data, signed URLs, unrelated conversations or unlicensed assets.
 Redact locally and disclose omissions; automated scans can miss sensitive data.

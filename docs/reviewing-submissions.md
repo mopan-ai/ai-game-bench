@@ -110,3 +110,8 @@ submission/review is permitted initially but is not independent review.
 Merge only after required checks and review. Website publication is a separate
 curated update referencing the same public package and review revision. No hidden
 private evidence lane is required; no automatic paid rerun or publishing follows.
+
+After acceptance, update the [results index](../reports/README.md) with the task,
+package and exact PR decision. Keep old submission-time status fields unchanged.
+Additional replay material belongs in [reviews/](../reviews/README.md); a review
+comment alone does not require a new directory or copied contributor evidence.

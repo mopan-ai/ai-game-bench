@@ -1,21 +1,23 @@
 # Contributing
 
 Start with one scoped PR. No invitation or prior Discussion is required.
-The [system map](docs/architecture.md#contribution-points) shows where task authors,
-platform integrators, evaluator authors, result contributors and reviewers fit.
+New to the checkout? [Get started](docs/getting-started.md).
 
-- **Result:** follow [the submission guide](docs/submissions.md) to record,
-  package and submit your evidence. Failed games are useful data too.
-- **Task / policy / eval:** follow [adding tasks](docs/adding-tasks.md).
-  Discuss large changes in [Ideas](https://github.com/mopan-ai/ai-game-bench/discussions/categories/ideas);
-  small scoped PRs are welcome directly.
-- **Platform:** follow [the integration contract](docs/platforms.md), with free
-  mocked tests before an authorized real run.
-- **Verifier fix:** include a minimal wrong verdict and regression test.
-  Changing scoring meaning requires a new version.
+| I want to contribute | Follow |
+| --- | --- |
+| A game-creation result | [Record, package and submit evidence](docs/submissions.md) |
+| A task, rubric or policy | [Define and validate a task](docs/adding-tasks.md) |
+| A platform guide or adapter | [Platform integration contract](docs/platforms.md) |
+| An evaluator improvement | [Calibration and evidence-supported corrections](docs/judge-calibration.md) |
+| A review or artifact replay | [Maintainer review checklist](docs/reviewing-submissions.md) |
+
+Discuss large changes in [Ideas](https://github.com/mopan-ai/ai-game-bench/discussions/categories/ideas);
+small scoped PRs are welcome directly. Failed games are useful data too. For a
+verifier fix, include a minimal wrong verdict and a regression check; changed
+scoring meaning requires a new version.
 
 Use your own authorized accounts. Before pushing, read the
-[public-data terms](README.md#public-data-and-privacy-terms): submit only reviewed,
+[public-data terms](docs/public-data.md): submit only reviewed,
 task-scoped material you have permission to share. Include all attempts, evidence
 gaps, affiliation and AI assistance. Keep credentials and raw jobs local.
 
@@ -24,11 +26,8 @@ checks. State what ran and any limitations. Correct accepted results with a new
 revision, never by overwriting their records.
 
 Mopan maintainers review and merge; passing CI is not evidence approval or
-automatic website publication. Proposals do not trigger paid runs.
-Result PRs receive an automatic **structural validation only** receipt after
-Public checks. Maintainers separately state whether they reviewed evidence,
-replayed the artifact or reran creation; unperformed checks are explicit.
-[Review process](docs/contribution-workflow.md) · [Governance](GOVERNANCE.md)
+automatic website publication. [Actions and triggers](docs/contribution-workflow.md)
+explains automated checks; [Governance](GOVERNANCE.md) defines decision authority.
 
 ## Agent handoff
 

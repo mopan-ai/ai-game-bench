@@ -15,6 +15,11 @@ and hypothetical pass/fault examples. It reuses racing v2 unchanged and adds
 platformer, physics, target-range, escape and simulation methods. These are
 method candidates; full gameplay calibration and live comparisons remain gated.
 
+Use the [task catalog](../docs/tasks.md) to choose a version. The
+[results index](../reports/README.md#accepted-evidence) links accepted Tetris
+evidence and the racing development pilot. Pilot acceptance does not change
+frozen method readiness or satisfy full-game calibration gates.
+
 - [Classic Tetris pilot v1](tetris-browser-pilot-v1/evaluation.md): one fresh
   browser creation, normal player input, nine core checks and four UX checks.
   This is a new pilot scale, not comparable to historical website scores.

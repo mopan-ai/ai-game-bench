@@ -1,27 +1,8 @@
-# Contribution → checks → review
+# Actions and contribution workflow
 
-One public repository, one evidence package, one result PR. No private workspace,
-invitation process or private-to-public export service is part of this version.
-See [submission instructions](submissions.md) and [public-data terms](../README.md#public-data-and-privacy-terms).
-
-## Choose an entry point
-
-- **Ready to submit:** follow the submission guide and open a result PR. No
-  prior invitation or Discussion is needed.
-- **New method or platform:** use [Ideas](https://github.com/mopan-ai/ai-game-bench/discussions/new?category=ideas)
-  to agree scope before a large change, or open a small scoped PR.
-- **Need help:** ask in [Q&A](https://github.com/mopan-ai/ai-game-bench/discussions/categories/q-a).
-- **Want to share an existing result:** [Show and tell](https://github.com/mopan-ai/ai-game-bench/discussions/new?category=show-and-tell)
-  can link its PR; it does not replace evidence review.
-
-[Platform support](../platforms/README.md) distinguishes tested agent-operated
-workflows from public CLI integrations. None of these entry points starts a paid model run.
-
-| Contribution | Entry | Checks | Decision |
-| --- | --- | --- | --- |
-| Existing-task result | PR under `submissions/<id>/rNNN/` | Schema, frozen policy, file hashes, event consistency, score recomputation, privacy heuristics | Maintainer evidence review and any isolated replay |
-| New task / policy | Scoped PR; Ideas optional | Contract parsing, reference and negative tests; add task-specific free calibration | Approve method/version before a formal result |
-| Platform adapter | PR; Ideas optional | Mocked lifecycle tests, package build | Separately authorized real smoke |
+This page describes automation and handoffs. For what to submit, use
+[Contributing](../CONTRIBUTING.md); for the evidence checklist and decision format,
+use [Review a submission](reviewing-submissions.md).
 
 ## GitHub Actions
 
@@ -64,14 +45,13 @@ platform, attempts, time and spending.
 2. **Maintainer:** approve external CI when safe. Trusted evidence review then
    follows automatically for result PRs; inspect its exact-head receipt (manual
    dispatch remains available). Both required Public checks must also pass.
-3. **Maintainer:** inspect screenshots/trajectories, perform any stated replay,
-   and record the decision, limitations and exact reviewed head/manifest hashes.
-   Passing Actions alone is not approval; changed evidence needs a new review.
-4. **Maintainer:** merge an accepted revision manually. Website publication, if
-   selected, is a separate curated change in the landing repository.
+3. **Maintainer:** follow the [evidence review checklist](reviewing-submissions.md)
+   and comment on the exact head. Changed evidence needs a new review.
+4. **Maintainer:** merge the accepted revision and update the
+   [results index](../reports/README.md). Website publication, if selected, is a
+   separate curated change in the landing repository.
 
-Record **structural validation**, **evidence review**, **artifact replay** and
-**generation rerun** separately; use **not performed** where applicable. There
-is no requirement to rerun every creation and no generic "authentic" badge.
-Record the exact reviewed head SHA in the PR. A changed head needs a new review.
-[Maintainer checklist](reviewing-submissions.md) · [Live settings](github-setup.md)
+Structural validation, evidence review, artifact replay and generation rerun
+are separate claims. The review checklist defines how to record them.
+[GitHub configuration](github-setup.md) documents settings to check; a local
+workflow file is not proof that branch protection is currently enforced.

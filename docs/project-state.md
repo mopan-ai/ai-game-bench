@@ -1,6 +1,6 @@
 # Project state
 
-Updated 2026-11-02. This public repository contains the benchmark's methods,
+Updated 2026-11-05. This public repository contains the benchmark's methods,
 execution entry point and reviewed evidence. The website and private historical
 jobs remain in a separate repository. [Methodology](methodology.md) describes the
 measurement design; the table below describes implementation, not aspirations.
@@ -14,23 +14,21 @@ measurement design; the table below describes implementation, not aspirations.
 | Six creator platforms | Recorded workflows and connection references | No reusable unattended creator adapters |
 | Public submissions | Versioned packages, validators and maintainer review | Structural validity does not authenticate observations |
 | Classic Tetris | Accepted Gemini 4 and DS V4.1 1017 evidence packages | Affiliated pilots with disclosed gaps; not independently reproduced creation |
-| Platformer / 3D racing | Merged method definitions, acceptance cards and authored pass/fault fixtures | Protocols still declare `proposed`; no accepted live creator results |
-| Web 3D creation suite v1 | Local candidate: six versioned browser methods, coverage catalog and submission-compatible policies | Five new methods plus unchanged racing v2; no full-game calibration or accepted suite results |
+| 2D platformer | Merged method definitions, acceptance cards and authored pass/fault fixtures | Protocol still declares `proposed`; no accepted public creator submission |
+| 3D racing | Codex / Mopan / Wanaka evidence accepted in PR #18 | Development pilot with non-blind remote evaluation, differing timing bases and public-replay limits; not a calibrated leaderboard result |
+| Web 3D creation suite v1 | Six versioned browser methods merged in PR #17 | Five new methods plus unchanged racing v2; proposed metadata retained, no full-game calibration or accepted full-suite comparison |
 | Measurement v0.2 | Merged evaluator metadata, timeout semantics and offline summaries | Summarizes declared claims, not independently verified gameplay |
 | Gameplay judge | Local development implementation and focused calibration | No held-out or full-game quality calibration; see version caveat below |
 
 ## Accepted public evidence
 
-- **Gemini 4 · Tetris:** [PR #4](https://github.com/mopan-ai/ai-game-bench/pull/4),
-  [package](../submissions/mopan-gemini4-tetris-20261014/),
-  [acceptance scope](https://github.com/mopan-ai/ai-game-bench/pull/4#issuecomment-6162702189),
-  [limited artifact replay](../reviews/mopan-gemini4-tetris-20261014/20261014/).
-  r001 creation, r002 cost and r003 scoring are revisions of **one attempt**.
-- **DS V4.1 1017 · Tetris:** [PR #10](https://github.com/mopan-ai/ai-game-bench/pull/10),
-  [package](../submissions/mopan-ds-v41-flash-1017-tetris-20261020/r001/),
-  [review scope](https://github.com/mopan-ai/ai-game-bench/pull/10#pullrequestreview-5661885193).
-  Evidence inspection and limited replay do not attest original model routing,
-  reported cost or the complete creation history.
+The [results index](../reports/README.md#accepted-evidence) is the current catalog
+of accepted packages, exact-revision reviews and website reports. It includes the
+two Mopan Tetris submissions and the racing development pilot accepted in
+[PR #18](https://github.com/mopan-ai/ai-game-bench/pull/18#pullrequestreview-5783069282).
+That review covered structure, score/cost arithmetic and sampled evidence; it did
+not replay artifacts or rerun generation. Acceptance preserves the disclosed
+limitations and does not authenticate unseen model routing or creation history.
 
 The method history includes [PR #9](https://github.com/mopan-ai/ai-game-bench/pull/9)
 for platformer/racing proposals and [PR #14](https://github.com/mopan-ai/ai-game-bench/pull/14)
@@ -44,6 +42,9 @@ These dated receipts do not establish the latest GitHub enforcement state. Local
 workflow files and a passing local test are not evidence of an active branch rule.
 
 ## Local evaluator development
+
+<details>
+<summary>Development cohorts and version limitations</summary>
 
 The [judge calibration](judge-calibration.md) selected four checks from the
 existing platformer/racing fixtures: working/faulty variants, two repetitions
@@ -74,12 +75,15 @@ also left dynamic checks incomplete. Raw records and the diagnostic report stay
 in ignored `jobs/` and `artifacts/web-3d-dev-20261102/`. This pilot does not satisfy
 the known-good/fault, unfamiliar-implementation or human-adjudication gates.
 
+</details>
+
 ## Next acceptance gates
 
 1. Freeze a candidate evaluator; validate on unfamiliar implementations and
    obtain human adjudication of disputed or decisive evidence.
-2. Run a separately authorized platformer/racing creator pilot only after its
-   method and evaluator gates are satisfied. Keep all attempts and gaps.
+2. Satisfy the method/evaluator gates before a controlled platformer/racing
+   comparison. The accepted racing development pilot supplies preliminary
+   evidence, not a substitute for those gates. Keep all attempts and gaps.
 3. Have an outside contributor complete submission → trusted checks → review
    using only public instructions. Publication remains a separate decision.
 4. Develop a reusable browser recorder/adapter, beginning with a free local mock.
