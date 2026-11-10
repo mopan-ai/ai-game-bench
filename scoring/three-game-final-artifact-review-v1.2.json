@@ -1,0 +1,80 @@
+{
+  "policy_id": "three-game-final-artifact-review/1.2.0",
+  "scope": "Retrospective final-artifact view, including explicitly disclosed owner-authorized continuations. Not a capped fresh single-attempt comparison.",
+  "dimensions": {
+    "mechanics": 50,
+    "experience": 20,
+    "time": 30
+  },
+  "games": {
+    "tetris": {
+      "mechanics": {
+        "opens": 4,
+        "gravity_next": 5,
+        "move_bounds": 5,
+        "rotate": 4,
+        "stack": 5,
+        "line_clear": 7,
+        "line_clear_score": 4,
+        "top_out": 3,
+        "restart_reset": 3
+      },
+      "time_gates": [
+        "opens"
+      ]
+    },
+    "racing": {
+      "mechanics": {
+        "ready": 4,
+        "acceleration": 6,
+        "braking": 6,
+        "steering": 8,
+        "follow-camera": 6,
+        "track-bounds": 8,
+        "ordered-checkpoints": 8,
+        "lap-finish": 8,
+        "restart": 6
+      },
+      "time_gates": [
+        "ready"
+      ]
+    },
+    "platformer": {
+      "mechanics": {
+        "ready": 4,
+        "movement": 6,
+        "jump": 8,
+        "solid-platforms": 8,
+        "collectibles": 6,
+        "fall-loss": 8,
+        "goal-win": 8,
+        "loss-restart": 6,
+        "win-restart": 6
+      },
+      "time_gates": [
+        "ready"
+      ]
+    }
+  },
+  "experience": {
+    "guidance": 4,
+    "readability": 4,
+    "feedback": 4,
+    "presentation": 4,
+    "visual_stability": 4
+  },
+  "time": {
+    "full_credit_seconds": 300,
+    "zero_credit_seconds": 3600,
+    "boundary_max_sampling_gap_seconds": 30
+  },
+  "aggregation": "Equal-weight arithmetic mean of exactly tetris, racing and platformer, after averaging preselected repetitions within each game. Missing or invalid measurements prevent an eligible overall score; never average only successful tasks. No best-of selection.",
+  "missing": "Unobserved criteria have null ratings. Verified points use zero contribution without renormalization and are explicitly a lower bound, not a complete quality score. Complete failed observations earn zero. Eligible scores require all criteria observed or explicitly blocked by a demonstrated artifact failure.",
+  "boundary": "Final delivered quality is retained regardless of the former creation cutoff. Timing uncertainty remains disclosed and time credit still falls to zero at 3600 seconds. Historical capped outcomes are preserved separately.",
+  "invalid": "Creation/auth/evaluation infrastructure errors and owner-held tasks have null scores. Keep them and their reasons in the full matrix.",
+  "evidence": "Every observed rating needs task-scoped references and a reason. Numeric validation checks references/structure, not truth or gameplay. Supplementary review records are dated separately and never inserted into the original trajectory. A mutable URL does not establish byte-identical replay.",
+  "supersedes": "three-game-artifact-review/1.1.0",
+  "revision_reason": "Owner requested scoring the completed Kimi racing artifact without a 60-minute delivery disqualification. Quality is assessed for final artifacts regardless of delivery duration; the common time curve and all weights are unchanged. The capped 1.1 view and raw source records remain archived.",
+  "generation_cutoff_seconds": null,
+  "continuation": "Completed continuations may receive observed quality credit. Disclose interruption, resume messages and actual timing; never relabel them as fresh uninterrupted attempts or overwrite the capped trial. No best-of rerun selection."
+}
