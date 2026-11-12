@@ -1,0 +1,925 @@
+{
+  "schema": "capture-derivatives/1",
+  "exported_at": "2026-11-12T08:17:56.659652+00:00",
+  "owner_authorized_transformation": "Only local deterministic cropping/masking, no AI image editing; this export uses cropping only.",
+  "capture_files": [
+    {
+      "source": "tetris/captures/2026-11-12T05-46-49-816Z-before-send.jpg",
+      "source_sha256": "73ea8cec0457f444f66bce47559b988f15d3edbf892a00d44f21811d5dafdb10",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-001.webp",
+      "export_sha256": "3a79dc98125969ea81789d8a02ea0652674d6d81f83b1a937a454658e01f472d",
+      "crop_xyxy": [
+        760,
+        500,
+        2220,
+        740
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep prompt and Send control; remove account/sidebar, other projects and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-46-50-420Z-after-send.jpg",
+      "source_sha256": "d43af34f13822b1892792b1a052acbec7e21a87816ee115c80d1934dac4b0a38",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-002.webp",
+      "export_sha256": "7f8e01d0a6eb49b0ef373219efed59f5dfa52fc2d4330679a45428d25cfa4215",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-46-56-461Z-accepted.jpg",
+      "source_sha256": "33b19f82b91512c939d9a4acd1fa3d73044d1ae679e58e887689b1b269ba6d46",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-003",
+      "export_sha256": "85a84dfab62f4819feddc21aefc17c02344155d29d5c540ac151bef9914b3c67",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-02-535Z-clarification.jpg",
+      "source_sha256": "040444431ef8de206e11022f718316ba928dde1f8e662a85732d995639302d67",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-004",
+      "export_sha256": "cbd8bcfae8bec78c369badc00b6698894b9b31110a4b8a564980f93ef3b3eae2",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-08-092Z-clarification-selected.jpg",
+      "source_sha256": "538f90b4761ec0b2ccb5e0a52f63b3ecbcc52d52dde24017fe60ad84516cb42e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-005",
+      "export_sha256": "055d95636e7c7421cb694400fef816578c0cfc722b4f4e3deb439a86a4d71644",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-13-768Z-clarification-sent.jpg",
+      "source_sha256": "4514d57378fd12382afb8d61a71ba98b55dc302fd5ded5edb472998733c2956f",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-006",
+      "export_sha256": "304ad6bc0352b9c5870ebeee147bfc44f2e12063fdcb2de944c85cc9b371aa22",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-27-812Z-monitor-01.jpg",
+      "source_sha256": "df92553373cf6c7e940cf079c492eff132a61078fa0cc2c25954b79b48ddc053",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-007",
+      "export_sha256": "cbf8a914b51f4ef185e3ebb76e8424f4e2e74f00f63477c13e4cbd531e2f0e72",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-43-815Z-monitor-02.jpg",
+      "source_sha256": "1d315c2003a49d83262f4652d3752b7001050c419aac230bc89a55435f3e025d",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-008",
+      "export_sha256": "8ab1bda1b2e7bad44a3127e192f7c6332056aa14574ff5a090d5d3e2bbc3219d",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-49-56-856Z-monitor-03.jpg",
+      "source_sha256": "de182b6c29f433ddd4dd98c92507e762de917aa26ecdea0b90d87f6ac7805588",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-009",
+      "export_sha256": "ec09fc30ed1c2decaa4fca982a50627b9ed8008769d33c68a58441ca8a46d126",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-50-25-090Z-monitor-04.jpg",
+      "source_sha256": "4e400bd802adb12af017b86ba4b57a6136f362e091c6604a32f87f53a8c20a90",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-010",
+      "export_sha256": "a278ce6131b95c5bd4b97d1cd0bf9a7c20c30657757133b4c79c00bcfb421ccc",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-50-59-179Z-monitor-05.jpg",
+      "source_sha256": "73b337cf36f0afbac6b686e371db579c274ca57cffb54ea8ddedbf85a083526c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-011",
+      "export_sha256": "b35f760a7401bc91fd86e4033b163c375e6589e8dc233a4c4c3cf9a2346f99e7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-51-37-355Z-monitor-06.jpg",
+      "source_sha256": "9b25cacd1826c4f189dfb477dd3f91f2b4304ccc04b39a28d575a3934d8d78dd",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-012",
+      "export_sha256": "71cab2b788c7ba9f4d29d9e28586b886a06de8e23463446523285e255d0ae318",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-52-17-212Z-monitor-07.jpg",
+      "source_sha256": "497a5061351badb906e87f7280b732733a6c271f698593988f7112e6485b7caa",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-013",
+      "export_sha256": "c7090f7055c09c67dd37ad8a220b2265c3be9c37603ca996ab0092949a017874",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-52-48-892Z-monitor-08.jpg",
+      "source_sha256": "2498998f9a9ec986817c753df15b8f761d6fa6c99f6aff1fc6a371370f04c28c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-014",
+      "export_sha256": "8f93e99831887bb5cec968c93499f824c548771f537757962612a25305602caf",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-53-24-809Z-monitor-09.jpg",
+      "source_sha256": "992ca99fdccf45c2692897478f87fd0b0b92775a086adb2d567fcb355a06be72",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-015",
+      "export_sha256": "8192d097a311bac9e84820a6e8356f595e76a80827f6479ecfde469552931fb0",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-53-58-631Z-monitor-10.jpg",
+      "source_sha256": "6dfbfc1f09c92a48f7522f525357d2fc73d30cdd15c3fd3b8ca15c0f34c18ba9",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-016",
+      "export_sha256": "bfc5c03adc9deaa77916f365db069a8e3ab08374b21fb43db632bb6ea2bb683c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-54-32-533Z-monitor-11.jpg",
+      "source_sha256": "ce44ef6a0579358a8da2de5d3535c9f2a8760c7a3e99fe3092c3d374ec90fcea",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-017",
+      "export_sha256": "7d12092a17dcacc79f77cbdd9b99a4ba62075b1ff1b21256f9325c280374d19d",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-55-02-264Z-monitor-12.jpg",
+      "source_sha256": "09cf0163802b81181f2df1a5821b220e40a42e9d08b4beb514dcdfb490ee25bb",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-018",
+      "export_sha256": "e12fae0150404f0ec7de1b475dd8bef9845b01f05051ae24cb70de82055b8f52",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-55-34-366Z-monitor-13.jpg",
+      "source_sha256": "c97859d93fd8540a4cf4b061d473ed62c91e8a5c7e9b14f1add0c108e7f58857",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-019",
+      "export_sha256": "363357d313fac7470cfe24814925e191b1c83357c00769efbee5af37923c5b39",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-56-08-407Z-monitor-14.jpg",
+      "source_sha256": "3e4247687550477de42f88e0ac4444d52fecbdb19755648ecafc432ab9209814",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-020",
+      "export_sha256": "5d44b8e074710a581cedf30c8ccc91a0145e8a68dbcbdea1d10bc4ababc40b92",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-56-43-898Z-monitor-15.jpg",
+      "source_sha256": "906366ec71e03aef2ada3bdb3dacfcc70ad399e0290600b4c9499d8d462c6bff",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-021",
+      "export_sha256": "688e3010c4cd8b683c4e5ef6cada9e7001cfab7247706927b8d5ccd8b78bfd83",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-57-15-264Z-monitor-16.jpg",
+      "source_sha256": "7749d6d4a6e959a14f02ce58aca983247a78ef6a6c2f5f1ee859cc0ba9a78e5d",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-022",
+      "export_sha256": "dadaa112c5f767139161d3faf2e29ff3a959a5d57825e9966d3532dfc51e45a7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-57-28-635Z-preview-first.jpg",
+      "source_sha256": "320cceb005ff91454b272c5fb95d9197cd282f4ba0ead3ad1125d1b631719974",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-023",
+      "export_sha256": "1c63bb2495a8391a273ba9a2bcd7107bd8e50b7154558d49173f94d5e5c51dd5",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-57-58-086Z-monitor-17.jpg",
+      "source_sha256": "8c57c37a72df93895a8a5e9c724507452284e10cb8d7ad9d2dbe694f34415421",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-024.webp",
+      "export_sha256": "72c2f9a221af2d5e2761de60044ae0a7a2595b932462347466f5c54341ae3ed3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-58-07-132Z-final-confirmed.jpg",
+      "source_sha256": "ba692837aa012bed42ee07ce737c1e0eeb0eb3bedc88612f6d05ae7d3e405c58",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-025",
+      "export_sha256": "191fdcbcdc5173d80feb4f663a836875b7058c00b648d541534676f4b18723e3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/2026-11-12T05-58-57-851Z-desktop-viewport-preparation.jpg",
+      "source_sha256": "f0a5379a71fdf236e1580eda9618316208512d710fe98cc9190cb91fa43f6734",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-026",
+      "export_sha256": "dd6bbe15475c189a5861e9ecf7bcea54dcfb82bdd7272503ab399bd14b582a47",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T05-59-19-439Z-session-1-initial-paused.jpg",
+      "source_sha256": "abc276e0621134ad2ba4754ac9ecf8cf59b92859cb63a2a76e175e3e5c6c6a0c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-001.webp",
+      "export_sha256": "5d56f40cf458221644e7e78bfd81cfb58186b745f374b93c3c24c3e5994708b3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T05-59-28-433Z-left-boundary-paused.jpg",
+      "source_sha256": "4ab131e7ec3bc0927e50c817a797a23b8f462e9d2d3d41d941212c1c5ffa9c4e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-002",
+      "export_sha256": "94c8b809719179704257f68f78073bdb34353e51de00eda6d1a41ac51b9e56db",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T05-59-41-797Z-left-boundary-visible.jpg",
+      "source_sha256": "74507011d950fdcbd0fa269d3cbfe53b0b5e72e88ca1c2dd8fde1132564be2d2",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-003",
+      "export_sha256": "aa186dee9543ee80b2af0eac495ffad79b793763890440ec6bb41b8a154ac30c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T05-59-49-792Z-right-boundary-visible.jpg",
+      "source_sha256": "1046d8c53fb7a28dc12e4c45cba6dada371c4b5e10d81055b18cd6dc1dc1342e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-004",
+      "export_sha256": "3a8c7f309d9c4e0f4a79a2cbba12be9bb90cdb118bdf964eb9a09a70d312cc41",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T05-59-57-250Z-rotation-visible.jpg",
+      "source_sha256": "99bc2558da2a42abd8af7475f42225be1e96bbea77221e8f130bf6071ad2e267",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-005",
+      "export_sha256": "8231aa7ca5ab540c8e15b9ad20d8fdaf4b802c7479a5d2a2f6e3f16853dedfd9",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-00-25-787Z-I-locked-Z-held-L-spawn.jpg",
+      "source_sha256": "7a364bdabf6fceaa8fd73e1df230cad40b315123f9043751b0061821e9b83b7b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-006",
+      "export_sha256": "12713a7c3f81ea1a126156b25a721513f2ab3306b864f9f2d811a990b8728912",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-00-34-636Z-L-locked-O-spawn.jpg",
+      "source_sha256": "a50eb7ab04d7c01ed9fe9aabcf25af3bbeeb662bf9586a517adcccec4f614666",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-007",
+      "export_sha256": "ab575ebd1b6ebdae688173467f3f7965fc6e06c407b182c8820aafa52fbaa666",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-00-44-322Z-T-aligned-natural-clear-before.jpg",
+      "source_sha256": "14db3976ba30aaed6d5ac0603ec0b27a0488c59178d37ccfd64cfb43f78430ec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-008",
+      "export_sha256": "35feef38ef9a66e7a95c202b9e33744f1d4a6bf5f89ea042d580beb1579cbcff",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-00-54-619Z-natural-clear-gravity-only.jpg",
+      "source_sha256": "5de6dbce7e4dff34e175b38886e6f177e3b5f3de4262cf6b3a64c8906e08409f",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-009",
+      "export_sha256": "2fc809c16c00804229df5e7c48e280cec68532b3c149ef5bffc24f6c089a0de8",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-01-19-387Z-natural-single-clear-after.jpg",
+      "source_sha256": "ca0c4e42ae72eb0615b99aea94ff76dd6302b1dac93f4985d91ca4c9f8d227d7",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-010",
+      "export_sha256": "a6cb2d966554185a2a214953c8cc0e658894ff29ac4afdd0209a447e7e1c7160",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-01-27-432Z-center-stack-eight-drops.jpg",
+      "source_sha256": "f6c8ddb472f7f96826369bdcf6265e51e1b57bff6478474d0d7552188fa72435",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-011",
+      "export_sha256": "2eff782d6d83abce0e674d3d21cadab77eda769c70787840edfb768d40d259fb",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-01-33-103Z-top-out-terminal.jpg",
+      "source_sha256": "4dc53a17a5d94bf772554e790bde61e1ac655a3fca085833f1a4685020e9bc78",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-012",
+      "export_sha256": "c17419683ef920a2dd17817b82e85426cfb7cface50099c6d660bf3b29551378",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-01-49-852Z-new-round-after-space-sequence.jpg",
+      "source_sha256": "aec6a08d1cf30a215f8b95a131fae85a5c2e5ec6fc639fe3f2ed378e5debdab3",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-013",
+      "export_sha256": "30a14b121e366278797d252b810569f69f6250db74217ccd05270e7969caf4cd",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-02-12-832Z-session-2-six-drops.jpg",
+      "source_sha256": "defdcc3170ec03458bd1a8b2180ea41b5a0921f673fd38968f9227a6e5883f47",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-014",
+      "export_sha256": "c20d258e57c088cb8f209b221a822091b5806f29c6199a6cdfbd2b933876488b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-02-19-539Z-session-2-near-top.jpg",
+      "source_sha256": "d6504d72267b8e1159fc3215c3de7b9a5b59056c99bf3222736819ea3bea5223",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-015",
+      "export_sha256": "1c219ca56e12bd9c71b4049ad3e6b276779fbb390f128b74f75c7cce4e298ca6",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-04-14-384Z-session-2-top-out-one-drop.jpg",
+      "source_sha256": "1202eba5c9a44e2a78c8e2e6f259891b4480dd2dc7ffa559d7d89e59be80a222",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-016",
+      "export_sha256": "e417814ac12df5f26f9a4934ca47f113518d32d1fa58f6032d14e1cc12de2911",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-04-24-161Z-session-2-terminal-visible.jpg",
+      "source_sha256": "2b70f5644d3f1af9a4518039ffdf1953c92b86219a871b0d3ffbb4116e541df5",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-017",
+      "export_sha256": "918a734430f515ed3d483b47ecf04379da567cd300b2ad007920791e2dfa057d",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-04-30-307Z-terminal-left-ignored.jpg",
+      "source_sha256": "c3c1e224769e29fa4647379a9c920a888a120c9f4b934dac2c37dd8966b633c1",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-018",
+      "export_sha256": "c0462d6aa6a1c7e58c85c5f934b29c818c745749bd7b23d0abc9834f84efb09b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-04-32-164Z-restart-clears-and-input-works.jpg",
+      "source_sha256": "bf323d690c46d8b4441e302650882b4e2f3a1f59b2cba673e025086a7aad7b6d",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-019",
+      "export_sha256": "d6ee3cbd2eb50214f537d6fa3420016de8141542e179ba007d8e5a2530196b7c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "tetris/captures/eval-2026-11-12T06-04-47-136Z-mobile-390x844.jpg",
+      "source_sha256": "fcefcc7f0fb5bcbd51558b868a3c73403ecccaf1a0f2c832b201f914f44e8db1",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-020.webp",
+      "export_sha256": "4bbc3ff0964ef300ca5eb412d945b5389fbde0f491fdb4c3cb6adcc30b60e439",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T06-16-39-271Z-tetris-group.jpg",
+      "source_sha256": "f8d85fec4154b4a01299862e2caebcc585e33782979e421f45388c94c325eab9",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/usage.webp",
+      "export_sha256": "179d7eec319796a8360bd0464de6152812ad781344f6d9678e8fc4930cdb4dc5",
+      "crop_xyxy": [
+        1240,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep only this build usage detail panel; remove account balance, other builds and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T05-50-13-725Z-credits-page.jpg",
+      "source_sha256": "5e4543775612d160838cd6bc5d040b7eb0a1a6d286a39b07a6d5378343e6ba51",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/monthly-price.webp",
+      "export_sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "crop_xyxy": [
+        1170,
+        570,
+        1820,
+        1840
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep monthly toggle and Hero rate/card only; remove account status and other plans.",
+      "retained_pixels_exact": true
+    }
+  ],
+  "original_stream_sha256": {
+    "creation": "a0804f5b46ba279fc7c379b93baca1c4d698dcf213e4c896b2bba67fdbccd622",
+    "evaluation": "37235a7919814970f24133f6f2f1bee6ce919d9c99fac5240644e6f5db7fb5e6"
+  },
+  "changes": "All source events retained with original IDs/times/kinds/details. Evidence references point to cropped images. Native AX text stays private. Artifact ID is a declared workspace/build mapping, not byte-frozen artifact proof.",
+  "limits": "Source hashes establish byte linkage only; originals are local. Cropping is not authentication."
+}
