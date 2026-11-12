@@ -1,0 +1,199 @@
+{
+  "schema_version": "artifact-review-assessment/1",
+  "assessed_at": "2026-11-12T06:20:41.218116+00:00",
+  "mechanics": {
+    "ready": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Final 3D track,car,instructions,timer0 and checkpoints0/4 visible; W moves the car.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-05-16-530Z-accelerate-2s"
+      ]
+    },
+    "acceleration": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "W2s increases speed from0 to positive speed with visible forward displacement. AX/screenshot speed readings differ because captures are sequential, not a simultaneous frame.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-05-16-530Z-accelerate-2s"
+      ]
+    },
+    "braking": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Normal S after forward acceleration reduces forward speed and reaches stop/reverse. Reset/coast and brake controls support qualitative response only: sampling durations differ; no equal-time deceleration claim.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-30-261Z-session-2-coast-control",
+        "racing-eval-2026-11-12T06-05-32-375Z-session-3-brake-control",
+        "racing-eval-2026-11-12T06-05-53-807Z-brake-to-stop"
+      ]
+    },
+    "steering": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "A/D change heading and path, with reverse/reorientation recovery and successful bends in normal lap.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-55-247Z-left-steering",
+        "racing-eval-2026-11-12T06-06-25-680Z-right-steer-after-reverse",
+        "racing-eval-2026-11-12T06-07-12-375Z-session-4-turn1",
+        "racing-eval-2026-11-12T06-08-30-383Z-checkpoint2-passed",
+        "racing-eval-2026-11-12T06-08-56-104Z-checkpoint3-passed"
+      ]
+    },
+    "follow-camera": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Sampled normal lap frames retain third-person view behind car across changing track orientations. High-frequency stability not measured.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-07-36-619Z-checkpoint1-progress",
+        "racing-eval-2026-11-12T06-08-30-383Z-checkpoint2-passed",
+        "racing-eval-2026-11-12T06-08-56-104Z-checkpoint3-passed",
+        "racing-eval-2026-11-12T06-09-08-049Z-checkpoint4-passed"
+      ]
+    },
+    "track-bounds": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Forward pushes against outer and inner barriers remain contained; normal recovery possible. Tested inner boundary does not permit shortcut.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-06-13-435Z-left-boundary-push",
+        "racing-eval-2026-11-12T06-06-22-086Z-left-rail-blocks-forward",
+        "racing-eval-2026-11-12T06-07-01-324Z-outer-rail-contact",
+        "racing-eval-2026-11-12T06-07-21-012Z-inner-rail-blocks-shortcut"
+      ]
+    },
+    "ordered-checkpoints": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Reverse start/finish is explicitly rejected at0/4; out-of-order CP4 approach says pass CP1 first and remains0/4. CP1 reverse/forward revisit retains1/4. Normal lap then advances2→3→4.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-06-36-056Z-finish-crossing-wrong-direction-zero-checkpoints",
+        "racing-eval-2026-11-12T06-06-45-576Z-out-of-order-approach",
+        "racing-eval-2026-11-12T06-07-36-619Z-checkpoint1-progress",
+        "racing-eval-2026-11-12T06-07-46-318Z-checkpoint1-reverse-revisit",
+        "racing-eval-2026-11-12T06-07-50-868Z-checkpoint1-forward-revisit",
+        "racing-eval-2026-11-12T06-08-30-383Z-checkpoint2-passed",
+        "racing-eval-2026-11-12T06-08-56-104Z-checkpoint3-passed",
+        "racing-eval-2026-11-12T06-09-08-049Z-checkpoint4-passed"
+      ]
+    },
+    "lap-finish": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Normal lap after four checkpoints produces explicit03:40.09 completion; W1500ms leaves finished time unchanged.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-09-08-049Z-checkpoint4-passed",
+        "racing-eval-2026-11-12T06-10-53-013Z-normal-lap-finish",
+        "racing-eval-2026-11-12T06-11-03-158Z-finish-time-frozen-after-input"
+      ]
+    },
+    "restart": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "R after win restores start,timer0,checkpoints0/4; W650ms starts movement/timer again.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-11-03-158Z-finish-time-frozen-after-input",
+        "racing-eval-2026-11-12T06-11-03-681Z-session-5-post-win-reset",
+        "racing-eval-2026-11-12T06-11-05-365Z-post-win-reset-input-works"
+      ]
+    }
+  },
+  "experience": {
+    "guidance": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Persistent acceleration/brake/steering/R instructions,ordered gate prompts,wrong-direction warning and finish/reset affordances match tested actions.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-06-36-056Z-finish-crossing-wrong-direction-zero-checkpoints",
+        "racing-eval-2026-11-12T06-06-45-576Z-out-of-order-approach",
+        "racing-eval-2026-11-12T06-10-53-013Z-normal-lap-finish",
+        "racing-eval-2026-11-12T06-11-03-681Z-session-5-post-win-reset"
+      ]
+    },
+    "readability": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Car,barriers,checkpoints,timer/speed/progress and finish state distinct.390x844 HUD and control hints reflow legibly without clipping essential information.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-08-56-104Z-checkpoint3-passed",
+        "racing-eval-2026-11-12T06-10-53-013Z-normal-lap-finish",
+        "racing-eval-2026-11-12T06-11-12-469Z-mobile-390x844"
+      ]
+    },
+    "feedback": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Travel,barrier containment,wrong-way/order warnings,checkpoint progress,finish and reset respond clearly.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-06-22-086Z-left-rail-blocks-forward",
+        "racing-eval-2026-11-12T06-06-45-576Z-out-of-order-approach",
+        "racing-eval-2026-11-12T06-08-30-383Z-checkpoint2-passed",
+        "racing-eval-2026-11-12T06-11-03-158Z-finish-time-frozen-after-input",
+        "racing-eval-2026-11-12T06-11-03-681Z-session-5-post-win-reset"
+      ]
+    },
+    "presentation": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Coherent low-poly track,car,scenery and HUD; essential scene/information remain available in desktop/mobile layout. Asset provenance not independently assessed.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-05-14-008Z-desktop-1280-ready",
+        "racing-eval-2026-11-12T06-08-56-104Z-checkpoint3-passed",
+        "racing-eval-2026-11-12T06-11-12-469Z-mobile-390x844"
+      ]
+    },
+    "visual_stability": {
+      "rating": null,
+      "status": "unobserved",
+      "reason": "Sparse screenshots cannot exclude transient sprite flicker/camera jitter; no continuous clip or measuredFPS. Same4-point evidence gap as prior rounds.",
+      "evidence_events": [
+        "racing-eval-2026-11-12T06-11-12-469Z-mobile-390x844"
+      ]
+    }
+  },
+  "time": {
+    "seconds": 821.89,
+    "started_at": "2026-11-12T05:48:29.117Z",
+    "finished_at": "2026-11-12T06:02:11.007Z",
+    "start_before_event": "racing-2026-11-12T05-48-28-594Z-before-send",
+    "start_after_event": "racing-2026-11-12T05-48-29-204Z-after-send",
+    "finish_event": "racing-2026-11-12T06-02-11-007Z-monitor-07",
+    "reason": "Conservative send-click to first observed final. Preserve acceptance/completion interval and UI task time separately. Final observation sampling gap: 20.046 seconds. UI task duration 13:31 is separate."
+  },
+  "computed": {
+    "id": "mopan-20261112-r03-racing-artifact-review",
+    "platform": "mopan",
+    "game": "racing",
+    "outcome": "delivered",
+    "points": 88.05554545454547,
+    "upper": 92.05554545454547,
+    "eligible_score": null,
+    "assessed_weight": 96.0,
+    "dimensions": {
+      "mechanics": {
+        "points": 50.0,
+        "upper": 50.0,
+        "assessed_weight": 50.0,
+        "max": 50
+      },
+      "experience": {
+        "points": 12.8,
+        "upper": 16.8,
+        "assessed_weight": 16.0,
+        "max": 20
+      },
+      "time": {
+        "points": 25.25554545454546,
+        "upper": 25.25554545454546,
+        "assessed_weight": 30,
+        "max": 30,
+        "observed_seconds": 821.89
+      }
+    }
+  }
+}

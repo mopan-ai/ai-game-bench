@@ -1,0 +1,461 @@
+{
+  "schema_version": "artifact-review-package/1",
+  "id": "mopan-20261112-r03-tetris-artifact-review",
+  "revision": 1,
+  "kind": "result",
+  "author": "haot3x (AI-assisted recording and preparation)",
+  "affiliation": "Mopan; affiliated development evaluation. Maintainer review not yet performed.",
+  "source_ref": "mopan-argon-architecture-20261112-r03-tetris",
+  "source_manifest_sha256": "f66f3f85b0d1f9891448b39967eb696ce8a393d5fc77f7bb3347efe9b67c868c",
+  "series": {
+    "id": "mopan-default-upgrade-20261111",
+    "round_id": "r03-argon-architecture",
+    "comparator_round_id": "r02-carbon-architecture",
+    "selection": "Owner requested Argon + Nov 11 upgrade as the current website version. One fresh independent creation per task; no regeneration/repair in this round. R01/R02 remain local and are not publicly reviewed by this package.",
+    "change": "Owner reported Carbon to Argon with Nov 11 Agent Upgrade unchanged; Usage UI later shows google/gemini-4-argon."
+  },
+  "game": "tetris",
+  "outcome": "delivered",
+  "scoring_policy_sha256": "c5422cd415a855540b76cbc39e93a34196953852e9d55f0ee80dcc34f0086c20",
+  "task_reference_sha256": "afcc208f35233bb9df8b8e630e39f816a05ce028c91d0bd79cea17ffef4f2ede",
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "aa5622e2f9e27b3c47c0c451994e93f667ee00d05c5bb69a3b060c69427dde8a",
+  "prompt_trailing_newline_omitted": false,
+  "creator": {
+    "platform": "mopan",
+    "harness_version": null,
+    "model": "google/gemini-4-argon",
+    "model_source": "visible_ui",
+    "effort": null
+  },
+  "environment": "Chrome 157.0.8103.51, macOS 26.6.2; desktop 1280x800, mobile-layout 390x844, zoom100%; real time, visible controls.",
+  "creation_conditions": "Local upgrade pilot, one attempt/task, new context; Default model routing, no repair/retry; 3600s generation and 1800s evaluation budgets, maximum6 sessions including resets. Three remote workspaces concurrent, browser control sequential. Same frozen prompts as prior rounds. Not a claim of compliance with the referenced browser-pilot scoring policy.",
+  "evaluator": "AI-assisted operator; same creation/evaluation context; affiliation Mopan; no independent reviewer yet.",
+  "creation_context_hidden": false,
+  "artifact": {
+    "id": "build-38064825-297b-44e9-a2cb-9c927f1c3e82",
+    "build_version": "38064825-297b-44e9-a2cb-9c927f1c3e82",
+    "url": null,
+    "access": "unpublished",
+    "note": "Final workspace/build mapping observed in Usage. Anonymous access not checked; no game publication was performed. Earlier public versions must not be substituted."
+  },
+  "creation": "creation.jsonl",
+  "evaluation": "evaluation.jsonl",
+  "assessment": "assessment.json",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "7728464873525bcde9edb227d8866c986d82c64b89232239631b0d0399b38016",
+      "bytes": 1923
+    },
+    {
+      "path": "assessment.json",
+      "sha256": "f05b723597a4298c65103e5c7ae4b6f37b8813700d7daade314100c7c1939ce7",
+      "bytes": 8194
+    },
+    {
+      "path": "capture-provenance.json",
+      "sha256": "bc2568a280a319dbd87217596b40576e81fbdba131a6b804203d035146ce2c10",
+      "bytes": 35847
+    },
+    {
+      "path": "creation.jsonl",
+      "sha256": "87c6123e7177a35f817eddf5125639a1fb06acae88bb957bde04a647c2290d6d",
+      "bytes": 6118
+    },
+    {
+      "path": "credit-valuation.json",
+      "sha256": "4b066498ad3182e035e466e96f5779ebbcdb2902327cd648b5121083c1b7353f",
+      "bytes": 934
+    },
+    {
+      "path": "evaluation.jsonl",
+      "sha256": "616c46cee595ac79c20caf54873014f1b9db2b0186f5c6f3688d03eb812fb2bb",
+      "bytes": 7852
+    },
+    {
+      "path": "evidence/creation-001.webp",
+      "sha256": "3a79dc98125969ea81789d8a02ea0652674d6d81f83b1a937a454658e01f472d",
+      "bytes": 11340
+    },
+    {
+      "path": "evidence/creation-002.webp",
+      "sha256": "7f8e01d0a6eb49b0ef373219efed59f5dfa52fc2d4330679a45428d25cfa4215",
+      "bytes": 51152
+    },
+    {
+      "path": "evidence/creation-024.webp",
+      "sha256": "72c2f9a221af2d5e2761de60044ae0a7a2595b932462347466f5c54341ae3ed3",
+      "bytes": 866388
+    },
+    {
+      "path": "evidence/evaluation-001.webp",
+      "sha256": "5d56f40cf458221644e7e78bfd81cfb58186b745f374b93c3c24c3e5994708b3",
+      "bytes": 432988
+    },
+    {
+      "path": "evidence/evaluation-020.webp",
+      "sha256": "4bbc3ff0964ef300ca5eb412d945b5389fbde0f491fdb4c3cb6adcc30b60e439",
+      "bytes": 138390
+    },
+    {
+      "path": "evidence/monthly-price.webp",
+      "sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "bytes": 67878
+    },
+    {
+      "path": "evidence/usage.webp",
+      "sha256": "179d7eec319796a8360bd0464de6152812ad781344f6d9678e8fc4930cdb4dc5",
+      "bytes": 139930
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "aa5622e2f9e27b3c47c0c451994e93f667ee00d05c5bb69a3b060c69427dde8a",
+      "bytes": 27
+    }
+  ],
+  "external_evidence": [
+    {
+      "id": "frame-creation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-003-85a84dfab62f.webp",
+      "sha256": "85a84dfab62f4819feddc21aefc17c02344155d29d5c540ac151bef9914b3c67",
+      "bytes": 73038,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-004-cbd8bcfae8be.webp",
+      "sha256": "cbd8bcfae8bec78c369badc00b6698894b9b31110a4b8a564980f93ef3b3eae2",
+      "bytes": 221004,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-005-055d95636e7c.webp",
+      "sha256": "055d95636e7c7421cb694400fef816578c0cfc722b4f4e3deb439a86a4d71644",
+      "bytes": 223806,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-006-304ad6bc0352.webp",
+      "sha256": "304ad6bc0352b9c5870ebeee147bfc44f2e12063fdcb2de944c85cc9b371aa22",
+      "bytes": 222870,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-007-cbf8a914b51f.webp",
+      "sha256": "cbf8a914b51f4ef185e3ebb76e8424f4e2e74f00f63477c13e4cbd531e2f0e72",
+      "bytes": 274210,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-008-8ab1bda1b2e7.webp",
+      "sha256": "8ab1bda1b2e7bad44a3127e192f7c6332056aa14574ff5a090d5d3e2bbc3219d",
+      "bytes": 275288,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-009-ec09fc30ed1c.webp",
+      "sha256": "ec09fc30ed1c2decaa4fca982a50627b9ed8008769d33c68a58441ca8a46d126",
+      "bytes": 274166,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-010-a278ce6131b9.webp",
+      "sha256": "a278ce6131b95c5bd4b97d1cd0bf9a7c20c30657757133b4c79c00bcfb421ccc",
+      "bytes": 319594,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-011-b35f760a7401.webp",
+      "sha256": "b35f760a7401bc91fd86e4033b163c375e6589e8dc233a4c4c3cf9a2346f99e7",
+      "bytes": 738820,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-012-71cab2b788c7.webp",
+      "sha256": "71cab2b788c7ba9f4d29d9e28586b886a06de8e23463446523285e255d0ae318",
+      "bytes": 764212,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-013-c7090f7055c0.webp",
+      "sha256": "c7090f7055c09c67dd37ad8a220b2265c3be9c37603ca996ab0092949a017874",
+      "bytes": 758316,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-014-8f93e9983188.webp",
+      "sha256": "8f93e99831887bb5cec968c93499f824c548771f537757962612a25305602caf",
+      "bytes": 758158,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-015-8192d097a311.webp",
+      "sha256": "8192d097a311bac9e84820a6e8356f595e76a80827f6479ecfde469552931fb0",
+      "bytes": 757520,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-016-bfc5c03adc9d.webp",
+      "sha256": "bfc5c03adc9deaa77916f365db069a8e3ab08374b21fb43db632bb6ea2bb683c",
+      "bytes": 758038,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-017-7d12092a17dc.webp",
+      "sha256": "7d12092a17dcacc79f77cbdd9b99a4ba62075b1ff1b21256f9325c280374d19d",
+      "bytes": 758546,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-018-e12fae015040.webp",
+      "sha256": "e12fae0150404f0ec7de1b475dd8bef9845b01f05051ae24cb70de82055b8f52",
+      "bytes": 758624,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-019-363357d313fa.webp",
+      "sha256": "363357d313fac7470cfe24814925e191b1c83357c00769efbee5af37923c5b39",
+      "bytes": 757680,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-020",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-020-5d44b8e07471.webp",
+      "sha256": "5d44b8e074710a581cedf30c8ccc91a0145e8a68dbcbdea1d10bc4ababc40b92",
+      "bytes": 761918,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-021",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-021-688e3010c4cd.webp",
+      "sha256": "688e3010c4cd8b683c4e5ef6cada9e7001cfab7247706927b8d5ccd8b78bfd83",
+      "bytes": 761192,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-022",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-022-dadaa112c5f7.webp",
+      "sha256": "dadaa112c5f767139161d3faf2e29ff3a959a5d57825e9966d3532dfc51e45a7",
+      "bytes": 891738,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-023",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-023-1c63bb2495a8.webp",
+      "sha256": "1c63bb2495a8391a273ba9a2bcd7107bd8e50b7154558d49173f94d5e5c51dd5",
+      "bytes": 910786,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-025",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-025-191fdcbcdc51.webp",
+      "sha256": "191fdcbcdc5173d80feb4f663a836875b7058c00b648d541534676f4b18723e3",
+      "bytes": 1029564,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-026",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-creation-026-dd6bbe15475c.webp",
+      "sha256": "dd6bbe15475c189a5861e9ecf7bcea54dcfb82bdd7272503ab399bd14b582a47",
+      "bytes": 388722,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-002",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-002-94c8b8097191.webp",
+      "sha256": "94c8b809719179704257f68f78073bdb34353e51de00eda6d1a41ac51b9e56db",
+      "bytes": 427116,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-003-aa186dee9543.webp",
+      "sha256": "aa186dee9543ee80b2af0eac495ffad79b793763890440ec6bb41b8a154ac30c",
+      "bytes": 387086,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-004-3a8c7f309d9c.webp",
+      "sha256": "3a8c7f309d9c4e0f4a79a2cbba12be9bb90cdb118bdf964eb9a09a70d312cc41",
+      "bytes": 381666,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-005-8231aa7ca5ab.webp",
+      "sha256": "8231aa7ca5ab540c8e15b9ad20d8fdaf4b802c7479a5d2a2f6e3f16853dedfd9",
+      "bytes": 386810,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-006-12713a7c3f81.webp",
+      "sha256": "12713a7c3f81ea1a126156b25a721513f2ab3306b864f9f2d811a990b8728912",
+      "bytes": 407560,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-007-ab575ebd1b6e.webp",
+      "sha256": "ab575ebd1b6ebdae688173467f3f7965fc6e06c407b182c8820aafa52fbaa666",
+      "bytes": 418314,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-008-35feef38ef9a.webp",
+      "sha256": "35feef38ef9a66e7a95c202b9e33744f1d4a6bf5f89ea042d580beb1579cbcff",
+      "bytes": 443120,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-009-2fc809c16c00.webp",
+      "sha256": "2fc809c16c00804229df5e7c48e280cec68532b3c149ef5bffc24f6c089a0de8",
+      "bytes": 440096,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-010-a6cb2d966554.webp",
+      "sha256": "a6cb2d966554185a2a214953c8cc0e658894ff29ac4afdd0209a447e7e1c7160",
+      "bytes": 419790,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-011-2eff782d6d83.webp",
+      "sha256": "2eff782d6d83abce0e674d3d21cadab77eda769c70787840edfb768d40d259fb",
+      "bytes": 537446,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-012-c17419683ef9.webp",
+      "sha256": "c17419683ef920a2dd17817b82e85426cfb7cface50099c6d660bf3b29551378",
+      "bytes": 369108,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-013-30a14b121e36.webp",
+      "sha256": "30a14b121e366278797d252b810569f69f6250db74217ccd05270e7969caf4cd",
+      "bytes": 400266,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-014-c20d258e57c0.webp",
+      "sha256": "c20d258e57c088cb8f209b221a822091b5806f29c6199a6cdfbd2b933876488b",
+      "bytes": 489050,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-015-1c219ca56e12.webp",
+      "sha256": "1c219ca56e12bd9c71b4049ad3e6b276779fbb390f128b74f75c7cce4e298ca6",
+      "bytes": 540546,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-016-e417814ac12d.webp",
+      "sha256": "e417814ac12df5f26f9a4934ca47f113518d32d1fa58f6032d14e1cc12de2911",
+      "bytes": 546854,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-017-918a734430f5.webp",
+      "sha256": "918a734430f515ed3d483b47ecf04379da567cd300b2ad007920791e2dfa057d",
+      "bytes": 580814,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-018-c0462d6aa6a1.webp",
+      "sha256": "c0462d6aa6a1c7e58c85c5f934b29c818c745749bd7b23d0abc9834f84efb09b",
+      "bytes": 572566,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-tetris-evaluation-019-d6ee3cbd2eb5.webp",
+      "sha256": "d6ee3cbd2eb50214f537d6fa3420016de8141542e179ba007d8e5a2530196b7c",
+      "bytes": 376860,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    }
+  ],
+  "costs": [
+    {
+      "kind": "credit_value",
+      "component": "creator",
+      "amount": 0.39260700000000004,
+      "currency": "USD",
+      "basis": "Hero monthly non-discount USD9.99/20000 Credits; UI total consumed includes billed media; credit valuation, not actual cash payment or supplier cost",
+      "evidence": [
+        "credit-valuation.json",
+        "evidence/usage.webp",
+        "evidence/monthly-price.webp"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "component": "operator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    },
+    {
+      "kind": "unknown",
+      "component": "evaluator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    }
+  ],
+  "publication": {
+    "public_release_confirmed": true,
+    "rights_confirmed": true,
+    "sensitive_data_checked": true,
+    "all_attempts_disclosed": true,
+    "license": "CC-BY-4.0",
+    "redactions": [
+      "Deterministic crops remove browser/account chrome, unrelated projects and unrelated billing. Native AX dumps and private source paths omitted. See capture-provenance.json."
+    ],
+    "capture_gaps": [
+      "No continuous video; visual stability remains unobserved. Full internal creator-model/tool trajectory unavailable.",
+      "Final observation gap 29.451 seconds; capture timestamps do not measure FPS.",
+      "Source events retain their captured kinds; missing explicit lifecycle events are not synthesized."
+    ],
+    "limitations": [
+      "Affiliated and unblinded operator evaluation; not calibrated independent gameplay verification.",
+      "One fresh generation for this task; owner-selected R03 current version. Earlier R01/R02 rounds remain separately archived and are not represented as accepted public comparisons.",
+      "Usage UI observed google/gemini-4-argon after generation; Default is the creation selection. Agent upgrade is an owner label, no deployment commit or provider attestation.",
+      "This is a retrospective artifact review under 50/20/30, not a 60/10/30 browser-pilot result or preregistered experiment.",
+      "No immutable game bundle or anonymous replay. Public game link withheld until actual publication/access is checked.",
+      "Credit estimate uses UI total and ordinary monthly plan value, not actual payment or model-provider cost. Operator/evaluator costs unknown.",
+      "Input tool cannot hold simultaneous non-modifier chords; screenshot sampling limits motion-level claims.",
+      "External images were checked anonymously for access, size and SHA-256 at 2026-11-12T09:22:39.051464+00:00. This establishes public byte consistency, not authentic capture history or gameplay verification."
+    ]
+  }
+}

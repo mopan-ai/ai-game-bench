@@ -1,0 +1,559 @@
+{
+  "schema_version": "artifact-review-package/1",
+  "id": "mopan-20261112-r03-platformer-artifact-review",
+  "revision": 1,
+  "kind": "result",
+  "author": "haot3x (AI-assisted recording and preparation)",
+  "affiliation": "Mopan; affiliated development evaluation. Maintainer review not yet performed.",
+  "source_ref": "mopan-argon-architecture-20261112-r03-platformer",
+  "source_manifest_sha256": "f66f3f85b0d1f9891448b39967eb696ce8a393d5fc77f7bb3347efe9b67c868c",
+  "series": {
+    "id": "mopan-default-upgrade-20261111",
+    "round_id": "r03-argon-architecture",
+    "comparator_round_id": "r02-carbon-architecture",
+    "selection": "Owner requested Argon + Nov 11 upgrade as the current website version. One fresh independent creation per task; no regeneration/repair in this round. R01/R02 remain local and are not publicly reviewed by this package.",
+    "change": "Owner reported Carbon to Argon with Nov 11 Agent Upgrade unchanged; Usage UI later shows google/gemini-4-argon."
+  },
+  "game": "platformer",
+  "outcome": "delivered",
+  "scoring_policy_sha256": "c5422cd415a855540b76cbc39e93a34196953852e9d55f0ee80dcc34f0086c20",
+  "task_reference_sha256": "bd25fb2e213df070192f5561538696a91b122a392f91e799445747a8d078d2a4",
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "c603ac106a3d7b5d9ba6d7c325be26c19c10a132dea5942ba034d4750694bdd0",
+  "prompt_trailing_newline_omitted": true,
+  "creator": {
+    "platform": "mopan",
+    "harness_version": null,
+    "model": "google/gemini-4-argon",
+    "model_source": "visible_ui",
+    "effort": null
+  },
+  "environment": "Chrome 157.0.8103.51, macOS 26.6.2; desktop 1280x800, mobile-layout 390x844, zoom100%; real time, visible controls.",
+  "creation_conditions": "Local upgrade pilot, one attempt/task, new context; Default model routing, no repair/retry; 3600s generation and 1800s evaluation budgets, maximum6 sessions including resets. Three remote workspaces concurrent, browser control sequential. Same frozen prompts as prior rounds. Not a claim of compliance with the referenced browser-pilot scoring policy.",
+  "evaluator": "AI-assisted operator; same creation/evaluation context; affiliation Mopan; no independent reviewer yet.",
+  "creation_context_hidden": false,
+  "artifact": {
+    "id": "build-630a9520-dd1c-42aa-baca-2f17f4cc7826",
+    "build_version": "630a9520-dd1c-42aa-baca-2f17f4cc7826",
+    "url": null,
+    "access": "unpublished",
+    "note": "Final workspace/build mapping observed in Usage. Anonymous access not checked; no game publication was performed. Earlier public versions must not be substituted."
+  },
+  "creation": "creation.jsonl",
+  "evaluation": "evaluation.jsonl",
+  "assessment": "assessment.json",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "76e8a22fb6789b6850d3c877f8a2f4d71e27d51b4a85e5205c541ec2c43b2177",
+      "bytes": 1927
+    },
+    {
+      "path": "assessment.json",
+      "sha256": "4af9dc234cfca675eb768c199d01424793291929430f0eadfcb39bf32898ae5b",
+      "bytes": 9255
+    },
+    {
+      "path": "capture-provenance.json",
+      "sha256": "faf958de9d12bdd1679f540659ae466774c0719b2a090df5d12f49f692eabd2b",
+      "bytes": 46400
+    },
+    {
+      "path": "creation.jsonl",
+      "sha256": "fcf2f8ef08bd17f65b8df5f4278e5d47b2af0c9cba966c3af09814e9ecd2e0c4",
+      "bytes": 6166
+    },
+    {
+      "path": "credit-valuation.json",
+      "sha256": "68373bf8534964539b33ba58944d2ebef0115b866f7d811541111530bd9472f0",
+      "bytes": 942
+    },
+    {
+      "path": "evaluation.jsonl",
+      "sha256": "f6091dde396fce88310173f9fc5b8bb67c8694566c4544ee4d264eef483bd388",
+      "bytes": 12174
+    },
+    {
+      "path": "evidence/creation-001.webp",
+      "sha256": "543fd7de2bf05a22d13803528ec00ccb94e9b6fbbf4e22fd31a1596205ca9cbe",
+      "bytes": 114484
+    },
+    {
+      "path": "evidence/creation-002.webp",
+      "sha256": "00418fc6ae9fcda7ad25d343e6d67afe22387f9ac43fe315d5aba5ce252850d7",
+      "bytes": 185612
+    },
+    {
+      "path": "evidence/creation-024.webp",
+      "sha256": "7496a6bee600bdc65518db1926999ff01fef221e801ab4b82fa88dcc86ca3e42",
+      "bytes": 1029174
+    },
+    {
+      "path": "evidence/evaluation-001.webp",
+      "sha256": "64896f6e4a18df42e8c8af58439f5cf6016197dd902cd7c30ec8c15db63bbc32",
+      "bytes": 248004
+    },
+    {
+      "path": "evidence/evaluation-035.webp",
+      "sha256": "af7ad29d1a4041923ad2440c47637d49d75bc47b58d318971831c10a6044798b",
+      "bytes": 158708
+    },
+    {
+      "path": "evidence/monthly-price.webp",
+      "sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "bytes": 67878
+    },
+    {
+      "path": "evidence/usage.webp",
+      "sha256": "575b039616732cfb8746db2aecde5d35f91ffc3b3aec13fbafd349153cb8209f",
+      "bytes": 146708
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "c603ac106a3d7b5d9ba6d7c325be26c19c10a132dea5942ba034d4750694bdd0",
+      "bytes": 589
+    }
+  ],
+  "external_evidence": [
+    {
+      "id": "frame-creation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-003-03928ee6b210.webp",
+      "sha256": "03928ee6b210393640c61f4ef1115a7e76be3e98d202c6985a2b313223461180",
+      "bytes": 180486,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-004-5a695ff7d22b.webp",
+      "sha256": "5a695ff7d22bb99878096c73d98a88534bad74cc981bf82bcb377a9e8c946423",
+      "bytes": 180460,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-005-633b02143207.webp",
+      "sha256": "633b0214320786389efff9959b3424844c6a1ca7ae7c0a240b0c2c3eb403f498",
+      "bytes": 219854,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-006-2094174855c3.webp",
+      "sha256": "2094174855c358ff8ec9f5e2000831393405444ebec6929e3bd7f721f0a49229",
+      "bytes": 220668,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-007-1bc917b14ccd.webp",
+      "sha256": "1bc917b14ccd656a779c16d7f6ada66208b1e803627552324028d5138cfdf84f",
+      "bytes": 240250,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-008-bceb3a8d71d2.webp",
+      "sha256": "bceb3a8d71d266e4e7374655576ce723e3a0046a2041b3108910c9ebb3a263f7",
+      "bytes": 273112,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-009-ef904e206c50.webp",
+      "sha256": "ef904e206c50e947f19047c8d149067365e0625fa7008ec9a3bfa4ea77d45388",
+      "bytes": 699844,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-010-26bfc06e6698.webp",
+      "sha256": "26bfc06e6698a288e02d1f6916f607eaa2251792eb1e8711e1e2b3e56aecd5d1",
+      "bytes": 698860,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-011-2158361cdf63.webp",
+      "sha256": "2158361cdf63631cdd35bfb94b693ce8c4a8728e921b597ea4333f506fea6478",
+      "bytes": 699010,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-012-6a51326c6774.webp",
+      "sha256": "6a51326c677415208cd1d72c8633b8c0336e13b79423ee4c9e25a0a6368b1ba3",
+      "bytes": 698932,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-013-bf3aaad324c6.webp",
+      "sha256": "bf3aaad324c6242f176f75dbfde3e504b6835ef73597855388d6d11f8fab1ca4",
+      "bytes": 699546,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-014-ad5be0590178.webp",
+      "sha256": "ad5be05901780fbee9628b78e32e2dd6c3a77e9f0dd0798cd6aa3a09baa42b73",
+      "bytes": 699996,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-015-90cb52743eb4.webp",
+      "sha256": "90cb52743eb4be43003b10aacb76907db95726cfb29dec1f26161aeb38fe6157",
+      "bytes": 700158,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-016-62606736edbb.webp",
+      "sha256": "62606736edbb81285091f7f613ae7b47229f90a2be31490fb6f4519311868779",
+      "bytes": 699010,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-017-46eadf9010f2.webp",
+      "sha256": "46eadf9010f274641bc520bb7acddaea85c6ec718f24171e782c4e58548d839c",
+      "bytes": 700226,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-018-e606714cba13.webp",
+      "sha256": "e606714cba132e781acc1820673174e8c6fa6805fe73e4011063410a7d529d27",
+      "bytes": 699114,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-019-98888dee46a5.webp",
+      "sha256": "98888dee46a552b190a7c7df8ee4db7d2a7598b0fc3e9e3995bd8036922dcc8c",
+      "bytes": 699128,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-020",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-020-62fe75a8c568.webp",
+      "sha256": "62fe75a8c568ff075b8dcbad8b5e6886cfb5fe58e12a04590e1ff233128f3015",
+      "bytes": 699374,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-021",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-021-9fbccb0dea3f.webp",
+      "sha256": "9fbccb0dea3fc6e2e2bf0c7feb8dacc9e1d8ef0b22df2301117cf860a5cbf3d3",
+      "bytes": 699772,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-022",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-022-86b2aa7adbfa.webp",
+      "sha256": "86b2aa7adbfa55bc325f0a2356b53d704550e86be879f7f3b59ed2094d2a67bc",
+      "bytes": 699550,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-023",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-023-a52fb799c145.webp",
+      "sha256": "a52fb799c145efb8ca4ba3b23a9889319b36123fb511927000439c3c8169de7b",
+      "bytes": 703488,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-025",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-creation-025-92e297cf323f.webp",
+      "sha256": "92e297cf323f29e81d146ac1ddc78a58639e3de78968fb6f6345244bbe6ac47b",
+      "bytes": 1025140,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-002",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-002-fda78a9b0a1f.webp",
+      "sha256": "fda78a9b0a1f4eeb5cff1410ea30d80589c8954e786d55b3d6b784d9a1499189",
+      "bytes": 241288,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-003-d381cd2c353f.webp",
+      "sha256": "d381cd2c353f0308393a1c6be952c9a6c8e3da382181ca10b8939141749d2037",
+      "bytes": 239700,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-004-e739c8452bbc.webp",
+      "sha256": "e739c8452bbc4112f1d824731bda838f99291ae935fe694de30932dbaee730ae",
+      "bytes": 238304,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-005-6a593d0cbf06.webp",
+      "sha256": "6a593d0cbf0618ed0ca0c8bbd3c21a4404bf04902cc2166d280b437393dce21e",
+      "bytes": 237874,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-006-2374e6d75167.webp",
+      "sha256": "2374e6d751674317c8eb2439461b2f79c86a2f0619da7e4a8ccec655b767c34c",
+      "bytes": 238742,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-007-5e06eb8d2ae7.webp",
+      "sha256": "5e06eb8d2ae79ca8b624be6722e87cafa7e0a7181eaaa4793574a42dbfbfe1e1",
+      "bytes": 228668,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-008-8e6b4cee5049.webp",
+      "sha256": "8e6b4cee5049a860af51467cde0fac88ce3b3aeb459d60e45156fec407ab4895",
+      "bytes": 233246,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-009-e1d22f853a73.webp",
+      "sha256": "e1d22f853a731b010fbf88b75aab393b705f5722f1dbf4b031565cca7a34b8e3",
+      "bytes": 227598,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-010-69ace21aa45c.webp",
+      "sha256": "69ace21aa45c490daf5d5b5f78cbe7d083e537f99069dea2c06d0cc4eed2147e",
+      "bytes": 240906,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-011-c31389099688.webp",
+      "sha256": "c313890996882daff94a078c7b466513892f93c3d8c7624f491459d8c360b66c",
+      "bytes": 233888,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-012-620f1e682a3f.webp",
+      "sha256": "620f1e682a3f61218ddda8f019d7da4890f07ac0916f10f8510e9aecea564b3b",
+      "bytes": 234346,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-013-caee2ce87847.webp",
+      "sha256": "caee2ce87847808375236da6d024b829779f54ccdc67c1efab715c9bf8fc4403",
+      "bytes": 231964,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-014-7ca875d265eb.webp",
+      "sha256": "7ca875d265eb23e79babdd39d5f8278441da434c9f34b894b343569381fcf20c",
+      "bytes": 239798,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-015-a192940905b5.webp",
+      "sha256": "a192940905b54dfcfcae0de0be7df399b5263df3c56f686bfcf72bb85456be32",
+      "bytes": 230604,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-016-cd0d58190c11.webp",
+      "sha256": "cd0d58190c116a8bd990fbfd2bc18237efcd07d01757cf9c0f2f6b1493c24a07",
+      "bytes": 232262,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-017-baeea1a4ed9a.webp",
+      "sha256": "baeea1a4ed9a5c113399567dab99055b8eda68c6387971fa5c104cbacdad0fac",
+      "bytes": 229682,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-018-c0dbcb6b4429.webp",
+      "sha256": "c0dbcb6b44292cd6dc2350e7ca490f0cfb7eaf12b2a492650f3670098471af32",
+      "bytes": 232516,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-019-7c057f8be3a9.webp",
+      "sha256": "7c057f8be3a99a572aa85822e2a092c4e65c749a270f8d1d2f37a2d00f46171e",
+      "bytes": 238340,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-020",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-020-6ff4686f9ad2.webp",
+      "sha256": "6ff4686f9ad225b2749a51ccd503f1aa2fd98b1dc51fd6b664f8d2fd1adf1a55",
+      "bytes": 231526,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-021",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-021-01fb5fa5068f.webp",
+      "sha256": "01fb5fa5068fcb0fb5956b6cc2bafda666f9f4b7ec0fa5bb8fa40f0d8990a996",
+      "bytes": 246336,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-022",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-022-339f2cd5f562.webp",
+      "sha256": "339f2cd5f562c177014978cff8e961f55a5e7716b4cf968709fdf94bcd0f4da4",
+      "bytes": 243138,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-023",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-023-4043feb79fd2.webp",
+      "sha256": "4043feb79fd2063bb6c90bc11b2868797d0c067c6dc9df34d69e607f0f9b4011",
+      "bytes": 243932,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-024",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-024-11a5fa92d64a.webp",
+      "sha256": "11a5fa92d64a33a7d184965b308799f8848a0325de72cdc454cc6934374edcc9",
+      "bytes": 237294,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-025",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-025-df9fa985fc2d.webp",
+      "sha256": "df9fa985fc2d77d0573c6beb61263c91c009f1d3fb9650689f80eb1a74c6b8ca",
+      "bytes": 236782,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-026",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-026-fcc0b13a4f2f.webp",
+      "sha256": "fcc0b13a4f2f7542c5019a827a30d23bc82b45b570aed367de319240b98531d5",
+      "bytes": 228496,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-027",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-027-8be698f10de1.webp",
+      "sha256": "8be698f10de1e058e9f8c947fabb8c9aa6a1cc5443f88e1a67f25c38d4a10b98",
+      "bytes": 227114,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-028",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-028-248da37cbba3.webp",
+      "sha256": "248da37cbba3b7fbff49e67b5dca6d790ea727d05d57eb0d02162e61c20377f5",
+      "bytes": 229624,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-029",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-029-9d165b6b18de.webp",
+      "sha256": "9d165b6b18de1f9919feb13972ce88dcf878cfaf06c72623eee5f9ed4a8093a1",
+      "bytes": 225732,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-030",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-030-f009b7746c41.webp",
+      "sha256": "f009b7746c41e74477d94ef3f0a27f2933a3f61f6a78bcc1e5a0988ee7217097",
+      "bytes": 227314,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-031",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-031-12ca81539798.webp",
+      "sha256": "12ca81539798f21dcd045471bc7f05e0ece75ae7030be185b2d37857145d2faa",
+      "bytes": 251226,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-032",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-032-1ae05d4d9d67.webp",
+      "sha256": "1ae05d4d9d6753984d615fd9bdd0e8f651ffafc8024be01895280842ed86d1fd",
+      "bytes": 243486,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-033",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-033-261e69a21eab.webp",
+      "sha256": "261e69a21eab010ae5f358c7c3eff18d9168c581e6c169cd32cb3a053aa19294",
+      "bytes": 239516,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-034",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-platformer-evaluation-034-1a9aea1f78cd.webp",
+      "sha256": "1a9aea1f78cd332d9d2be1b953079b6cb2922befcd73c312c2c997fe974f7b7e",
+      "bytes": 235448,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    }
+  ],
+  "costs": [
+    {
+      "kind": "credit_value",
+      "component": "creator",
+      "amount": 0.3811185,
+      "currency": "USD",
+      "basis": "Hero monthly non-discount USD9.99/20000 Credits; UI total consumed includes billed media; credit valuation, not actual cash payment or supplier cost",
+      "evidence": [
+        "credit-valuation.json",
+        "evidence/usage.webp",
+        "evidence/monthly-price.webp"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "component": "operator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    },
+    {
+      "kind": "unknown",
+      "component": "evaluator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    }
+  ],
+  "publication": {
+    "public_release_confirmed": true,
+    "rights_confirmed": true,
+    "sensitive_data_checked": true,
+    "all_attempts_disclosed": true,
+    "license": "CC-BY-4.0",
+    "redactions": [
+      "Deterministic crops remove browser/account chrome, unrelated projects and unrelated billing. Native AX dumps and private source paths omitted. See capture-provenance.json."
+    ],
+    "capture_gaps": [
+      "No continuous video; visual stability remains unobserved. Full internal creator-model/tool trajectory unavailable.",
+      "Final observation gap 63.868 seconds; capture timestamps do not measure FPS.",
+      "Source events retain their captured kinds; missing explicit lifecycle events are not synthesized."
+    ],
+    "limitations": [
+      "Affiliated and unblinded operator evaluation; not calibrated independent gameplay verification.",
+      "One fresh generation for this task; owner-selected R03 current version. Earlier R01/R02 rounds remain separately archived and are not represented as accepted public comparisons.",
+      "Usage UI observed google/gemini-4-argon after generation; Default is the creation selection. Agent upgrade is an owner label, no deployment commit or provider attestation.",
+      "This is a retrospective artifact review under 50/20/30, not a 60/10/30 browser-pilot result or preregistered experiment.",
+      "No immutable game bundle or anonymous replay. Public game link withheld until actual publication/access is checked.",
+      "Credit estimate uses UI total and ordinary monthly plan value, not actual payment or model-provider cost. Operator/evaluator costs unknown.",
+      "Input tool cannot hold simultaneous non-modifier chords; screenshot sampling limits motion-level claims.",
+      "External images were checked anonymously for access, size and SHA-256 at 2026-11-12T09:22:39.051464+00:00. This establishes public byte consistency, not authentic capture history or gameplay verification."
+    ]
+  }
+}

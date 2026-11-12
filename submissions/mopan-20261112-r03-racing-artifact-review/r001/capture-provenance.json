@@ -1,0 +1,1153 @@
+{
+  "schema": "capture-derivatives/1",
+  "exported_at": "2026-11-12T08:17:56.659652+00:00",
+  "owner_authorized_transformation": "Only local deterministic cropping/masking, no AI image editing; this export uses cropping only.",
+  "capture_files": [
+    {
+      "source": "racing/captures/2026-11-12T05-48-28-594Z-before-send.jpg",
+      "source_sha256": "e38cacc7856a4a583bbcc7f28c0024f7ee191d55667a9feebfcb286b75035312",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-001.webp",
+      "export_sha256": "cefe534bd95f001194db20347c38d4fe8679745c90e5b7569e04e31f4e95ae0a",
+      "crop_xyxy": [
+        760,
+        500,
+        2220,
+        910
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep prompt and Send control; remove account/sidebar, other projects and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-48-29-204Z-after-send.jpg",
+      "source_sha256": "df0a951c040255af1066dd371f548f584e5c8142ffdd92573d2ff92ef9467670",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-002.webp",
+      "export_sha256": "89e763d95bbc26f1bed04292b5975aed89c0b999e998e182fd07d11000fdef1e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-48-35-313Z-accepted.jpg",
+      "source_sha256": "7dccba677aad7f380890d4b079eebaa22b84b7ca947087be43203939f678c957",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-003",
+      "export_sha256": "787e0c1cb929d8817c56b1727acfc4cb93d47197d0f3d0fd352285b416368bac",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-49-14-509Z-monitor-01.jpg",
+      "source_sha256": "6a340848c67a6ea81a21fff68c889dfacfbdb002bd38b399322c34331bcd5736",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-004",
+      "export_sha256": "02134ff33e252411c14a97240137ed4f732396a495224791e1c1dae3c9413f7f",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-49-44-295Z-monitor-02.jpg",
+      "source_sha256": "6c3c93e336645d67136c9a72b04204d39f16fdfaa520c3a4b61c29e60339a23e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-005",
+      "export_sha256": "4628eae43ff385614257322238971c7025e610cc2c421d218cd4fd748478bea3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-49-57-339Z-monitor-03.jpg",
+      "source_sha256": "be25f931ba256aed03dfcf903f789ba1c6e49fb52befa688f894bd623f7ebd30",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-006",
+      "export_sha256": "2bfbf60d2e1d8491c304317537ba7d6f934186390bee92ff90b9470f65e601c7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-50-25-561Z-monitor-04.jpg",
+      "source_sha256": "7a0a044cebb6c34d83a48fcf437e3dddc647ae58be3cdcfcd3a9069547f25959",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-007",
+      "export_sha256": "22caf01447d683cda2fbb3b5b864a7d4822a7adbca290196a67dbc40b5344ab1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-51-04-433Z-monitor-05.jpg",
+      "source_sha256": "0a73db7a88e33c41a2770f6bfe8677ac5cc3f53ee30ab974e5912477ff4085c6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-008",
+      "export_sha256": "ec35084f11da2212d57cdd0030f2ac3a5770490e2bf0f8f0dfe1f1b80a1901a1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-51-42-900Z-monitor-06.jpg",
+      "source_sha256": "d6190b3512119719a1e19238612dee1c3954f1ee38a64466a4503c1bc1a234ca",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-009",
+      "export_sha256": "5efbc92e5f7eb8d573cc52905ca8a7030b6c56dedd54aa0482efb734cbea34b4",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-52-17-745Z-monitor-07.jpg",
+      "source_sha256": "10b178d86e8884a0152dbc97b255accce11d28dee38066dd29059331b1429ab6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-010",
+      "export_sha256": "a0c7a0e6fd4d1aff527cffc77195947c5947fe5110aede1426c3733aa89b276c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-52-49-699Z-monitor-08.jpg",
+      "source_sha256": "d5d590e4197b08d92f5a675ef8bb6c11b22b0bad04cecf11dc312cc84ce1d1ee",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-011",
+      "export_sha256": "c07418acdaef3470a5a3c5347893fd44ffd16736a863ed00adc72d0dd05a2eab",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-53-25-593Z-monitor-09.jpg",
+      "source_sha256": "0212240866ad0d9bc72661674bfd0915255944de7e6eae50cc76063c93d13d83",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-012",
+      "export_sha256": "abff764c13a96d610a98993ca07a8855f474a5d4afa8bd7a70530f53c271829c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-53-59-180Z-monitor-10.jpg",
+      "source_sha256": "f41451bead0384e6d60d9a79a633c2bea0becd8908ccf6a263ca00941eeb2ded",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-013",
+      "export_sha256": "915cffae63fa30624ea8913b415ad0df737074b2f81ff6f8ea3b6202620b2535",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-54-33-309Z-monitor-11.jpg",
+      "source_sha256": "4a6d5867929a8cc1eecfe6d734d05cc083fcf3879e946048dff1018dfaab7128",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-014",
+      "export_sha256": "12a6a0a7f7f417144f14cb2c3d494e2ec1510d729d86e3e896f5d197fb2df076",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-55-02-809Z-monitor-12.jpg",
+      "source_sha256": "49b8fd2efeb923ef6c0bdef3a600f0ce806dce6e210a693b64445426ebfa01c7",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-015",
+      "export_sha256": "3abd9da1607676770fd73b2d67acf2bcf97df5b4347e36d6bbefa009fb2968d6",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-55-35-140Z-monitor-13.jpg",
+      "source_sha256": "4555b5fd499e615871eef5e2824f4004608a4c0b39dc5af29ddb01773ec7d6db",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-016",
+      "export_sha256": "cc9aa1ccf2c420c3977860c052da6a69030da908c06c4a2d1da6a5051e6c827c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-56-09-234Z-monitor-14.jpg",
+      "source_sha256": "50bff9c9804f2200e324ea820d979bd4c37b674bfa7c05c3226688f96b7a3a01",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-017",
+      "export_sha256": "b95f3f21ea0db3fe3ff700c87ca5f49be9f2c6b24449159cda0cf4182c893d63",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-56-44-704Z-monitor-15.jpg",
+      "source_sha256": "bde3ce6f2633a7469fad9cacb6bb1fb7cd2043efad43ebf69da27ac49c78dfc0",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-018",
+      "export_sha256": "2591b895fe290a622a1499f1d088834df8e5c41f459baab9ec1f862f96ea3ff4",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-57-20-792Z-monitor-16.jpg",
+      "source_sha256": "3b7f76775ae3156f350c95a5b0473878fbaa4a45936f5ad43a9a9495daf3e662",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-019",
+      "export_sha256": "cd70a9bc4befc636bc908dd45848d152a1083229f7a2d67f720641e24bb4d0a1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-57-58-623Z-monitor-17.jpg",
+      "source_sha256": "3af25122bc53d51179fb0c3be51ef49ce8214304ca71f0586916e70e8398d4ec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-020",
+      "export_sha256": "18edc726076dcbaad33227ced20933f0e12b5bc8ffcbc4287d28e22672f6fbb1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-59-11-742Z-monitor-03.jpg",
+      "source_sha256": "4fde8a28358b31f4ea7cacaca11d6e35a8ec6c348d87afeec598c12ff7fc13e7",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-021",
+      "export_sha256": "c4ac3433d9ef51a6b33c619c2e62ec7396893b553fd00b17eff273796a912d25",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T05-59-58-658Z-monitor-04.jpg",
+      "source_sha256": "88bc95c9f50cbd77ef96fbecf885a1db798839cf762fa2227d8f6971c2036064",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-022",
+      "export_sha256": "d33e390c12ac0ae5c387cf5a9e86b062d7e461917bf3fd7078eea53392a2e10d",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T06-00-51-850Z-monitor-05.jpg",
+      "source_sha256": "b6d5d14ede09ab84e495d0cdaa80a0e0e2ffc55134040ec93b5b9e3edcd834f2",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-023",
+      "export_sha256": "b448abe78790225c897252daa5d2a973509b4e44db6d1ec646c6fcf80b77efc6",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T06-01-50-961Z-monitor-06.jpg",
+      "source_sha256": "4d9e4ad4c7177cda6616ef05e5827edecebe4a9d333fde3c50f799be7e66370c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-024",
+      "export_sha256": "066147ebcddaa213f0eb7b5fd37a8b2d7b9bc912d23ec1e8787b9a3ce296bbb6",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T06-02-11-007Z-monitor-07.jpg",
+      "source_sha256": "01e5a2e11d0a95af68bef9e827316fd89cc665a429e9f6ed080ddedcf170e853",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-025.webp",
+      "export_sha256": "e63705da1bbadca8627ba7842594b58c9528f07a2eb68cc0197b14389988c9e9",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/2026-11-12T06-04-19-662Z-final-confirmed.jpg",
+      "source_sha256": "136605f0a4a701d669711f009c7740ac34c9174b29ebcf52807300ff8316f06b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-026",
+      "export_sha256": "3d4db3e096a97b9f3e86cdf4bddeb0b6c31629926fbf0a99eda3cfea346fc46a",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-02-987Z-session-1-initial.jpg",
+      "source_sha256": "30ed30ec8efa1e73487baec42129521e0c6b219bda5434197fe5ef883dff2411",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-001.webp",
+      "export_sha256": "d6bf00ca91358da5acb61c8792dcfa4478215858450deb623ee1050266993159",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-14-008Z-desktop-1280-ready.jpg",
+      "source_sha256": "d8900ea758bfd3d65778dbbf2ac3745df606d7f9f573dec4d91d1efa2c54b27b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-002",
+      "export_sha256": "20bfe6452d128562a83b2e130d7ec6dc25df4a0035c2d7d8bad8e63f7b9a6d29",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-16-530Z-accelerate-2s.jpg",
+      "source_sha256": "dc3ad3ed0a097f48a03b0b82d1accb2eea8ce7450bb3ef0664057bf41aac272b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-003",
+      "export_sha256": "d1e62ec4fb14b71ce8fca8eaf7cca2c3747e323997bced7a556013fffc6b6cf2",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-30-261Z-session-2-coast-control.jpg",
+      "source_sha256": "817ec655e1038f522ef1b9d185605a9241ec2299b0861e4f9fb06dc744e152f2",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-004",
+      "export_sha256": "285b1b4e8ee58a60f5ad21566d333316f7477c96a51e23d56f8295625c4ca3d7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-32-375Z-session-3-brake-control.jpg",
+      "source_sha256": "33d98fecf48271f42c57b428b90592dcad6aec489f0aff1ed57d46e64c4df690",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-005",
+      "export_sha256": "b03996ba60793b9a596efeecf35e0b62a13e9a459eb01a6b1753981a4fe7539e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-53-807Z-brake-to-stop.jpg",
+      "source_sha256": "f79d7dc8deb8530c358f65d21b1fd539c31f5859bcf9c73283369e12803bafd5",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-006",
+      "export_sha256": "e525e0979351216aa74964f01522d669b7e58172b88f8bad981355313a62c493",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-05-55-247Z-left-steering.jpg",
+      "source_sha256": "e4701a9afa986b656130bae379b62f11ad27b9ab826dd6bb57c244b2481ce1f8",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-007",
+      "export_sha256": "580e59a62d49886a1b32ac78c002a4e25973cb538e1e15e39d9578caa368419b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-10-985Z-multi-key-input-unavailable.jpg",
+      "source_sha256": "7428bc610d53a6475633cb49cd475140ee516fc3ffb9202ce85d8187438a0952",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-008",
+      "export_sha256": "735c8c2c30a68e9671cc184942620a1c3071371156dafc88cd4956916af3f772",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-13-435Z-left-boundary-push.jpg",
+      "source_sha256": "4eca6fc93243f66950b5db93dc8e50f936dbe6009239a1b0347b06c1216c0cea",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-009",
+      "export_sha256": "ef6c56b7bcbdf18af81559bcda6928cde81a331b90a80542c9755186270fdd54",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-22-086Z-left-rail-blocks-forward.jpg",
+      "source_sha256": "67e8c3a76754c6ffadf72a3a839d7edc6f7dcfec144037e98f7577d3be9f4631",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-010",
+      "export_sha256": "b922fdc074a742a3f5e9fb2bdc8bd4812f45aa7935eaa0455a58eeb090532311",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-25-680Z-right-steer-after-reverse.jpg",
+      "source_sha256": "9a0908435ca288cc889759043a9bffff42ac38a6555904c9497e7c89a131e046",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-011",
+      "export_sha256": "f94e8fb7534ed95ae6bd73382c95ce8d50d54e2b6d04985583274d41165da199",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-36-056Z-finish-crossing-wrong-direction-zero-checkpoints.jpg",
+      "source_sha256": "f39ad28ccda131bc171683cb009f5aa3f80d6c34a53552f17a18a96640da1df7",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-012",
+      "export_sha256": "ea17837c5f896e4618bcbabc90908d2395985a3edba6fdb8914ff86e3bd61af0",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-06-45-576Z-out-of-order-approach.jpg",
+      "source_sha256": "70741e473f271f7461c4c30e20b919c9bf926c7c5ec41eda487185212d4e4216",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-013",
+      "export_sha256": "38d70d25d303ba5caf0a361e1786f7b09fe92b2a1c1dc984a1dbe432f7327b9a",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-01-324Z-outer-rail-contact.jpg",
+      "source_sha256": "fdf21b7bb776340edc5a0bcce952821ec9ff444180833831bba679af0d8040bc",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-014",
+      "export_sha256": "915d42bc1e5cffabfe7ddb9a50c05035a8f9237cf85d11ce096cde856320924c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-10-005Z-session-4-reset.jpg",
+      "source_sha256": "30b9a141e8eb9f84fbca57e6259aed2a04838965b6958c5e64a5972a16b2d918",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-015",
+      "export_sha256": "38cd0054e24535719d536a2432d49ba75399716dc526f1d6d2c828e653dd81ef",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-12-375Z-session-4-turn1.jpg",
+      "source_sha256": "fe7b54d18bf376fae53a65c3a9c6227268a99281d0e134856b124a6bd9649fe9",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-016",
+      "export_sha256": "639638ae7398794bafadd63f56cea89efee23591a337053fbbc1e067cc036772",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-21-012Z-inner-rail-blocks-shortcut.jpg",
+      "source_sha256": "7da2230f6fd1e410028a45a7ba97ac77ab5e3f3cc3e164b788330cd6be0c75a7",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-017",
+      "export_sha256": "61c57520e3d342baa1f64983aacc62d2bd39051b8ffd9a07cb9b19c2287a0854",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-24-318Z-forward-to-checkpoint1.jpg",
+      "source_sha256": "1e1c6a763b740233383d0bd2ae1b7f95e8ab363c41c19a8637e460bbb1cff1e5",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-018",
+      "export_sha256": "b66eb3c6109fe40ec01b76f3d9b022dfe062c2146e652952bd4eb9fda87185fa",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-36-619Z-checkpoint1-progress.jpg",
+      "source_sha256": "77c3a3bb72b62162288ca833f1adb6db6699e924f37e0e5012986ceba84d750e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-019",
+      "export_sha256": "8729c0f11ac576d8f2111ffb7b2b9c5a7945fab96a0b7855c518fffe5e869fe7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-46-318Z-checkpoint1-reverse-revisit.jpg",
+      "source_sha256": "524fabad689bd2789acf7f81d311fb56d541830978c5773ecda52248a132320a",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-020",
+      "export_sha256": "e37d586136ad91b5a1aba522fc14f6fbe3d23f9f831c2e6a40574806dbcfc761",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-07-50-868Z-checkpoint1-forward-revisit.jpg",
+      "source_sha256": "0d92de061d1b2222981cf6bfb081231ea14d7a40f80ba159cc1b0255538314e6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-021",
+      "export_sha256": "599d4eb9d367449b5ed4be89f60ea6848883a2381da1faada88ae9ca3f284000",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-08-03-433Z-toward-checkpoint2.jpg",
+      "source_sha256": "c2275bfc20047e0fcefadaaf40b4646156a98da899e21e840a08b28506f1519c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-022",
+      "export_sha256": "014bf82a5f8e43f2a4180e657193db36e7c35f98baa468e6a5aa316113a76136",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-08-16-798Z-checkpoint2-progress.jpg",
+      "source_sha256": "4e2fc2410294c732273549dd365682e3cb65bd9d1476347d67335e6a6aecdacf",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-023",
+      "export_sha256": "3dffd39d120ba3aa4bc27ae858f46b39375baf36f8ecbe1eea24cbbe7b576f19",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-08-30-383Z-checkpoint2-passed.jpg",
+      "source_sha256": "71c17f399665c9a393cd11aace5c2192824c6ab71942996f0c537edd8aa81a90",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-024",
+      "export_sha256": "059d59b4e0a145380c934fcd9fb6883f9d46a26cc764be74022e9af08dc8582e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-08-43-030Z-checkpoint3-approach.jpg",
+      "source_sha256": "1d9c03ca998a23c0fd013b0d6ea4e672e66ab56e259a383cd09745ada0fd208d",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-025",
+      "export_sha256": "7979a33483bf4f4b3075f259b2f63e012a0cea5751d24982266c1575e49117db",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-08-56-104Z-checkpoint3-passed.jpg",
+      "source_sha256": "97acad19b38c02fcad7bfd50e7c2dc060fad3dc2f15c20fe17dc9aa705bfdce1",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-026",
+      "export_sha256": "2f4444b304338cb80aa95e16a82e504808a7294046a3bedcfc0d11b71d8aac47",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-09-08-049Z-checkpoint4-passed.jpg",
+      "source_sha256": "ee360428c2fe7675496930f84e746713c8642ee962fb3626d4f312a1635610ec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-027",
+      "export_sha256": "8a4ce71bff80756fb7be82a7ddc52eb6117df35c694d4b1924648fb70a211cdc",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-10-53-013Z-normal-lap-finish.jpg",
+      "source_sha256": "5721ef5e2bde75a34e75216f34e90849bdd9f589a5bfb56dc34d78c72387c830",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-028",
+      "export_sha256": "1b1b84fb1c98bc93e2b506533e15c16a6db8c454df918492e167f4cb3d451d97",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-11-03-158Z-finish-time-frozen-after-input.jpg",
+      "source_sha256": "a3a5ac74344281bd62548dbe8a2ba03e3cb6252252381f5f21f91032f86ebc95",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-029",
+      "export_sha256": "a16416a8f6f75a291abc18f62b395e9c02e38e46a1e511b386db5886d6d3b819",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-11-03-681Z-session-5-post-win-reset.jpg",
+      "source_sha256": "9eaa38daa115b9eb7521afb2db029d81bf7241540c709832d526f136e643def3",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-030",
+      "export_sha256": "d515c4bab40cbddc644d34cbc3a37e3150610b802269e7d8a161d53bdad99553",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-11-05-365Z-post-win-reset-input-works.jpg",
+      "source_sha256": "32ef7ef0eaacfcb6f84d8edc9e9e1c022bee52cc89c1e25cba6c8590c20ee369",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-031",
+      "export_sha256": "87d0330dd9c7bae80afe41a8bb9d656619be2db187bf2d4168c7e8e425d3f144",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "racing/captures/eval-2026-11-12T06-11-12-469Z-mobile-390x844.jpg",
+      "source_sha256": "403fed7166a978cf83b1cac68adce3e43ad5c8507f2a0c8960e817895a4dbb42",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-032.webp",
+      "export_sha256": "0190a85aab98899cc1669d78c660c987a534414967fd46c820bcb359880dbefc",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T06-16-19-763Z-racing-group.jpg",
+      "source_sha256": "b1234ea4070eed05a986f008ae1259cd9da532c37caffe81758e4c413ae94058",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/usage.webp",
+      "export_sha256": "12a67a37b5d0082236e5258b990894bb400e7aa71ca29c67d23d5eabad90efc2",
+      "crop_xyxy": [
+        1240,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep only this build usage detail panel; remove account balance, other builds and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T05-50-13-725Z-credits-page.jpg",
+      "source_sha256": "5e4543775612d160838cd6bc5d040b7eb0a1a6d286a39b07a6d5378343e6ba51",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/monthly-price.webp",
+      "export_sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "crop_xyxy": [
+        1170,
+        570,
+        1820,
+        1840
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep monthly toggle and Hero rate/card only; remove account status and other plans.",
+      "retained_pixels_exact": true
+    }
+  ],
+  "original_stream_sha256": {
+    "creation": "10a0e44e291676569aa89c9692d06e6a234f189c4b3da009b44914a9e7550c98",
+    "evaluation": "a1cb00d146dacacc9d7321ef12a0572a8563bb423201ae3d8b0f25e7d72f1e67"
+  },
+  "changes": "All source events retained with original IDs/times/kinds/details. Evidence references point to cropped images. Native AX text stays private. Artifact ID is a declared workspace/build mapping, not byte-frozen artifact proof.",
+  "limits": "Source hashes establish byte linkage only; originals are local. Cropping is not authentication."
+}
