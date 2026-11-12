@@ -22,6 +22,10 @@ manual pilot, not an automatic Harbor run. If a task/policy is absent, [propose 
 before a formal run. Development pilots must be labeled as such; do not retrofit
 a rubric after seeing results. Platform references are not executable adapters.
 
+For already delivered artifacts scored with the separate 50/20/30 edition, see
+[retrospective review exports](retrospective-submissions.md). That proposed format
+keeps original prompts/timing and does not claim creation-policy compliance.
+
 For historical Tetris comparisons, read the [fixed 40/20/20/20 scoring rules](../scoring/README.md).
 Freeze these alongside the creation method before new runs. Existing pilot data
 can receive an explicitly retrospective score addendum, never a rewritten score.

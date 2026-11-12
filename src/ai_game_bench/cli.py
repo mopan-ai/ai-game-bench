@@ -203,7 +203,16 @@ def main(argv: list[str] | None = None) -> int:
     schema = subcommands.add_parser("schema", help="Print a JSON Schema for agents")
     schema.add_argument(
         "kind",
-        choices=["manifest", "event", "policy", "score-addendum", "evaluation-configuration"],
+        choices=[
+            "manifest",
+            "event",
+            "policy",
+            "score-addendum",
+            "evaluation-configuration",
+            "review-manifest",
+            "review-assessment",
+            "review-event",
+        ],
     )
     initialize = subcommands.add_parser("init", help="Create an explicitly unapproved local draft")
     initialize.add_argument("directory", type=Path)
@@ -211,6 +220,10 @@ def main(argv: list[str] | None = None) -> int:
     initialize.add_argument("--policy", required=True)
     validate = subcommands.add_parser("validate", help="Check an evidence package, offline")
     validate.add_argument("directory", type=Path)
+    check_draft = subcommands.add_parser(
+        "check-draft", help="Check a retrospective draft without asserting publication consent"
+    )
+    check_draft.add_argument("directory", type=Path)
     validate_all = subcommands.add_parser(
         "validate-all", help="Check submissions/<id>/rNNN packages"
     )
@@ -273,6 +286,7 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         if args.command == "submission":
             from ai_game_bench import submissions
+            from ai_game_bench.review_packages import Assessment, CaptureEvent, ReviewPackage
             from ai_game_bench.score_addenda import ScoreAddendum
             from ai_game_bench.submission_models import (
                 EvaluationConfiguration,
@@ -289,6 +303,9 @@ def main(argv: list[str] | None = None) -> int:
                     "policy": Policy,
                     "score-addendum": ScoreAddendum,
                     "evaluation-configuration": EvaluationConfiguration,
+                    "review-manifest": ReviewPackage,
+                    "review-assessment": Assessment,
+                    "review-event": CaptureEvent,
                 }[args.kind].model_json_schema()
             elif action == "policies":
                 record = []
@@ -310,6 +327,8 @@ def main(argv: list[str] | None = None) -> int:
                 )
             elif action == "validate-all":
                 record = submissions.validate_tree(args.directory, root)
+            elif action == "check-draft":
+                record = submissions.validate(args.directory, root, draft=True)
             elif action == "summarize":
                 from ai_game_bench.measurements import summarize
 
@@ -317,6 +336,8 @@ def main(argv: list[str] | None = None) -> int:
             else:
                 record = submissions.validate(args.directory, root)
             print(json.dumps(record, ensure_ascii=False, indent=2))
+            if action == "check-draft":
+                return 0 if record.get("draft_valid") is True else 2
             return 2 if isinstance(record, dict) and record.get("structure_valid") is False else 0
         if args.command == "tasks":
             for path in sorted((root / "datasets").glob("*/*/task.toml")):

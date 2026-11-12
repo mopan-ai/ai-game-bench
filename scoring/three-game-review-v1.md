@@ -127,6 +127,9 @@ The measured duration remains visible even when gameplay gates prevent awarding
 time points; historical duration-only addenda are preserved separately.
 
 For public result contributions, follow [the submission guide](../docs/submissions.md).
+The proposed [retrospective export](../docs/retrospective-submissions.md) links
+these unchanged ratings to task-scoped capture records through the existing PR
+workflow. It does not relabel a source trial as creation-policy-compliant.
 Do not place raw review workspaces or private source records in Git. Publishing
 this policy and calculator does not accept any new platform result. Human evidence
 review and separately authorized, task-scoped exports are still required.

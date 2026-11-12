@@ -13,6 +13,7 @@ Choose what you want to do. For a short project overview, start with the
 ## Guides
 
 - [Submit a result](submissions.md) — record, prepare, validate and open a PR.
+- [Submit an artifact review](retrospective-submissions.md) — proposed evidence export for retrospective 50/20/30 reviews.
 - [Add a task or policy](adding-tasks.md) — instructions, acceptance criteria and examples.
 - [Add a platform](platforms.md) — connection contract and adapter development.
 - [Calibrate an evaluator](judge-calibration.md) — known cases, verdicts and evidence review.
