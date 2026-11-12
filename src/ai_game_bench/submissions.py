@@ -514,7 +514,9 @@ def check_attempt(attempt, policy, prompt, blobs, references, global_ids):
     return result
 
 
-def validate(directory: Path, trusted_root: Path, *, override: dict | None = None) -> dict:
+def validate(
+    directory: Path, trusted_root: Path, *, override: dict | None = None, draft: bool = False
+) -> dict:
     """Return machine-readable structural findings, never a gameplay PASS or attestation."""
     warnings = [
         "Structure checks do not prove truth, completeness, game quality or independent review.",
@@ -525,6 +527,15 @@ def validate(directory: Path, trusted_root: Path, *, override: dict | None = Non
         scan_text(raw)
         parsed = parse_json(raw)
         scan_text(encode(parsed))
+        from .review_packages import SCHEMA, validate_package
+
+        if isinstance(parsed, dict) and parsed.get("schema_version") == SCHEMA:
+            result = validate_package(directory, trusted_root, parsed, draft=draft)
+            result["manifest_sha256"] = digest(raw)
+            return result
+        require(
+            not draft, "schema", "check-draft currently supports artifact-review-package/1 only."
+        )
         submission = model(Submission, parsed)
         require("REPLACE" not in raw.decode(), "draft", "Replace draft placeholders first.")
         policy, policy_hash, prompt = load_policy(trusted_root, submission.policy_id)
@@ -839,7 +850,15 @@ def prepare(directory: Path, root: Path, output: Path, *, confirmed: bool) -> di
         "destination",
         "Output must be outside the source package.",
     )
-    draft = model(Submission, parse_json(read_file(directory, "manifest.json")))
+    from .review_packages import SCHEMA, ReviewPackage
+
+    parsed = parse_json(read_file(directory, "manifest.json"))
+    record_type = (
+        ReviewPackage
+        if isinstance(parsed, dict) and parsed.get("schema_version") == SCHEMA
+        else Submission
+    )
+    draft = model(record_type, parsed)
     require(
         "REPLACE" not in json.dumps(draft.model_dump()),
         "draft",
