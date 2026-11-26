@@ -1,0 +1,196 @@
+{
+  "schema_version": "artifact-review-assessment/1",
+  "assessed_at": "2026-11-12T06:20:41.218116+00:00",
+  "mechanics": {
+    "ready": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Final pixel-art scene,player,coins,platforms,pits and keyboard instructions visible; Right responds.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed",
+        "platformer-eval-2026-11-12T06-11-44-753Z-right-movement-first-coin"
+      ]
+    },
+    "movement": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Right advances and collects coin; Left returns without recount. Later movement traverses scene toward goal.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-44-753Z-right-movement-first-coin",
+        "platformer-eval-2026-11-12T06-11-52-556Z-left-movement-coin-stays-collected",
+        "platformer-eval-2026-11-12T06-14-38-574Z-session-5-edge",
+        "platformer-eval-2026-11-12T06-15-06-309Z-second-pit-approach"
+      ]
+    },
+    "jump": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Session5 Up180ms then Right700ms crosses first gap; Up180ms then Right500ms reaches raised platform over second gap; another jump lands on goal-side ground. Prior missed crossings retained; not established jump bugs.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-14-38-574Z-session-5-edge",
+        "platformer-eval-2026-11-12T06-14-39-986Z-session-5-long-crossing-attempt",
+        "platformer-eval-2026-11-12T06-15-06-309Z-second-pit-approach",
+        "platformer-eval-2026-11-12T06-15-07-507Z-second-pit-raised-landing",
+        "platformer-eval-2026-11-12T06-15-24-311Z-jump-from-raised-to-goal-ground"
+      ]
+    },
+    "solid-platforms": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Character stands on raised platform over second gap and remains supported across later small Left/Right inputs before jumping to ground. Earlier middle-raised-platform-landing label denotes intent but actual state was ground and is not used as raised support proof.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-15-07-507Z-second-pit-raised-landing",
+        "platformer-eval-2026-11-12T06-15-22-911Z-raised-platform-stable-no-recount",
+        "platformer-eval-2026-11-12T06-15-24-311Z-jump-from-raised-to-goal-ground"
+      ]
+    },
+    "collectibles": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "First coin disappears and count0→1; revisiting leaves1. Later distinct collections advance3→4→5; short movement on platform leaves4. All6 collection not required.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed",
+        "platformer-eval-2026-11-12T06-11-44-753Z-right-movement-first-coin",
+        "platformer-eval-2026-11-12T06-11-52-556Z-left-movement-coin-stays-collected",
+        "platformer-eval-2026-11-12T06-14-39-986Z-session-5-long-crossing-attempt",
+        "platformer-eval-2026-11-12T06-15-07-507Z-second-pit-raised-landing",
+        "platformer-eval-2026-11-12T06-15-22-911Z-raised-platform-stable-no-recount",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal"
+      ]
+    },
+    "fall-loss": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "First traversal falls in first pit and shows explicit failure. Further missed crossings repeat terminal loss; failed input timing not attributed to game defect.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-53-554Z-approach-first-pit",
+        "platformer-eval-2026-11-12T06-11-59-253Z-jump-first-raised-platform",
+        "platformer-eval-2026-11-12T06-12-15-653Z-session-2-raised-landing"
+      ]
+    },
+    "goal-win": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Session5 reaches flag after both gaps and explicit 通关成功·抵达终点 appears,5/6 coins,76.6s. Left leaves terminal unchanged.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-15-24-311Z-jump-from-raised-to-goal-ground",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal",
+        "platformer-eval-2026-11-12T06-15-38-549Z-win-terminal-ignores-movement"
+      ]
+    },
+    "loss-restart": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "R after explicit pit loss removes overlay, restores start and zero collected coins; subsequent movement responds.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-59-253Z-jump-first-raised-platform",
+        "platformer-eval-2026-11-12T06-12-05-598Z-session-2-loss-reset",
+        "platformer-eval-2026-11-12T06-12-14-664Z-session-2-first-pit-approach"
+      ]
+    },
+    "win-restart": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "R after win removes overlay and restores start/coins0/6; Right200ms moves fresh character. Reset-only sixth session, no new traversal.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-15-38-549Z-win-terminal-ignores-movement",
+        "platformer-eval-2026-11-12T06-15-39-120Z-post-win-reset",
+        "platformer-eval-2026-11-12T06-15-40-326Z-post-win-input-works"
+      ]
+    }
+  },
+  "experience": {
+    "guidance": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Persistent A/D/arrows,Space/W/Up and R instructions plus terminal restart hints; observed Up/movement/R route works. Short failed jump inputs do not establish instruction error.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed",
+        "platformer-eval-2026-11-12T06-14-39-986Z-session-5-long-crossing-attempt",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal",
+        "platformer-eval-2026-11-12T06-15-39-120Z-post-win-reset"
+      ]
+    },
+    "readability": {
+      "rating": 5,
+      "status": "observed",
+      "reason": "Desktop player,platforms,coins,pits and terminal states distinct.390x844 horizontally crops fixed-width scene; initial player,coin HUD,goal and restart button fall outside viewport. Clear mobile limitation.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed",
+        "platformer-eval-2026-11-12T06-15-07-507Z-second-pit-raised-landing",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal",
+        "platformer-eval-2026-11-12T06-15-48-845Z-mobile-390x844"
+      ]
+    },
+    "feedback": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Coin disappearance/counts,explicit loss and win,blocked terminal movement and reset visible.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-44-753Z-right-movement-first-coin",
+        "platformer-eval-2026-11-12T06-11-59-253Z-jump-first-raised-platform",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal",
+        "platformer-eval-2026-11-12T06-15-38-549Z-win-terminal-ignores-movement",
+        "platformer-eval-2026-11-12T06-15-39-120Z-post-win-reset"
+      ]
+    },
+    "presentation": {
+      "rating": 5,
+      "status": "observed",
+      "reason": "Coherent pixel-art desktop scene,styled HUD and terminal panels; fixed-width mobile layout visibly clips essential scene/HUD. Mobile restriction warrants5 instead of prior8.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed",
+        "platformer-eval-2026-11-12T06-15-30-356Z-goal-terminal",
+        "platformer-eval-2026-11-12T06-15-48-845Z-mobile-390x844"
+      ]
+    },
+    "visual_stability": {
+      "rating": null,
+      "status": "unobserved",
+      "reason": "Sparse screenshots cannot exclude transient sprite flicker/camera jitter; no continuous clip or measuredFPS. Same4-point evidence gap as prior rounds.",
+      "evidence_events": [
+        "platformer-eval-2026-11-12T06-15-48-845Z-mobile-390x844"
+      ]
+    }
+  },
+  "time": {
+    "seconds": 783.534,
+    "started_at": "2026-11-12T05:48:52.969Z",
+    "finished_at": "2026-11-12T06:01:56.503Z",
+    "start_before_event": "platformer-2026-11-12T05-48-52-462Z-before-send",
+    "start_after_event": "platformer-2026-11-12T05-48-53-061Z-after-send",
+    "finish_event": "platformer-2026-11-12T06-01-56-503Z-monitor-06",
+    "reason": "Conservative send-click to first observed final. Preserve acceptance/completion interval and UI task time separately. Final observation sampling gap: 63.868 seconds. UI task duration 12:49 is separate."
+  },
+  "computed": {
+    "id": "mopan-20261112-r03-platformer-artifact-review",
+    "platform": "mopan",
+    "game": "platformer",
+    "outcome": "delivered",
+    "points": 86.00423636363637,
+    "upper": 90.00423636363637,
+    "eligible_score": null,
+    "assessed_weight": 96.0,
+    "dimensions": {
+      "mechanics": {
+        "points": 50.0,
+        "upper": 50.0,
+        "assessed_weight": 50.0,
+        "max": 50
+      },
+      "experience": {
+        "points": 10.4,
+        "upper": 14.4,
+        "assessed_weight": 16.0,
+        "max": 20
+      },
+      "time": {
+        "points": 25.60423636363636,
+        "upper": 25.60423636363636,
+        "assessed_weight": 30,
+        "max": 30,
+        "observed_seconds": 783.534
+      }
+    }
+  }
+}

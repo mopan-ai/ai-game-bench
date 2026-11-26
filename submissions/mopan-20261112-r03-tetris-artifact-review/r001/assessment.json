@@ -1,0 +1,188 @@
+{
+  "schema_version": "artifact-review-assessment/1",
+  "assessed_at": "2026-11-12T06:20:41.218116+00:00",
+  "mechanics": {
+    "opens": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Final 10x20 board, next queue, counters and controls render; ordinary keys respond.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-19-439Z-session-1-initial-paused",
+        "tetris-eval-2026-11-12T05-59-41-797Z-left-boundary-visible"
+      ]
+    },
+    "gravity_next": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "After resume without movement/drop input, gravity completes a single row and a new J appears lower in the board. Earlier locked pieces also spawn new pieces.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-00-34-636Z-L-locked-O-spawn",
+        "tetris-eval-2026-11-12T06-00-44-322Z-T-aligned-natural-clear-before",
+        "tetris-eval-2026-11-12T06-00-54-619Z-natural-clear-gravity-only",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after"
+      ]
+    },
+    "move_bounds": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Horizontal I reaches columns 0–3 and 6–9 at opposite edges, remaining in bounds.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-41-797Z-left-boundary-visible",
+        "tetris-eval-2026-11-12T05-59-49-792Z-right-boundary-visible"
+      ]
+    },
+    "rotate": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Up changes horizontal I at right edge to vertical I in column8, with visible in-bounds ghost.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-49-792Z-right-boundary-visible",
+        "tetris-eval-2026-11-12T05-59-57-250Z-rotation-visible"
+      ]
+    },
+    "stack": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "I and L lock at floor; O rests on occupied cells; centered drops create a stack and eventually top out.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-00-25-787Z-I-locked-Z-held-L-spawn",
+        "tetris-eval-2026-11-12T06-00-34-636Z-L-locked-O-spawn",
+        "tetris-eval-2026-11-12T06-00-44-322Z-T-aligned-natural-clear-before",
+        "tetris-eval-2026-11-12T06-01-27-432Z-center-stack-eight-drops"
+      ]
+    },
+    "line_clear": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "T completes bottom row, which disappears; remaining cells fall and Lines increases0→1.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-00-44-322Z-T-aligned-natural-clear-before",
+        "tetris-eval-2026-11-12T06-00-54-619Z-natural-clear-gravity-only",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after"
+      ]
+    },
+    "line_clear_score": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Same natural single clear changes score98→198 (+100), Lines0→1, level1. Only pause/resume after alignment; no soft/hard-drop bonus during interval. No multi-line claim.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-00-44-322Z-T-aligned-natural-clear-before",
+        "tetris-eval-2026-11-12T06-00-54-619Z-natural-clear-gravity-only",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after"
+      ]
+    },
+    "top_out": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Session2 centered drops reach top and explicit GAME OVER at182; subsequent Left leaves terminal/score unchanged. Session1 multi-Space skipped a terminal and is not used as terminal proof.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-02-19-539Z-session-2-near-top",
+        "tetris-eval-2026-11-12T06-04-14-384Z-session-2-top-out-one-drop",
+        "tetris-eval-2026-11-12T06-04-24-161Z-session-2-terminal-visible",
+        "tetris-eval-2026-11-12T06-04-30-307Z-terminal-left-ignored"
+      ]
+    },
+    "restart_reset": {
+      "rating": 10,
+      "status": "observed",
+      "reason": "Visible replay click clears board,score,lines and hold, restores level1; Left moves fresh piece. Best372 retained separately.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-04-30-307Z-terminal-left-ignored",
+        "tetris-eval-2026-11-12T06-04-32-164Z-restart-clears-and-input-works"
+      ]
+    }
+  },
+  "experience": {
+    "guidance": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Visible labelled direction/rotation/drop/hold buttons make actions discoverable; pause/replay clear and normal keys work. No explicit complete keyboard keymap observed; rating rests on visible action controls, not invented key hints.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-19-439Z-session-1-initial-paused",
+        "tetris-eval-2026-11-12T05-59-57-250Z-rotation-visible",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after",
+        "tetris-eval-2026-11-12T06-04-24-161Z-session-2-terminal-visible",
+        "tetris-eval-2026-11-12T06-04-32-164Z-restart-clears-and-input-works"
+      ]
+    },
+    "readability": {
+      "rating": 5,
+      "status": "observed",
+      "reason": "Desktop blocks,ghost,queue,counters and terminal states distinct.390x844 shrinks whole landscape dashboard into a tiny middle strip; labels difficult to read.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after",
+        "tetris-eval-2026-11-12T06-04-24-161Z-session-2-terminal-visible",
+        "tetris-eval-2026-11-12T06-04-47-136Z-mobile-390x844"
+      ]
+    },
+    "feedback": {
+      "rating": 8,
+      "status": "observed",
+      "reason": "Visible rotation,ghost,score/line increment,top-out and replay responses. Audio not independently assessed.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-57-250Z-rotation-visible",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after",
+        "tetris-eval-2026-11-12T06-04-24-161Z-session-2-terminal-visible",
+        "tetris-eval-2026-11-12T06-04-32-164Z-restart-clears-and-input-works"
+      ]
+    },
+    "presentation": {
+      "rating": 6,
+      "status": "observed",
+      "reason": "Coherent neon arcade desktop panels/blocks/background; severe portrait scaling/letterboxing limits layout. Same intermediate anchor as preceding rounds.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T05-59-19-439Z-session-1-initial-paused",
+        "tetris-eval-2026-11-12T06-01-19-387Z-natural-single-clear-after",
+        "tetris-eval-2026-11-12T06-04-47-136Z-mobile-390x844"
+      ]
+    },
+    "visual_stability": {
+      "rating": null,
+      "status": "unobserved",
+      "reason": "Sparse screenshots cannot exclude transient sprite flicker/camera jitter; no continuous clip or measuredFPS. Same4-point evidence gap as prior rounds.",
+      "evidence_events": [
+        "tetris-eval-2026-11-12T06-04-47-136Z-mobile-390x844"
+      ]
+    }
+  },
+  "time": {
+    "seconds": 667.762,
+    "started_at": "2026-11-12T05:46:50.324Z",
+    "finished_at": "2026-11-12T05:57:58.086Z",
+    "start_before_event": "tetris-2026-11-12T05-46-49-816Z-before-send",
+    "start_after_event": "tetris-2026-11-12T05-46-50-420Z-after-send",
+    "finish_event": "tetris-2026-11-12T05-57-58-086Z-monitor-17",
+    "reason": "Conservative send-click to first observed final. Preserve acceptance/completion interval and UI task time separately. Final observation sampling gap: 29.451 seconds. UI task duration 9:25 is separate."
+  },
+  "computed": {
+    "id": "mopan-20261112-r03-tetris-artifact-review",
+    "platform": "mopan",
+    "game": "tetris",
+    "outcome": "delivered",
+    "points": 87.4567090909091,
+    "upper": 91.4567090909091,
+    "eligible_score": null,
+    "assessed_weight": 96.0,
+    "dimensions": {
+      "mechanics": {
+        "points": 50.0,
+        "upper": 50.0,
+        "assessed_weight": 50.0,
+        "max": 50
+      },
+      "experience": {
+        "points": 10.8,
+        "upper": 14.8,
+        "assessed_weight": 16.0,
+        "max": 20
+      },
+      "time": {
+        "points": 26.656709090909093,
+        "upper": 26.656709090909093,
+        "assessed_weight": 30,
+        "max": 30,
+        "observed_seconds": 667.762
+      }
+    }
+  }
+}

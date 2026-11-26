@@ -1,0 +1,24 @@
+{
+  "credits": 763,
+  "credit_value_usd": 0.3811185,
+  "usd_per_credit": 0.0004995,
+  "basis": "Hero monthly non-discount USD9.99/20000 Credits; UI total consumed includes billed media; credit valuation, not actual cash payment or supplier cost",
+  "displayed_breakdown_credits": {
+    "coding_agent": 644,
+    "images": 68,
+    "music": 40,
+    "sound_effects": 10
+  },
+  "breakdown_sum_delta": 1,
+  "precision_note": "UI integer display; use Total consumed rather than summing independently rounded lines.",
+  "tokens": null,
+  "tokens_reason": "Token usage not exposed in observed Usage UI",
+  "observed_at": "2026-11-12T06:16:30.357Z",
+  "usage_evidence": "evidence/usage.webp",
+  "price_evidence": "evidence/monthly-price.webp",
+  "plan_price_usd": 9.99,
+  "plan_credits": 20000,
+  "billing": "monthly non-discount",
+  "pricing_url": "https://mopan.ai/credits",
+  "actual_payment": "Not measured. Credit valuation is not a cash bill."
+}

@@ -1,0 +1,545 @@
+{
+  "schema_version": "artifact-review-package/1",
+  "id": "mopan-20261112-r03-racing-artifact-review",
+  "revision": 1,
+  "kind": "result",
+  "author": "haot3x (AI-assisted recording and preparation)",
+  "affiliation": "Mopan; affiliated development evaluation. Maintainer review not yet performed.",
+  "source_ref": "mopan-argon-architecture-20261112-r03-racing",
+  "source_manifest_sha256": "f66f3f85b0d1f9891448b39967eb696ce8a393d5fc77f7bb3347efe9b67c868c",
+  "series": {
+    "id": "mopan-default-upgrade-20261111",
+    "round_id": "r03-argon-architecture",
+    "comparator_round_id": "r02-carbon-architecture",
+    "selection": "Owner requested Argon + Nov 11 upgrade as the current website version. One fresh independent creation per task; no regeneration/repair in this round. R01/R02 remain local and are not publicly reviewed by this package.",
+    "change": "Owner reported Carbon to Argon with Nov 11 Agent Upgrade unchanged; Usage UI later shows google/gemini-4-argon."
+  },
+  "game": "racing",
+  "outcome": "delivered",
+  "scoring_policy_sha256": "c5422cd415a855540b76cbc39e93a34196953852e9d55f0ee80dcc34f0086c20",
+  "task_reference_sha256": "8fe39ac88828e94bbc10003be48c93afaaf4b9f90bd4b6bcdd3d3a9c14382a60",
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "df5107cf8b08f88cd40b340eab486529d806babdcb2d45af7403f4e8fe5526ff",
+  "prompt_trailing_newline_omitted": true,
+  "creator": {
+    "platform": "mopan",
+    "harness_version": null,
+    "model": "google/gemini-4-argon",
+    "model_source": "visible_ui",
+    "effort": null
+  },
+  "environment": "Chrome 157.0.8103.51, macOS 26.6.2; desktop 1280x800, mobile-layout 390x844, zoom100%; real time, visible controls.",
+  "creation_conditions": "Local upgrade pilot, one attempt/task, new context; Default model routing, no repair/retry; 3600s generation and 1800s evaluation budgets, maximum6 sessions including resets. Three remote workspaces concurrent, browser control sequential. Same frozen prompts as prior rounds. Not a claim of compliance with the referenced browser-pilot scoring policy.",
+  "evaluator": "AI-assisted operator; same creation/evaluation context; affiliation Mopan; no independent reviewer yet.",
+  "creation_context_hidden": false,
+  "artifact": {
+    "id": "build-645ec683-7e82-4850-8e19-3307e498de7c",
+    "build_version": "645ec683-7e82-4850-8e19-3307e498de7c",
+    "url": null,
+    "access": "unpublished",
+    "note": "Final workspace/build mapping observed in Usage. Anonymous access not checked; no game publication was performed. Earlier public versions must not be substituted."
+  },
+  "creation": "creation.jsonl",
+  "evaluation": "evaluation.jsonl",
+  "assessment": "assessment.json",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c107b637b7cd11447614b1489ba122d8b9c58af270d8af83c2c27bdecb71165f",
+      "bytes": 1924
+    },
+    {
+      "path": "assessment.json",
+      "sha256": "fe6fc265509cd2c8c4c16525a12b72dfd590ea0783d72efac7a1e053c8b6218a",
+      "bytes": 8911
+    },
+    {
+      "path": "capture-provenance.json",
+      "sha256": "e77b34f85d7bcd50e95bb1a5772375c8811e74a117d66f7446f34d6ff84fc892",
+      "bytes": 44647
+    },
+    {
+      "path": "creation.jsonl",
+      "sha256": "c1c65cd334ac141cd685714ab0f363aa4cecefae19607c5229a852e8439dab13",
+      "bytes": 6461
+    },
+    {
+      "path": "credit-valuation.json",
+      "sha256": "d2e9016f2357dba1f5983d93f1d3f143bfc52060f4a6e42e610367ea6925121b",
+      "bytes": 910
+    },
+    {
+      "path": "evaluation.jsonl",
+      "sha256": "7ba27e53cc177aa9f1650e6c6a983f554b63f59fc2eee99a0e69f0b5eeb2a82b",
+      "bytes": 11212
+    },
+    {
+      "path": "evidence/creation-001.webp",
+      "sha256": "cefe534bd95f001194db20347c38d4fe8679745c90e5b7569e04e31f4e95ae0a",
+      "bytes": 140334
+    },
+    {
+      "path": "evidence/creation-002.webp",
+      "sha256": "89e763d95bbc26f1bed04292b5975aed89c0b999e998e182fd07d11000fdef1e",
+      "bytes": 191458
+    },
+    {
+      "path": "evidence/creation-025.webp",
+      "sha256": "e63705da1bbadca8627ba7842594b58c9528f07a2eb68cc0197b14389988c9e9",
+      "bytes": 1330726
+    },
+    {
+      "path": "evidence/evaluation-001.webp",
+      "sha256": "d6bf00ca91358da5acb61c8792dcfa4478215858450deb623ee1050266993159",
+      "bytes": 892082
+    },
+    {
+      "path": "evidence/evaluation-032.webp",
+      "sha256": "0190a85aab98899cc1669d78c660c987a534414967fd46c820bcb359880dbefc",
+      "bytes": 352870
+    },
+    {
+      "path": "evidence/monthly-price.webp",
+      "sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "bytes": 67878
+    },
+    {
+      "path": "evidence/usage.webp",
+      "sha256": "12a67a37b5d0082236e5258b990894bb400e7aa71ca29c67d23d5eabad90efc2",
+      "bytes": 72494
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "df5107cf8b08f88cd40b340eab486529d806babdcb2d45af7403f4e8fe5526ff",
+      "bytes": 767
+    }
+  ],
+  "external_evidence": [
+    {
+      "id": "frame-creation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-003-787e0c1cb929.webp",
+      "sha256": "787e0c1cb929d8817c56b1727acfc4cb93d47197d0f3d0fd352285b416368bac",
+      "bytes": 185074,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-004-02134ff33e25.webp",
+      "sha256": "02134ff33e252411c14a97240137ed4f732396a495224791e1c1dae3c9413f7f",
+      "bytes": 184558,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-005-4628eae43ff3.webp",
+      "sha256": "4628eae43ff385614257322238971c7025e610cc2c421d218cd4fd748478bea3",
+      "bytes": 234278,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-006-2bfbf60d2e1d.webp",
+      "sha256": "2bfbf60d2e1d8491c304317537ba7d6f934186390bee92ff90b9470f65e601c7",
+      "bytes": 233528,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-007-22caf01447d6.webp",
+      "sha256": "22caf01447d683cda2fbb3b5b864a7d4822a7adbca290196a67dbc40b5344ab1",
+      "bytes": 237712,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-008-ec35084f11da.webp",
+      "sha256": "ec35084f11da2212d57cdd0030f2ac3a5770490e2bf0f8f0dfe1f1b80a1901a1",
+      "bytes": 238354,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-009-5efbc92e5f7e.webp",
+      "sha256": "5efbc92e5f7eb8d573cc52905ca8a7030b6c56dedd54aa0482efb734cbea34b4",
+      "bytes": 283894,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-010-a0c7a0e6fd4d.webp",
+      "sha256": "a0c7a0e6fd4d1aff527cffc77195947c5947fe5110aede1426c3733aa89b276c",
+      "bytes": 704566,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-011-c07418acdaef.webp",
+      "sha256": "c07418acdaef3470a5a3c5347893fd44ffd16736a863ed00adc72d0dd05a2eab",
+      "bytes": 759690,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-012-abff764c13a9.webp",
+      "sha256": "abff764c13a96d610a98993ca07a8855f474a5d4afa8bd7a70530f53c271829c",
+      "bytes": 759164,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-013-915cffae63fa.webp",
+      "sha256": "915cffae63fa30624ea8913b415ad0df737074b2f81ff6f8ea3b6202620b2535",
+      "bytes": 701560,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-014-12a6a0a7f7f4.webp",
+      "sha256": "12a6a0a7f7f417144f14cb2c3d494e2ec1510d729d86e3e896f5d197fb2df076",
+      "bytes": 702052,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-015-3abd9da16076.webp",
+      "sha256": "3abd9da1607676770fd73b2d67acf2bcf97df5b4347e36d6bbefa009fb2968d6",
+      "bytes": 702012,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-016-cc9aa1ccf2c4.webp",
+      "sha256": "cc9aa1ccf2c420c3977860c052da6a69030da908c06c4a2d1da6a5051e6c827c",
+      "bytes": 702018,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-017-b95f3f21ea0d.webp",
+      "sha256": "b95f3f21ea0db3fe3ff700c87ca5f49be9f2c6b24449159cda0cf4182c893d63",
+      "bytes": 701608,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-018-2591b895fe29.webp",
+      "sha256": "2591b895fe290a622a1499f1d088834df8e5c41f459baab9ec1f862f96ea3ff4",
+      "bytes": 701660,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-019-cd70a9bc4bef.webp",
+      "sha256": "cd70a9bc4befc636bc908dd45848d152a1083229f7a2d67f720641e24bb4d0a1",
+      "bytes": 702280,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-020",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-020-18edc726076d.webp",
+      "sha256": "18edc726076dcbaad33227ced20933f0e12b5bc8ffcbc4287d28e22672f6fbb1",
+      "bytes": 703300,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-021",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-021-c4ac3433d9ef.webp",
+      "sha256": "c4ac3433d9ef51a6b33c619c2e62ec7396893b553fd00b17eff273796a912d25",
+      "bytes": 702188,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-022",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-022-d33e390c12ac.webp",
+      "sha256": "d33e390c12ac0ae5c387cf5a9e86b062d7e461917bf3fd7078eea53392a2e10d",
+      "bytes": 701360,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-023",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-023-b448abe78790.webp",
+      "sha256": "b448abe78790225c897252daa5d2a973509b4e44db6d1ec646c6fcf80b77efc6",
+      "bytes": 701992,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-024",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-024-066147ebcdda.webp",
+      "sha256": "066147ebcddaa213f0eb7b5fd37a8b2d7b9bc912d23ec1e8787b9a3ce296bbb6",
+      "bytes": 1253950,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-creation-026",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-creation-026-3d4db3e096a9.webp",
+      "sha256": "3d4db3e096a97b9f3e86cdf4bddeb0b6c31629926fbf0a99eda3cfea346fc46a",
+      "bytes": 1331250,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-002",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-002-20bfe6452d12.webp",
+      "sha256": "20bfe6452d128562a83b2e130d7ec6dc25df4a0035c2d7d8bad8e63f7b9a6d29",
+      "bytes": 893228,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-003",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-003-d1e62ec4fb14.webp",
+      "sha256": "d1e62ec4fb14b71ce8fca8eaf7cca2c3747e323997bced7a556013fffc6b6cf2",
+      "bytes": 664610,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-004",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-004-285b1b4e8ee5.webp",
+      "sha256": "285b1b4e8ee58a60f5ad21566d333316f7477c96a51e23d56f8295625c4ca3d7",
+      "bytes": 719926,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-005",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-005-b03996ba6079.webp",
+      "sha256": "b03996ba60793b9a596efeecf35e0b62a13e9a459eb01a6b1753981a4fe7539e",
+      "bytes": 705934,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-006",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-006-e525e0979351.webp",
+      "sha256": "e525e0979351216aa74964f01522d669b7e58172b88f8bad981355313a62c493",
+      "bytes": 655940,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-007",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-007-580e59a62d49.webp",
+      "sha256": "580e59a62d49886a1b32ac78c002a4e25973cb538e1e15e39d9578caa368419b",
+      "bytes": 740118,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-008",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-008-735c8c2c30a6.webp",
+      "sha256": "735c8c2c30a68e9671cc184942620a1c3071371156dafc88cd4956916af3f772",
+      "bytes": 725950,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-009",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-009-ef6c56b7bcbd.webp",
+      "sha256": "ef6c56b7bcbdf18af81559bcda6928cde81a331b90a80542c9755186270fdd54",
+      "bytes": 591914,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-010",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-010-b922fdc074a7.webp",
+      "sha256": "b922fdc074a742a3f5e9fb2bdc8bd4812f45aa7935eaa0455a58eeb090532311",
+      "bytes": 849288,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-011",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-011-f94e8fb7534e.webp",
+      "sha256": "f94e8fb7534ed95ae6bd73382c95ce8d50d54e2b6d04985583274d41165da199",
+      "bytes": 874716,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-012",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-012-ea17837c5f89.webp",
+      "sha256": "ea17837c5f896e4618bcbabc90908d2395985a3edba6fdb8914ff86e3bd61af0",
+      "bytes": 845902,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-013",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-013-38d70d25d303.webp",
+      "sha256": "38d70d25d303ba5caf0a361e1786f7b09fe92b2a1c1dc984a1dbe432f7327b9a",
+      "bytes": 703138,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-014",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-014-915d42bc1e5c.webp",
+      "sha256": "915d42bc1e5cffabfe7ddb9a50c05035a8f9237cf85d11ce096cde856320924c",
+      "bytes": 718408,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-015",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-015-38cd0054e245.webp",
+      "sha256": "38cd0054e24535719d536a2432d49ba75399716dc526f1d6d2c828e653dd81ef",
+      "bytes": 929732,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-016",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-016-639638ae7398.webp",
+      "sha256": "639638ae7398794bafadd63f56cea89efee23591a337053fbbc1e067cc036772",
+      "bytes": 716984,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-017",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-017-61c57520e3d3.webp",
+      "sha256": "61c57520e3d342baa1f64983aacc62d2bd39051b8ffd9a07cb9b19c2287a0854",
+      "bytes": 637964,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-018",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-018-b66eb3c6109f.webp",
+      "sha256": "b66eb3c6109fe40ec01b76f3d9b022dfe062c2146e652952bd4eb9fda87185fa",
+      "bytes": 739898,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-019",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-019-8729c0f11ac5.webp",
+      "sha256": "8729c0f11ac576d8f2111ffb7b2b9c5a7945fab96a0b7855c518fffe5e869fe7",
+      "bytes": 712706,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-020",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-020-e37d586136ad.webp",
+      "sha256": "e37d586136ad91b5a1aba522fc14f6fbe3d23f9f831c2e6a40574806dbcfc761",
+      "bytes": 638490,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-021",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-021-599d4eb9d367.webp",
+      "sha256": "599d4eb9d367449b5ed4be89f60ea6848883a2381da1faada88ae9ca3f284000",
+      "bytes": 663418,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-022",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-022-014bf82a5f8e.webp",
+      "sha256": "014bf82a5f8e43f2a4180e657193db36e7c35f98baa468e6a5aa316113a76136",
+      "bytes": 708514,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-023",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-023-3dffd39d120b.webp",
+      "sha256": "3dffd39d120ba3aa4bc27ae858f46b39375baf36f8ecbe1eea24cbbe7b576f19",
+      "bytes": 701822,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-024",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-024-059d59b4e0a1.webp",
+      "sha256": "059d59b4e0a145380c934fcd9fb6883f9d46a26cc764be74022e9af08dc8582e",
+      "bytes": 756356,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-025",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-025-7979a33483bf.webp",
+      "sha256": "7979a33483bf4f4b3075f259b2f63e012a0cea5751d24982266c1575e49117db",
+      "bytes": 699848,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-026",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-026-2f4444b30433.webp",
+      "sha256": "2f4444b304338cb80aa95e16a82e504808a7294046a3bedcfc0d11b71d8aac47",
+      "bytes": 758214,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-027",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-027-8a4ce71bff80.webp",
+      "sha256": "8a4ce71bff80756fb7be82a7ddc52eb6117df35c694d4b1924648fb70a211cdc",
+      "bytes": 838630,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-028",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-028-1b1b84fb1c98.webp",
+      "sha256": "1b1b84fb1c98bc93e2b506533e15c16a6db8c454df918492e167f4cb3d451d97",
+      "bytes": 963810,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-029",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-029-a16416a8f6f7.webp",
+      "sha256": "a16416a8f6f75a291abc18f62b395e9c02e38e46a1e511b386db5886d6d3b819",
+      "bytes": 950112,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-030",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-030-d515c4bab40c.webp",
+      "sha256": "d515c4bab40cbddc644d34cbc3a37e3150610b802269e7d8a161d53bdad99553",
+      "bytes": 931914,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    },
+    {
+      "id": "frame-evaluation-031",
+      "url": "https://github.com/haot3x/ai-game-bench/releases/download/evidence-mopan-r03-20261112/r03-racing-evaluation-031-87d0330dd9c7.webp",
+      "sha256": "87d0330dd9c7bae80afe41a8bb9d656619be2db187bf2d4168c7e8e425d3f144",
+      "bytes": 803260,
+      "description": "Task-scoped deterministic lossless crop; public attachment verified by anonymous download, size and full SHA-256."
+    }
+  ],
+  "costs": [
+    {
+      "kind": "credit_value",
+      "component": "creator",
+      "amount": 0.5144850000000001,
+      "currency": "USD",
+      "basis": "Hero monthly non-discount USD9.99/20000 Credits; UI total consumed includes billed media; credit valuation, not actual cash payment or supplier cost",
+      "evidence": [
+        "credit-valuation.json",
+        "evidence/usage.webp",
+        "evidence/monthly-price.webp"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "component": "operator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    },
+    {
+      "kind": "unknown",
+      "component": "evaluator",
+      "amount": null,
+      "currency": null,
+      "basis": "Not measured",
+      "evidence": []
+    }
+  ],
+  "publication": {
+    "public_release_confirmed": true,
+    "rights_confirmed": true,
+    "sensitive_data_checked": true,
+    "all_attempts_disclosed": true,
+    "license": "CC-BY-4.0",
+    "redactions": [
+      "Deterministic crops remove browser/account chrome, unrelated projects and unrelated billing. Native AX dumps and private source paths omitted. See capture-provenance.json."
+    ],
+    "capture_gaps": [
+      "No continuous video; visual stability remains unobserved. Full internal creator-model/tool trajectory unavailable.",
+      "Final observation gap 20.046 seconds; capture timestamps do not measure FPS.",
+      "Source events retain their captured kinds; missing explicit lifecycle events are not synthesized."
+    ],
+    "limitations": [
+      "Affiliated and unblinded operator evaluation; not calibrated independent gameplay verification.",
+      "One fresh generation for this task; owner-selected R03 current version. Earlier R01/R02 rounds remain separately archived and are not represented as accepted public comparisons.",
+      "Usage UI observed google/gemini-4-argon after generation; Default is the creation selection. Agent upgrade is an owner label, no deployment commit or provider attestation.",
+      "This is a retrospective artifact review under 50/20/30, not a 60/10/30 browser-pilot result or preregistered experiment.",
+      "No immutable game bundle or anonymous replay. Public game link withheld until actual publication/access is checked.",
+      "Credit estimate uses UI total and ordinary monthly plan value, not actual payment or model-provider cost. Operator/evaluator costs unknown.",
+      "Input tool cannot hold simultaneous non-modifier chords; screenshot sampling limits motion-level claims.",
+      "External images were checked anonymously for access, size and SHA-256 at 2026-11-12T09:22:39.051464+00:00. This establishes public byte consistency, not authentic capture history or gameplay verification."
+    ]
+  }
+}

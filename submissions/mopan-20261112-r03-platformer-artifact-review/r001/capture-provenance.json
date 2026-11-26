@@ -1,0 +1,1191 @@
+{
+  "schema": "capture-derivatives/1",
+  "exported_at": "2026-11-12T08:17:56.659652+00:00",
+  "owner_authorized_transformation": "Only local deterministic cropping/masking, no AI image editing; this export uses cropping only.",
+  "capture_files": [
+    {
+      "source": "platformer/captures/2026-11-12T05-48-52-462Z-before-send.jpg",
+      "source_sha256": "b6af0a141c6b40616a125fbaf698643bba6e288740860282b9f27328be5d1f28",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-001.webp",
+      "export_sha256": "543fd7de2bf05a22d13803528ec00ccb94e9b6fbbf4e22fd31a1596205ca9cbe",
+      "crop_xyxy": [
+        760,
+        500,
+        2220,
+        910
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep prompt and Send control; remove account/sidebar, other projects and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-48-53-061Z-after-send.jpg",
+      "source_sha256": "0bc2da5f67cc87511006a9727df005d6c87198b304f0d7b24db19263bdf6517b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-002.webp",
+      "export_sha256": "00418fc6ae9fcda7ad25d343e6d67afe22387f9ac43fe315d5aba5ce252850d7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-48-57-110Z-accepted.jpg",
+      "source_sha256": "7e8802f1351f51af49b7eb655109365047e832879921a35c64ba3613c604dbb8",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-003",
+      "export_sha256": "03928ee6b210393640c61f4ef1115a7e76be3e98d202c6985a2b313223461180",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-49-27-336Z-monitor-01.jpg",
+      "source_sha256": "9440a1c8d44d886f4bf19e7fd6688eaf0f4b2f2b9180c79cb35b812e4795eda5",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-004",
+      "export_sha256": "5a695ff7d22bb99878096c73d98a88534bad74cc981bf82bcb377a9e8c946423",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-49-45-259Z-monitor-02.jpg",
+      "source_sha256": "3a615bb62e95ba5fec1e29161a3a6a5654ee86db404eb77932a9592428f45bc9",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-005",
+      "export_sha256": "633b0214320786389efff9959b3424844c6a1ca7ae7c0a240b0c2c3eb403f498",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-49-58-324Z-monitor-03.jpg",
+      "source_sha256": "413ec0c8c94debe565e43c77dd6b2ecc3110f227fd4891a865f61c713e1a913e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-006",
+      "export_sha256": "2094174855c358ff8ec9f5e2000831393405444ebec6929e3bd7f721f0a49229",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-50-26-504Z-monitor-04.jpg",
+      "source_sha256": "2a22b0095bd6adf5f872f5c0b6654f90a0b96e24e06eb694512fb9df35e3fc8f",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-007",
+      "export_sha256": "1bc917b14ccd656a779c16d7f6ada66208b1e803627552324028d5138cfdf84f",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-51-05-413Z-monitor-05.jpg",
+      "source_sha256": "4af4420d86017c09256bb888d4f5afb25f9d6778643e5db81bc872354896c3a5",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-008",
+      "export_sha256": "bceb3a8d71d266e4e7374655576ce723e3a0046a2041b3108910c9ebb3a263f7",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-51-43-873Z-monitor-06.jpg",
+      "source_sha256": "5eeb7b9ebdd7b06899ac642569b527e1c5d57691cdab03c9d0e07843d35d8890",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-009",
+      "export_sha256": "ef904e206c50e947f19047c8d149067365e0625fa7008ec9a3bfa4ea77d45388",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-52-18-725Z-monitor-07.jpg",
+      "source_sha256": "d9ab08c372e06b90cb6ad32116cc1a3d73c3a19a29d541fd4ec100162c79dde3",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-010",
+      "export_sha256": "26bfc06e6698a288e02d1f6916f607eaa2251792eb1e8711e1e2b3e56aecd5d1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-52-50-736Z-monitor-08.jpg",
+      "source_sha256": "21cf7553dc82243d8c03a6e3b58cb07b7a54f6401da9ca8b35488b82a4cea5c8",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-011",
+      "export_sha256": "2158361cdf63631cdd35bfb94b693ce8c4a8728e921b597ea4333f506fea6478",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-53-26-622Z-monitor-09.jpg",
+      "source_sha256": "c4676201581581c1420cd5f7911aa252ce2c14067ee37a43063ffd62e322e66a",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-012",
+      "export_sha256": "6a51326c677415208cd1d72c8633b8c0336e13b79423ee4c9e25a0a6368b1ba3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-54-00-230Z-monitor-10.jpg",
+      "source_sha256": "967b20771af06294604740bb260b209675becd2446b07b7e13ee8a0fbb74828d",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-013",
+      "export_sha256": "bf3aaad324c6242f176f75dbfde3e504b6835ef73597855388d6d11f8fab1ca4",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-54-34-333Z-monitor-11.jpg",
+      "source_sha256": "466699dac6f1ce9df74e2d9c50df67392150b2f351e75e1a42b50a2ccaa7b7dd",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-014",
+      "export_sha256": "ad5be05901780fbee9628b78e32e2dd6c3a77e9f0dd0798cd6aa3a09baa42b73",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-55-03-851Z-monitor-12.jpg",
+      "source_sha256": "57357f91ae66c54698193ba233ea0f39f7f0e05afd22de449eb6ceda9c8fe24a",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-015",
+      "export_sha256": "90cb52743eb4be43003b10aacb76907db95726cfb29dec1f26161aeb38fe6157",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-55-36-146Z-monitor-13.jpg",
+      "source_sha256": "8b824e76d8ce22e834cb9b12b1614726fc67ffc3543ea87f59f3bbfa9e2ea369",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-016",
+      "export_sha256": "62606736edbb81285091f7f613ae7b47229f90a2be31490fb6f4519311868779",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-56-10-280Z-monitor-14.jpg",
+      "source_sha256": "6061b97c94798e93cb327f539780494aa750d6cf00aa7c72f35a32e1ded21b40",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-017",
+      "export_sha256": "46eadf9010f274641bc520bb7acddaea85c6ec718f24171e782c4e58548d839c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-56-45-730Z-monitor-15.jpg",
+      "source_sha256": "d179e4bdf07e1e36fa866193f557184c0ac6d11f2acd1788e9c9c3403f8be27b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-018",
+      "export_sha256": "e606714cba132e781acc1820673174e8c6fa6805fe73e4011063410a7d529d27",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-57-21-832Z-monitor-16.jpg",
+      "source_sha256": "6cc5aaa3cc25ea4b5ede2a5442539013b51485003c169c75210cb20b8ec5f4ec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-019",
+      "export_sha256": "98888dee46a552b190a7c7df8ee4db7d2a7598b0fc3e9e3995bd8036922dcc8c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-57-59-624Z-monitor-17.jpg",
+      "source_sha256": "41e9b4a4c18f8b2603dff808b3e39f6111470ebc7b9c4802b0363ac9f83e6c1b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-020",
+      "export_sha256": "62fe75a8c568ff075b8dcbad8b5e6886cfb5fe58e12a04590e1ff233128f3015",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-59-12-537Z-monitor-03.jpg",
+      "source_sha256": "32cd2a98eb53ae7687f6b16ee1feb4a1ce46df20043561f84b995b51a34420ac",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-021",
+      "export_sha256": "9fbccb0dea3fc6e2e2bf0c7feb8dacc9e1d8ef0b22df2301117cf860a5cbf3d3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T05-59-59-276Z-monitor-04.jpg",
+      "source_sha256": "d280a4e850cafa4efdf44ce0dbcd83123a53c8292bfa1ffc4a606130bdbd3385",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-022",
+      "export_sha256": "86b2aa7adbfa55bc325f0a2356b53d704550e86be879f7f3b59ed2094d2a67bc",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T06-00-52-635Z-monitor-05.jpg",
+      "source_sha256": "b2ebba231cd54969f7755e72c055500bcf6316aaf4e6e5292b732cf53d636ab2",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-023",
+      "export_sha256": "a52fb799c145efb8ca4ba3b23a9889319b36123fb511927000439c3c8169de7b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T06-01-56-503Z-monitor-06.jpg",
+      "source_sha256": "4e2cc53374682ccf6460f112634551e8b8e8141573f8e40847ea5c3ca7f08f8e",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/creation-024.webp",
+      "export_sha256": "7496a6bee600bdc65518db1926999ff01fef221e801ab4b82fa88dcc86ca3e42",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/2026-11-12T06-02-05-172Z-final-confirmed.jpg",
+      "source_sha256": "69842501c1c2f7e5be4ece3e98f4eb27554d07dbafc496b851416ecd6fb51e92",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-creation-025",
+      "export_sha256": "92e297cf323f29e81d146ac1ddc78a58639e3de78968fb6f6345244bbe6ac47b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-33-102Z-desktop-1280-initial.jpg",
+      "source_sha256": "12b73b8aa589b45e1d1765b2e4291f95356ed06f1941e0d471dc9cd566938f55",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-001.webp",
+      "export_sha256": "64896f6e4a18df42e8c8af58439f5cf6016197dd902cd7c30ec8c15db63bbc32",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-43-888Z-desktop-1280-confirmed.jpg",
+      "source_sha256": "e08f1b1f0236efd00107cc9f3ec77d777a7738ed31dc1482ed520d4c5afc9eb0",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-002",
+      "export_sha256": "fda78a9b0a1f4eeb5cff1410ea30d80589c8954e786d55b3d6b784d9a1499189",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-44-753Z-right-movement-first-coin.jpg",
+      "source_sha256": "1a26cdc0881da4110aa3716712d58e944560ab58b8e639d803be59ea485398c4",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-003",
+      "export_sha256": "d381cd2c353f0308393a1c6be952c9a6c8e3da382181ca10b8939141749d2037",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-52-556Z-left-movement-coin-stays-collected.jpg",
+      "source_sha256": "633152c8dd994fa735a55e9e6083ec4d91f49e934b6f4022b1cfe99ba86fac34",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-004",
+      "export_sha256": "e739c8452bbc4112f1d824731bda838f99291ae935fe694de30932dbaee730ae",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-53-554Z-approach-first-pit.jpg",
+      "source_sha256": "06b9152b602947821af311809a7981f457a078edec73a278157852c07aceaf85",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-005",
+      "export_sha256": "6a593d0cbf0618ed0ca0c8bbd3c21a4404bf04902cc2166d280b437393dce21e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-11-59-253Z-jump-first-raised-platform.jpg",
+      "source_sha256": "e944cf5a57c0221d55e32a8d763df5085de49fddbf890b7865976e697d4039da",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-006",
+      "export_sha256": "2374e6d751674317c8eb2439461b2f79c86a2f0619da7e4a8ccec655b767c34c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-05-598Z-session-2-loss-reset.jpg",
+      "source_sha256": "d400c9a47f61977793e0bbb1770969b205367c9cd3921484ecb1f3ab070774e3",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-007",
+      "export_sha256": "5e06eb8d2ae79ca8b624be6722e87cafa7e0a7181eaaa4793574a42dbfbfe1e1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-06-268Z-stationary-jump.jpg",
+      "source_sha256": "dbb38ef1d10d52edcb0b448d6a30b0b4b0cd4283ab10e16764fba0efe1aa5262",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-008",
+      "export_sha256": "8e6b4cee5049a860af51467cde0fac88ce3b3aeb459d60e45156fec407ab4895",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-14-664Z-session-2-first-pit-approach.jpg",
+      "source_sha256": "0150640972b5451121e89f739ee7034ca2d8691d47fb4c51631b966fde3f8075",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-009",
+      "export_sha256": "e1d22f853a731b010fbf88b75aab393b705f5722f1dbf4b031565cca7a34b8e3",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-15-653Z-session-2-raised-landing.jpg",
+      "source_sha256": "15cbbd1b1cabcdf40ce1fa1b09d7e6aa52d78240ea7b36fafcddeefb6ff6f491",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-010",
+      "export_sha256": "69ace21aa45c490daf5d5b5f78cbe7d083e537f99069dea2c06d0cc4eed2147e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-24-222Z-session-3-reset.jpg",
+      "source_sha256": "520e335ee6f407d5adb59bfe305dd6f44947606aeeda6f9494941fcb3777d94b",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-011",
+      "export_sha256": "c313890996882daff94a078c7b466513892f93c3d8c7624f491459d8c360b66c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-24-773Z-w-jump-at-start.jpg",
+      "source_sha256": "e38915141757ee6981ee0c0bcaaf97425d43d7cbd0bd39e18cc3fefd5f02f9ad",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-012",
+      "export_sha256": "620f1e682a3f61218ddda8f019d7da4890f07ac0916f10f8510e9aecea564b3b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-40-922Z-session-3-edge.jpg",
+      "source_sha256": "8995358decf4e535ae4377d95d757e51d7bb864ff1937e88ae80a3a0e1967144",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-013",
+      "export_sha256": "caee2ce87847808375236da6d024b829779f54ccdc67c1efab715c9bf8fc4403",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-41-850Z-session-3-jump-up.jpg",
+      "source_sha256": "626ac5800a458bf870f34cc77b5b59eb92c95ed14a9366f2543d7e738a5e3495",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-014",
+      "export_sha256": "7ca875d265eb23e79babdd39d5f8278441da434c9f34b894b343569381fcf20c",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-58-302Z-session-4-reset.jpg",
+      "source_sha256": "4bdddc5f2dd26ad5216d2353bf99f39c03184a93ca275964cdbb86e5677a5818",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-015",
+      "export_sha256": "a192940905b54dfcfcae0de0be7df399b5263df3c56f686bfcf72bb85456be32",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-59-901Z-stationary-up-early-frame.jpg",
+      "source_sha256": "c27b0c569c6df6e6aadeee6daffe0ac46fec8d7e7d6f64c8bfea79f278895ed2",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-016",
+      "export_sha256": "cd0d58190c116a8bd990fbfd2bc18237efcd07d01757cf9c0f2f6b1493c24a07",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-12-59-901Z-stationary-up-early-frame-early.jpg",
+      "source_sha256": "0b00e0ea2807b4c9f30f6e4a1fef554518ee5d7b1280e53914d6285f4a51f199",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-017",
+      "export_sha256": "baeea1a4ed9a5c113399567dab99055b8eda68c6387971fa5c104cbacdad0fac",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-13-08-870Z-stationary-space-held.jpg",
+      "source_sha256": "b89b7319cf57c7461c947838cbb472a5b7c8972ea9487baa431c351dabd36d1a",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-018",
+      "export_sha256": "c0dbcb6b44292cd6dc2350e7ca490f0cfb7eaf12b2a492650f3670098471af32",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-13-29-586Z-focused-canvas-space-right.jpg",
+      "source_sha256": "67306fb5a761b66e19a5779ff09498fff3aef6135af8366a2545c05c602ab9a8",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-019",
+      "export_sha256": "7c057f8be3a99a572aa85822e2a092c4e65c749a270f8d1d2f37a2d00f46171e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-13-52-069Z-session-4-edge.jpg",
+      "source_sha256": "bc4f82d7238604214c20e8a7892880e22d8ab19313b557336f089be33447220f",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-020",
+      "export_sha256": "6ff4686f9ad225b2749a51ccd503f1aa2fd98b1dc51fd6b664f8d2fd1adf1a55",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-13-52-740Z-short-w-jump-step.jpg",
+      "source_sha256": "5f71e9fd141f405b992fce2ab4e0da372aef344c4432a1782174c516f98ccc7c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-021",
+      "export_sha256": "01fb5fa5068fcb0fb5956b6cc2bafda666f9f4b7ec0fa5bb8fa40f0d8990a996",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-14-13-623Z-session-5-reset.jpg",
+      "source_sha256": "e8b882a9ead5a981fb5d0d74fc1421a2a516054e8551d03e679032f0918f3c4c",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-022",
+      "export_sha256": "339f2cd5f562c177014978cff8e961f55a5e7716b4cf968709fdf94bcd0f4da4",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-14-14-109Z-space-hold-observation.jpg",
+      "source_sha256": "eb7e840f44697cd176142a037c9819aa975416301c71c246af0d03173327ad77",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-023",
+      "export_sha256": "4043feb79fd2063bb6c90bc11b2868797d0c067c6dc9df34d69e607f0f9b4011",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-14-38-574Z-session-5-edge.jpg",
+      "source_sha256": "7d7ab3eda788b54cf9567809c7406b3a0a20e7163ac08445ea85824ab8c878a9",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-024",
+      "export_sha256": "11a5fa92d64a33a7d184965b308799f8848a0325de72cdc454cc6934374edcc9",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-14-39-986Z-session-5-long-crossing-attempt.jpg",
+      "source_sha256": "3c6024e9ce17ff4871e1c8312a0636ad8751bf022d34b376261b8db6a67e14ec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-025",
+      "export_sha256": "df9fa985fc2d77d0573c6beb61263c91c009f1d3fb9650689f80eb1a74c6b8ca",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-14-52-151Z-middle-raised-platform-landing.jpg",
+      "source_sha256": "9f79fca909f8fc598de5479a7d6ffecb33e608919693e770fef555f39413e2e3",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-026",
+      "export_sha256": "fcc0b13a4f2f7542c5019a827a30d23bc82b45b570aed367de319240b98531d5",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-06-309Z-second-pit-approach.jpg",
+      "source_sha256": "23f69b133fd2862b66dbdcb71d0baf8910a5f99c7c0879b95f00c902ca418ab6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-027",
+      "export_sha256": "8be698f10de1e058e9f8c947fabb8c9aa6a1cc5443f88e1a67f25c38d4a10b98",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-07-507Z-second-pit-raised-landing.jpg",
+      "source_sha256": "c7171f290dd1e6bb54d7b5912bffbfe364d675c7807604db9c07b21ce6b8f6dd",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-028",
+      "export_sha256": "248da37cbba3b7fbff49e67b5dca6d790ea727d05d57eb0d02162e61c20377f5",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-22-911Z-raised-platform-stable-no-recount.jpg",
+      "source_sha256": "30bec22a76374f1698198e68073c688a486f0b288d412b8d4c002613e0ac63fd",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-029",
+      "export_sha256": "9d165b6b18de1f9919feb13972ce88dcf878cfaf06c72623eee5f9ed4a8093a1",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-24-311Z-jump-from-raised-to-goal-ground.jpg",
+      "source_sha256": "7345e2e56550a9261d8333e84c90ea72dd0b177d525833d7a857464d1d9957f6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-030",
+      "export_sha256": "f009b7746c41e74477d94ef3f0a27f2933a3f61f6a78bcc1e5a0988ee7217097",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-30-356Z-goal-terminal.jpg",
+      "source_sha256": "4a0058c984828280a5489abc403636f11bf95000be3dfc44b86e680ac1b0b7ab",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-031",
+      "export_sha256": "12ca81539798f21dcd045471bc7f05e0ece75ae7030be185b2d37857145d2faa",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-38-549Z-win-terminal-ignores-movement.jpg",
+      "source_sha256": "37f2c6dc31bc79ba10a125b8ca4ce4304c0fc3f006d831118e38493e0070b853",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-032",
+      "export_sha256": "1ae05d4d9d6753984d615fd9bdd0e8f651ffafc8024be01895280842ed86d1fd",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-39-120Z-post-win-reset.jpg",
+      "source_sha256": "3205672e892eb8ba8a6ab49ffee71a908ba85c5fb023799e6f7d488bddc22f52",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-033",
+      "export_sha256": "261e69a21eab010ae5f358c7c3eff18d9168c581e6c169cd32cb3a053aa19294",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-40-326Z-post-win-input-works.jpg",
+      "source_sha256": "66895698144b15d0f131b3bd0105d58644e2c12126b4d79ac2e0d34b73403fb6",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "external:frame-evaluation-034",
+      "export_sha256": "1a9aea1f78cd332d9d2be1b953079b6cb2922befcd73c312c2c997fe974f7b7e",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "platformer/captures/eval-2026-11-12T06-15-48-845Z-mobile-390x844.jpg",
+      "source_sha256": "eab1b5df7ac780c23305a373e6f18afc4a64660548cf3d0b2a51ecc3d538bcec",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/evaluation-035.webp",
+      "export_sha256": "af7ad29d1a4041923ad2440c47637d49d75bc47b58d318971831c10a6044798b",
+      "crop_xyxy": [
+        0,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Remove browser tabs/address/profile/bookmarks; retain task workspace or viewport and game.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T06-16-30-357Z-platformer-group.jpg",
+      "source_sha256": "85d27348db000613c89b864e84b59c0692ad9a848aaef478904cf99dc49b60c8",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/usage.webp",
+      "export_sha256": "575b039616732cfb8746db2aecde5d35f91ffc3b3aec13fbafd349153cb8209f",
+      "crop_xyxy": [
+        1240,
+        240,
+        2510,
+        2820
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep only this build usage detail panel; remove account balance, other builds and browser chrome.",
+      "retained_pixels_exact": true
+    },
+    {
+      "source": "costs/captures/2026-11-12T05-50-13-725Z-credits-page.jpg",
+      "source_sha256": "5e4543775612d160838cd6bc5d040b7eb0a1a6d286a39b07a6d5378343e6ba51",
+      "source_dimensions": [
+        2510,
+        2820
+      ],
+      "export": "evidence/monthly-price.webp",
+      "export_sha256": "317555cb7d1d8970b28293b32931c1c72f6e70866417fb463b0ea26a2ba0a746",
+      "crop_xyxy": [
+        1170,
+        570,
+        1820,
+        1840
+      ],
+      "transformation": "Deterministic crop, no resizing or masking; lossless WebP of decoded source pixels.",
+      "purpose": "Keep monthly toggle and Hero rate/card only; remove account status and other plans.",
+      "retained_pixels_exact": true
+    }
+  ],
+  "original_stream_sha256": {
+    "creation": "59ca0adac28fb16919f8098cc5ecae8d7e38811895fb3620eb6981a3e4ed0a84",
+    "evaluation": "18791bf0e0268b6fd360abb1d2535f5dbe811f5176ce91783661bf7b7fab442a"
+  },
+  "changes": "All source events retained with original IDs/times/kinds/details. Evidence references point to cropped images. Native AX text stays private. Artifact ID is a declared workspace/build mapping, not byte-frozen artifact proof.",
+  "limits": "Source hashes establish byte linkage only; originals are local. Cropping is not authentication."
+}
