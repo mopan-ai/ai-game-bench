@@ -11,6 +11,7 @@ stated scope; it does not certify every claim or independently reproduce creatio
 | [Tetris v1](../protocols/tetris-browser-pilot-v1/evaluation.md) · Mopan Gemini 4 | [Creation r001](../submissions/mopan-gemini4-tetris-20261014/r001/), [cost r002](../submissions/mopan-gemini4-tetris-20261014/r002/), [scoring r003](../submissions/mopan-gemini4-tetris-20261014/r003/) | [PR #4: accepted with limitations](https://github.com/mopan-ai/ai-game-bench/pull/4#issuecomment-6162702189); [limited replay](../reviews/mopan-gemini4-tetris-20261014/20261014/) | [Three-model comparison](https://aigamebench.com/reports/005-mopan-three-models-tetris/report.html) |
 | [Tetris v1](../protocols/tetris-browser-pilot-v1/evaluation.md) · Mopan DS V4.1 1017 | [Submission r001](../submissions/mopan-ds-v41-flash-1017-tetris-20261020/r001/) | [PR #10: accepted with limitations](https://github.com/mopan-ai/ai-game-bench/pull/10#pullrequestreview-5661885193) | [Four-model comparison](https://aigamebench.com/reports/006-mopan-four-models-tetris/report.html) |
 | [Racing v2](../protocols/racing-3d-browser-pilot-v2/evaluation.md) · Codex / Mopan / Wanaka | [Report 007 export](007-web-3d-racing/), [Mopan r001](../submissions/mopan-racing-20261103/r001/), [Wanaka r001](../submissions/wanaka-racing-20261103/r001/) | [PR #18: accepted as development-pilot evidence](https://github.com/mopan-ai/ai-game-bench/pull/18#pullrequestreview-5783069282), merged 2026-11-05 | [Report 007](https://aigamebench.com/reports/007-web-3d-racing/report.html) |
+| [Tetris](../protocols/tetris-browser-pilot-v1/evaluation.md) / [racing](../protocols/racing-3d-browser-pilot-v2/evaluation.md) / [platformer](../protocols/platformer-browser-pilot-v2/evaluation.md) · Mopan R03, Argon + Nov 11 Agent Upgrade | [Tetris r001](../submissions/mopan-20261112-r03-tetris-artifact-review/r001/), [racing r001](../submissions/mopan-20261112-r03-racing-artifact-review/r001/), [platformer r001](../submissions/mopan-20261112-r03-platformer-artifact-review/r001/) | [PR #22: accepted as retrospective evidence with limitations](https://github.com/mopan-ai/ai-game-bench/pull/22#issuecomment-7183161594), merged 2026-11-26 | [Mopan experiment report](https://www.aigamebench.com/reports/006-mopan-four-models-tetris/report.html), R03 only |
 
 These are affiliated reviews with disclosed limitations. Gemini 4's three
 revisions describe **one creation**. The racing export preserves four creations,
@@ -22,6 +23,14 @@ Report 007 has both frozen-policy and retrospective report calculations. Its
 maintainer review did not replay games or rerun generation. Wanaka's evaluated
 preview was playable, but its public player was not verified playable in the
 submitted observations. Read the linked review before interpreting the comparison.
+
+Mopan R03 retains the [50/20/30 retrospective scoring](../scoring/three-game-review-v1.md),
+separate from browser-pilot policy scores. It contains one creation per task,
+with affiliated, non-blind observations. Each task retains four unobserved visual
+stability points and a null eligible score; observed points are not a complete
+quality score. The maintainer accepted the disclosed evidence without artifact
+replay or a generation rerun. Acceptance covers only these three R03 packages,
+not other rounds shown in the evolving website report.
 
 Historical packages, including Report 007's pending-review fields, retain their
 submission-time bytes. **The linked PR decision records subsequent acceptance.**

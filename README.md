@@ -106,7 +106,7 @@ and local jobs. First use downloads dependencies and browser images.
 | --- | --- |
 | [Click counter](datasets/smoke-create-v0.2/create-click-counter-zh-001/) | Executable free Harbor calibration with known working and broken cases |
 | [Classic Tetris](protocols/tetris-browser-pilot-v1/evaluation.md) | Browser protocol with accepted, affiliated pilot submissions |
-| [2D platformer](protocols/platformer-browser-pilot-v2/evaluation.md) | Versioned browser method and focused pass/fault fixtures; no accepted public creator submission |
+| [2D platformer](protocols/platformer-browser-pilot-v2/evaluation.md) | Versioned browser method and focused fixtures; [accepted retrospective evidence](reports/README.md#accepted-evidence) remains separate from browser-policy compliance |
 | [3D racing](protocols/racing-3d-browser-pilot-v2/evaluation.md) | Browser method with accepted Codex / Mopan / Wanaka development-pilot evidence |
 | [Web 3D suite v1](protocols/web-3d-create-v1/README.md) | Six engine-agnostic methods: racing, platformer, physics, target range, escape and simulation; full-suite validation remains open |
 

@@ -1,6 +1,6 @@
 # Project state
 
-Updated 2026-11-10. This public repository contains the benchmark's methods,
+Updated 2026-11-26. This public repository contains the benchmark's methods,
 execution entry point and reviewed evidence. The website and private historical
 jobs remain in a separate repository. [Methodology](methodology.md) describes the
 measurement design; the table below describes implementation, not aspirations.
@@ -14,11 +14,11 @@ measurement design; the table below describes implementation, not aspirations.
 | Six creator platforms | Recorded workflows and connection references | No reusable unattended creator adapters |
 | Public submissions | Versioned packages, validators and maintainer review | Structural validity does not authenticate observations |
 | Classic Tetris | Accepted Gemini 4 and DS V4.1 1017 evidence packages | Affiliated pilots with disclosed gaps; not independently reproduced creation |
-| 2D platformer | Merged method definitions, acceptance cards and authored pass/fault fixtures | Protocol still declares `proposed`; no accepted public creator submission |
+| 2D platformer | Method definitions, pass/fault fixtures and R03 retrospective evidence accepted in PR #22 | Browser protocol remains `proposed`; retrospective acceptance does not establish policy compliance or full-game calibration |
 | 3D racing | Codex / Mopan / Wanaka evidence accepted in PR #18 | Development pilot with non-blind remote evaluation, differing timing bases and public-replay limits; not a calibrated leaderboard result |
 | Web 3D creation suite v1 | Six versioned browser methods merged in PR #17 | Five new methods plus unchanged racing v2; proposed metadata retained, no full-game calibration or accepted full-suite comparison |
 | Measurement v0.2 | Merged evaluator metadata, timeout semantics and offline summaries | Summarizes declared claims, not independently verified gameplay |
-| Three-game retrospective | Versioned 50/20/30 policies and an offline arithmetic helper in [scoring](../scoring/three-game-review-v1.md) | Final-artifact review 1.2 retains disclosed continuations; not a new accepted result or calibrated leaderboard |
+| Three-game retrospective | Versioned 50/20/30 [scoring](../scoring/three-game-review-v1.md) and Mopan R03 evidence accepted in PR #22 | Affiliated artifact review with missing visual-stability evidence; no complete eligible score or calibrated leaderboard |
 | Gameplay judge | Local development implementation and focused calibration | No held-out or full-game quality calibration; see version caveat below |
 
 ## Accepted public evidence
@@ -30,6 +30,14 @@ two Mopan Tetris submissions and the racing development pilot accepted in
 That review covered structure, score/cost arithmetic and sampled evidence; it did
 not replay artifacts or rerun generation. Acceptance preserves the disclosed
 limitations and does not authenticate unseen model routing or creation history.
+
+Mopan R03 (Gemini 4 Argon + Nov 11 Agent Upgrade) was accepted in
+[PR #22](https://github.com/mopan-ai/ai-game-bench/pull/22#issuecomment-7183161594)
+as retrospective Tetris, racing and platformer evidence. The decision adopts the
+dated structural and evidence review, with no artifact replay or generation
+rerun. The three packages retain their missing visual-stability evidence, null
+eligible scores and submission-time status. Acceptance does not extend to other
+Mopan rounds or change website scores.
 
 The method history includes [PR #9](https://github.com/mopan-ai/ai-game-bench/pull/9)
 for platformer/racing proposals and [PR #14](https://github.com/mopan-ai/ai-game-bench/pull/14)

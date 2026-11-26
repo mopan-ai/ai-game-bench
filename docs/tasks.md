@@ -11,7 +11,7 @@ working creator adapter or a calibrated gameplay judge.
 | --- | --- | --- | --- |
 | Click counter | [Executable calibration](../datasets/smoke-create-v0.2/create-click-counter-zh-001/) | [counter-calibration-v1](../policies/counter-calibration-v1.json) | Free Oracle/Nop and good/fault fixture checks; binary interaction reward |
 | Classic Tetris | [Browser pilot v1](../protocols/tetris-browser-pilot-v1/evaluation.md) | [tetris-browser-pilot-v1](../policies/tetris-browser-pilot-v1.json) | [Accepted affiliated pilots](../reports/README.md#accepted-evidence); no independent generation reproduction |
-| 2D platformer | [Browser method v2](../protocols/platformer-browser-pilot-v2/evaluation.md) | [platformer-browser-pilot-v2](../policies/platformer-browser-pilot-v2.json) | Focused [pass/fault fixtures](../fixtures/calibration/gameplay-v1/README.md); no accepted public creator submission |
+| 2D platformer | [Browser method v2](../protocols/platformer-browser-pilot-v2/evaluation.md) | [platformer-browser-pilot-v2](../policies/platformer-browser-pilot-v2.json) | Focused [pass/fault fixtures](../fixtures/calibration/gameplay-v1/README.md); [R03 retrospective evidence accepted](../reports/README.md#accepted-evidence), separate from browser-policy compliance |
 | 3D racing | [Browser method v2](../protocols/racing-3d-browser-pilot-v2/evaluation.md) | [racing-3d-browser-pilot-v2](../policies/racing-3d-browser-pilot-v2.json) | [Report 007 evidence and review](../reports/README.md#accepted-evidence); accepted as a development pilot |
 
 ## Web 3D creation suite
